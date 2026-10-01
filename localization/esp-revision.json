@@ -1,0 +1,6 @@
+{
+  "baseline_sha256": "9c241151d028abe22ececaaa7e9a74bbee6359c61ccdaec9620ca5a84ceb88e4",
+  "edited_sha256": "2997772015c9b5b4fab43e1c3a19cc6f4d9dd75dc08dbcf784eae6d526976c1e",
+  "removed_form_id": "0011FBD3",
+  "reason": "User removed the KYWD override which renamed a workshop menu. All remaining records are unchanged; TES4 HEDR count decreases by one. Both maintained ESP copies retain the user's exact bytes."
+}

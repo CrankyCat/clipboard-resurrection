@@ -1,0 +1,14 @@
+#pragma once
+
+#include <string_view>
+
+namespace Version
+{
+	inline constexpr std::string_view PROJECT = "Clipboard";
+	inline constexpr std::string_view NAME = "@PROJECT_VERSION@";
+	inline constexpr int MAJOR = @PROJECT_VERSION_MAJOR@;
+	inline constexpr int MINOR = @PROJECT_VERSION_MINOR@;
+	inline constexpr int PATCH = @PROJECT_VERSION_PATCH@;
+	inline constexpr int TWEAK = @PROJECT_VERSION_TWEAK@;
+	inline constexpr int INTERNAL_BUILD = @CLIPBOARD_INTERNAL_BUILD@;
+}

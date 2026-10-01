@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "source_esp_sha256": "bb10c61499b4d8985897b20f9092e3ad69dcb886b500538601eb24c89992fb9d",
+  "localized_esp_sha256": "9c241151d028abe22ececaaa7e9a74bbee6359c61ccdaec9620ca5a84ceb88e4",
+  "captured_map_sha256": "104923607e03113f35db551152a86692b707b5a03c15f2baf1fb414a350bf89a",
+  "overrides": [
+    {
+      "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0",
+      "record_type": "MESG",
+      "form_id": "010035A3",
+      "field": "DESC",
+      "occurrence": 0,
+      "table": "DLSTRINGS",
+      "string_id": 303,
+      "captured_text_sha256": "0c72ea7aa65c1ee7d1bcb2ed8b318f620ec6f3d34932383a32324c344a677b4c",
+      "replacement_text": "<b><u>Clipboard Page Selection: 201-300</u></b>\r\n\r\nPREVIOUS: 101-200\r\nNEXT: 301-400\r\n\r\n<Alias=Slot1State>",
+      "replacement_text_sha256": "2733bf91f258415b3129579c33c943df2363a654c51c6a68eba484f7d093c7ca",
+      "reason": "User-approved correction of the page 3 previous-page label from 100-101 to 101-200. The previous page contains slots 101-200. This changes display text only; the original captured ESP/map and navigation code remain unchanged."
+    }
+  ]
+}

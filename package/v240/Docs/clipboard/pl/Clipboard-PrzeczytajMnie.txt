@@ -1,0 +1,82 @@
+﻿Clipboard Resurrection 3.0.0
+
+Clipboard kopiuje grupy obiektów osady do schematów wielokrotnego użytku. Zaznacz obiekty, zapisz schemat, a następnie wklej go względem pozycji i obrotu narzędzia Clipboard. Możesz też przesuwać, obracać, skalować lub złomować zaznaczone obiekty.
+
+INSTALACJA
+
+Wersje Fallout 4 OG, NG i AE korzystają z tego samego pakietu Clipboard. Zainstaluj wersję F4SE zgodną z zainstalowaną wersją gry oraz wymaganą bazę Runtime Database, która dostarcza plik Data\F4SE\Plugins\f4rd-runtime.bin. Uruchamiaj grę przez f4se_loader.exe.
+
+F4SE: https://f4se.silverlock.org/
+Runtime Database: https://www.nexusmods.com/fallout4/mods/108394
+
+Zainstaluj kompletny pakiet za pomocą menedżera modów i włącz Clipboard.esp. Zachowaj razem dołączoną bibliotekę DLL, skrypty oraz pliki Strings i Interface. Jeśli aktualizujesz pakiet, który korzystał z ClipboardExtension.dll, wyłącz tę starą bibliotekę DLL, aby aktywna pozostała tylko Data\F4SE\Plugins\clipboard.dll. Przed zastąpieniem istniejącej instalacji wykonaj kopię zapasową swoich schematów.
+
+Mod Configuration Menu (MCM) udostępnia opcje i skróty klawiszowe Clipboard. Bez MCM ustawienia można nadpisać w pliku Data\MCM\Settings\clipboard.ini, w odpowiednich sekcjach INI. Po ręcznych zmianach w pliku INI uruchom grę ponownie.
+MCM: https://www.nexusmods.com/fallout4/mods/21497
+
+PIERWSZE KROKI
+
+1. Zbuduj narzędzie Clipboard z kategorii Specjalne w warsztacie.
+2. Aktywuj jego panel sterowania i wybierz metodę zaznaczania: Wszystko, Prostopadłościan, Kula, Walec, Według komórki, Według wtyczki lub broń do ręcznego zaznaczania.
+3. Zaznacz wybrane obiekty, a następnie zapisz je w slocie schematu. Potwierdzenie nadpisania zastępuje zawartość tego slotu; anulowanie pozostawia istniejący schemat bez zmian.
+4. Umieść narzędzie w miejscu docelowym i wybierz zapisany schemat do wklejenia. Pozycja i obrót narzędzia określają, gdzie pojawi się grupa.
+5. Poczekaj na zakończenie importu przed rozpoczęciem kolejnej operacji. Zapoznaj się z wszelkimi ostrzeżeniami dotyczącymi obiektów, przewodów lub zasilania, których nie udało się przygotować.
+
+Dostępnych jest 500 slotów. Pakiet zawiera puste sloty. Pliki schematów są przechowywane w Data\F4SE\Plugins\Clipboard\<slot>\pattern.ini. Przed ponowną instalacją lub zastąpieniem folderów slotów wykonaj kopię zapasową własnych plików schematów.
+
+WPROWADZANIE TEKSTU I LICZB
+
+Clipboard zawiera własne menu wprowadzania danych; TIM nie jest wymagany. Naciśnij Enter, aby zatwierdzić, lub Tab albo Escape, aby anulować. Dostępne są też przyciski obsługiwane myszą oraz klawiatura ekranowa do obsługi kontrolerem; kieruj się wskazówkami sterowania pod polem wprowadzania. Plik Interface/ClipboardInput.swf musi pozostać zainstalowany wraz z pasującą biblioteką DLL i skryptami. Wpisuj wartości bezpośrednio: wklejanie ze schowka Windows nie jest obecnie obsługiwane.
+
+Opcja MCM „Ukryj Condition Boy/Girl podczas wpisywania” jest domyślnie włączona. Gdy ten mod jest zainstalowany, Clipboard tymczasowo ukrywa jego nakładkę, gdy menu wprowadzania danych jest otwarte, a następnie przywraca zmienioną przez siebie widoczność. Żaden dodatkowy mod nie jest wymagany.
+
+OBRÓT, SKALOWANIE I PRZYWRACANIE
+
+Obrót przyjmuje wartości w stopniach większe od 0 i nie większe niż 180, z maksymalnie sześcioma miejscami po separatorze dziesiętnym. Jako separatora dziesiętnego używaj kropki, na przykład 12.345678. Wybierz, czy obrót ma się odbywać wokół środka zaznaczenia, czy narzędzia Clipboard.
+
+Opcje Zwiększ i Zmniejsz przyjmują względną zmianę procentową. Zwiększ przyjmuje wartości większe od 0 i nie większe niż 1000; Zmniejsz przyjmuje wartości większe od 0 i nie większe niż 99. Dozwolonych jest maksymalnie sześć miejsc po separatorze dziesiętnym, ale wynikowy rozmiar każdego obiektu musi stanowić dokładny, całkowity procent jego pierwotnego rozmiaru w zakresie od 1% do 1000%. Poprawna liczba może mimo to nie pasować do rozmiarów zaznaczonych obiektów. Clipboard odrzuca ją przed wprowadzeniem zmian w obiektach i pokazuje dozwolone przyrosty, limity lub pobliskie wartości.
+
+Na przykład zwiększenie obiektów o rozmiarze 100% o 12% daje rozmiar 112%. Zwiększenie mieszanej grupy o rozmiarach 50% / 100% / 150% o 2% daje 51% / 102% / 153%; zwiększenie o 1% zostaje odrzucone, ponieważ niektóre wyniki byłyby ułamkowe. Zmiany ułamkowe mogą być prawidłowe: zwiększenie obiektu o rozmiarze 200% o 0.5% daje rozmiar 201%.
+
+Skalowanie całości zmienia jednocześnie rozmiary obiektów i odstępy między nimi. Skalowanie indywidualne zmienia rozmiary obiektów, zachowując ich pozycje. W obu trybach obowiązują te same ograniczenia rozmiaru; Clipboard nie zaokrągla ani nie ogranicza po cichu wartości odrzuconej zmiany.
+
+Obie opcje przywracania ustawiają rozmiar każdego zaznaczonego obiektu na dokładnie 100%. Przywracanie indywidualne zachowuje wszystkie pozycje. Przywracanie całości również zachowuje pozycje, gdy zaznaczone obiekty mają różne rozmiary; jeśli wszystkie rozmiary są równe, zmienia odstępy o odwrotność tej wspólnej skali. Grupa, której rozmiar wynosi już 100%, nie jest przesuwana. Przywracanie nie korzysta z historii cofania i nie odtwarza wcześniejszych odstępów w grupie o różnych rozmiarach.
+
+KOSZTY MATERIAŁÓW
+
+Pobieranie materiałów jest domyślnie wyłączone. Włącz je w MCM, jeśli wklejanie ma zużywać materiały budowlane. Koszty są obliczane na podstawie dostępnych receptur budowy obiektów dopuszczonych przez reguły importu; dopuszczony obiekt bez receptury nie wiąże się z kosztem materiałów wynikającym z receptury.
+
+Sprawdzanie kosztów zaczyna się od pojemnika bieżącego warsztatu. Jeśli zawiera on wystarczającą ilość każdego wymaganego materiału, Clipboard może wyświetlić te lokalne zasoby bez przeszukiwania połączonych osad i ekwipunku gracza. Widok kosztów, służący tylko do odczytu, umożliwia opcjonalne wyświetlenie sumy ze wszystkich źródeł. W przeciwnym razie Clipboard sprawdza wszystkie źródła i odpowiednio opisuje sumy. Przeglądanie kosztów nie jest zgodą na pobranie materiałów.
+
+Gdy pobieranie materiałów jest włączone, Clipboard prosi o potwierdzenie, ponownie sprawdza dostępność po wyświetleniu pytania i weryfikuje pobranie przed umieszczeniem obiektów. Korzysta najpierw z bieżącego warsztatu, następnie z połączonych warsztatów, a na końcu z ekwipunku gracza. Jeśli nie można dokończyć lub zweryfikować pobrania materiałów, umieszczanie zostaje wstrzymane. Zasoby już pobrane nie są automatycznie zwracane.
+
+SCHEMATY I IMPORT
+
+Schematy przechowują typy obiektów, pozycje, obroty, skale i wewnętrzne przewody. Zapisują też dopuszczone połączenia przewodami z istniejącymi obiektami spoza zaznaczenia. Te zewnętrzne obiekty nie są kopiowane. Ponowne ich podłączenie wymaga pierwotnego położenia narzędzia i prawidłowych pierwotnych punktów końcowych; przeniesienie narzędzia w nowe miejsce powoduje pominięcie tych zewnętrznych połączeń. Punkty końcowe utworzone przez gracza są właściwe dla danego zapisu gry. Szczegóły znajdziesz w Clipboard-Zaznaczanie-i-import-obiektów.txt.
+
+Schematy nie zachowują zawartości pojemników, modyfikacji broni i pancerzy, własności ani stanu skryptów. Plany działek SS2, ich poziomy i osadnicy nie są zapisywani. Jeśli wymagany plik wtyczki lub obiekt jest niedostępny, Clipboard używa kapsla jako obiektu zastępczego. Przewody podłączone do brakujących lub odfiltrowanych obiektów przeznaczonych do umieszczenia są pomijane.
+
+Clipboard ponownie wykorzystuje istniejący obiekt, gdy jego obiekt bazowy, pozycja, obrót i skala odpowiadają umieszczeniu zapisanemu w schemacie. Pozwala to uniknąć tworzenia kolejnej kopii i użyć istniejącego obiektu do połączeń przewodami. Liczba pominiętych duplikatów pojawia się tylko wtedy, gdy jest większa od zera, nawet jeśli ostrzeżenia importu są wyłączone.
+
+Opcja „Ograniczaj obciążenie” jest domyślnie włączona. Ogranicza ilość pracy przy umieszczaniu obiektów i liczbę jednoczesnych wywołań inicjalizacji warsztatu. Jej wyłączenie może przeciążyć skrypty i spowodować zrzuty stosu Papyrus, które zakłócają działanie innych modów, takich jak Sim Settlements 2. Kontrole ukończenia pozostają aktywne, a wyłączenie tej opcji nie musi skrócić importu. Podczas umieszczania z ograniczonym tempem komunikat „Clipboard: Importowanie obiektów...” powtarza się co dziesięć sekund. Inicjalizacja i uruchamianie zasilania pokazują postęp procentowy w obu trybach. Wartości te oznaczają ukończoną pracę, a nie upływ czasu; poczekaj na wynik końcowy.
+
+Obiekty, których przygotowanie lub inicjalizacja zakończyły się niepowodzeniem, są wykluczane z późniejszego podłączania przewodów i zasilania; poprawnie przetworzone obiekty mogą przejść do kolejnych etapów. Jeśli Clipboard nie może zweryfikować ukończenia, na przykład po przekroczeniu limitu czasu lub przerwaniu operacji, podłączanie przewodów i zasilania zostaje wstrzymane dla całego importu.
+
+Zaznaczanie/eksport i import źródeł światła mają osobne opcje. Importowane obiekty niebędące aktorami mają domyślnie wyłączoną fizykę Havok, aby luźne obiekty pozostały na miejscu; skrypty, animacje i działania warsztatu nadal mogą je przemieszczać. Opis tych ustawień i opcjonalnych filtrów modów znajdziesz w Clipboard-Zaznaczanie-i-import-obiektów.txt.
+
+Zachowaj zapis gry sprzed aktualizacji, jeśli możesz wrócić do starszej wersji.
+Starsze biblioteki DLL Clipboard nie mogą wznowić operacji zapisanych w nowym formacie 3.0.0.
+
+Clipboard używa języka gry. Informacje o wyborze języka i rozwiązywaniu problemów znajdziesz w Clipboard-Języki.txt, a ostatnie zmiany — w Historia-zmian.txt.
+
+POMOC I AUTORZY
+
+Ostrzeżenia, błędy i identyfikatory kompilacji są zapisywane w Clipboard.log nawet wtedy, gdy opcja „Włącz dziennik diagnostyczny” jest wyłączona. Jeśli potrzebne są dodatkowe szczegóły, włącz ją w MCM przed odtworzeniem problemu. Do zgłoszenia dołącz opis czynności, wersję gry, ustawienia oraz Documents\My Games\Fallout4\F4SE\Clipboard.log; dołącz też Papyrus.0.log, jeśli jest dostępny. Skopiuj Clipboard.log przed ponownym uruchomieniem gry: każde uruchomienie zastępuje go nowym dziennikiem.
+
+Strona projektu i filmy instruktażowe:
+https://www.nexusmods.com/fallout4/mods/39804/
+https://www.nexusmods.com/fallout4/mods/39804/?tab=videos&BH=0
+
+Podziękowania dla Struckur, Everett C Sands, WolfMark, Big&Flabby oraz współtwórców F4SE i CommonLibF4RD.
+
+Kod i dokumentacja należące do projektu Clipboard są udostępniane na licencji GPL-3.0-or-later. Pełne warunki, w tym informację o braku gwarancji, znajdziesz w ../LICENSE.txt. Informacje dotyczące składników stron trzecich znajdują się w ../Licenses; nadal obowiązują ich odrębne warunki.

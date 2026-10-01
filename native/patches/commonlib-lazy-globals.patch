@@ -1,0 +1,67 @@
+diff --git a/CommonLibF4/include/RE/Bethesda/PowerArmor.h b/CommonLibF4/include/RE/Bethesda/PowerArmor.h
+index acd750c..e4e4a2e 100644
+--- a/CommonLibF4/include/RE/Bethesda/PowerArmor.h
++++ b/CommonLibF4/include/RE/Bethesda/PowerArmor.h
+@@ -65,7 +65,12 @@ namespace RE
+ 			return func(a_furniture, a_force3DUpdate, a_tempItemToAdd, a_hideCore);
+ 		}
+ 
+-		inline REL::Relocation<SettingT<GameSettingCollection>*> fNewBatteryCapacity{ REL::ID(1134204, 1134204) };
++		// Clipboard local patch: defer resolution until this accessor is called.
++		[[nodiscard]] inline REL::Relocation<SettingT<GameSettingCollection>*>& GetNewBatteryCapacity()
++		{
++			static REL::Relocation<SettingT<GameSettingCollection>*> value{ REL::ID(1134204, 1134204) };
++			return value;
++		}
+ 	}
+ 
+ 	class __declspec(novtable) PowerArmorGeometry :
+diff --git a/CommonLibF4/include/RE/Bethesda/Utilities.h b/CommonLibF4/include/RE/Bethesda/Utilities.h
+index 82564aa..607c815 100644
+--- a/CommonLibF4/include/RE/Bethesda/Utilities.h
++++ b/CommonLibF4/include/RE/Bethesda/Utilities.h
+@@ -47,7 +47,12 @@ namespace RE
+ 			REL::Relocation<func_t> func{ REL::ID(55339, 2240616) };
+ 			return func(a, proj, pick);
+ 		}
+-		static REL::Relocation<float> fWorldGravity{ REL::ID(1378547, 2700340) };
++		// Clipboard local patch: defer resolution until this accessor is called.
++		[[nodiscard]] inline REL::Relocation<float>& GetWorldGravity()
++		{
++			static REL::Relocation<float> value{ REL::ID(1378547, 2700340) };
++			return value;
++		}
+ 	};
+ 
+ 	namespace WeaponUtils
+diff --git a/CommonLibF4/include/RE/Bethesda/Workshop.h b/CommonLibF4/include/RE/Bethesda/Workshop.h
+index e7a734d..6e9f301 100644
+--- a/CommonLibF4/include/RE/Bethesda/Workshop.h
++++ b/CommonLibF4/include/RE/Bethesda/Workshop.h
+@@ -344,8 +344,23 @@ namespace RE
+ 			return func(a_recipe, a_filter);
+ 		}
+ 
+-		inline REL::Relocation<PlacementItemData*> CurrentPlacementItemData{ REL::ID(1279207, 4797261) };
+-		inline REL::Relocation<std::uint16_t*> CurrentRow{ REL::ID(833923, 4797160) };
+-		inline REL::Relocation<ObjectRefHandle*> PlacementItem{ REL::ID(526727, 4797235) };
++		// Clipboard local patch: defer resolution until this accessor is called.
++		[[nodiscard]] inline REL::Relocation<PlacementItemData*>& GetCurrentPlacementItemData()
++		{
++			static REL::Relocation<PlacementItemData*> value{ REL::ID(1279207, 4797261) };
++			return value;
++		}
++
++		[[nodiscard]] inline REL::Relocation<std::uint16_t*>& GetCurrentRow()
++		{
++			static REL::Relocation<std::uint16_t*> value{ REL::ID(833923, 4797160) };
++			return value;
++		}
++
++		[[nodiscard]] inline REL::Relocation<ObjectRefHandle*>& GetPlacementItem()
++		{
++			static REL::Relocation<ObjectRefHandle*> value{ REL::ID(526727, 4797235) };
++			return value;
++		}
+ 	}
+ }

@@ -1,0 +1,1786 @@
+{
+  "schemaVersion": 1,
+  "name": "F4SE current official source reference",
+  "version": "0.7.9",
+  "runtimeFixture": "1.11.240.0",
+  "releaseIndex": 33,
+  "upstreamRepository": "https://github.com/ianpatt/f4se",
+  "upstreamTag": "v0.7.9",
+  "upstreamCommit": "4692e9bba0f87d8b8d1a0b79110bf212f2b2ada7",
+  "upstreamReleaseUrl": "https://github.com/ianpatt/f4se/releases/tag/v0.7.9",
+  "officialRuntimeUrl": "https://f4se.silverlock.org/",
+  "sourceRoot": "external/F4SE/source-0.7.9",
+  "scriptSubdirectory": "scripts",
+  "sourceRole": "Official ABI reference and default modern Papyrus import source; not compiled into clipboard.dll.",
+  "hashAlgorithm": "SHA-256 of UTF-8 text normalized CRLF/CR to LF, otherwise verbatim binary; ordinal-sorted hash, two spaces, relative path, LF records.",
+  "sourceFileCount": 441,
+  "normalizedTextOrBinaryTreeSha256": "84bef19380ad0ea2276860a892e4586ed0ce28dd27edec10cd451ed43cfff183",
+  "verifiedAtUtc": "2026-09-07T01:21:19.2995874Z",
+  "verificationEvidence": "outputs/large-import-analysis/f4se-source-audit.json",
+  "files": [
+    {
+      "path": ".github/workflows/testbuild.yaml",
+      "normalizedTextOrBinarySha256": "c039a6f63308070ebac454c24a706a3bbdbcbdaad9591335c7b2b0f93341cdb0"
+    },
+    {
+      "path": ".gitignore",
+      "normalizedTextOrBinarySha256": "54e8f2707d869cd5e8d3c93415348a98996715a0c7ad7136ce83cf61e285c81e"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "da9a66fb80ecccdd4f3b55f199bd4e66626f1b69f9060ba31c0b1a34ffc7afba"
+    },
+    {
+      "path": "CustomControlMap.txt",
+      "normalizedTextOrBinarySha256": "526265d17c7abdc32fdd850b546abeb1f1ac301f4294664b1f9c216e7a576282"
+    },
+    {
+      "path": "README.md",
+      "normalizedTextOrBinarySha256": "6006c5ec22d798d8415cb73a29237ce6c4c3a59dbd6b752a957458602c090cf8"
+    },
+    {
+      "path": "cmake/configuration.cmake",
+      "normalizedTextOrBinarySha256": "32f314a382ec17fecb1182e647a91483f418167a93f693f168a36d37cbd40234"
+    },
+    {
+      "path": "cmake/installation.cmake",
+      "normalizedTextOrBinarySha256": "114ed0093b0529bed56f71484f5d2470cb76e4ea5829444a52ff18ba807610e3"
+    },
+    {
+      "path": "cmake/versioning.cmake",
+      "normalizedTextOrBinarySha256": "0358f199fa5d93e335cb589fbd6f7f7a2f30da00fa6504737272b2878e8cb3d8"
+    },
+    {
+      "path": "f4se.sln",
+      "normalizedTextOrBinarySha256": "afa35ecc26de13b4ad2239dffee27670236f76ff26d10683e9b4f2dca2c90eff"
+    },
+    {
+      "path": "f4se/.gitignore",
+      "normalizedTextOrBinarySha256": "01abafe3698e84e649f8dc06faa3763c76fd84136ee6e87268cb8e61f46b14d8"
+    },
+    {
+      "path": "f4se/BSCollision.cpp",
+      "normalizedTextOrBinarySha256": "5ba965bb9ec258c95789dfd176f9697412d1e934abf9692ae7cca45c2832620b"
+    },
+    {
+      "path": "f4se/BSCollision.h",
+      "normalizedTextOrBinarySha256": "63ab1120f5214338d3454f3bf4d5738c7ed451e4ffb233febead1bca3ec15662"
+    },
+    {
+      "path": "f4se/BSGeometry.cpp",
+      "normalizedTextOrBinarySha256": "a349c51dc902d3ff4d1d78474bca29ba5c3e5cf420fdf4dc18513695b81a08b0"
+    },
+    {
+      "path": "f4se/BSGeometry.h",
+      "normalizedTextOrBinarySha256": "28ecc32e91d0445a483d7846065a8f635dc1862733776b30169b8856c6c815d3"
+    },
+    {
+      "path": "f4se/BSGraphics.cpp",
+      "normalizedTextOrBinarySha256": "f172a9c2a61c904ef2d7f2aef3536aad9d8f4c1e1b8c53cfdeb637880ef45aab"
+    },
+    {
+      "path": "f4se/BSGraphics.h",
+      "normalizedTextOrBinarySha256": "c85bc8d8872e520f0d416c7363f7c4ec47717bd884efa0ca4706e05d1abe802b"
+    },
+    {
+      "path": "f4se/BSLight.cpp",
+      "normalizedTextOrBinarySha256": "3fc148bbe7a62844555626df25e72bc03432e74445e8865465a0c77c58746d05"
+    },
+    {
+      "path": "f4se/BSLight.h",
+      "normalizedTextOrBinarySha256": "2c8aec981ca064f2e9e7978c881771a9566f56d4357ad91b869a3f0a86409b93"
+    },
+    {
+      "path": "f4se/BSModelDB.cpp",
+      "normalizedTextOrBinarySha256": "edb5e3f87a56b92b70397773140c3027f53debaabf7c806db17888014f4bcbd4"
+    },
+    {
+      "path": "f4se/BSModelDB.h",
+      "normalizedTextOrBinarySha256": "ed8a25265b82f021560400abdc8d8712a3c01de18360a5829a89a944cfef396e"
+    },
+    {
+      "path": "f4se/BSParticleShaderEmitter.cpp",
+      "normalizedTextOrBinarySha256": "f69af3ea1f7339c3a655e7a21c8c7ebfd76456125f5694bbd61c8d6f91bab9f9"
+    },
+    {
+      "path": "f4se/BSParticleShaderEmitter.h",
+      "normalizedTextOrBinarySha256": "89d64efc94d9e46240bcf9f8c61628b2c2735f398fd5984a355408f04a67d340"
+    },
+    {
+      "path": "f4se/BSSkin.cpp",
+      "normalizedTextOrBinarySha256": "48b76c1b5e87d186a597dc87133c34fba9e98c4a3695859fe70fbc55d27c07b4"
+    },
+    {
+      "path": "f4se/BSSkin.h",
+      "normalizedTextOrBinarySha256": "47d9ab2702f56308762810387142f55fe8a7ec3c2ab18f32472903748640bd6c"
+    },
+    {
+      "path": "f4se/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "a765e6ded1cfcf792110afb0e3938078ce4452a3d859a2f1bc6965eab869951f"
+    },
+    {
+      "path": "f4se/CustomMenu.cpp",
+      "normalizedTextOrBinarySha256": "afc5ade1efce48bb5f3b3bda3a4033a46104e71b5217b97a4fa5d3eda4304947"
+    },
+    {
+      "path": "f4se/CustomMenu.h",
+      "normalizedTextOrBinarySha256": "91b35515e7d7dd0d2c56b9a5c908b645248929a13caccf66890f40ad476ba31f"
+    },
+    {
+      "path": "f4se/GameAPI.cpp",
+      "normalizedTextOrBinarySha256": "6b807a4c733f4256c7513f0d673fc7e65fe2e60cc9efe311867b664eef11db9a"
+    },
+    {
+      "path": "f4se/GameAPI.h",
+      "normalizedTextOrBinarySha256": "4f4bbaae47b717d116f896aad9470bc55386d7d52ff58a006798a639f4345acb"
+    },
+    {
+      "path": "f4se/GameCamera.cpp",
+      "normalizedTextOrBinarySha256": "0f8e90a7410bc556234e136fbe0f83d2f02b3d54fc94c1251882719aac6993a0"
+    },
+    {
+      "path": "f4se/GameCamera.h",
+      "normalizedTextOrBinarySha256": "bf158352da65ec07e0935c0d3b795937da3681a6879a7069588fe1b86389e95e"
+    },
+    {
+      "path": "f4se/GameCustomization.cpp",
+      "normalizedTextOrBinarySha256": "7cbd0ef3710992217ad2fe14eb8c4097ba08b8cb408bd93ce21619ea768e9ef5"
+    },
+    {
+      "path": "f4se/GameCustomization.h",
+      "normalizedTextOrBinarySha256": "0f6e97f0e3d9a910fdbcb7129965cd1e1bc71021c087ac2e7783aa77d3dcf3de"
+    },
+    {
+      "path": "f4se/GameData.cpp",
+      "normalizedTextOrBinarySha256": "18d99e38c0a0f83f6f8e10b5fd8ec4514e5b180d1c675d11d3f16116a2d0e0c1"
+    },
+    {
+      "path": "f4se/GameData.h",
+      "normalizedTextOrBinarySha256": "6d78f1e33bb454c8ec2c248ec96804f3a04d38a6ee7147d14d574067b159f9ec"
+    },
+    {
+      "path": "f4se/GameEvents.cpp",
+      "normalizedTextOrBinarySha256": "52a65c15a5c60e4b5080ed3ac08158165cae98165d6fdf18ec7365a184bb025a"
+    },
+    {
+      "path": "f4se/GameEvents.h",
+      "normalizedTextOrBinarySha256": "ac15bb9653b835610f9a66955d820fbc0b1a45429ff4c4ff75518c9dc7c99e18"
+    },
+    {
+      "path": "f4se/GameExtraData.cpp",
+      "normalizedTextOrBinarySha256": "fc39723ed9a5a9e137a387f0d950c6e7ab3596e1bbd82382a21b118b79531dee"
+    },
+    {
+      "path": "f4se/GameExtraData.h",
+      "normalizedTextOrBinarySha256": "5ff691aa246ce6434ffe5b67e8a73f22857304bb47419fccb9f6d09c53e2f211"
+    },
+    {
+      "path": "f4se/GameFormComponents.cpp",
+      "normalizedTextOrBinarySha256": "40f8d02d774e17b942d4e961d3acbd0eacf7873482b35db738a1363ff182aefd"
+    },
+    {
+      "path": "f4se/GameFormComponents.h",
+      "normalizedTextOrBinarySha256": "ed425d412eae45042c9f8e587b169904537ba1f7afd0f35705bc0ade273a850f"
+    },
+    {
+      "path": "f4se/GameForms.cpp",
+      "normalizedTextOrBinarySha256": "db61fc13db19f44c0b1b5d28b790d420daedeaaf80b358084db70bf9026414a9"
+    },
+    {
+      "path": "f4se/GameForms.h",
+      "normalizedTextOrBinarySha256": "5b9ddf611d6702ac438f00f72867bb9ab5fd886fbcca7512c34dccd77483b189"
+    },
+    {
+      "path": "f4se/GameHandle.cpp",
+      "normalizedTextOrBinarySha256": "a7a7451ee9e397ad12e554760d2e0c989ac7b2a6035dc46b186231a5dde050a4"
+    },
+    {
+      "path": "f4se/GameHandle.h",
+      "normalizedTextOrBinarySha256": "b0a1cffde31d4c2ab7d9d357ac118c0c6d4a70708147ba14d21f86e7d9cbda9a"
+    },
+    {
+      "path": "f4se/GameInput.cpp",
+      "normalizedTextOrBinarySha256": "fc36699d3d85c8d60db78966583e1ae5866fddc15345e67f8492af912167d9f9"
+    },
+    {
+      "path": "f4se/GameInput.h",
+      "normalizedTextOrBinarySha256": "01b1ffbbd7f8550742c67da0505d86f41c50ed173919c88dcdbe197c78ec2c0d"
+    },
+    {
+      "path": "f4se/GameMemory.cpp",
+      "normalizedTextOrBinarySha256": "cce9d3c4514027e9b2b74a957e87d67d13f42a24a3d16befebf8df2fc376a611"
+    },
+    {
+      "path": "f4se/GameMemory.h",
+      "normalizedTextOrBinarySha256": "d590d20ff1a3328bdd0f8bf7db3fa60d1063e9c771c8e505d0a0d8b0ecda2d12"
+    },
+    {
+      "path": "f4se/GameMenus.cpp",
+      "normalizedTextOrBinarySha256": "0da7442af89ab1205176f95e7d0df847eb9a1cfcf8c68b9b065446b143de0897"
+    },
+    {
+      "path": "f4se/GameMenus.h",
+      "normalizedTextOrBinarySha256": "0ccb08e8b7a0ab9d1ea180268f2302801879fedc16d2d3c9987f15bacea9fd8b"
+    },
+    {
+      "path": "f4se/GameMessages.cpp",
+      "normalizedTextOrBinarySha256": "c689d5623ab5403f76864a6d3aa85e91eab6ba7257de87a267453b93b1842265"
+    },
+    {
+      "path": "f4se/GameMessages.h",
+      "normalizedTextOrBinarySha256": "24c9d0cd3660914e6d5883f7030875a3ddafc5b883599494e1bc8a83c8b55e39"
+    },
+    {
+      "path": "f4se/GameObjects.cpp",
+      "normalizedTextOrBinarySha256": "8be8f04c4dee5abaa4039f4a7799c0f3cac59351996fd8c457586a7f2bf5f708"
+    },
+    {
+      "path": "f4se/GameObjects.h",
+      "normalizedTextOrBinarySha256": "df06ff3e9423b5a36cc2a7cd14a38d62b4a742a818589e9e305ec903f20db2a9"
+    },
+    {
+      "path": "f4se/GameRTTI.cpp",
+      "normalizedTextOrBinarySha256": "04e70805fa993b8bdee91516bb803e7d163b859b5c6baf8bc883cd1791a8fcd2"
+    },
+    {
+      "path": "f4se/GameRTTI.h",
+      "normalizedTextOrBinarySha256": "4ac935e57fa435e135e28d73d784c4425d870a2080699ad0b5a14974a4160ed4"
+    },
+    {
+      "path": "f4se/GameRTTI.inl",
+      "normalizedTextOrBinarySha256": "1c6167744c66636227b6b0d7a5f977c29f1a67dfc276664cd5733c3ecb463aba"
+    },
+    {
+      "path": "f4se/GameReferences.cpp",
+      "normalizedTextOrBinarySha256": "d36f801af6ef30dc77693e630b3e4216b444694cd29223d1c0c67b706ec15e25"
+    },
+    {
+      "path": "f4se/GameReferences.h",
+      "normalizedTextOrBinarySha256": "1e6de069a5d49d2f736cd5a3380143e61b06626e342cd8aed757e060ac7718d6"
+    },
+    {
+      "path": "f4se/GameSettings.cpp",
+      "normalizedTextOrBinarySha256": "a63c22a41d44684393ddefc10b00b00c74118bc79e339da840b3da6709b0d800"
+    },
+    {
+      "path": "f4se/GameSettings.h",
+      "normalizedTextOrBinarySha256": "ae8b79dc04b1859cb42418a6ccb53d441f7e394993b0c8b1f1e4a9a9b6ebfc4f"
+    },
+    {
+      "path": "f4se/GameStreams.cpp",
+      "normalizedTextOrBinarySha256": "94d77c66d4f1d299e1f5aa7224ce04c28a045de5c4eccc77de90d34ef77afefc"
+    },
+    {
+      "path": "f4se/GameStreams.h",
+      "normalizedTextOrBinarySha256": "e3f61594a47fa9a0c805a0d93d264f6eb8066682143d4c57eb93e3aab86c93bb"
+    },
+    {
+      "path": "f4se/GameThreads.cpp",
+      "normalizedTextOrBinarySha256": "de0eed248e350ae773c25511627864fd8b9af50a973b015fdec81c9ecc5462f5"
+    },
+    {
+      "path": "f4se/GameThreads.h",
+      "normalizedTextOrBinarySha256": "2d8088330fa02ef4b6c4712a2fd72af50f319a65de0850b250778b24b21fc38c"
+    },
+    {
+      "path": "f4se/GameTypes.cpp",
+      "normalizedTextOrBinarySha256": "8b5655e110deacde5fdc13bf872f8b00571c760f8fc765bd566bdf847aca9ef6"
+    },
+    {
+      "path": "f4se/GameTypes.h",
+      "normalizedTextOrBinarySha256": "6fd494e570ef251f35f4013ab9dae750158f3a6d1ced9a758dd137de2692c732"
+    },
+    {
+      "path": "f4se/GameUtilities.cpp",
+      "normalizedTextOrBinarySha256": "89ab7dc645a0c2c1da79998f71874fc90a9f79d4419a1e0b3eec98051fcf56ac"
+    },
+    {
+      "path": "f4se/GameUtilities.h",
+      "normalizedTextOrBinarySha256": "47f5b35e085632912808f42cd0de5dbaf7cf377bfd894d22026c3c5fd2e62e30"
+    },
+    {
+      "path": "f4se/GameWorkshop.cpp",
+      "normalizedTextOrBinarySha256": "ff286da806522465dc0b2887cf3285a7017cd78040fdc008d404a7902f0aa4b2"
+    },
+    {
+      "path": "f4se/GameWorkshop.h",
+      "normalizedTextOrBinarySha256": "fe7659ee66ea408d9667ddd83912021f6c661c9c6e396bff5861a7f7d7dfaebf"
+    },
+    {
+      "path": "f4se/Hooks_Camera.cpp",
+      "normalizedTextOrBinarySha256": "d247270ae7e088321ce5ffa9eaa423ed77c062e014d00e3d1e6770e5a234470f"
+    },
+    {
+      "path": "f4se/Hooks_Camera.h",
+      "normalizedTextOrBinarySha256": "42ac82e27a9ea89bae3eb893e836744e64a58953179175fff91eb5e12308df73"
+    },
+    {
+      "path": "f4se/Hooks_Debug.cpp",
+      "normalizedTextOrBinarySha256": "547120d8142cc84f28437bca8ba69dd73dd431b480bccaccf0224dd56327d462"
+    },
+    {
+      "path": "f4se/Hooks_Debug.h",
+      "normalizedTextOrBinarySha256": "c2b613c1a2980bbc7c0cb044c0ca44df335efcc2fffdbd54ec40084b9c043ac3"
+    },
+    {
+      "path": "f4se/Hooks_GameData.cpp",
+      "normalizedTextOrBinarySha256": "6f57d7a457095748608235e25dc0b59e09bde01357a4377181791a25f554fe84"
+    },
+    {
+      "path": "f4se/Hooks_GameData.h",
+      "normalizedTextOrBinarySha256": "db4e95f142487581fdcc0a6f5335afa0546b5f7c9d345300774b12d74edb57af"
+    },
+    {
+      "path": "f4se/Hooks_Gameplay.cpp",
+      "normalizedTextOrBinarySha256": "8531377d49f6783c2790a99c3c90cb869cacd0eea835b5cb01e902ea7347f17d"
+    },
+    {
+      "path": "f4se/Hooks_Gameplay.h",
+      "normalizedTextOrBinarySha256": "a80144d593df7d423828d4dec868b817a1686118b58d02598322475ff638d7cc"
+    },
+    {
+      "path": "f4se/Hooks_Input.cpp",
+      "normalizedTextOrBinarySha256": "c593e476efb96741526a87e3aa224e137f83ec0bd758602ab202ad14eb019d06"
+    },
+    {
+      "path": "f4se/Hooks_Input.h",
+      "normalizedTextOrBinarySha256": "36c41664a6d3a8e98cd13751f79ae316d5eaf9829295d22df4f21aee99c57c64"
+    },
+    {
+      "path": "f4se/Hooks_Memory.cpp",
+      "normalizedTextOrBinarySha256": "07fe61ce378f34f40138aa598faf0895061aaa3ea18eb8c13e2efa0652ddc1ab"
+    },
+    {
+      "path": "f4se/Hooks_Memory.h",
+      "normalizedTextOrBinarySha256": "cc10537cc708a1ad6e558cb36b2f53f6d70c13fc22d497864d1319b3ac90efae"
+    },
+    {
+      "path": "f4se/Hooks_ObScript.cpp",
+      "normalizedTextOrBinarySha256": "3a6b374e61ca781fa66d0a01c584517f6b341c6155ae5aed2e4d206105ea7428"
+    },
+    {
+      "path": "f4se/Hooks_ObScript.h",
+      "normalizedTextOrBinarySha256": "d5a2dd2a18db63314f7fa3bba28fa656a7f5f7a095148f095f4bde96e546ab2a"
+    },
+    {
+      "path": "f4se/Hooks_Papyrus.cpp",
+      "normalizedTextOrBinarySha256": "6341167d04f3be249774e539ef599b2389be1b4e51387b4b15e526db088478d9"
+    },
+    {
+      "path": "f4se/Hooks_Papyrus.h",
+      "normalizedTextOrBinarySha256": "ff52c21a0ff363a0c4d21ee0ef64192fcdee7293ab0d3459c3d138fd1f46de5f"
+    },
+    {
+      "path": "f4se/Hooks_SaveLoad.cpp",
+      "normalizedTextOrBinarySha256": "8be35ccee9c75c94b0effb7df7ba17c3baf7bffcb7b8cd1e90dd5a8904ceeb99"
+    },
+    {
+      "path": "f4se/Hooks_SaveLoad.h",
+      "normalizedTextOrBinarySha256": "8c8cfc408d55b5784433b79af040917e58033a2e987ad4977cc0046e614cddc3"
+    },
+    {
+      "path": "f4se/Hooks_Scaleform.cpp",
+      "normalizedTextOrBinarySha256": "4c73b3804017cb4f4b18c96287119c67af8cf2756b7f3e8787468e408b2b8a8f"
+    },
+    {
+      "path": "f4se/Hooks_Scaleform.h",
+      "normalizedTextOrBinarySha256": "c0a0b431f1a145e91a9f723f1cd7c7f06f104b9174e820ecf7df3fba818d5a3f"
+    },
+    {
+      "path": "f4se/Hooks_Threads.cpp",
+      "normalizedTextOrBinarySha256": "3ca569feb69ffdfe2ebe39d9fa4da7aa64280fdc1063c3dacc4e8cded450c17c"
+    },
+    {
+      "path": "f4se/Hooks_Threads.h",
+      "normalizedTextOrBinarySha256": "e58f1bde77c6002f2370bb08345f2cced2922c7cb52db975bd6844aa189d0c70"
+    },
+    {
+      "path": "f4se/InputMap.cpp",
+      "normalizedTextOrBinarySha256": "cb8109d267162b3dd5963ab4e3e79d45d7908941f2e0306a75eda2aabefedcfb"
+    },
+    {
+      "path": "f4se/InputMap.h",
+      "normalizedTextOrBinarySha256": "bad8e1cb9e5453eb3092f1b3ffd1dc0482ee78e0567bc3fe820c17644ab8338a"
+    },
+    {
+      "path": "f4se/InternalSerialization.cpp",
+      "normalizedTextOrBinarySha256": "75e26e67a1cd8342eef25882870dfea6befd93871478033c9a671efa3d3c4c1d"
+    },
+    {
+      "path": "f4se/InternalSerialization.h",
+      "normalizedTextOrBinarySha256": "8d60d6c46dab8dbed553a28f170479b496a83bdf6f3e0991ade924a2b9c6243d"
+    },
+    {
+      "path": "f4se/NiCloningProcess.h",
+      "normalizedTextOrBinarySha256": "03d61b581ff971bf189e56f75e084f77752e6837abb25d573a3fb6c43cc6df4b"
+    },
+    {
+      "path": "f4se/NiExtraData.cpp",
+      "normalizedTextOrBinarySha256": "2fd1b3a03e260690d401d531aee9fdab32adc0bc72c65ca464dfbd23635e0e05"
+    },
+    {
+      "path": "f4se/NiExtraData.h",
+      "normalizedTextOrBinarySha256": "c84a2cfa685d53a10d9c765ba31c4954bafc52405d1a8aa64e1054ceb4396132"
+    },
+    {
+      "path": "f4se/NiMaterials.cpp",
+      "normalizedTextOrBinarySha256": "6f880ca0a90e5ec650176c045e6cd0c630e221972434867d638b753866a26b84"
+    },
+    {
+      "path": "f4se/NiMaterials.h",
+      "normalizedTextOrBinarySha256": "61f5e38caedfa3fe1499c695b31491c4a3682c2ddeb1e7d9c91eef878a736f6a"
+    },
+    {
+      "path": "f4se/NiNodes.cpp",
+      "normalizedTextOrBinarySha256": "d2655b27cf48d539782aebdb2d9cec1793627871f35b319bf3cfcbadec8f7d51"
+    },
+    {
+      "path": "f4se/NiNodes.h",
+      "normalizedTextOrBinarySha256": "988aa885cd5817c580f92229c870c2a1be8c8d813f60e498b0205ec0f9156364"
+    },
+    {
+      "path": "f4se/NiObjects.cpp",
+      "normalizedTextOrBinarySha256": "13dd53dcdc09fe9c29e721dc69f5c12bb4a07f5d2d0a5e8181b006125e5e6940"
+    },
+    {
+      "path": "f4se/NiObjects.h",
+      "normalizedTextOrBinarySha256": "5a1bd4ac9d7a9ef1bc3bbb110c5a907708ac6993b9346df7488a2112069ea03c"
+    },
+    {
+      "path": "f4se/NiProperties.cpp",
+      "normalizedTextOrBinarySha256": "875d756b278144e6125ea58c749e73f8e3e1f23b2880c34761e9567c0e85a828"
+    },
+    {
+      "path": "f4se/NiProperties.h",
+      "normalizedTextOrBinarySha256": "5c7e37450a46cdb6e88d41a730e281262b8e6d56bb37b1b5574a5d662e6be04f"
+    },
+    {
+      "path": "f4se/NiRTTI.cpp",
+      "normalizedTextOrBinarySha256": "dfc989425a50de0f3491239af0ab1cb5ccc3b872838fbf2c85a31a9c985c55ce"
+    },
+    {
+      "path": "f4se/NiRTTI.h",
+      "normalizedTextOrBinarySha256": "5636ef96bc317bacc2ea95c7dc15a62dfa39279e6580b16c75bdb276813c5fbb"
+    },
+    {
+      "path": "f4se/NiSerialization.cpp",
+      "normalizedTextOrBinarySha256": "b80f634409145043d09350aa7e6a4fcdc5416c471913b8a7f6a80ee42c7200dd"
+    },
+    {
+      "path": "f4se/NiSerialization.h",
+      "normalizedTextOrBinarySha256": "d98b7f5791e4feb584589f0ce163fdbc490af8588d3da4317ff3a842ab9fd2ae"
+    },
+    {
+      "path": "f4se/NiTextures.cpp",
+      "normalizedTextOrBinarySha256": "479c67dc93ab43f2c39d998fc68921225bed80e8ee7363c572a8e9e559b03788"
+    },
+    {
+      "path": "f4se/NiTextures.h",
+      "normalizedTextOrBinarySha256": "d7ac380399c79c6b99c1c8096de615a0cd406636f4141b3aadd2917396a04b70"
+    },
+    {
+      "path": "f4se/NiTypes.cpp",
+      "normalizedTextOrBinarySha256": "70b4f2f9d6cd51017c2f6b95039d081e6bc9661cd7a92bee3ac86b5960c8cf68"
+    },
+    {
+      "path": "f4se/NiTypes.h",
+      "normalizedTextOrBinarySha256": "aa56a4415e5e8d167e2b855dd6ae51cb387cd8c3c7d3ca333ab60fab702cd6c7"
+    },
+    {
+      "path": "f4se/ObScript.cpp",
+      "normalizedTextOrBinarySha256": "848721b53c13f3316d9bcdc6bc157a4d9865c2db32a41e00ad972b1c0db86ac1"
+    },
+    {
+      "path": "f4se/ObScript.h",
+      "normalizedTextOrBinarySha256": "ac4f20da01455645f45343b4e2aab4db1e8afd00ceda3530e8e64c2fb1358d71"
+    },
+    {
+      "path": "f4se/PapyrusActor.cpp",
+      "normalizedTextOrBinarySha256": "ae3971af58c9033bc28c1450519f8da4cba82d37ddfe4b59efe4932f78c963cb"
+    },
+    {
+      "path": "f4se/PapyrusActor.h",
+      "normalizedTextOrBinarySha256": "b90116acfbae8f24adf874833d144412c1691d6f50ea6f86daa7313fb2aa70f2"
+    },
+    {
+      "path": "f4se/PapyrusActorBase.cpp",
+      "normalizedTextOrBinarySha256": "dc32ed4c63e2c1816751e4f0e581990118f1b9e9195636b6275f86f1556b5c01"
+    },
+    {
+      "path": "f4se/PapyrusActorBase.h",
+      "normalizedTextOrBinarySha256": "50c179f8b03cd77ff5e298ecaca4e35f9b50bf4308bec4c9040160f7434c7f01"
+    },
+    {
+      "path": "f4se/PapyrusArgs.cpp",
+      "normalizedTextOrBinarySha256": "7a33f78e26ac00a4306c8cd8201678bc77608cdc3b377c24027506cf8d144f36"
+    },
+    {
+      "path": "f4se/PapyrusArgs.h",
+      "normalizedTextOrBinarySha256": "7cf72d44d485eee205ebf0d72f353931fc812fd662697aebc0c4c05602c6c9cb"
+    },
+    {
+      "path": "f4se/PapyrusArmor.cpp",
+      "normalizedTextOrBinarySha256": "3a22d145a057accd4bb16ad71e93202ae5145803ab84151842e88c79c8288d4b"
+    },
+    {
+      "path": "f4se/PapyrusArmor.h",
+      "normalizedTextOrBinarySha256": "199e10f817a64f9bc3d7fa19396f1fed33ee8a6e56cd209deaa59418be0e4ee5"
+    },
+    {
+      "path": "f4se/PapyrusArmorAddon.cpp",
+      "normalizedTextOrBinarySha256": "fa62264e3f5ae9660f2af1970471a06bb8a8421adeff15fc2f1bd2a0ebf1a814"
+    },
+    {
+      "path": "f4se/PapyrusArmorAddon.h",
+      "normalizedTextOrBinarySha256": "0b5978ef815be36d670a4d6462fd385e0dcac27da7cbfc72991c56e8cf33fd74"
+    },
+    {
+      "path": "f4se/PapyrusCell.cpp",
+      "normalizedTextOrBinarySha256": "b3bbe40fc2f94a9121bb12c6a51ffd7b570670b1b3c852d72ea9aa4354ca12d3"
+    },
+    {
+      "path": "f4se/PapyrusCell.h",
+      "normalizedTextOrBinarySha256": "bc6036690c90c5ccb50a3b171bcec44dd01b93312a30db26ca0edda3542b9748"
+    },
+    {
+      "path": "f4se/PapyrusComponent.cpp",
+      "normalizedTextOrBinarySha256": "55e95b42847b25de69670fba06a49b5ff3da249b18bb9916fa05b2b1ba221fda"
+    },
+    {
+      "path": "f4se/PapyrusComponent.h",
+      "normalizedTextOrBinarySha256": "3a8c2211df6fdd2c8b6be07010fa9b92934b57ad80643c8a5028b5d42bf3ebcc"
+    },
+    {
+      "path": "f4se/PapyrusConstructibleObject.cpp",
+      "normalizedTextOrBinarySha256": "fba25df3c087b58111757a4608556e5f89e2d684b885dc2beafe8160e0cd2b16"
+    },
+    {
+      "path": "f4se/PapyrusConstructibleObject.h",
+      "normalizedTextOrBinarySha256": "b07fa844bf8baf612da5adc0963b3e4a4fe54f80798285533516941321def12d"
+    },
+    {
+      "path": "f4se/PapyrusDefaultObject.cpp",
+      "normalizedTextOrBinarySha256": "da3eae6beb756cd13d1f48c64a9199bd7172c5b96e6b2889f5b73a5bafea35ec"
+    },
+    {
+      "path": "f4se/PapyrusDefaultObject.h",
+      "normalizedTextOrBinarySha256": "2a10ebb779714d1d066fb40c2e5deba697c37e5051e362853e3a1e68ca91b5ad"
+    },
+    {
+      "path": "f4se/PapyrusDelayFunctors.cpp",
+      "normalizedTextOrBinarySha256": "34762d8e85147442059062b120d5be3ce7deeb22ffabb0d7c0f0d4c7a06cd8a7"
+    },
+    {
+      "path": "f4se/PapyrusDelayFunctors.h",
+      "normalizedTextOrBinarySha256": "6d4681e1307378a90cf8b699b9272bea091d9b0b85b8c93f6e87965ced367f48"
+    },
+    {
+      "path": "f4se/PapyrusDelayFunctorsDef.inl",
+      "normalizedTextOrBinarySha256": "e4e85e4ab513d80ae6b2d1646ff4f86a053f7bfce4efe9d29764abf7069dd9e8"
+    },
+    {
+      "path": "f4se/PapyrusDelayFunctorsDef_Base.inl",
+      "normalizedTextOrBinarySha256": "a3c212974fbd930e3b2879e1bde5744688d6ee6b254c5b69e771ee9b28a7d5ba"
+    },
+    {
+      "path": "f4se/PapyrusEncounterZone.cpp",
+      "normalizedTextOrBinarySha256": "cfdd3ef9c73a3abf3471e832e0bc3775131781745dcedadce5b3cfa64426e0ab"
+    },
+    {
+      "path": "f4se/PapyrusEncounterZone.h",
+      "normalizedTextOrBinarySha256": "8abadb30166838bf6c5a3d8cfa33d63612ed5f7baca91bde7b00de2868da112b"
+    },
+    {
+      "path": "f4se/PapyrusEquipSlot.cpp",
+      "normalizedTextOrBinarySha256": "bd1294bbde2632bd82c3e9d844e7bea8bb7d328ab9d12c0b1490abfa909c7c17"
+    },
+    {
+      "path": "f4se/PapyrusEquipSlot.h",
+      "normalizedTextOrBinarySha256": "0166c1b51157e48ac4a71fc9fe9d4e5491dd97e69055cca6b55ab71389dc18d6"
+    },
+    {
+      "path": "f4se/PapyrusEvents.cpp",
+      "normalizedTextOrBinarySha256": "da3a3181bf4945ba738e168cb5c3a90320ab19ed9af4430aeeef1ae24099525b"
+    },
+    {
+      "path": "f4se/PapyrusEvents.h",
+      "normalizedTextOrBinarySha256": "1933644c2a90ca4878d77b7ee7da5f48214e8c64d3c9e530a4e316fb3e0057ca"
+    },
+    {
+      "path": "f4se/PapyrusEventsDef.inl",
+      "normalizedTextOrBinarySha256": "c2f7e8722c049332997497233c0eaeb56b59b1bef0b21e2e02c8de1e5456d36f"
+    },
+    {
+      "path": "f4se/PapyrusEventsDef_Base.inl",
+      "normalizedTextOrBinarySha256": "292fe0b94268bc82e58163d7220050d9b7dc80761ca17ae9d84122d793de1160"
+    },
+    {
+      "path": "f4se/PapyrusF4SE.cpp",
+      "normalizedTextOrBinarySha256": "eecf8daafdd1ea7fb3527af7c22ddcad94d11ed94820e9eb6a9cfa6ad90da7eb"
+    },
+    {
+      "path": "f4se/PapyrusF4SE.h",
+      "normalizedTextOrBinarySha256": "6bff2f8619ef2ef0b9e2dba0f636f03219f5fb31c9e5b3500848dc6c63d142dd"
+    },
+    {
+      "path": "f4se/PapyrusFavoritesManager.cpp",
+      "normalizedTextOrBinarySha256": "157f35ddd9b51eec772fd2106265243c7b6893cef13fec2195ec49e548f47c00"
+    },
+    {
+      "path": "f4se/PapyrusFavoritesManager.h",
+      "normalizedTextOrBinarySha256": "6a801db7b2e1a208726c0128581cf92eb9b8a253652e1f51cc28afeea758f7aa"
+    },
+    {
+      "path": "f4se/PapyrusForm.cpp",
+      "normalizedTextOrBinarySha256": "2681dcf5d57176a99b37c1355c55c3f94c45c39641240a3d5528ee357d7ce8ac"
+    },
+    {
+      "path": "f4se/PapyrusForm.h",
+      "normalizedTextOrBinarySha256": "5e5ad6601d80b471b81a0d4c0c6db339d72a4da71ab37b57f0dcf9d70709b21c"
+    },
+    {
+      "path": "f4se/PapyrusGame.cpp",
+      "normalizedTextOrBinarySha256": "76f3a0129e0d36062f3387d878ef2ab0b91bac3fc9ea637a3622d62f25975b8d"
+    },
+    {
+      "path": "f4se/PapyrusGame.h",
+      "normalizedTextOrBinarySha256": "9c40512dbb5a283fa3b522b077e844a162c94e5950709f081c92487b042ac23d"
+    },
+    {
+      "path": "f4se/PapyrusHeadPart.cpp",
+      "normalizedTextOrBinarySha256": "5105bfd6cca1c6f83a61bd5d46e8123a2e7277fc254e855dc10af77e978fe22d"
+    },
+    {
+      "path": "f4se/PapyrusHeadPart.h",
+      "normalizedTextOrBinarySha256": "96436bd2f7bcfd988ae638b4ddfb74f288aeb9989b874fd89dcde3b1ffa67efe"
+    },
+    {
+      "path": "f4se/PapyrusInput.cpp",
+      "normalizedTextOrBinarySha256": "a071032875676c6367f67c885a874256bf6f7101b1ca918313ae5f42467080b4"
+    },
+    {
+      "path": "f4se/PapyrusInput.h",
+      "normalizedTextOrBinarySha256": "24355fe6682b10499ed3c8853fa1ef94d387604c1fdbd3637330acf2063b0058"
+    },
+    {
+      "path": "f4se/PapyrusInstanceData.cpp",
+      "normalizedTextOrBinarySha256": "bb2a93b056034bc3e2f60078e7be7f4d2914a61bcbc80444b6105bdc3a3344a4"
+    },
+    {
+      "path": "f4se/PapyrusInstanceData.h",
+      "normalizedTextOrBinarySha256": "f2f5079dd0ae08c5d177964eb6b14be967c7144f1c84ddab0fb7b1cf721d130f"
+    },
+    {
+      "path": "f4se/PapyrusInterfaces.cpp",
+      "normalizedTextOrBinarySha256": "bf000af224aa4b83a37b0f6ad31a39b3eae6769fcb9a9c29254797589756870e"
+    },
+    {
+      "path": "f4se/PapyrusInterfaces.h",
+      "normalizedTextOrBinarySha256": "a8467e8483ac179671511a019c701be2852cfdcba9c8d547175f41041584eaea"
+    },
+    {
+      "path": "f4se/PapyrusLocation.cpp",
+      "normalizedTextOrBinarySha256": "aca180c71411641d5262a4b8f6719d61a94dd6dac9e52f9727deb8aaea582e9f"
+    },
+    {
+      "path": "f4se/PapyrusLocation.h",
+      "normalizedTextOrBinarySha256": "a64efe194b82cab2361714f68f70fdf9e617a5e152fdd71888ab5f991028180f"
+    },
+    {
+      "path": "f4se/PapyrusMaterialSwap.cpp",
+      "normalizedTextOrBinarySha256": "096a6839e99bec4fc7111038b52d35b309052a816f58b9f3cb27c0edad277fad"
+    },
+    {
+      "path": "f4se/PapyrusMaterialSwap.h",
+      "normalizedTextOrBinarySha256": "5087f4a850a4afad936a29eb114519ddc0971257510508e8c854c2da66db6f4b"
+    },
+    {
+      "path": "f4se/PapyrusMath.cpp",
+      "normalizedTextOrBinarySha256": "203f6f63920612537c475476d6697e5528a6711e07614f6da80d309cb0f047b5"
+    },
+    {
+      "path": "f4se/PapyrusMath.h",
+      "normalizedTextOrBinarySha256": "ce78b2fcf2a50b89d4af9f6bf59a47593e636c5c060817a80b4dcfd99e2c96da"
+    },
+    {
+      "path": "f4se/PapyrusMiscObject.cpp",
+      "normalizedTextOrBinarySha256": "981bc1d2fd3a8855de1baacc317b19894ee2bb4586384f2c64afc689a416b348"
+    },
+    {
+      "path": "f4se/PapyrusMiscObject.h",
+      "normalizedTextOrBinarySha256": "2e887d204a74c3585203c3747f26ae0516c164abf8ab5353e467ed516d0655f5"
+    },
+    {
+      "path": "f4se/PapyrusNativeFunctionDef.inl",
+      "normalizedTextOrBinarySha256": "3e428820843486a5c74f64555e6f7a9bc82785df21efd2c45eeb0252b98d0d87"
+    },
+    {
+      "path": "f4se/PapyrusNativeFunctionDef_Base.inl",
+      "normalizedTextOrBinarySha256": "5f4e90c6c17fa6d1ed143a99891dc1a1c7501eea65236d03033fa5d9803337fc"
+    },
+    {
+      "path": "f4se/PapyrusNativeFunctions.cpp",
+      "normalizedTextOrBinarySha256": "0cc43b2c8c614388f50e778874bf928ef7f7925057cc3706143b128662e2af7e"
+    },
+    {
+      "path": "f4se/PapyrusNativeFunctions.h",
+      "normalizedTextOrBinarySha256": "9ddb677cd2677c5547dd84c64e89f1f51c780a94c615a7789880d68471bdebe5"
+    },
+    {
+      "path": "f4se/PapyrusObjectMod.cpp",
+      "normalizedTextOrBinarySha256": "4192cc337be0b03e72151787adfcdb3d39a245518981d515fa6ea8e656a6bb1d"
+    },
+    {
+      "path": "f4se/PapyrusObjectMod.h",
+      "normalizedTextOrBinarySha256": "5020a4b40a1c50571b8dc5cd75409d3d67ee0d7f336f0597ef92fe96992909c1"
+    },
+    {
+      "path": "f4se/PapyrusObjectReference.cpp",
+      "normalizedTextOrBinarySha256": "065232653498878563b651c801e9f05a2c14cc5d7bdf0efa5278fd27b7aab00f"
+    },
+    {
+      "path": "f4se/PapyrusObjectReference.h",
+      "normalizedTextOrBinarySha256": "cb6aa6f3ece418c4cb2c417ef3f28295443e8eee1cec71a066708ecaf7a8d983"
+    },
+    {
+      "path": "f4se/PapyrusObjects.cpp",
+      "normalizedTextOrBinarySha256": "216ec1424e8dd9df963a06137f9876f0159684144f838af5577a8524b81994aa"
+    },
+    {
+      "path": "f4se/PapyrusObjects.h",
+      "normalizedTextOrBinarySha256": "7cca7e7e605c133d88573770c72bbee864c232f1360727ca46ed5c4ad65657b3"
+    },
+    {
+      "path": "f4se/PapyrusPerk.cpp",
+      "normalizedTextOrBinarySha256": "1abb19e984cbf86bcf8b713779b0cb7e275afa22d131438b39df9a50fe9220e0"
+    },
+    {
+      "path": "f4se/PapyrusPerk.h",
+      "normalizedTextOrBinarySha256": "25fc65cf99cc1b39244ce56e643ef4e70efe861faded1c4defdc57bca2ad165c"
+    },
+    {
+      "path": "f4se/PapyrusScaleformAdapter.cpp",
+      "normalizedTextOrBinarySha256": "331e21cea4a7ce145d19d35d9a313d78693383f61fb7a496f3cdd35cb2de82f7"
+    },
+    {
+      "path": "f4se/PapyrusScaleformAdapter.h",
+      "normalizedTextOrBinarySha256": "2d191e6c787169a015fd0092f05dc73bf5b0dfdbd5e44cbcb98361b033e6daaf"
+    },
+    {
+      "path": "f4se/PapyrusScriptObject.cpp",
+      "normalizedTextOrBinarySha256": "260cf8c17bb8ff9a5941c539918843fb52d0f1823ae931feb6f4b5b73a4c5595"
+    },
+    {
+      "path": "f4se/PapyrusScriptObject.h",
+      "normalizedTextOrBinarySha256": "55d98fb6639205e2ea9c2be8a3fca799ec0c4602b2fd8d5d27e7b6d1f5d35e9b"
+    },
+    {
+      "path": "f4se/PapyrusSerialization.cpp",
+      "normalizedTextOrBinarySha256": "315d026abacb2c00aabc7db07338cc88c73d6c7ec67ed05560f2817d159ad450"
+    },
+    {
+      "path": "f4se/PapyrusSerialization.h",
+      "normalizedTextOrBinarySha256": "cb26c365973337ec963b588bb746a1f075959623e6e247b01434fafa3a4d7fa6"
+    },
+    {
+      "path": "f4se/PapyrusStruct.cpp",
+      "normalizedTextOrBinarySha256": "74d865f3e92e1f8798128344a3027de906f794c57e11a741067ddcdefc9b9260"
+    },
+    {
+      "path": "f4se/PapyrusStruct.h",
+      "normalizedTextOrBinarySha256": "5212b8f6dd508df627652114975f2bc68f1d60796de2dbe292571ea8b148e8d7"
+    },
+    {
+      "path": "f4se/PapyrusUI.cpp",
+      "normalizedTextOrBinarySha256": "5c63aa4fcaeee41d23294ff0312896d2a5bd55a274c9fa55812691656d09d331"
+    },
+    {
+      "path": "f4se/PapyrusUI.h",
+      "normalizedTextOrBinarySha256": "3f4947f8fa4383ef52e9f2c61b4587ea45370e5536c6b66f12d575ec000a1790"
+    },
+    {
+      "path": "f4se/PapyrusUtilities.cpp",
+      "normalizedTextOrBinarySha256": "108fc2ac6c87c821cb91aba5c5e8e1924e79936543ca7349ae41eb88ba61c7b5"
+    },
+    {
+      "path": "f4se/PapyrusUtilities.h",
+      "normalizedTextOrBinarySha256": "b6a188ebcf3fb33cdc307e0247b3c1fd6f182c67a4cb857a3b6a3f3b19b7707a"
+    },
+    {
+      "path": "f4se/PapyrusUtility.cpp",
+      "normalizedTextOrBinarySha256": "59c22162f06f337dcc92cb9a0688255d7f61692b322bd7e1f384c021c4ee9037"
+    },
+    {
+      "path": "f4se/PapyrusUtility.h",
+      "normalizedTextOrBinarySha256": "deb55bd603fd9725fd17c748df89287c9c7c02201a309c4b2bd607f2f3c3e86a"
+    },
+    {
+      "path": "f4se/PapyrusVM.cpp",
+      "normalizedTextOrBinarySha256": "e49e14f6c69539ee23cc906d3c2f44ed77ed2085efd693979a10fd7e63ac29ee"
+    },
+    {
+      "path": "f4se/PapyrusVM.h",
+      "normalizedTextOrBinarySha256": "842f3956d323270bc35520871808524dfc3d22d2d632fae4eda23092db286f70"
+    },
+    {
+      "path": "f4se/PapyrusValue.cpp",
+      "normalizedTextOrBinarySha256": "95f9de3b66b8950d1f49ee16e3f9628b6b2c90f197841f459382520f36fd34c7"
+    },
+    {
+      "path": "f4se/PapyrusValue.h",
+      "normalizedTextOrBinarySha256": "84e669b899fa5232b736f52173bac860aebea5f7cf1de0ae91ef5d495efb0e92"
+    },
+    {
+      "path": "f4se/PapyrusWaterType.cpp",
+      "normalizedTextOrBinarySha256": "190b35f07752d25694d39a7ff606ea888339a0b9a0b0dbaf466952653d642c54"
+    },
+    {
+      "path": "f4se/PapyrusWaterType.h",
+      "normalizedTextOrBinarySha256": "3e8e65ba79d0c2d30383143bb305201d5bd1e3f74385ec7697d5ec27533b3a77"
+    },
+    {
+      "path": "f4se/PapyrusWeapon.cpp",
+      "normalizedTextOrBinarySha256": "032c97b40b3c7bccedb3dac3aa9bbc72de695c43ce48831c41e63e868c0e03c4"
+    },
+    {
+      "path": "f4se/PapyrusWeapon.h",
+      "normalizedTextOrBinarySha256": "f7879acca619598e1bfa533350e8ba1295647ab38be0dc237573617f9651e0a4"
+    },
+    {
+      "path": "f4se/PluginAPI.h",
+      "normalizedTextOrBinarySha256": "23a17090b736cf069c0a39d0f320239a44d6f715670bab6cbd2f28d056230ac3"
+    },
+    {
+      "path": "f4se/PluginManager.cpp",
+      "normalizedTextOrBinarySha256": "f0abe05055766d545dd53b45d3bc12f11451351979aef2b14b63169db11fab27"
+    },
+    {
+      "path": "f4se/PluginManager.h",
+      "normalizedTextOrBinarySha256": "c85ce1e055b384edd4e22857278c167fa749574bc5e13fa1d572c6faae859a7c"
+    },
+    {
+      "path": "f4se/ScaleformAPI.cpp",
+      "normalizedTextOrBinarySha256": "f720aee2ca21d93d0670934411936babc22e754a7954777eb3db8725f11d0e56"
+    },
+    {
+      "path": "f4se/ScaleformAPI.h",
+      "normalizedTextOrBinarySha256": "43afdda78540dcd9f9be574dc08ce83568c7561d5798e54fa5fd294ad944759f"
+    },
+    {
+      "path": "f4se/ScaleformCallbacks.cpp",
+      "normalizedTextOrBinarySha256": "e719f6112429417a805f45622716be5f9ac5978793ff45a1d32cdbb34b93a81b"
+    },
+    {
+      "path": "f4se/ScaleformCallbacks.h",
+      "normalizedTextOrBinarySha256": "2e19cc5e09177db99ec3501c7ea86827e7deb690b7f57f2659f5e97b590873f9"
+    },
+    {
+      "path": "f4se/ScaleformLoader.cpp",
+      "normalizedTextOrBinarySha256": "475c9c66547e24f8c392a7fa738c6516212a01c878aa571ee2c3702c5706865d"
+    },
+    {
+      "path": "f4se/ScaleformLoader.h",
+      "normalizedTextOrBinarySha256": "b91c75a0f623e283a4c03be9d3729a940172c767a4a891c01b9eac4f07cbe703"
+    },
+    {
+      "path": "f4se/ScaleformMovie.cpp",
+      "normalizedTextOrBinarySha256": "2d2b65f2c31a1776f273c3e0d29280619a79375bbff76d2b28c4ce61fcc46d4b"
+    },
+    {
+      "path": "f4se/ScaleformMovie.h",
+      "normalizedTextOrBinarySha256": "744632629ac5fa0cc12471e3420913923a502507c82d03fc18660febf86faa9a"
+    },
+    {
+      "path": "f4se/ScaleformSerialization.cpp",
+      "normalizedTextOrBinarySha256": "145d70b7ece643e94fa2bc4969d1194b0d042e60b273f6e56a94ca31406ac19f"
+    },
+    {
+      "path": "f4se/ScaleformSerialization.h",
+      "normalizedTextOrBinarySha256": "3e2579851f47d9b520d7256ad5ee9398eba10f4b1044c65f91d86886cf259610"
+    },
+    {
+      "path": "f4se/ScaleformState.cpp",
+      "normalizedTextOrBinarySha256": "8fd444657668d19d659f88ccc887584487f46245fec6c93028467efbe4f34f7b"
+    },
+    {
+      "path": "f4se/ScaleformState.h",
+      "normalizedTextOrBinarySha256": "11c91f8a62b6902c1851fb3b7da5ec1b6ad5f25244232b2cdcb001200e37ba70"
+    },
+    {
+      "path": "f4se/ScaleformTranslator.cpp",
+      "normalizedTextOrBinarySha256": "4854fb1e5f6b9ce4d9ad12e0988b1d7ed06df7791300fd196457c2fad28b79ae"
+    },
+    {
+      "path": "f4se/ScaleformTranslator.h",
+      "normalizedTextOrBinarySha256": "db75372d2c30c62faefb372ec4131bc51061a56ef2330839fa255645dbc59988"
+    },
+    {
+      "path": "f4se/ScaleformTypes.cpp",
+      "normalizedTextOrBinarySha256": "210325eed58dfc309f835e3997a0bfe74c6802d42067889961bc1fb6a7ff0b63"
+    },
+    {
+      "path": "f4se/ScaleformTypes.h",
+      "normalizedTextOrBinarySha256": "15e2ba18c914c2883623039a6998db862faa6c12b7813da0383f4ad234cc27c5"
+    },
+    {
+      "path": "f4se/ScaleformValue.cpp",
+      "normalizedTextOrBinarySha256": "38e078359ebfdd54cc543b422ebef447c07bd0ea7eefa6f0a2cb209381cc85b6"
+    },
+    {
+      "path": "f4se/ScaleformValue.h",
+      "normalizedTextOrBinarySha256": "977c6cb1e51f9e8daf5340054f758372f4739eda6e032dfc357d3f35484b18eb"
+    },
+    {
+      "path": "f4se/Serialization.cpp",
+      "normalizedTextOrBinarySha256": "a18f6fece2b6249ab671a93b5ab5eaf37a22133c6331cb47793851422f125de8"
+    },
+    {
+      "path": "f4se/Serialization.h",
+      "normalizedTextOrBinarySha256": "5273322209ba59addf4edbd85e8ab7bf3d89eae7def6016263360701d29f8811"
+    },
+    {
+      "path": "f4se/Translation.cpp",
+      "normalizedTextOrBinarySha256": "246a52d3c8486f27a62673907d502cd175c50d7f535e365ef817784966446d78"
+    },
+    {
+      "path": "f4se/Translation.h",
+      "normalizedTextOrBinarySha256": "15e8ad79fe7767ae8360d76b53e649de713246cd549e4c7ec34af6436ba9215f"
+    },
+    {
+      "path": "f4se/bhkWorld.cpp",
+      "normalizedTextOrBinarySha256": "bf7c990930bfdcea0206373e78e716eb293e7e04950c348fea01b9b1c3253280"
+    },
+    {
+      "path": "f4se/bhkWorld.h",
+      "normalizedTextOrBinarySha256": "5737d3cefc358d63b33bd8ed72d83889c04dd3721ac42b75759f5b3aabf8a99b"
+    },
+    {
+      "path": "f4se/cmake/config.cmake.in",
+      "normalizedTextOrBinarySha256": "39d042b60b9874386cefd54c937e4d89557f83ad6183bf25569eec3b192c0a84"
+    },
+    {
+      "path": "f4se/cmake/headerlist.cmake",
+      "normalizedTextOrBinarySha256": "8a34d4c1c422cb94610fdb1bdf1fda4338e583d2370ae5f89265853e7c57c2a3"
+    },
+    {
+      "path": "f4se/cmake/sourcelist.cmake",
+      "normalizedTextOrBinarySha256": "c3ce739fbda5c38c97e7257b9bb03ff5def867680fca587113a87be365a7ba13"
+    },
+    {
+      "path": "f4se/exports.def",
+      "normalizedTextOrBinarySha256": "a3b40129bc8455f478bd2ec8d4be23c52dffaa67df17af55fc81e46be40d4ccc"
+    },
+    {
+      "path": "f4se/f4se.cpp",
+      "normalizedTextOrBinarySha256": "c1d446c1b70deedd79f680a7aa5e5e163dc45bbb463359bea0d6bde7d819b55f"
+    },
+    {
+      "path": "f4se/f4se.vcxproj",
+      "normalizedTextOrBinarySha256": "a40f1918bc1b992286d7ae874525de63bf42f01194b71ab6c7c0d9e48497e89e"
+    },
+    {
+      "path": "f4se/f4se.vcxproj.filters",
+      "normalizedTextOrBinarySha256": "4aa3ad4979e18819c29ec8d6a8c011fa838417fd26ed72fc5d7ab86de72228e4"
+    },
+    {
+      "path": "f4se_common/.gitignore",
+      "normalizedTextOrBinarySha256": "01abafe3698e84e649f8dc06faa3763c76fd84136ee6e87268cb8e61f46b14d8"
+    },
+    {
+      "path": "f4se_common/BranchTrampoline.cpp",
+      "normalizedTextOrBinarySha256": "8bf79288239296e8bc55618154d883793df09251751c114048035282642d9f1c"
+    },
+    {
+      "path": "f4se_common/BranchTrampoline.h",
+      "normalizedTextOrBinarySha256": "7b0c2446738f554869037aaaa411e162ac6193f6cd6a0533647d920f162477c1"
+    },
+    {
+      "path": "f4se_common/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "23e741bddb8ca5d7c35ac34db51ed1f77d720398c180e5c68da8582e51106573"
+    },
+    {
+      "path": "f4se_common/CoreInfo.h",
+      "normalizedTextOrBinarySha256": "1ad7759214c3c3a829a0ddfc0f2ac7720ae25ec03cf7cf301cab0b8fd34e1d14"
+    },
+    {
+      "path": "f4se_common/Relocation.cpp",
+      "normalizedTextOrBinarySha256": "06460157b14c750ee996e28d0bbb1bc53e73a83b97a9ab60998eace5d0cfb976"
+    },
+    {
+      "path": "f4se_common/Relocation.h",
+      "normalizedTextOrBinarySha256": "f343c20e9d8429a7f51e0db01352c2f15eebd97653587d96879cf4de12f499e5"
+    },
+    {
+      "path": "f4se_common/SafeWrite.cpp",
+      "normalizedTextOrBinarySha256": "ebc054299d7533a287ccc6ae83faefffadb3204ced404be3fc9744ac2273820d"
+    },
+    {
+      "path": "f4se_common/SafeWrite.h",
+      "normalizedTextOrBinarySha256": "5f2158966d7850aaf62eef0c1e30c674eeb488a66182f3323614b641424d0837"
+    },
+    {
+      "path": "f4se_common/Utilities.cpp",
+      "normalizedTextOrBinarySha256": "489cbb17bcc3a40b3f9f14e2f60a422543a77f62c2fb056e39503f0322c53f39"
+    },
+    {
+      "path": "f4se_common/Utilities.h",
+      "normalizedTextOrBinarySha256": "001a92e6a84cacb43adb445df5b1822d1ccf8d8f5351c224d5b78f2b5a0bf76a"
+    },
+    {
+      "path": "f4se_common/cmake/config.cmake.in",
+      "normalizedTextOrBinarySha256": "39d042b60b9874386cefd54c937e4d89557f83ad6183bf25569eec3b192c0a84"
+    },
+    {
+      "path": "f4se_common/cmake/headerlist.cmake",
+      "normalizedTextOrBinarySha256": "9caa736d23b8af87da6e87a3c545236012d52ca74269f8959591968995e201be"
+    },
+    {
+      "path": "f4se_common/cmake/sourcelist.cmake",
+      "normalizedTextOrBinarySha256": "d54946feebcd90467173b960ca860017d82fade995876549baed1509711ad824"
+    },
+    {
+      "path": "f4se_common/f4se_common.vcxproj",
+      "normalizedTextOrBinarySha256": "d2a01dad6eb5bf520895763b9b04419dd010e6e5afe7d721ee45030e510fa681"
+    },
+    {
+      "path": "f4se_common/f4se_common.vcxproj.filters",
+      "normalizedTextOrBinarySha256": "32349f5b506b15a2b258dea30e10255b26c4b13b81fac322503022826e523c78"
+    },
+    {
+      "path": "f4se_common/f4se_version.h",
+      "normalizedTextOrBinarySha256": "d138ef83dc93500f30a3e64407ffc80825b993bc3e7353bb630634ec4c992ffa"
+    },
+    {
+      "path": "f4se_common/f4se_version.rc",
+      "normalizedTextOrBinarySha256": "c2d6eb03f0b929caec5fd4798124a8b8f06345d5863da47d4c0a050516df1815"
+    },
+    {
+      "path": "f4se_loader/.gitignore",
+      "normalizedTextOrBinarySha256": "01abafe3698e84e649f8dc06faa3763c76fd84136ee6e87268cb8e61f46b14d8"
+    },
+    {
+      "path": "f4se_loader/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "46cbd1b925e78c76bb1a1e12a83a703d9dc0e0b556e2af98e6b92198f953455b"
+    },
+    {
+      "path": "f4se_loader/Options.cpp",
+      "normalizedTextOrBinarySha256": "6758f3383e60687041a4080b8d685dff5ec69d2742887a37042e492d2b95528c"
+    },
+    {
+      "path": "f4se_loader/Options.h",
+      "normalizedTextOrBinarySha256": "c7186c8546e3205d7cd0f2b4ec968599e60090643ef07a9672eb0cb6486b74fc"
+    },
+    {
+      "path": "f4se_loader/SigCheck.cpp",
+      "normalizedTextOrBinarySha256": "eebe7205ba7ac347708e95353ec0c758ce7f66bb991848e91c2aaf6f080d7a84"
+    },
+    {
+      "path": "f4se_loader/SigCheck.h",
+      "normalizedTextOrBinarySha256": "195d832be83d302471243f14ab9ffb1df8dd247f833cc77e1b8c02934afd83aa"
+    },
+    {
+      "path": "f4se_loader/cmake/headerlist.cmake",
+      "normalizedTextOrBinarySha256": "5ce4c0a8341afcdcbadceb0cb62fb9e306d3b6c2b0eaa6aaca55107b6a282649"
+    },
+    {
+      "path": "f4se_loader/cmake/sourcelist.cmake",
+      "normalizedTextOrBinarySha256": "f2912aa3a3c5ab0fdf8a2eb9f3bb5525ed41c9f8dbefe54869c9e1fdc611804a"
+    },
+    {
+      "path": "f4se_loader/f4se_loader.vcxproj",
+      "normalizedTextOrBinarySha256": "0e4a71d929ecf45c38641e816cff0369a4b53d37ef19c8c1b023219b9ca57cdf"
+    },
+    {
+      "path": "f4se_loader/f4se_loader.vcxproj.filters",
+      "normalizedTextOrBinarySha256": "df809df261b5c3274284014110354fd6dbde1e8f22c7b9d75a9960959cb6313c"
+    },
+    {
+      "path": "f4se_loader/main.cpp",
+      "normalizedTextOrBinarySha256": "61b4a0e146f1f7b9a67a65aceb2021aba674ae7191e5536b5292b6626ddf990e"
+    },
+    {
+      "path": "f4se_loader_common/.gitignore",
+      "normalizedTextOrBinarySha256": "01abafe3698e84e649f8dc06faa3763c76fd84136ee6e87268cb8e61f46b14d8"
+    },
+    {
+      "path": "f4se_loader_common/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "f8f4678fef7840cf2b6c31fa55e0ffc6e4756b1f9195d675aae2411d8699ce46"
+    },
+    {
+      "path": "f4se_loader_common/IdentifyEXE.cpp",
+      "normalizedTextOrBinarySha256": "3cc66ea105cfae0e6ebe8b42e6f07881275528ce217cc089b1840ef5558ef53f"
+    },
+    {
+      "path": "f4se_loader_common/IdentifyEXE.h",
+      "normalizedTextOrBinarySha256": "d921f8603905ee45d05bd025f1b386c5b6d0a5f7702da4a522f26313ef982354"
+    },
+    {
+      "path": "f4se_loader_common/Inject.cpp",
+      "normalizedTextOrBinarySha256": "3db88d14d5ca5356db87fad6295c1297c38690685d7f48748fc31e7808c1842f"
+    },
+    {
+      "path": "f4se_loader_common/Inject.h",
+      "normalizedTextOrBinarySha256": "625ce1c643ff855928651035a2937f7be89fb802277cda2abbea71774eab04d7"
+    },
+    {
+      "path": "f4se_loader_common/LoaderError.cpp",
+      "normalizedTextOrBinarySha256": "3c0b88a3a972332e690d88574a046f1344e0c0b76a8fcde48bd90601c730a0d4"
+    },
+    {
+      "path": "f4se_loader_common/LoaderError.h",
+      "normalizedTextOrBinarySha256": "ade0e1b0a8d1bda0eb04f56aa85e00c5b89fde047d1566fbbec5ad87bc88c9b5"
+    },
+    {
+      "path": "f4se_loader_common/Steam.cpp",
+      "normalizedTextOrBinarySha256": "cb54a5f36b2bcd1c2de841aeae23b180ca55fee2147933e3791494582758ebfc"
+    },
+    {
+      "path": "f4se_loader_common/Steam.h",
+      "normalizedTextOrBinarySha256": "6482bd849d5ceeadc281cf625b30b288a3ebd8037750f9780355b4428d1bd653"
+    },
+    {
+      "path": "f4se_loader_common/cmake/config.cmake.in",
+      "normalizedTextOrBinarySha256": "39d042b60b9874386cefd54c937e4d89557f83ad6183bf25569eec3b192c0a84"
+    },
+    {
+      "path": "f4se_loader_common/cmake/headerlist.cmake",
+      "normalizedTextOrBinarySha256": "f23c4e75168970a26ab95644dab58b70c654bea5e10c20fb0f33ee07ebccb04f"
+    },
+    {
+      "path": "f4se_loader_common/cmake/sourcelist.cmake",
+      "normalizedTextOrBinarySha256": "6c93ef3ba842a82279fc41f4ecc727de1dd3984d14e49cdecb8a8bf4c32ad4aa"
+    },
+    {
+      "path": "f4se_loader_common/f4se_loader_common.vcxproj",
+      "normalizedTextOrBinarySha256": "d417b8c7edb2896548176f32c001090c7a59c158216e80ae307bdd852bdc2236"
+    },
+    {
+      "path": "f4se_loader_common/f4se_loader_common.vcxproj.filters",
+      "normalizedTextOrBinarySha256": "c684c59307c14103a8c0043650d3839ca5bf519df6f204bfb2f6ba5574116928"
+    },
+    {
+      "path": "f4se_readme.txt",
+      "normalizedTextOrBinarySha256": "a95df062c555eb33253428d495759e0b3fb1f243c31e2c73cc50cc12b25a72c3"
+    },
+    {
+      "path": "f4se_steam_loader/.gitignore",
+      "normalizedTextOrBinarySha256": "01abafe3698e84e649f8dc06faa3763c76fd84136ee6e87268cb8e61f46b14d8"
+    },
+    {
+      "path": "f4se_steam_loader/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "8e8efc0a58e3a814c3d0e26d1e49b63a9790e342161ca7df8b8e5de17dd0a579"
+    },
+    {
+      "path": "f4se_steam_loader/cmake/headerlist.cmake",
+      "normalizedTextOrBinarySha256": "e934da9344a4e88e1b793f28877d13f638b7051f2f550fced544102eb9b6e00b"
+    },
+    {
+      "path": "f4se_steam_loader/cmake/sourcelist.cmake",
+      "normalizedTextOrBinarySha256": "f0d5ccec51eab364a4beda9f717b326b16f67e426b5f0d7421e34df9a194697b"
+    },
+    {
+      "path": "f4se_steam_loader/f4se_steam_loader.vcxproj",
+      "normalizedTextOrBinarySha256": "da368f6e66e9c927ec37223ecc5c565272242efed59d40c55273d07ac448452b"
+    },
+    {
+      "path": "f4se_steam_loader/f4se_steam_loader.vcxproj.filters",
+      "normalizedTextOrBinarySha256": "3902f728763139e57af21027000d4bc94cb8c77ab696df4719a48a43648f0996"
+    },
+    {
+      "path": "f4se_steam_loader/main.cpp",
+      "normalizedTextOrBinarySha256": "5adf259959a0d1778d53d3fdbc90f33b9f981cd15ecae3b287ec92898cdb60f9"
+    },
+    {
+      "path": "f4se_whatsnew.txt",
+      "normalizedTextOrBinarySha256": "6cc3378e99c4f750366943d54bf2c5fd2aab819e40b7546aec4d8ee658ef9dd7"
+    },
+    {
+      "path": "installer/License.txt",
+      "normalizedTextOrBinarySha256": "1da9072633b5e4291608b205a664d5af83cb2c5a1042f8d34e4ef21b3dd504f6"
+    },
+    {
+      "path": "installer/f4se.nsi",
+      "normalizedTextOrBinarySha256": "88363a0f7b7066ba02cb359be456e43cae25ea14b9f2ba6dc8590f41d04e0ab2"
+    },
+    {
+      "path": "scripts/F4SE.ppj",
+      "normalizedTextOrBinarySha256": "c0baebb88917e74cc62e59d3c592aa276a3f10497deb5b8827027fe0fff279e1"
+    },
+    {
+      "path": "scripts/build_multithread.py",
+      "normalizedTextOrBinarySha256": "a320f9c329c76f5802746e1a0aceca7778b30377bdbdbf0d0dbbdd0684353208"
+    },
+    {
+      "path": "scripts/generate_cmake.py",
+      "normalizedTextOrBinarySha256": "284896dcdae1ff3131434085f5e6900846f3af23fb11ec6b148a1000ec04009e"
+    },
+    {
+      "path": "scripts/modified/Actor.psc",
+      "normalizedTextOrBinarySha256": "1b904ebc3a94f3810a954bdafa10aa1686dfebe504cef93239470dd9bf662ae7"
+    },
+    {
+      "path": "scripts/modified/ActorBase.psc",
+      "normalizedTextOrBinarySha256": "5727114a00b163bea7c313fff318c4e9d8fde26a2e9d1d658e4be89ff27c2f15"
+    },
+    {
+      "path": "scripts/modified/Armor.psc",
+      "normalizedTextOrBinarySha256": "27759bd4fe9be6b3b684719fc4b78de5e62a32e1323fc297c7bf28e577012e54"
+    },
+    {
+      "path": "scripts/modified/ArmorAddon.psc",
+      "normalizedTextOrBinarySha256": "dadd749da6cdbb0ecfd4a74f06118a1d4f2240f2d5f0e63e72ba1f1ea8c35a7c"
+    },
+    {
+      "path": "scripts/modified/Cell.psc",
+      "normalizedTextOrBinarySha256": "5b5f662d485e9e7dd40f01e1e528e71264bc1e36181cd9410302b740ab73cfb1"
+    },
+    {
+      "path": "scripts/modified/Component.psc",
+      "normalizedTextOrBinarySha256": "02c86f7a36b216813e1dbf1fb019fe83c4fb208f8a2a93c09c7de7df8a212086"
+    },
+    {
+      "path": "scripts/modified/ConstructibleObject.psc",
+      "normalizedTextOrBinarySha256": "1fbf93945f2d5a98bdd59cddc052ce1342cd3daa68b9da149d00e8bd0947b045"
+    },
+    {
+      "path": "scripts/modified/DefaultObject.psc",
+      "normalizedTextOrBinarySha256": "64b709a74b26c4abd14dfb78f00f69170b0c5cca8db4ccf4d29d18e8c0c02440"
+    },
+    {
+      "path": "scripts/modified/EncounterZone.psc",
+      "normalizedTextOrBinarySha256": "517bb11227d623a702e61fccd45554b13c705b582f1b84934a4ca522b4c5cadf"
+    },
+    {
+      "path": "scripts/modified/EquipSlot.psc",
+      "normalizedTextOrBinarySha256": "dedd0c7edf7c56fd25006b7f238f8e965510e152223b269d07e106e5567d8cf1"
+    },
+    {
+      "path": "scripts/modified/F4SE.psc",
+      "normalizedTextOrBinarySha256": "da7811128305a5a9aa0109cdfb81f7aa4e2265de0c4b472a11992605224d84ad"
+    },
+    {
+      "path": "scripts/modified/FavoritesManager.psc",
+      "normalizedTextOrBinarySha256": "8f70328c7b31bb53938595fc996dd3866fb50398d0cc92117dc6c69fca54ee13"
+    },
+    {
+      "path": "scripts/modified/Form.psc",
+      "normalizedTextOrBinarySha256": "e9034a9201a1a4b5b3b06d779b92721949d09dde79492fc2b11ced784de20d55"
+    },
+    {
+      "path": "scripts/modified/Game.psc",
+      "normalizedTextOrBinarySha256": "2de1402b68b09f958844867b734a77600974b372252508119c34d945526d4b25"
+    },
+    {
+      "path": "scripts/modified/HeadPart.psc",
+      "normalizedTextOrBinarySha256": "f4deaf8cd88a53604beacef1bf9e70651c3675d74135338bdf945b60ff5a7be6"
+    },
+    {
+      "path": "scripts/modified/Input.psc",
+      "normalizedTextOrBinarySha256": "2039671c65bdecc20d5d3013cccf56d3f80dc46c8f6a4452c9ea7724bd61f24c"
+    },
+    {
+      "path": "scripts/modified/InstanceData.psc",
+      "normalizedTextOrBinarySha256": "b412b0f0a4947955a5d78d0560d3fa5b0494821542de8e9914f51e298689026e"
+    },
+    {
+      "path": "scripts/modified/Location.psc",
+      "normalizedTextOrBinarySha256": "a504b50941da05ec474d7960bc341f343a1f8f5e445e41d520a806b6efdf0dea"
+    },
+    {
+      "path": "scripts/modified/MatSwap.psc",
+      "normalizedTextOrBinarySha256": "f21214456a5b0db26502b86cc8a6f8ff8705d04fa29c3967cd3e72bb86774d6e"
+    },
+    {
+      "path": "scripts/modified/Math.psc",
+      "normalizedTextOrBinarySha256": "8cdd41cc104659158f153603dcf53b0bd8637c5c7f1949923f297e2a1f25d757"
+    },
+    {
+      "path": "scripts/modified/MiscObject.psc",
+      "normalizedTextOrBinarySha256": "6a0aa7fc43c5059fe47a134a3e133694195eb4b371ea7650936957dedfe12946"
+    },
+    {
+      "path": "scripts/modified/ObjectMod.psc",
+      "normalizedTextOrBinarySha256": "c56f1bfa082f71893f181997a3a45f021a831e9df64dbc2b0cd0ffe2d223ee56"
+    },
+    {
+      "path": "scripts/modified/ObjectReference.psc",
+      "normalizedTextOrBinarySha256": "9987dc98f18c4c6d345d619cc55805ad912ced966bea3d51e33a4dd515d090e7"
+    },
+    {
+      "path": "scripts/modified/Perk.psc",
+      "normalizedTextOrBinarySha256": "99ec2584d8d90469c5ed428debebbbfade2a4fdcdba5dfd9e89ca40c77be0696"
+    },
+    {
+      "path": "scripts/modified/ScriptObject.psc",
+      "normalizedTextOrBinarySha256": "3c5f00fad352182781dcdde244a04b159461c6575a48cd85b3a6c966552334c8"
+    },
+    {
+      "path": "scripts/modified/UI.psc",
+      "normalizedTextOrBinarySha256": "2bb74e92ca4a44a1dab26a72260283c31502cef84151d220c557fb31557a18fb"
+    },
+    {
+      "path": "scripts/modified/Utility.psc",
+      "normalizedTextOrBinarySha256": "3c972b6aa52cb9605044cb83c7501bb506de1d2898a4e578d913580a5f064703"
+    },
+    {
+      "path": "scripts/modified/WaterType.psc",
+      "normalizedTextOrBinarySha256": "38400245db7424bce4e32730f4490dc633d678c945464d0e03fdbfdfc1605e4e"
+    },
+    {
+      "path": "scripts/modified/Weapon.psc",
+      "normalizedTextOrBinarySha256": "59edf5d176f1b87513464ca6267588d4c5742aa6da99ba015583c4698cbb419a"
+    },
+    {
+      "path": "scripts/sanitize.py",
+      "normalizedTextOrBinarySha256": "48c9d26fe0d1d096ee7e6833d2bb19dca66ecb0844795647a4dd2eb7324ba46c"
+    },
+    {
+      "path": "scripts/update_scripts.py",
+      "normalizedTextOrBinarySha256": "ad7d6cde6a9d4ffc505f5ee3c095527f859e7aa2176423809b26831bc48b9d48"
+    },
+    {
+      "path": "scripts/vanilla/AOScript.psc",
+      "normalizedTextOrBinarySha256": "e8ea00eed5e2399a6ba2e909cf065dae9a283e8c79500a15739eb2359148aeb0"
+    },
+    {
+      "path": "scripts/vanilla/Action.psc",
+      "normalizedTextOrBinarySha256": "6d3f45f752eb5077af51c3fabd493a761bb3baaad0540eafcbf2b8706cc9091f"
+    },
+    {
+      "path": "scripts/vanilla/Activator.psc",
+      "normalizedTextOrBinarySha256": "705c0e8e307da9bda2cff40a23635e28f8be12a703f0251276c6e22463e8f9e6"
+    },
+    {
+      "path": "scripts/vanilla/ActiveMagicEffect.psc",
+      "normalizedTextOrBinarySha256": "ce8634cb6e0489b65e40237d01e8a72bfdb89a72ddcb79fec019b7d298b8b866"
+    },
+    {
+      "path": "scripts/vanilla/Actor.psc",
+      "normalizedTextOrBinarySha256": "9127bf30f2770df3e5cbf45627e53a4470b14a01c8809f1f95d437e68b584910"
+    },
+    {
+      "path": "scripts/vanilla/ActorBase.psc",
+      "normalizedTextOrBinarySha256": "d1bc5267263ba6f49d8569bbbd9965ddc3d8988213c338fe4aaa6a42b0de1fdb"
+    },
+    {
+      "path": "scripts/vanilla/ActorValue.psc",
+      "normalizedTextOrBinarySha256": "b2c9f6f84936139a8694e576c5f797ab4bb6d85b2b370e561fe60f440b22e6df"
+    },
+    {
+      "path": "scripts/vanilla/Alias.psc",
+      "normalizedTextOrBinarySha256": "9c3c2d3b64744940df0fc438a6a21eb73136b011205d3d2f58647e90f2467312"
+    },
+    {
+      "path": "scripts/vanilla/Ammo.psc",
+      "normalizedTextOrBinarySha256": "5e02ed2c4ded315d0b7880fc06194b932d6c9b1ffc0efccba899949f292c8aac"
+    },
+    {
+      "path": "scripts/vanilla/Armor.psc",
+      "normalizedTextOrBinarySha256": "d7a8c188ed567d5811c86cae00f95f39bb3b3c482845375b78340b9283b18e02"
+    },
+    {
+      "path": "scripts/vanilla/AssociationType.psc",
+      "normalizedTextOrBinarySha256": "0e9d4984bdd19b2d810167954e9724fd257fb74ef186ea9006ae8cd1fb7f9535"
+    },
+    {
+      "path": "scripts/vanilla/Book.psc",
+      "normalizedTextOrBinarySha256": "371312481d0f69d7e37d92c0c504391c995667769091bfe488fc60daba9e471b"
+    },
+    {
+      "path": "scripts/vanilla/CameraShot.psc",
+      "normalizedTextOrBinarySha256": "4cc52662c2ef6571db950d5da2b7bdf271834914c868b3682709eef633345030"
+    },
+    {
+      "path": "scripts/vanilla/Cell.psc",
+      "normalizedTextOrBinarySha256": "5a91cc97062754e13f61190ac7b3119d1ddd0a86f647aab3b29c9611fd245215"
+    },
+    {
+      "path": "scripts/vanilla/Class.psc",
+      "normalizedTextOrBinarySha256": "e7fcf8d4eb2ef2398387446a7566d7321e655499503178ad407ce76ade0b0cf8"
+    },
+    {
+      "path": "scripts/vanilla/CombatStyle.psc",
+      "normalizedTextOrBinarySha256": "296630f28f2ddf02f439048bba3d0da3014c64332738c35cc30fc4eb512c3cde"
+    },
+    {
+      "path": "scripts/vanilla/CommonArrayFunctions.psc",
+      "normalizedTextOrBinarySha256": "69574c0a18b680c5c68bedcb38fcd19c38472775bed43365ef1fe96c87ab73d9"
+    },
+    {
+      "path": "scripts/vanilla/CommonPropertiesScript.psc",
+      "normalizedTextOrBinarySha256": "392bb5941e7419e352ed8f312c5db7b438d4248f3625da619deb0046ed32f66d"
+    },
+    {
+      "path": "scripts/vanilla/CompanionActorScript.psc",
+      "normalizedTextOrBinarySha256": "8196df5c4966a2a92edf4750ee6fb90195048bfc5168efe17751ff89c3198215"
+    },
+    {
+      "path": "scripts/vanilla/Component.psc",
+      "normalizedTextOrBinarySha256": "90295a291ab5283ecf49f447aebc08f599d707f5f5219e0ea7ddc2eb7f082c26"
+    },
+    {
+      "path": "scripts/vanilla/ConstructibleObject.psc",
+      "normalizedTextOrBinarySha256": "1e9da266020ccc12146d50f888f1b36294fcbf6abadf9b1419fb5c8e4cb7a0ae"
+    },
+    {
+      "path": "scripts/vanilla/Container.psc",
+      "normalizedTextOrBinarySha256": "7e581f13cb0d823adff4430942947a9f54af711a56a524f368403b55447a5f40"
+    },
+    {
+      "path": "scripts/vanilla/Debug.psc",
+      "normalizedTextOrBinarySha256": "9d2535aa874ddc4ef6803dd1dd8bd83a56b9025a42930e286b77fcd264ae1ef4"
+    },
+    {
+      "path": "scripts/vanilla/DogmeatActorScript.psc",
+      "normalizedTextOrBinarySha256": "a37d61717952c3720ca782ca63be917a4da52e6e94672a13ca6026838856cad6"
+    },
+    {
+      "path": "scripts/vanilla/DogmeatIdles.psc",
+      "normalizedTextOrBinarySha256": "2bc36aa1800000a2dd81e24fec81443e7435526d99de400c26fcac125117eb36"
+    },
+    {
+      "path": "scripts/vanilla/Door.psc",
+      "normalizedTextOrBinarySha256": "caf0f530c4c3d9e2f036a758b823e6aaa53c35cf342d5de59cabee20b9e615eb"
+    },
+    {
+      "path": "scripts/vanilla/EffectShader.psc",
+      "normalizedTextOrBinarySha256": "1f8a34ea3ac74665f9ccaa5f7837bdfe59706ace326b23b6ac1467ec5a2ad867"
+    },
+    {
+      "path": "scripts/vanilla/Enchantment.psc",
+      "normalizedTextOrBinarySha256": "fd64dcc2d5940078260ad7c3f823bb38174c38729db5648475ea4f8711ebdfbb"
+    },
+    {
+      "path": "scripts/vanilla/EncounterZone.psc",
+      "normalizedTextOrBinarySha256": "6a7456355da77f73e5b00dd40e085ac43cca46182cac30187c559f13263a00c0"
+    },
+    {
+      "path": "scripts/vanilla/Explosion.psc",
+      "normalizedTextOrBinarySha256": "19fb9e732ccacfd1c69bcfb6f9c5e26e07e1d5320ad025d76530d3d44c91f75d"
+    },
+    {
+      "path": "scripts/vanilla/Faction.psc",
+      "normalizedTextOrBinarySha256": "84f860bce096577673b233396bf5c962d499fda83fcc614eb166e2dfebcfb538"
+    },
+    {
+      "path": "scripts/vanilla/Flora.psc",
+      "normalizedTextOrBinarySha256": "1fd486fe4a1abe2c207f7c2af140eaa5684c3c29cb0786379d309958faf962db"
+    },
+    {
+      "path": "scripts/vanilla/FollowersScript.psc",
+      "normalizedTextOrBinarySha256": "ca69674459c146e39bb3d1d437226d9039aad9edcc31ab5b5005a0f703da039d"
+    },
+    {
+      "path": "scripts/vanilla/Form.psc",
+      "normalizedTextOrBinarySha256": "8ab32776efaf9363b71ca7409a135770f34d55802e2d1203569893c6fc5583af"
+    },
+    {
+      "path": "scripts/vanilla/FormList.psc",
+      "normalizedTextOrBinarySha256": "372c1bc06443ca64510fa05264270d5984cc7acd909e86c73f26ddea4e46e546"
+    },
+    {
+      "path": "scripts/vanilla/Furniture.psc",
+      "normalizedTextOrBinarySha256": "94e7a1821e151f874c0959a166fe6db6793e8f517c015ffd99a5d17c4dca7881"
+    },
+    {
+      "path": "scripts/vanilla/Game.psc",
+      "normalizedTextOrBinarySha256": "7c389119360796e9fea825b9409507bea6b5bc20bb834d36185e66f02a70cac0"
+    },
+    {
+      "path": "scripts/vanilla/GlobalVariable.psc",
+      "normalizedTextOrBinarySha256": "294ae52168803d3d9a06817e8eecb46c24494021fa5353becd8d50ac122b9a64"
+    },
+    {
+      "path": "scripts/vanilla/Hazard.psc",
+      "normalizedTextOrBinarySha256": "c093c84fda5f208d370bbf270d56997316637808d9fee677d813762b1fb820e3"
+    },
+    {
+      "path": "scripts/vanilla/HeadPart.psc",
+      "normalizedTextOrBinarySha256": "bfa418f6afc8a1a1a374a3fc88280d4a4da48e811227c47f0b5cd2a836900349"
+    },
+    {
+      "path": "scripts/vanilla/Holotape.psc",
+      "normalizedTextOrBinarySha256": "aa1f3be82eb675ddf922cf9f7fff43c6d829976c93b6870bf68c412a6cc47623"
+    },
+    {
+      "path": "scripts/vanilla/Idle.psc",
+      "normalizedTextOrBinarySha256": "e0b9437273be36521249119f105457038d4e437d9f9e451e9e128c3c94ec4f2c"
+    },
+    {
+      "path": "scripts/vanilla/ImageSpaceModifier.psc",
+      "normalizedTextOrBinarySha256": "45baf0cf78ae2e8c18c6af68a481b9b101695c26c18ca65e5c6688a2d78a79a8"
+    },
+    {
+      "path": "scripts/vanilla/ImpactDataSet.psc",
+      "normalizedTextOrBinarySha256": "327b1d3fd25e6e145165a0cff10fbba96a8380c1e38dcb123d9ec146448cc1ec"
+    },
+    {
+      "path": "scripts/vanilla/Ingredient.psc",
+      "normalizedTextOrBinarySha256": "1dd9a6acb2de27bea4608edfa576b7e61c2be86843f907ca871d10991f58d8ee"
+    },
+    {
+      "path": "scripts/vanilla/InputEnableLayer.psc",
+      "normalizedTextOrBinarySha256": "d4e07f7623079d77e036909d5eecea89f2934cd8fb6ad0cd09adcd8143f7a23a"
+    },
+    {
+      "path": "scripts/vanilla/InstanceNamingRules.psc",
+      "normalizedTextOrBinarySha256": "e88599b44b633fa0f5ab625aa75c7517d8a3e6ee77b11262cc71650ab1dc2cec"
+    },
+    {
+      "path": "scripts/vanilla/Institute_Papyrus_Flags.flg",
+      "normalizedTextOrBinarySha256": "44cfec813f4c64e2bd4cd24f318a2c374a52c9d2341f6709c317078045dff65d"
+    },
+    {
+      "path": "scripts/vanilla/Key.psc",
+      "normalizedTextOrBinarySha256": "6c80321425bd7826178b2301a9af9208e2809179f6d8343e1491ece4ebce0385"
+    },
+    {
+      "path": "scripts/vanilla/Keyword.psc",
+      "normalizedTextOrBinarySha256": "3097b9db7184ed6278926c8de692fd242d5cfce1402d75fef24a1109d7fd3a5d"
+    },
+    {
+      "path": "scripts/vanilla/LeveledActor.psc",
+      "normalizedTextOrBinarySha256": "4f02e59c922a8517c982dda69f8b5b8ccb53863d491deac24f4429c7a659296d"
+    },
+    {
+      "path": "scripts/vanilla/LeveledItem.psc",
+      "normalizedTextOrBinarySha256": "0c8fbd2f63c8f566d26c931e20469dbd658720ce94b3e0dbeb272facf0e2d44e"
+    },
+    {
+      "path": "scripts/vanilla/LeveledSpell.psc",
+      "normalizedTextOrBinarySha256": "9211e2a060c57355f79e7437f5e95b9f8ca7c9c74e69cc8397995dd36fe27900"
+    },
+    {
+      "path": "scripts/vanilla/Light.psc",
+      "normalizedTextOrBinarySha256": "f8a71992223a383090594c117a71a6e67217eb990e49e27236e1c257de0a7c99"
+    },
+    {
+      "path": "scripts/vanilla/Location.psc",
+      "normalizedTextOrBinarySha256": "b2f9958b663d5a28b282785a3932aa2eb672da68ee6394ebd0eab1c178d2b027"
+    },
+    {
+      "path": "scripts/vanilla/LocationAlias.psc",
+      "normalizedTextOrBinarySha256": "7286efbf62951610bbed74d0c5b3dbef65c70704d749e3d8da29f85907ad8223"
+    },
+    {
+      "path": "scripts/vanilla/LocationRefType.psc",
+      "normalizedTextOrBinarySha256": "d3953940d9fec98804dc3721b22f42bb12fc7e91e409c8b5f4db4775b111a9eb"
+    },
+    {
+      "path": "scripts/vanilla/MagicEffect.psc",
+      "normalizedTextOrBinarySha256": "66a8ddb542aa1b7354fe73a00a01b4814c5f384b0a46d73231ac084916c354fc"
+    },
+    {
+      "path": "scripts/vanilla/Math.psc",
+      "normalizedTextOrBinarySha256": "0a9f6d8ac7aaaecdb2465fba1f6d1189b09bfe20d0be8a79d4abb20f53a57651"
+    },
+    {
+      "path": "scripts/vanilla/Message.psc",
+      "normalizedTextOrBinarySha256": "e401eaba85aa4017f2d4642d26c48c566434690aba4a497582f83e7f92b40f05"
+    },
+    {
+      "path": "scripts/vanilla/MiscObject.psc",
+      "normalizedTextOrBinarySha256": "ec7531a0603483c5105935ada119c4a98b099f242d4a50aaaf63db09e7ee9299"
+    },
+    {
+      "path": "scripts/vanilla/MovableStatic.psc",
+      "normalizedTextOrBinarySha256": "1f8092f1dbb55c91f7afd90cf68724a5517a72e89c0fd0eb944fc50a22e56f1b"
+    },
+    {
+      "path": "scripts/vanilla/MusicType.psc",
+      "normalizedTextOrBinarySha256": "9ae938aa7350997edc60ec8aff3d7f2f73a838f57b072b559406bbf612ed9de3"
+    },
+    {
+      "path": "scripts/vanilla/ObjectMod.psc",
+      "normalizedTextOrBinarySha256": "66fbfb9c3b0d8069509568795da2599fd9a2f165b86e19490a720037dc276d48"
+    },
+    {
+      "path": "scripts/vanilla/ObjectReference.psc",
+      "normalizedTextOrBinarySha256": "407b8572b114a500e1ee507e7c13ec743acf4878a681355b37c98bc79f6827b9"
+    },
+    {
+      "path": "scripts/vanilla/Outfit.psc",
+      "normalizedTextOrBinarySha256": "1417899b283e1e6b2ea4ab9a49635db64eacf378c113678b0109457b6a274db1"
+    },
+    {
+      "path": "scripts/vanilla/OutputModel.psc",
+      "normalizedTextOrBinarySha256": "ae39656996cc0b4e202abaae114b1798cfe0df7a91148f1a7b032e91e83c49b5"
+    },
+    {
+      "path": "scripts/vanilla/Package.psc",
+      "normalizedTextOrBinarySha256": "91cfd7a377e2f0574008ac174178ef1b64b69817d14e5dae14c2fdcee1730779"
+    },
+    {
+      "path": "scripts/vanilla/Perk.psc",
+      "normalizedTextOrBinarySha256": "5bdc99df382d631fcd14b5eb17e81de76c06b68f2107135882abd09fcf6780b3"
+    },
+    {
+      "path": "scripts/vanilla/Potion.psc",
+      "normalizedTextOrBinarySha256": "bd1a6e6084e957f05e2e40618938e037b78db0dfefa6c75bb863f901c5ef63c3"
+    },
+    {
+      "path": "scripts/vanilla/Projectile.psc",
+      "normalizedTextOrBinarySha256": "f00fa60ca06fa9ab96957a9ad5b8478dc13ffebc9cf9ff20d69037b77734c4e5"
+    },
+    {
+      "path": "scripts/vanilla/Quest.psc",
+      "normalizedTextOrBinarySha256": "3303976fc5fe147a02060eced1aeea8886e0effc2d3e34d4ec46c205ccbe3df2"
+    },
+    {
+      "path": "scripts/vanilla/Race.psc",
+      "normalizedTextOrBinarySha256": "d59a0b4ccf4a528579e1154800c9906da89c0f6d0caac11148494fbbd05ea782"
+    },
+    {
+      "path": "scripts/vanilla/RefCollectionAlias.psc",
+      "normalizedTextOrBinarySha256": "5ea94bfaef1edadb8ef8436a406f8bf591cdfcb264d38b9b0d8191511c78dcea"
+    },
+    {
+      "path": "scripts/vanilla/ReferenceAlias.psc",
+      "normalizedTextOrBinarySha256": "8418c02a0bb63b38f2f975c941366cd520c8202b5c5b2a5df893531825474564"
+    },
+    {
+      "path": "scripts/vanilla/SAEClutterTriggerScript.psc",
+      "normalizedTextOrBinarySha256": "6951fc761ec5f333c681c705621da9c01c2717260478d3b163d70dea08604153"
+    },
+    {
+      "path": "scripts/vanilla/SASTriggerScript.psc",
+      "normalizedTextOrBinarySha256": "aa3dcbb28434bed9948b3d5e158b7557b2c052296eb3c6c249e94aaecd59ae91"
+    },
+    {
+      "path": "scripts/vanilla/Scene.psc",
+      "normalizedTextOrBinarySha256": "8f84db7675dcea1de152f1dbcfe5bb7d6dc179bbe3249674da7f69fcd12b7dfc"
+    },
+    {
+      "path": "scripts/vanilla/ScriptObject.psc",
+      "normalizedTextOrBinarySha256": "7d322f6d4ccebefe13859a76c056e723bc127ce8b48ba6c19df95d9cc04e6ad4"
+    },
+    {
+      "path": "scripts/vanilla/Scroll.psc",
+      "normalizedTextOrBinarySha256": "74fea553153b999b82c472cbc7553ad02c88d8b922049e71362ad90e5cf2a876"
+    },
+    {
+      "path": "scripts/vanilla/Shout.psc",
+      "normalizedTextOrBinarySha256": "b7b6e89c9271da85cf46844fb9458865bb4e7c968f86b33d58cd944e22b6a176"
+    },
+    {
+      "path": "scripts/vanilla/SoulGem.psc",
+      "normalizedTextOrBinarySha256": "e94795f9989f66a567033c4e0fb86301ef125680e2281704c259c82bc961c894"
+    },
+    {
+      "path": "scripts/vanilla/Sound.psc",
+      "normalizedTextOrBinarySha256": "ca9165cfc6a69e353693df230b4ef4d504529b1d7ede9aff67a6b493c77ee644"
+    },
+    {
+      "path": "scripts/vanilla/Spell.psc",
+      "normalizedTextOrBinarySha256": "6bb8de671977b45ef0c8f334df2170f831557f8408f05fc6d8f94e4d915a87a5"
+    },
+    {
+      "path": "scripts/vanilla/Static.psc",
+      "normalizedTextOrBinarySha256": "61e15cdc2f8e8129ec5ace3aa17d0c0e0fe2ce50abbc3120c3c5b1d0c04418dd"
+    },
+    {
+      "path": "scripts/vanilla/TeleportActorScript.psc",
+      "normalizedTextOrBinarySha256": "a56f9f39306ba783c3f9dec801ba9fd76388e9989d2e9b126ac0e78f773762c3"
+    },
+    {
+      "path": "scripts/vanilla/Terminal.psc",
+      "normalizedTextOrBinarySha256": "0a4bba1787e075c0f14c049d41896b587287259217d28c31dd9a79f670f660ff"
+    },
+    {
+      "path": "scripts/vanilla/TextureSet.psc",
+      "normalizedTextOrBinarySha256": "3967e7553d0d31723c245ab19dc1fa7e3b7319776a8ccd80b93a2dab5e76d7a5"
+    },
+    {
+      "path": "scripts/vanilla/Topic.psc",
+      "normalizedTextOrBinarySha256": "343d46efc9348c2b2739f3f943d18de7fe24c7cccfa10209d28c65a56c0ba6ea"
+    },
+    {
+      "path": "scripts/vanilla/TopicInfo.psc",
+      "normalizedTextOrBinarySha256": "6b0ae193706e65e4a3f332e29e54187494623fc8d8b89898a2e354a0c9ae3381"
+    },
+    {
+      "path": "scripts/vanilla/Trigger.psc",
+      "normalizedTextOrBinarySha256": "d2df95579c77615b1b795f91590f510e221b7605f149da2c3d4fdedd4cfaa4dd"
+    },
+    {
+      "path": "scripts/vanilla/Utility.psc",
+      "normalizedTextOrBinarySha256": "d7b7a8c39876bf49273caf2306ebf46ef95c8d32a80476ccada7fa3acdb0185a"
+    },
+    {
+      "path": "scripts/vanilla/VisualEffect.psc",
+      "normalizedTextOrBinarySha256": "cee905e5e6c51eaf7c51112e3b85a3ee2c6c18cddcc6594e5c27297bba6f9eee"
+    },
+    {
+      "path": "scripts/vanilla/VoiceType.psc",
+      "normalizedTextOrBinarySha256": "325ef358b32951e3d84a093dcf5c73f4bf1138c50bb31198219d288b0cb35b6e"
+    },
+    {
+      "path": "scripts/vanilla/Weapon.psc",
+      "normalizedTextOrBinarySha256": "7455b6e8baeea6bd7f602d8ff4d87798e69d85311f11c3d42830112f86e22d1c"
+    },
+    {
+      "path": "scripts/vanilla/Weather.psc",
+      "normalizedTextOrBinarySha256": "90376a163f873be302f78fb46bbe6e1d324e6f5eb2c6bdf6fd101e7afb160863"
+    },
+    {
+      "path": "scripts/vanilla/WordOfPower.psc",
+      "normalizedTextOrBinarySha256": "fdf367c2f74272c34b905eb3457784acb1dd7f636178dbc102ccca7c45fe0338"
+    },
+    {
+      "path": "scripts/vanilla/WorkshopDataScript.psc",
+      "normalizedTextOrBinarySha256": "961c34c9a266c118a53d148afcc036e945223e5b052655371f14aab4e228e88b"
+    },
+    {
+      "path": "scripts/vanilla/WorkshopNPCScript.psc",
+      "normalizedTextOrBinarySha256": "7a3706f1696561b9fce7825143fa2702c60be7ef745463d9dd7c612e6295143b"
+    },
+    {
+      "path": "scripts/vanilla/WorkshopObjectScript.psc",
+      "normalizedTextOrBinarySha256": "07d8e25fd97b1a4e286c1fb1e9d79d726c67f3d9546e349e3cd20df07c7c803a"
+    },
+    {
+      "path": "scripts/vanilla/WorkshopParentScript.psc",
+      "normalizedTextOrBinarySha256": "08c433f402dc633335106dda470b7b578515405296bf1d0073725add010f086d"
+    },
+    {
+      "path": "scripts/vanilla/WorkshopScript.psc",
+      "normalizedTextOrBinarySha256": "6fa574a161536d2ccac92a6aef7dd726a4891cc3e02230e0948836a78f9f141e"
+    },
+    {
+      "path": "scripts/vanilla/WorldSpace.psc",
+      "normalizedTextOrBinarySha256": "113f2ebb53ff805712548c9a50c6b827996d5d0180eaf8b500d520b881ba50f8"
+    },
+    {
+      "path": "scripts/vanilla/workshopObjectActorScript.psc",
+      "normalizedTextOrBinarySha256": "0e85c6448a5ea688ee8a796b6762354df78f2fd6a68b4e65f07e2608ed3cd821"
+    },
+    {
+      "path": "xbyak/CMakeLists.txt",
+      "normalizedTextOrBinarySha256": "8b3e73af2798b2ef506456578f080bfa06d376fbc684c96cec56f9a63ed401ef"
+    },
+    {
+      "path": "xbyak/COPYRIGHT",
+      "normalizedTextOrBinarySha256": "f8ddc1b38c2ba3d472abe83d66bd5bad6206e9fe50ac33ea3872069056beb8e2"
+    },
+    {
+      "path": "xbyak/cmake/config.cmake.in",
+      "normalizedTextOrBinarySha256": "f7df14cf2fded6fa80832aff3ea786c3672f3016dce7676eb731fe92a5198207"
+    },
+    {
+      "path": "xbyak/xbyak.h",
+      "normalizedTextOrBinarySha256": "c22d0229f4e2a031c0d97af6e02ce28e4b4721bf52a82210f91eb18d15100c6b"
+    },
+    {
+      "path": "xbyak/xbyak_bin2hex.h",
+      "normalizedTextOrBinarySha256": "f1f2adbcf4fe752ee72e1150371f1a74f43dd9af2afc27ec954c45936ebef7a3"
+    },
+    {
+      "path": "xbyak/xbyak_mnemonic.h",
+      "normalizedTextOrBinarySha256": "f44c7a18c98491a560e3070804f59db33bd428a278b884b547e8fbc714290dda"
+    },
+    {
+      "path": "xbyak/xbyak_util.h",
+      "normalizedTextOrBinarySha256": "485c89217dd71b991a0eb98ececbdc5e5eb4950cf38b713fb560cf154fb7f6bb"
+    }
+  ]
+}

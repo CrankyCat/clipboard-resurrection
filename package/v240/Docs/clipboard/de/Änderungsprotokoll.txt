@@ -1,0 +1,57 @@
+﻿Clipboard Resurrection – Änderungsprotokoll
+
+3.0.0
+
+- Verwendet ein gemeinsames Paket für Fallout 4 OG, NG und AE mit passendem F4SE
+  und der externen Runtime Database; enthält Spieltexte für zwölf Sprachen.
+- Bietet ein eigenes Menü für Text- und Zahleneingaben, ohne TIM vorauszusetzen,
+  mit Tastatur-, Maus- und Controller-Bedienung sowie optionalem Ausblenden von
+  Condition Boy/Girl, solange das Eingabemenü geöffnet ist.
+- Akzeptiert Eingaben für Drehung und Skalierung mit bis zu sechs Nachkommastellen.
+  Zahlenwerte in Bauplänen behalten beim Export und Import die Genauigkeit ihrer
+  gespeicherten Werte.
+- Lehnt relative Skalierungsänderungen ab, sofern nicht jede resultierende
+  Objektgröße einem exakten ganzzahligen Prozentsatz zwischen 1% und 1000%
+  entspricht, und gibt Hinweise zu gültigen Änderungen.
+- Beide Aktionen zum Zurücksetzen setzen jedes Objekt auf 100%. Einzeln behält
+  die Positionen bei; Gesamt passt die Abstände bei einheitlich skalierten Gruppen
+  an und behält bei Gruppen mit unterschiedlichen Größen die Positionen bei.
+- Prüft zuerst die Materialien der lokalen Werkstatt, bietet in Kostenansichten
+  Gesamtmengen aus allen Quellen und reduziert wiederholte Rezeptabfragen sowie
+  den Aufwand für Inventarabfragen. Bei der Bezahlung bleiben Bestätigung,
+  erneute Verfügbarkeitsprüfung und überprüfte Entnahme erhalten.
+- Berücksichtigt manuell ausgewählte Objekte beim Export und behält den bestehenden
+  Bauplan bei, wenn ein Export abgebrochen wird, leer ist oder die Validierung
+  fehlschlägt.
+- Erfasst geeignete Kabel zu bestehenden Objekten außerhalb der kopierten Auswahl
+  und verbindet sie nur an der ursprünglichen Werkzeugposition und mit gültigen
+  Endpunkten erneut.
+- Verbessert die Auswahl über Siedlungszellen hinweg, beseitigt die Begrenzung auf
+  128 Objekte bei großen Auswahlen nach Zelle oder Plugin und beim Zerstören dieser
+  Objekte und reduziert wiederholte Auswahlsuchen und Transformationsberechnungen.
+- Fügt separate Optionen für die Auswahl und den Export zusätzlicher Objektarten,
+  den Import von Lichtquellen und die Physik importierter Objekte hinzu. Verfeinert
+  die Filter für SS2 und Auto Beds, um erkannte generierte Inhalte auszuschließen,
+  während geeignete Stammobjekte und eigenständige Objekte zugelassen werden;
+  Aktivatoren und bewegliche statische Objekte mit Begrenzungsmaßen von null
+  bleiben ausgeschlossen.
+- Verbessert große Importe, erhält Kabelendpunkte beim Überspringen von Objekten,
+  verbindet sich berührende Leitungsrohre erneut und verwendet passende bereits
+  platzierte Objekte wieder.
+- Wartet die erforderliche Werkstattinitialisierung ab, bevor Verkabelung und
+  Stromversorgung bearbeitet werden. Überprüfte Objekte können nach einzelnen
+  Fehlern weiterverarbeitet werden; bei ungewissem Abschluss werden Verkabelung
+  und Stromversorgung für den gesamten Import gestoppt. Drosselung verwenden
+  ist standardmäßig aktiviert.
+- Zeigt regelmäßige Platzierungsmeldungen und den prozentualen Fortschritt bei
+  Initialisierung und Stromversorgung an. Die Anzahl der wegen Duplikaten
+  übersprungenen Objekte erscheint nur, wenn sie größer als null ist.
+- Korrigiert Argumente für Werkstatt-Callbacks, die Bereinigung strombetriebener
+  Objekte und des Auswahlrahmens, die Seiteneinteilung sowie die Zuordnung von
+  MCM-Einstellungen. Entfernt temporäre Werkzeuge zur Leistungsanalyse.
+- Protokolliert Warnungen, Fehler und Build-Kennungen immer. Die optionale
+  Diagnoseprotokollierung ergänzt Details; Clipboard.log wird bei jedem
+  Spielstart neu begonnen.
+- Liefert 500 leere Bauplan-Speicherplätze und unterstützt weiterhin bestehende
+  Baupläne und Einstellungen. Aktualisiert die englischen Benutzeranleitungen
+  unter Docs/clipboard.

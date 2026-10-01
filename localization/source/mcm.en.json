@@ -1,0 +1,321 @@
+[
+  {
+    "key": "$Clipboard_MCM_DisplayName",
+    "text": "Clipboard",
+    "context": "MCM mod display name. Clipboard is the proper product name; keep it unchanged."
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Dialogs_Text",
+    "text": "Dialogs",
+    "context": "MCM section Section_Dialogs: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text",
+    "text": "Show Notification When An Action Is Complete",
+    "context": "MCM switcher bEnableActionFinishedDialogs:Dialogs: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text",
+    "text": "Show Description When Manual Method Is Activated",
+    "context": "MCM switcher bEnableManualMethodDialog:Dialogs: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text",
+    "text": "Enter Workshop Mode Upon Starting Certain Actions",
+    "context": "MCM stepper iWorkshopModeOnAction:Dialogs: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never",
+    "text": "Never",
+    "context": "MCM stepper option 0 for iWorkshopModeOnAction:Dialogs. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask",
+    "text": "Ask",
+    "context": "MCM stepper option 1 for iWorkshopModeOnAction:Dialogs. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always",
+    "text": "Always",
+    "context": "MCM stepper option 2 for iWorkshopModeOnAction:Dialogs. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Balance_Text",
+    "text": "Balance",
+    "context": "MCM section Section_Balance: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableComponentCost_Balance_Text",
+    "text": "Charge Components When Pasting",
+    "context": "MCM switcher bEnableComponentCost:Balance: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Selection_Text",
+    "text": "Selection",
+    "context": "MCM section Section_Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Text",
+    "text": "The Initial Selection Method",
+    "context": "MCM stepper iInitialSelectionMethod:Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere",
+    "text": "Sphere",
+    "context": "MCM stepper option 0 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder",
+    "text": "Cylinder",
+    "context": "MCM stepper option 1 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box",
+    "text": "Box",
+    "context": "MCM stepper option 2 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual",
+    "text": "Manual",
+    "context": "MCM stepper option 3 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All",
+    "text": "Select All",
+    "context": "MCM stepper option 4 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin",
+    "text": "Select By Plugin",
+    "context": "MCM stepper option 5 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell",
+    "text": "Select By Cell",
+    "context": "MCM stepper option 6 for iInitialSelectionMethod:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Text",
+    "text": "The Visual Effect Used On Selected Objects",
+    "context": "MCM stepper iEffectIndex:Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Classic",
+    "text": "Classic",
+    "context": "MCM stepper option 0 for iEffectIndex:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_White",
+    "text": "White",
+    "context": "MCM stepper option 1 for iEffectIndex:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Red",
+    "text": "Red",
+    "context": "MCM stepper option 2 for iEffectIndex:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Blue",
+    "text": "Blue",
+    "context": "MCM stepper option 3 for iEffectIndex:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow",
+    "text": "Yellow",
+    "context": "MCM stepper option 4 for iEffectIndex:Selection. Options retain their original numeric order."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableAnimalSelection_Selection_Text",
+    "text": "Allow Animals To Be Selected",
+    "context": "MCM switcher bEnableAnimalSelection:Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text",
+    "text": "Allow Normally Filtered Objects To Be Selected And Exported",
+    "context": "MCM switcher bAllowNormallyFilteredObjectsToBeSelectedAndExported:Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help",
+    "text": "Default off. Broadens automatic selection to otherwise eligible non-player objects and filtered lights. Manually selected objects are exported regardless of this option; permanent exclusions still apply.",
+    "context": "MCM switcher bAllowNormallyFilteredObjectsToBeSelectedAndExported:Selection: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Import_Options_Text",
+    "text": "Import Options",
+    "context": "MCM section Section_Import_Options: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text",
+    "text": "Allow normally filtered light sources to be imported",
+    "context": "MCM switcher bAllowAllObjectsToBeImported:Selection: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help",
+    "text": "Default off. Setting to on allows light sources which can't be manipulated by the player in build mode and those without a construction recipe to be imported.",
+    "context": "MCM switcher bAllowAllObjectsToBeImported:Selection: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text",
+    "text": "Disable Havok Physics On Imported Objects",
+    "context": "MCM switcher bDisableHavokOnImportedObjects:Balance: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help",
+    "text": "Default on. Sets each imported non-actor to keyframed motion as soon as its 3D loads, preventing loose objects such as bottles and weapons from falling or rolling. Scripted, animated, inventory, and workshop operations may still move or change an object.",
+    "context": "MCM switcher bDisableHavokOnImportedObjects:Balance: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bUseThrottling_Import_Text",
+    "text": "Use Throttling",
+    "context": "MCM switcher bUseThrottling:Import: text. Default on. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names."
+  },
+  {
+    "key": "$Clipboard_MCM_bUseThrottling_Import_Help",
+    "text": "Default on. Limits simultaneous workshop initialization calls during import. Turning this off may cause scripting overloads and Papyrus stack dumps that can interfere with other mods such as Sim Settlements 2. Applies to the next import.",
+    "context": "MCM switcher bUseThrottling:Import: help. Default on. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names.",
+    "protected": [
+      "Papyrus",
+      "Sim Settlements 2"
+    ]
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Hotkeys_Text",
+    "text": "Hotkeys",
+    "context": "MCM section Section_Hotkeys: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionQuickBtn_Text",
+    "text": "Show Quick Menu",
+    "context": "MCM hotkey activateActionQuickBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionQuickBtn_Help",
+    "text": "Quick menu provides access to all of a tool's buttons. Suggested Key: P",
+    "context": "MCM hotkey activateActionQuickBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionMenuBtn_Text",
+    "text": "Show Action Menu",
+    "context": "MCM hotkey activateActionMenuBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionMenuBtn_Help",
+    "text": "Access a tool's Action Menu from workshop mode or well away from the tool. Suggested Key: L",
+    "context": "MCM hotkey activateActionMenuBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionMethodBtn_Text",
+    "text": "Change Selection Method",
+    "context": "MCM hotkey activateSelectionMethodBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionMethodBtn_Help",
+    "text": "Access a tool's Method Selection from workshop mode or well away from the tool. Suggested Key: ;",
+    "context": "MCM hotkey activateSelectionMethodBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionScanBtn_Text",
+    "text": "Initiate Selection Method's Secondary Action",
+    "context": "MCM hotkey activateSelectionScanBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionScanBtn_Help",
+    "text": "Toggle Select/Deselect, Initiate Selection Scan, etc... Suggested: '",
+    "context": "MCM hotkey activateSelectionScanBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateClearSelectionBtn_Text",
+    "text": "Clear Selection",
+    "context": "MCM hotkey activateClearSelectionBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateClearSelectionBtn_Help",
+    "text": "Clear selection from workshop mode or well away from the tool. Suggested Key: [",
+    "context": "MCM hotkey activateClearSelectionBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateDestroyToolBtn_Text",
+    "text": "Destroy Tool",
+    "context": "MCM hotkey activateDestroyToolBtn: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_activateDestroyToolBtn_Help",
+    "text": "Destroy a tool from workshop mode or well away from the tool. Suggested Key: ]",
+    "context": "MCM hotkey activateDestroyToolBtn: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Debug_Text",
+    "text": "Debug",
+    "context": "MCM section Section_Debug: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Text",
+    "text": "Display Import Warnings",
+    "context": "MCM switcher bDisplayImportWarnings:Debug: text. Controls only completion-dialog warnings; preserve default Off and independent logging."
+  },
+  {
+    "key": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Help",
+    "text": "Show import warnings in the completion dialog. Default: Off. Warning logging is unaffected.",
+    "context": "MCM switcher bDisplayImportWarnings:Debug: help. Controls only completion-dialog warnings; preserve default Off and independent logging."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableLogging_Debug_Text",
+    "text": "Enable Diagnostic Logging",
+    "context": "MCM switcher bEnableLogging:Debug: text. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableLogging_Debug_Help",
+    "text": "Enable additional diagnostic logging. Warnings and errors are always logged. Log: Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log",
+    "context": "MCM switcher bEnableLogging:Debug: help. Preserve markup, paths, setting meaning and default descriptions."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateActionQuickBtn",
+    "text": "Show Quick Menu",
+    "context": "MCM keybind description for activateActionQuickBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateActionMenuBtn",
+    "text": "Show Action Menu",
+    "context": "MCM keybind description for activateActionMenuBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateSelectionMethodBtn",
+    "text": "Change Selection Method",
+    "context": "MCM keybind description for activateSelectionMethodBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateSelectionScanBtn",
+    "text": "Initiate Selection Method's Secondary Action",
+    "context": "MCM keybind description for activateSelectionScanBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateClearSelectionBtn",
+    "text": "Clear Selection",
+    "context": "MCM keybind description for activateClearSelectionBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateDestroyToolBtn",
+    "text": "Destroy Tool",
+    "context": "MCM keybind description for activateDestroyToolBtn; use the same wording as its matching hotkey label."
+  },
+  {
+    "key": "$Clipboard_MCM_CleanUpOldPlatforms_Text",
+    "text": "Clean Up Old Platforms",
+    "context": "Debug-section MCM button that requests one cleanup run, after menus close. This is not a toggle or a recurring scan."
+  },
+  {
+    "key": "$Clipboard_MCM_CleanUpOldPlatforms_Help",
+    "text": "Remove remnants of destroyed Clipboard platforms. First destroy all remaining platforms and make a backup save. Close the menus to continue.",
+    "context": "Help for the one-time cleanup button; all remaining platforms must first be destroyed normally, and the player should retain a backup save."
+  },
+  {
+    "key": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text",
+    "text": "Hide Condition Boy/Girl During Input",
+    "context": "Optional MCM input compatibility. Condition Boy/Girl is a mod name. Default on; no dependency on that mod."
+  },
+  {
+    "key": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help",
+    "text": "Default on. Hides Condition Boy/Girl while a Clipboard input dialog is open. Has no effect when the mod is absent.",
+    "context": "Optional MCM input compatibility. Condition Boy/Girl is a mod name. Default on; no dependency on that mod."
+  }
+]

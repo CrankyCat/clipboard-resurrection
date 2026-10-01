@@ -1,0 +1,709 @@
+$Clipboard_BoxCreationFailed	Не удалось создать ограничивающий каркас выделения.
+$Clipboard_BoxCreationReviewLog	Перед повторной попыткой проверьте Clipboard.log.
+$Clipboard_CellScopeEmpty	В выбранной области ячейки не найдено ничего, что ещё не было выбрано.
+$Clipboard_CellScopeTool	Ячейка инструмента Clipboard
+$Clipboard_CellScopeWorkshop	Ячейки мастерской
+$Clipboard_CheckComponents	 Проверка доступных компонентов
+$Clipboard_CleanupActive	Платформа Clipboard ещё активна. Уничтожьте все платформы и повторите попытку.
+$Clipboard_CleanupBlocked	Некоторые остатки не удалось надёжно определить. Ничего не изменено.
+$Clipboard_CleanupBusy	Clipboard занят. Дождитесь завершения текущего действия и повторите попытку.
+$Clipboard_CleanupConfirm	Очистить остатки уничтоженных платформ Clipboard?
+$Clipboard_CleanupFailed	Не удалось начать очистку. Остатки не изменены.
+$Clipboard_CleanupNone	Остатков старых платформ, подходящих для очистки, не найдено.
+$Clipboard_CleanupPrepare	Сначала уничтожьте все платформы Clipboard и создайте резервное сохранение.
+$Clipboard_CleanupPreserve	Импортированные объекты и сохранённые шаблоны останутся.
+$Clipboard_CleanupProgress	Очистка остатков старых платформ Clipboard...
+$Clipboard_CleanupReload	Сохраните игру, загрузите это сохранение и сохранитесь снова.
+$Clipboard_CleanupResult	Остатков помечено для удаления: {0}; пропущено: {1}.
+$Clipboard_CleanupStopped	Очистка остановилась до обработки всех остатков. Сохраните и загрузите игру перед повторной попыткой.
+$Clipboard_CleanupTitle	Очистить остатки старых платформ
+$Clipboard_ClearOwnership	 Владение очищено
+$Clipboard_CompileLinkedWorkshops	 Сбор связанных мастерских
+$Clipboard_CompileWorkshopContainers	 Сбор контейнеров мастерской
+$Clipboard_ComponentAllSourcesQuestion	\nПоказать доступные материалы во всех источниках?
+$Clipboard_ComponentAvailableAll	Требуется / Доступно во всех источниках\n\n
+$Clipboard_ComponentAvailableLocal	Требуется / Доступно в этой мастерской\n\n
+$Clipboard_ComponentCostHeading	<b><u>Стоимость компонентов</u></b>\n\n
+$Clipboard_ComponentPaymentIncomplete	Импорт отменён: не удалось списать все необходимые компоненты. Некоторые компоненты уже могли быть израсходованы.
+$Clipboard_ContinueQuestion	\nХотите продолжить?
+$Clipboard_DeselectGunEquipped	Экипировано оружие снятия выделения: выстрелите в выбранный объект, чтобы снять выделение.
+$Clipboard_DestroyFinished	Обработка запроса на уничтожение завершена.
+$Clipboard_DestroyIncomplete	Уничтожение остановлено до обработки всех выбранных объектов.
+$Clipboard_DestroyOriginalCount	Изначально выбрано: {0}
+$Clipboard_DestroyQuestion	Хотите уничтожить их?
+$Clipboard_DestroyScrapCount	Отправлено в утиль: {0}
+$Clipboard_DestroyWarning	Предметы, уничтоженные этим способом, не дают ресурсов и не могут быть восстановлены.
+$Clipboard_DimensionDepth	 Глубина
+$Clipboard_DimensionHeight	 Высота
+$Clipboard_DimensionRadius	Радиус
+$Clipboard_DimensionWidth	 Ширина
+$Clipboard_DistanceInput	Введите расстояние от 1 до 9 999:
+$Clipboard_DistanceInvalid	Недопустимое расстояние: необходимо ввести число от 1 до 9 999.
+$Clipboard_ESP_AmmoSelection_FULL_0	Боеприпасы для выделения Clipboard
+$Clipboard_ESP_AmmoSelection_ONAM_0	Боеприпасы для выделения
+$Clipboard_ESP_ClipboardActOnSelection_FULL_0	Меню действий
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_DESC_0	Выберите действие:
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_1	Вставить из Clipboard
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_2	Показать список плагинов шаблона
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3	Переместить инструмент к исходному месту шаблона
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4	Показать стоимость компонентов шаблона
+$Clipboard_ESP_ClipboardActionSelectMessage_DESC_0	Выберите действие:
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_1	Копировать в Clipboard
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_10	Показать список плагинов шаблона
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11	Переместить инструмент к исходному месту шаблона
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12	Показать стоимость компонентов выделения
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13	Показать стоимость компонентов шаблона
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_2	Вставить из Clipboard
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3	Уничтожить
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_4	Повернуть
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_5	Переместить
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_6	Изменить масштаб
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7	Снять принадлежность
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_8	Показать сведения о выделении
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_9	Показать список плагинов, используемых в выделении
+$Clipboard_ESP_ClipboardButtonNuke_FULL_0	Инструмент Clipboard
+$Clipboard_ESP_ClipboardButtonPole_FULL_0	Инструмент Clipboard
+$Clipboard_ESP_ClipboardButtonStand_ATTX_0	Нажать
+$Clipboard_ESP_ClipboardButtonStand_FULL_0	Инструмент Clipboard
+$Clipboard_ESP_ClipboardChangeSelectionMethod_FULL_0	Изменить метод выделения
+$Clipboard_ESP_ClipboardClearSelection_FULL_0	Очистить выделение
+$Clipboard_ESP_ClipboardCopyPylon_FULL_0	Инструмент Clipboard
+$Clipboard_ESP_ClipboardCopyTo_FULL_0	Копировать в Clipboard
+$Clipboard_ESP_ClipboardDestoryTool_FULL_0	Уничтожить инструмент
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_DESC_0	<b><u>Быстрое меню инструмента Clipboard</u></b>\r\n \r\n<u>Сводка выделения</u>\r\nОбъекты: <Alias=Slot1State>\r\nПровода: <Alias=Slot2State>\r\nПлагины: <Alias=Slot3State>\r\nМетод: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_1	Показать меню действий
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_2	Изменить метод выделения
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_3	Начать сканирование выделения
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4	Очистить выделение
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5	Уничтожить инструмент
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6	Переместиться к инструменту
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_DESC_0	<b><u>Быстрое меню инструмента Clipboard</u></b>\r\n \r\n<u>Сводка выделения</u>\r\nОбъекты: <Alias=Slot1State>\r\nПровода: <Alias=Slot2State>\r\nПлагины: <Alias=Slot3State>\r\nМетод: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_1	Показать меню действий
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_2	Изменить метод выделения
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3	Выбрать / снять выделение
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4	Очистить выделение
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5	Уничтожить инструмент
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6	Переместиться к инструменту
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_DESC_0	<b><u>Быстрое меню инструмента Clipboard</u></b>\r\n \r\n<u>Сводка выделения</u>\r\nОбъекты: <Alias=Slot1State>\r\nПровода: <Alias=Slot2State>\r\nПлагины: <Alias=Slot3State>\r\nМетод: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_1	Показать меню действий
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_2	Изменить метод выделения
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3	Очистить выделение
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4	Уничтожить инструмент
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5	Переместиться к инструменту
+$Clipboard_ESP_ClipboardInformMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardInformMessage_ITXT_0	Хорошо
+$Clipboard_ESP_ClipboardInitiateSelection_FULL_0	Начать сканирование выделения
+$Clipboard_ESP_ClipboardLabel1_FULL_0	Метка 1
+$Clipboard_ESP_ClipboardLabel2_FULL_0	Метка 2
+$Clipboard_ESP_ClipboardLabel3_FULL_0	Метка 3
+$Clipboard_ESP_ClipboardLabel4_FULL_0	Метка 4
+$Clipboard_ESP_ClipboardLabel5_FULL_0	Метка 5
+$Clipboard_ESP_ClipboardListPick1Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick1Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick2Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick3Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick4Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick5Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick6Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick7Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick8Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick9Message_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickMessage_DESC_0	<b><u>Clipboard — выбор: <Alias=Slot1State></u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_10	10
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_6	6
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_7	7
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_8	8
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_DESC_0	<b><u>Выбор <Alias=Slot1State> Clipboard: %.0f-%.0f</u></b>\r\n\r\n<Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickPagedMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_10	8
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_11	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_12	10
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_3	1
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_4	2
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_5	3
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_6	4
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_7	5
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_8	6
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_9	7
+$Clipboard_ESP_ClipboardManager_FULL_0	Менеджер Clipboard
+$Clipboard_ESP_ClipboardMissingPluginsMessage_DESC_0	Отсутствуют обязательные плагины!\r\n \r\n<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>\r\n\r\nВсё равно продолжить?
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_0	Нет
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_1	Да
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_DESC_0	Переместить на:
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_0	1
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_1	2
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_2	4
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_3	8
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_4	16
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_5	32
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_6	64
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_7	128
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_8	256
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_9	512
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_DESC_0	Направление перемещения:
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_0	Влево
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_1	Вправо
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_2	Вверх
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_3	Вниз
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_4	Вперёд
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_5	Назад
+$Clipboard_ESP_ClipboardMoveOnto_FULL_0	Переместить на платформу
+$Clipboard_ESP_ClipboardNotYetImplemented_DESC_0	Пока не реализовано
+$Clipboard_ESP_ClipboardNotYetImplemented_ITXT_0	Хорошо
+$Clipboard_ESP_ClipboardPage1SelectMessage_DESC_0	<b><u>Выбор страницы Clipboard: 1-100</u></b>\r\n \r\nПРЕДЫДУЩАЯ: 401-500\r\nСЛЕДУЮЩАЯ: 101-200\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage1SelectMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_10	71 - 80
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_11	81 - 90
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_12	91 - 100
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_3	1 - 10
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_4	11 - 20
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_5	21 - 30
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_6	31 - 40
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_7	41 - 50
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_8	51 - 60
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_9	61 - 70
+$Clipboard_ESP_ClipboardPage2SelectMessage_DESC_0	<b><u>Выбор страницы Clipboard: 101-200</u></b>\r\n\r\nПРЕДЫДУЩАЯ: 1-100\r\nСЛЕДУЮЩАЯ: 201-300\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage2SelectMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_10	171 - 180
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_11	181 - 190
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_12	191 - 200
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_3	101 - 110
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_4	111 - 120
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_5	121 - 130
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_6	131 - 140
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_7	141 - 150
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_8	151 - 160
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_9	161 - 170
+$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0	<b><u>Выбор страницы Clipboard: 201-300</u></b>\r\n\r\nПРЕДЫДУЩАЯ: 101-200\r\nСЛЕДУЮЩАЯ: 301-400\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage3SelectMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_10	271 - 280
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_11	281 - 290
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_12	291 - 300
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_3	201 - 210
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_4	211 - 220
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_5	221 - 230
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_6	231 - 240
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_7	241 - 250
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_8	251 - 260
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_9	261 - 270
+$Clipboard_ESP_ClipboardPage4SelectMessage_DESC_0	<b><u>Выбор страницы Clipboard: 301-400</u></b>\r\n\r\nПРЕДЫДУЩАЯ: 201-300\r\nСЛЕДУЮЩАЯ: 401-500\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage4SelectMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_10	371 - 380
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_11	381 - 390
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_12	391 - 400
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_3	301 - 310
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_4	311 - 320
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_5	321 - 330
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_6	331 - 340
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_7	341 - 350
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_8	351 - 360
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_9	361 - 370
+$Clipboard_ESP_ClipboardPage5SelectMessage_DESC_0	<b><u>Выбор страницы Clipboard: 401-500</u></b>\r\n\r\nПРЕДЫДУЩАЯ: 301-400\r\nСЛЕДУЮЩАЯ: 1-100\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage5SelectMessage_FULL_0	Выберите страницу Clipboard
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_0	[ ОТМЕНА ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_1	[ ПРЕДЫДУЩАЯ ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_10	471 - 480
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_11	481 - 490
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_12	491 - 500
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_2	[ СЛЕДУЮЩАЯ ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_3	401 - 410
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_4	411 - 420
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_5	421 - 430
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_6	431 - 440
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_7	441 - 450
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_8	451 - 460
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_9	461 - 470
+$Clipboard_ESP_ClipboardProgessMessage_DESC_0	<Alias=Slot1State> %.0f (выполнено: %.0f%%)
+$Clipboard_ESP_ClipboardRotationAmountMessage_DESC_0	Угол поворота:
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_0	1°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_1	5°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_2	10°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_3	15°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_4	30°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_5	45°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_6	60°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_7	90°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_8	120°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_9	180°
+$Clipboard_ESP_ClipboardRotationSelectMessage_DESC_0	Тип поворота:
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0	По часовой стрелке (вокруг центра выделения)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1	Против часовой стрелки (вокруг центра выделения)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2	По часовой стрелке (вокруг инструмента Clipboard)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3	Против часовой стрелки (вокруг инструмента Clipboard)
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0	Уменьшить размер на:
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_0	1%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_1	5%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_2	10%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_3	25%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_4	50%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_5	75%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_6	90%
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0	Увеличить размер (целиком)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1	Уменьшить размер (целиком)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2	Восстановить исходный размер (целиком)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3	Увеличить размер (по отдельности)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4	Уменьшить размер (по отдельности)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5	Восстановить исходный размер (по отдельности)
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0	Увеличить размер на:\r\n\r\n(Размер отдельных объектов не может превышать исходный более чем в 10 раз)
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_0	5%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_1	10%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_2	25%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_3	50%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_4	100%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_5	200%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_6	500%
+$Clipboard_ESP_ClipboardSelectionGun_FULL_0	Пистолет выделения Clipboard
+$Clipboard_ESP_ClipboardSelectionGun_FULL_1	Эпический по умолчанию
+$Clipboard_ESP_ClipboardSelectionMethodAll_FULL_0	Clipboard: метод выделения «Всё»
+$Clipboard_ESP_ClipboardSelectionMethodBox_FULL_0	Clipboard: метод выделения «Коробка»
+$Clipboard_ESP_ClipboardSelectionMethodByCell_FULL_0	Clipboard: метод выделения по ячейке
+$Clipboard_ESP_ClipboardSelectionMethodByPlugin_FULL_0	Clipboard: метод выделения по плагину
+$Clipboard_ESP_ClipboardSelectionMethodCylinder_FULL_0	Clipboard: метод выделения «Цилиндр»
+$Clipboard_ESP_ClipboardSelectionMethodGun_FULL_0	Clipboard: метод выделения «Пистолет»
+$Clipboard_ESP_ClipboardSelectionMethodSphere_FULL_0	Clipboard: метод выделения «Сфера»
+$Clipboard_ESP_ClipboardSelectionMethods_FULL_0	Методы выделения Clipboard
+$Clipboard_ESP_ClipboardSelectionWeaponEnchantment_FULL_0	Зачарование выделения
+$Clipboard_ESP_ClipboardSelectionWeaponHitEffect_FULL_0	Эффект попадания по выделению
+$Clipboard_ESP_ClipboardSetSelectionSize_FULL_0	Задать размер выделения
+$Clipboard_ESP_ClipboardShapeSelectMessage_DESC_0	<b><u>Методы выделения Clipboard</u></b>
+$Clipboard_ESP_ClipboardShapeSelectMessage_FULL_0	Выберите метод выделения
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_0	Сфера
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_1	Цилиндр
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_2	Параллелепипед
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_3	Вручную
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_4	Выбрать всё
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_5	По плагину
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_6	По ячейке
+$Clipboard_ESP_ClipboardSizeMessage_DESC_0	Установить область выделения <Alias=Slot1State>
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_0	x1
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_1	x2
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_2	x3
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_3	x4
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_4	x5
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_5	x6
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_6	x7
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_7	x8
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_8	x9
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_9	x10
+$Clipboard_ESP_ClipboardSlotSelectMessage_DESC_0	Выбор слота Clipboard\r\nПоказаны %.0f–%.0f\r\n \r\n[1]: Слот %.0f: <Alias=Slot1State>\r\n[2]: Слот %.0f: <Alias=Slot2State>\r\n[3]: Слот %.0f: <Alias=Slot3State>\r\n[4]: Слот %.0f: <Alias=Slot4State>\r\n[5]: Слот %.0f: <Alias=Slot5State>
+$Clipboard_ESP_ClipboardSlotSelectMessage_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_0	Предыдущая страница
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_6	Следующая страница
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_1	91
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_10	100
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_2	92
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_3	93
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_4	94
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_5	95
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_6	96
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_7	97
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_8	98
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_9	99
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n\r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_10	10
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_6	6
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_7	7
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_8	8
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_9	9
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_1	11
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_10	20
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_2	12
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_3	13
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_4	14
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_5	15
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_6	16
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_7	17
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_8	18
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_9	19
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_1	21
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_10	30
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_2	22
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_3	23
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_4	24
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_5	25
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_6	26
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_7	27
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_8	28
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_9	29
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_1	31
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_10	40
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_2	32
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_3	33
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_4	34
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_5	35
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_6	36
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_7	37
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_8	38
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_9	39
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_1	41
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_10	50
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_2	42
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_3	43
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_4	44
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_5	45
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_6	46
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_7	47
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_8	48
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_9	49
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_1	51
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_10	60
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_2	52
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_3	53
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_4	54
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_5	55
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_6	56
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_7	57
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_8	58
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_9	59
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_1	61
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_10	70
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_2	62
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_3	63
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_4	64
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_5	65
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_6	66
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_7	67
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_8	68
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_9	69
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_1	71
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_10	80
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_2	72
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_3	73
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_4	74
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_5	75
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_6	76
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_7	77
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_8	78
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_9	79
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_DESC_0	<b><u>Выбор слота Clipboard: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_FULL_0	Выберите слот Clipboard
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_0	[ НАЗАД ]
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_1	81
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_10	90
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_2	82
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_3	83
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_4	84
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_5	85
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_6	86
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_7	87
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_8	88
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_9	89
+$Clipboard_ESP_ClipboardStatusMessage_DESC_0	<Alias=Slot1State>
+$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0	Выбрать/снять выделение
+$Clipboard_ESP_ClipboardYesNoMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_0	Нет
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_1	Да
+$Clipboard_ESP_WorkshopRecipeFilterQuest_FULL_0	Особое / Clipboard
+$Clipboard_ESP_clipboardMenuManager_FULL_0	Clipboard
+$Clipboard_ESP_clipboardMenuManager_NNAM_0	Clipboard
+$Clipboard_ESP_workshop_co_ClipboardCopyPylon_DESC_0	Выбирайте и перемещайте объекты режима мастерской. Управляйте шаблонами Clipboard.
+$Clipboard_EmptySlot	Пусто
+$Clipboard_EnterWorkshopMode	Сначала перейти в режим мастерской?\n\n(Иначе объекты, видимые только в режиме мастерской, будут проигнорированы.)
+$Clipboard_GrabDeselected	 Захватить невыбранные: {0}
+$Clipboard_GrabSelected	 Захватить выбранные: {0}
+$Clipboard_GroupDeselectedCount	Снято выделение с объектов: {0}.
+$Clipboard_GroupDeselectionComplete	<b><u>Снятие группового выделения завершено</u></b>
+$Clipboard_GroupSelectedCount	Выбрано объектов: {0}.
+$Clipboard_GroupSelectionComplete	<b><u>Групповое выделение завершено</u></b>
+$Clipboard_ImportingObjects	Clipboard: Импорт объектов...
+$Clipboard_InputAccept	Принять
+$Clipboard_InputCancel	Отмена
+$Clipboard_InputControllerHelp	Крестовина: выбор | A: ввод | B: отмена | X: удалить | Y: регистр | Start: принять
+$Clipboard_InputInvalid	Введите допустимое значение с учётом ограничения длины и диапазона.
+$Clipboard_ListNextPage	СЛЕДУЮЩИЕ: {0}-{1}\n\n
+$Clipboard_ListPreviousPage	ПРЕДЫДУЩИЕ: {0}-{1}\n
+$Clipboard_ListSelectionInvalid	Недопустимое выделение. Выберите допустимый пункт из "{0}".
+$Clipboard_MCM_CleanUpOldPlatforms_Help	Удаляет остатки уничтоженных платформ Clipboard. Сначала уничтожьте все оставшиеся платформы и создайте резервное сохранение. Закройте меню для продолжения.
+$Clipboard_MCM_CleanUpOldPlatforms_Text	Очистить остатки старых платформ
+$Clipboard_MCM_DisplayName	Clipboard
+$Clipboard_MCM_Keybind_activateActionMenuBtn	Показать меню действий
+$Clipboard_MCM_Keybind_activateActionQuickBtn	Показать быстрое меню
+$Clipboard_MCM_Keybind_activateClearSelectionBtn	Очистить выделение
+$Clipboard_MCM_Keybind_activateDestroyToolBtn	Уничтожить инструмент
+$Clipboard_MCM_Keybind_activateSelectionMethodBtn	Изменить метод выделения
+$Clipboard_MCM_Keybind_activateSelectionScanBtn	Запустить вторичное действие метода выделения
+$Clipboard_MCM_Section_Balance_Text	Баланс
+$Clipboard_MCM_Section_Debug_Text	Отладка
+$Clipboard_MCM_Section_Dialogs_Text	Диалоги
+$Clipboard_MCM_Section_Hotkeys_Text	Горячие клавиши
+$Clipboard_MCM_Section_Import_Options_Text	Параметры импорта
+$Clipboard_MCM_Section_Selection_Text	Выделение
+$Clipboard_MCM_activateActionMenuBtn_Help	Открывайте меню действий инструмента из режима мастерской или находясь далеко от инструмента. Рекомендуемая клавиша: L
+$Clipboard_MCM_activateActionMenuBtn_Text	Показать меню действий
+$Clipboard_MCM_activateActionQuickBtn_Help	Быстрое меню предоставляет доступ ко всем кнопкам инструмента. Рекомендуемая клавиша: P
+$Clipboard_MCM_activateActionQuickBtn_Text	Показать быстрое меню
+$Clipboard_MCM_activateClearSelectionBtn_Help	Очищайте выделение из режима мастерской или находясь далеко от инструмента. Рекомендуемая клавиша: [
+$Clipboard_MCM_activateClearSelectionBtn_Text	Очистить выделение
+$Clipboard_MCM_activateDestroyToolBtn_Help	Уничтожайте инструмент из режима мастерской или находясь далеко от инструмента. Рекомендуемая клавиша: ]
+$Clipboard_MCM_activateDestroyToolBtn_Text	Уничтожить инструмент
+$Clipboard_MCM_activateSelectionMethodBtn_Help	Открывайте выбор метода инструмента из режима мастерской или находясь далеко от инструмента. Рекомендуемая клавиша: ;
+$Clipboard_MCM_activateSelectionMethodBtn_Text	Изменить метод выделения
+$Clipboard_MCM_activateSelectionScanBtn_Help	Переключить выбор/снятие выбора, запустить сканирование выделения и т. д. Рекомендуемая клавиша: '
+$Clipboard_MCM_activateSelectionScanBtn_Text	Запустить вторичное действие метода выделения
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help	По умолчанию выключено. При включении можно импортировать источники света, которыми игрок не может управлять в режиме мастерской, а также источники света без рецепта строительства.
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text	Разрешить импорт обычно отфильтрованных источников света
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help	По умолчанию отключено. Расширяет автоматический выбор на допустимые объекты, созданные не игроком, и отфильтрованные источники света. Выбранные вручную объекты экспортируются независимо от параметра; постоянные исключения сохраняются.
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text	Разрешить выбирать и экспортировать обычно отфильтрованные объекты
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help	По умолчанию включено. Как только загружается 3D-модель каждого импортированного объекта, не являющегося актёром, для него устанавливается движение по ключевым кадрам, предотвращая падение или перекатывание незакреплённых предметов, таких как бутылки и оружие. Скриптовые операции, анимация, инвентарь и операции режима мастерской всё ещё могут перемещать или изменять объект.
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text	Отключить физику Havok для импортированных объектов
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Help	Показывать предупреждения импорта в диалоге завершения. По умолчанию: Выкл. Запись предупреждений в журнал не изменяется.
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Text	Показывать предупреждения импорта
+$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text	Показывать уведомление по завершении действия
+$Clipboard_MCM_bEnableAnimalSelection_Selection_Text	Разрешить выбирать животных
+$Clipboard_MCM_bEnableComponentCost_Balance_Text	Тратить компоненты при вставке
+$Clipboard_MCM_bEnableLogging_Debug_Help	Включает дополнительную диагностическую информацию. Предупреждения и ошибки записываются всегда. Журнал: Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log
+$Clipboard_MCM_bEnableLogging_Debug_Text	Включить диагностический журнал
+$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text	Показывать описание при активации ручного метода
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help	По умолчанию включено. Скрывает Condition Boy/Girl, пока открыто окно ввода Clipboard. Не действует, если мод не установлен.
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text	Скрывать Condition Boy/Girl при вводе
+$Clipboard_MCM_bUseThrottling_Import_Help	По умолчанию включено. Ограничивает одновременные вызовы инициализации мастерской при импорте. Отключение может вызвать перегрузку скриптов и дампы стеков Papyrus, нарушая работу других модов, таких как Sim Settlements 2. Применяется к следующему импорту.
+$Clipboard_MCM_bUseThrottling_Import_Text	Ограничивать нагрузку
+$Clipboard_MCM_iEffectIndex_Selection_Option_Blue	Синий
+$Clipboard_MCM_iEffectIndex_Selection_Option_Classic	Классический
+$Clipboard_MCM_iEffectIndex_Selection_Option_Red	Красный
+$Clipboard_MCM_iEffectIndex_Selection_Option_White	Белый
+$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow	Жёлтый
+$Clipboard_MCM_iEffectIndex_Selection_Text	Визуальный эффект для выбранных объектов
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box	Параллелепипед
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder	Цилиндр
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual	Вручную
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All	Выбрать всё
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell	Выбрать по ячейке
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin	Выбрать по плагину
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere	Сфера
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Text	Начальный метод выделения
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always	Всегда
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask	Спрашивать
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never	Никогда
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text	Входить в режим мастерской при запуске определённых действий
+$Clipboard_ManualSelectionHelp	<b><u>Ручное выделение включено</u></b>\n\n<b>В режиме мастерской</b>\n<i>Захват объекта выделит его.</i>\n<i>Захват и размещение группы объектов выделит их все.</i>\n\n<b>Вне режима мастерской</b>\n<i>Выстрел по объекту выделит его.</i>\n\n<b>С помощью консоли</b>\n<i>Откройте консоль (`), щёлкните по объекту и закройте консоль, чтобы выделить объект.</i>
+$Clipboard_MethodAll	Выбрать всё
+$Clipboard_MethodBox	Параллелепипед
+$Clipboard_MethodCell	Выбрать по ячейке
+$Clipboard_MethodCylinder	Цилиндр
+$Clipboard_MethodManual	Вручную
+$Clipboard_MethodPlugin	Выбрать по плагину
+$Clipboard_MethodSphere	Сфера
+$Clipboard_MissingComponentsHeading	<b><u>Не хватает необходимых компонентов</u></b>\n\n
+$Clipboard_MoreComponents	(Дополнительные компоненты: {0}...)
+$Clipboard_MoreComponentsLine	(Дополнительные компоненты: {0}...)\n
+$Clipboard_MoreMissingComponents	(Дополнительные недостающие компоненты: {0}...)\n
+$Clipboard_MoreMissingPlugins	Дополнительные отсутствующие плагины: {0}...
+$Clipboard_MotionTypeFinished	Обновление типа движения для выбранных объектов завершено.
+$Clipboard_MoveFinished	Перемещение выбранных объектов завершено.
+$Clipboard_ObjectCount	Объекты: {0}
+$Clipboard_OverwritePatternQuestion	Хотите перезаписать его?
+$Clipboard_OwnershipFinished	Выбранные объекты помечены как ничейные.
+$Clipboard_PasteAlreadyRunning	Вставка шаблона уже выполняется для этого инструмента Clipboard.
+$Clipboard_PasteCountsWithWires	 Объекты: {0} / {1}; Провода: {2}
+$Clipboard_PasteExcludedRows	Clipboard: Объектов, исключённых из подключения проводов и электроснабжения: {0}.
+$Clipboard_PasteFinished	 Вставка шаблона из слота {0} завершена.
+$Clipboard_PasteNoObjects	Не удалось вставить шаблон, так как не было размещено ни одного объекта.
+$Clipboard_PasteObjectCounts	 Объекты: {0} / {1}
+$Clipboard_PastePlacementFailed	Не удалось вставить шаблон, так как встроенная операция размещения завершилась сбоем.
+$Clipboard_PastePluginTableIncomplete	Таблица плагинов шаблона неполная, поэтому ничего не было вставлено.
+$Clipboard_PasteReusedRows	Clipboard: Пропущено повторных размещений: {0}.
+$Clipboard_PasteSlotEmpty	 В слоте {0} нет шаблона.
+$Clipboard_PasteWarnings	Вставка шаблона из слота {0} завершена с предупреждениями.
+$Clipboard_PasteWireCount	 Провода: {0}
+$Clipboard_PatternExists	В слоте {0} уже есть шаблон.
+$Clipboard_PatternNameInput	Введите название для шаблона Clipboard:
+$Clipboard_PatternPluginCount	Шаблон #{0}: использовано плагинов: {1}.
+$Clipboard_PatternSaveFailed	Не удалось сохранить шаблон в слот {0}. Если в этом слоте был предыдущий шаблон, он сохранён.
+$Clipboard_PatternSaved	Запись шаблона в слот {0} завершена.
+$Clipboard_PickCell	Ячейка
+$Clipboard_PickPlugin	Плагин
+$Clipboard_PluginSourcesEmpty	В этом поселении не найдено доступных для выбора источников плагинов.
+$Clipboard_PoweringUpProgress	Clipboard: включение питания ({0}%)
+$Clipboard_PreparationFailed	Подготовка шаблона после размещения завершилась сбоем.
+$Clipboard_PreparationInterrupted	Подготовка шаблона была прервана.
+$Clipboard_PreparationObjectsMayExist	Некоторые объекты, возможно, уже существуют; подключение проводов и электропитание были пропущены.
+$Clipboard_RemoveComponents	 Удаление компонентов
+$Clipboard_ReviewBothLogs	Подробности смотрите в Clipboard.log и Papyrus.log.
+$Clipboard_ReviewNativeLog	Подробности смотрите в Clipboard.log.
+$Clipboard_RotateFinished	Поворот выбранных объектов завершён.
+$Clipboard_RotationInput	Введите угол в градусах: больше 0, не более 180 (до 6 знаков после точки):
+$Clipboard_RotationInvalid	Недопустимое значение. Введите угол в градусах: больше 0, не более 180, до 6 знаков после точки.
+$Clipboard_ScaleDownInput	Уменьшение в процентах: больше 0, до 99. Итоговый размер каждого объекта должен выражаться целым числом процентов. Для дробной части используйте точку:
+$Clipboard_ScaleDownInvalid	Недопустимое изменение масштаба. Уменьшение в процентах: больше 0, до 99. Итоговый размер каждого объекта должен выражаться целым числом процентов. Для дробной части используйте точку:
+$Clipboard_ScaleFinished	Масштабирование выбранных объектов завершено.
+$Clipboard_ScaleNoExactChange	Для этого набора точное изменение масштаба в данном направлении невозможно. Объекты не изменены. Изменяйте масштаб меньших групп отдельно или используйте восстановление.
+$Clipboard_ScaleRestricted	Это изменение округлит размер объекта или превысит допустимый предел. Объекты не изменены. Для этого набора и направления: шаг {0}; максимум {1}. Ближайшие допустимые значения: {2}.
+$Clipboard_ScaleSelectionInvalid	Не удалось завершить изменение масштаба. Проверьте выбранные объекты перед повторной попыткой.
+$Clipboard_ScaleUpInput	Увеличение в процентах: больше 0, до 1000. Итоговый размер каждого объекта должен выражаться целым числом процентов. Для дробной части используйте точку:
+$Clipboard_ScaleUpInvalid	Недопустимое изменение масштаба. Увеличение в процентах: больше 0, до 1000. Итоговый размер каждого объекта должен выражаться целым числом процентов. Для дробной части используйте точку:
+$Clipboard_SelectGunEquipped	Оружие выделения экипировано, выстрелите в объект, чтобы выбрать его.
+$Clipboard_SelectedStatus	 Выбранные объекты: {0}
+$Clipboard_SelectionAllCount	Выбрано объектов поселения: {0}.
+$Clipboard_SelectionAreaCount	Выбрано объектов поселения: {0} из {1}.
+$Clipboard_SelectionAreaEmpty	В области выделения ничего не найдено.
+$Clipboard_SelectionAreaRetry	Попробуйте изменить положение инструмента копирования или увеличить размер области выделения.
+$Clipboard_SelectionCellCount	Выбрано объектов поселения в пределах этой ячейки: {0}.
+$Clipboard_SelectionComplete	Выделение завершено.
+$Clipboard_SelectionDetailsArea	\n\n<b>Область</b>\nШирина: {0}\nДлина: {1}\nВысота: {2}
+$Clipboard_SelectionDetailsCenter	\n\n<b>Центральная точка</b>\nX: {0}\nY: {1}\nZ: {2}
+$Clipboard_SelectionDetailsCounts	<b><u>Сведения о выделении</u></b>\n\nКоличество объектов: {0}\nКоличество проводов: {1}\nКоличество плагинов: {2}
+$Clipboard_SelectionDetailsScale	\n\n<b>Масштаб</b>\nМинимум: {0}\nСреднее: {1}\nМаксимум: {2}
+$Clipboard_SelectionPluginCount	Выбрано объектов поселения из '{1}': {0}.
+$Clipboard_SelectionPluginCountTitle	Выбранные объекты: используемые плагины: {0}.
+$Clipboard_SelectionPluginEmpty	В '{0}' не найдено новых доступных для выбора объектов поселения.
+$Clipboard_SelectionSize	 Размер выделения: {0}
+$Clipboard_SetMotionType	 Установить тип движения
+$Clipboard_SettlementEmpty	В поселении не найдено объектов, доступных для выбора.
+$Clipboard_SlotRangeCount	{0} - {1}: Шаблонов: {2}\n
+$Clipboard_SourceCellIndexInvalid	Шаблон содержит недопустимый индекс плагина исходной ячейки. Перемещение не выполнено.
+$Clipboard_SourceCellPluginUnreadable	Не удалось прочитать плагин исходной ячейки шаблона. Перемещение не выполнено.
+$Clipboard_SourceDifferentCell	Сохранённая позиция недоступна или находится за пределами зоны строительства поселения «{0}». Перемещение не выполнено.
+$Clipboard_SourceDifferentWorkshop	Перемещение между мастерскими пока не поддерживается.
+$Clipboard_SourceMovementUnavailable	Перемещение к источнику шаблона недоступно, так как не удалось определить инструмент Clipboard или мастерскую.
+$Clipboard_SourcePatternInvalid	Выбранный слот не содержит действительного шаблона.
+$Clipboard_SourcePlayerNotMoved	Не удалось проверить перемещение устройства, либо вы покинули поселение «{0}». Игрок не был перемещён.
+$Clipboard_SourcePluginListUnreadable	Не удалось прочитать список плагинов шаблона.
+$Clipboard_SourcePositionUnreadable	Не удалось прочитать исходную позицию шаблона. Перемещение не выполнено.
+$Clipboard_SourceTransformInvalid	Преобразование источника шаблона недопустимо. Перемещение не выполнено.
+$Clipboard_SourceWorkshopIndexInvalid	Шаблон содержит недопустимый индекс плагина мастерской.
+$Clipboard_SourceWorkshopMissing	Шаблон получен из мастерской, которой нет в этом сохранении.
+$Clipboard_SourceWorkshopNames	Этот шаблон создан в поселении «{0}». Для перемещения к исходной позиции игрок и устройство Clipboard должны находиться в этом поселении. Перемещение не выполнено.
+$Clipboard_TextInputUnavailable	Не удалось завершить ввод текста. Попробуйте ещё раз.
+$Clipboard_ToolAlreadyExists	Инструмент Clipboard уже существует.\n\nПожалуйста, уничтожьте этот инструмент перед созданием нового.
+$Clipboard_WarningGeneratorAnimation	Не удалось инициализировать некоторые анимации импортированных объектов. 
+$Clipboard_WarningPowerFailed	Не удалось восстановить подключение питания. 
+$Clipboard_WarningPowerIncomplete	Восстановление подключения питания было неполным. 
+$Clipboard_WarningPreparationIncomplete	Некоторые объекты не завершили загрузку или подготовку физики; автоматические провода были пропущены. 
+$Clipboard_WarningRowsSkipped	Некоторые строки шаблона были пропущены. 
+$Clipboard_WarningWireCreationFailed	Не удалось создать провод. 
+$Clipboard_WarningWiresMissing	Некоторые провода шаблона не были созданы. 
+$Clipboard_WorkshopCallbackCounts	Объекты: {0}; завершено вызовов: {1} / {2}; не завершено: {3}
+$Clipboard_WorkshopIncomplete	Инициализация мастерской выполнена не полностью.
+$Clipboard_WorkshopInitializationProgress	Clipboard: инициализация мастерской ({0}%)
+$Clipboard_WorkshopInitializing	Clipboard: инициализация объектов мастерской...
+$Clipboard_WorkshopObjectsPlaced	Объекты размещены; подключение проводов и электроснабжение пропущены.
+$Clipboard_WorkshopReviewBeforeRetry	Просмотрите журналы перед повторным импортом с новым инструментом.
+$Clipboard_WorkshopUnverified	Не удалось проверить инициализацию мастерской.
+$Clipboard_WorkshopWiringSkipped	Подключение проводов и электроснабжение пропущены. Просмотрите Clipboard.log и Papyrus.log.

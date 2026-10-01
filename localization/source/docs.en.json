@@ -1,0 +1,540 @@
+[
+  {
+    "key": "$Clipboard_Docs_ReadMe_001",
+    "text": "Clipboard Resurrection 3.0.0",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: Clipboard Resurrection 3.0.0. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "3.0.0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_002",
+    "text": "Clipboard copies groups of settlement objects into reusable patterns. Select\r\nobjects, save a pattern, then paste it relative to the Clipboard tool's position\r\nand rotation. You can also move, rotate, scale, or scrap a selection.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: Clipboard Resurrection 3.0.0. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_003",
+    "text": "INSTALLATION",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: INSTALLATION. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_004",
+    "text": "Fallout 4 OG, NG, and AE use the same Clipboard package. Install an F4SE build\r\nmatching your installed runtime and the required Runtime Database, which provides\r\nData\\F4SE\\Plugins\\f4rd-runtime.bin. Start the game through f4se_loader.exe.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: INSTALLATION. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "AE",
+      "Data\\F4SE\\Plugins\\f4rd-runtime.bin",
+      "F4SE",
+      "NG",
+      "OG",
+      "f4se_loader.exe"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_005",
+    "text": "F4SE: https://f4se.silverlock.org/\r\nRuntime Database: https://www.nexusmods.com/fallout4/mods/108394",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: INSTALLATION. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "F4SE",
+      "https://f4se.silverlock.org/",
+      "https://www.nexusmods.com/fallout4/mods/108394"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_006",
+    "text": "Install the complete package with your mod manager and enable Clipboard.esp.\r\nKeep the included DLL, scripts, Strings and Interface files together. If updating\r\nfrom a package that used ClipboardExtension.dll, disable that old DLL so only\r\nData\\F4SE\\Plugins\\clipboard.dll remains active. Back up your patterns before\r\nreplacing an existing installation.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: INSTALLATION. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Clipboard.esp",
+      "ClipboardExtension.dll",
+      "DLL",
+      "Data\\F4SE\\Plugins\\clipboard.dll"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_007",
+    "text": "Mod Configuration Menu (MCM) provides Clipboard's options and hotkeys. Without\r\nMCM, settings can be overridden in Data\\MCM\\Settings\\clipboard.ini under their\r\nmatching INI sections. Restart the game after manual INI changes.\r\nMCM: https://www.nexusmods.com/fallout4/mods/21497",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: INSTALLATION. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Data\\MCM\\Settings\\clipboard.ini",
+      "INI",
+      "MCM",
+      "https://www.nexusmods.com/fallout4/mods/21497"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_008",
+    "text": "GETTING STARTED",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: GETTING STARTED. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_009",
+    "text": "1. Build the Clipboard Tool from the workshop's Special category.\r\n2. Activate its controls and choose a selection method: All, Box, Sphere,\r\n   Cylinder, By Cell, By Plugin, or the manual selection gun.\r\n3. Select the objects you want, then save them to a pattern slot. Confirming an\r\n   overwrite replaces that slot; cancelling leaves the existing pattern intact.\r\n4. Place the tool at the destination and choose a saved pattern to paste.\r\n   The tool's position and rotation determine where the group appears.\r\n5. Wait for the import to finish before starting another operation. Review any\r\n   warning about objects, wires, or power that could not be prepared.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: GETTING STARTED. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_010",
+    "text": "There are 500 slots. The package supplies empty slots.\r\nPattern files are stored at Data\\F4SE\\Plugins\\Clipboard\\<slot>\\pattern.ini.\r\nBack up your own pattern files before reinstalling or replacing slot folders.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: GETTING STARTED. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Data\\F4SE\\Plugins\\Clipboard\\<slot>\\pattern.ini"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_011",
+    "text": "TEXT AND NUMBER INPUT",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: TEXT AND NUMBER INPUT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_012",
+    "text": "Clipboard includes its own input menu; TIM is not required. Use Enter to accept,\r\nor Tab or Escape to cancel. Mouse buttons and an on-screen controller keyboard\r\nare also available; follow the controls shown below the input. Keep\r\nInterface/ClipboardInput.swf installed with the matching DLL and scripts.\r\nType values directly: Windows clipboard paste is not currently supported.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: TEXT AND NUMBER INPUT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "ClipboardInput",
+      "DLL",
+      "TIM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_013",
+    "text": "The MCM option \"Hide Condition Boy/Girl During Input\" is on by default. When\r\nthat mod is installed, Clipboard temporarily hides its overlay while input is\r\nopen, then restores the visibility it changed. No additional mod is required.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: TEXT AND NUMBER INPUT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_014",
+    "text": "ROTATION, SCALE AND RESTORE",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_015",
+    "text": "Rotation accepts degrees greater than 0 and up to 180, with up to six decimal\r\nplaces. Use a dot as the decimal separator, for example 12.345678. Choose whether\r\nto rotate around the selection's center or the Clipboard tool.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "12.345678"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_016",
+    "text": "Increase and Decrease take a relative percentage change. Increase accepts more\r\nthan 0 and up to 1000; Decrease accepts more than 0 and up to 99. Up to six\r\ndecimal places are allowed, but every resulting object size must be an exact\r\nwhole-number percentage between 1% and 1000% of its original size. A valid\r\nnumber may still be unsuitable for the selected sizes. Clipboard rejects it\r\nbefore changing objects and shows valid increments, limits or nearby values.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_026",
+    "text": "For example, increasing 100% objects by 12% makes them 112%. Increasing a mixed\r\n50% / 100% / 150% group by 2% gives 51% / 102% / 153%; a 1% increase is rejected\r\nbecause some results would be fractional. Decimal changes can be valid:\r\nincreasing a 200% object by 0.5% makes it 201%.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "0.5"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_018",
+    "text": "Whole scaling changes object sizes and spacing together. Individual scaling\r\nchanges object sizes while keeping their positions. Both modes use the same\r\nsize restrictions; Clipboard does not silently round or clamp a rejected change.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_019",
+    "text": "Both Restore actions set every selected object to exactly 100% size.\r\nIndividual Restore keeps all positions. Whole Restore also keeps positions when\r\nthe selected sizes differ; if all sizes are equal, it adjusts spacing by the\r\ninverse of that common scale. An already-100% group does not move. Restore is\r\nnot an undo history and does not recover earlier mixed-group spacing.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: ROTATION, SCALE AND RESTORE. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_020",
+    "text": "COMPONENT COSTS",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: COMPONENT COSTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_021",
+    "text": "Component payment is off by default. Enable it in MCM if pasting should consume\r\nconstruction materials. Costs use available construction recipes for objects\r\nadmitted by the import rules; an admitted object without a recipe has no recipe\r\ncomponent cost.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: COMPONENT COSTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_022",
+    "text": "Cost checks look in the current workshop container first. If it covers every\r\nrequired material, Clipboard can show those local quantities without searching\r\nlinked settlements and the player. The read-only cost view offers an optional\r\nfull-source total. Otherwise Clipboard checks all sources and labels the totals\r\naccordingly. Viewing costs does not authorize payment.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: COMPONENT COSTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_023",
+    "text": "When payment is enabled, Clipboard asks for confirmation, checks availability\r\nagain after the prompt, and verifies withdrawals before placing objects. It\r\nuses the current workshop, then linked workshops, then player inventory. If\r\npayment cannot be completed or verified, placement stops. Resources already\r\nremoved are not automatically refunded.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: COMPONENT COSTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_024",
+    "text": "PATTERNS AND IMPORTS",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_025",
+    "text": "Patterns store object types, positions, rotations, scales, and internal wires.\r\nThey also record eligible wire connections to existing objects outside the\r\nselection. Those outside objects are not copied. Reconnecting them requires\r\nthe original tool location and valid original endpoints; moving the tool to a\r\nnew destination ignores those external connections. Player-created endpoints\r\nare specific to their save. See Clipboard-Object-Filtering.txt for details.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Clipboard-Object-Filtering.txt"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_027",
+    "text": "Patterns do not preserve container contents, weapon or armor modifications,\r\nownership, or script state. SS2 plot plans, levels and settlers are not saved.\r\nIf a required plugin or object is unavailable, Clipboard uses a bottlecap\r\nplaceholder. Wires attached to missing or filtered placement objects are skipped.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "SS2"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_028",
+    "text": "Clipboard reuses an existing object when its base object, position, rotation and\r\nscale match the pattern placement. It avoids creating another copy and can use\r\nthe existing object for wire connections. The duplicate-skipped count appears\r\nonly when greater than zero, even if import warnings are disabled.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_029",
+    "text": "Use Throttling is on by default. It limits placement work and simultaneous\r\nworkshop initialization calls. Turning it off may overload scripting and cause\r\nPapyrus stack dumps that interfere with other mods such as Sim Settlements 2.\r\nCompletion checks remain active, and turning it off may not shorten the import.\r\nDuring throttled placement, \"Clipboard: Importing objects...\" repeats every ten\r\nseconds. Initialization and powering up show progress percentages in either\r\nmode. These report completed work, not elapsed time; wait for the final result.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Sim Settlements"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_030",
+    "text": "Objects that fail preparation or initialization are excluded from later wiring\r\nand power work; successful objects can continue. If Clipboard cannot verify\r\ncompletion, such as after a timeout or interruption, wiring and power stop for\r\nthe whole import.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_031",
+    "text": "Selection/export and light-source import have separate options. Imported\r\nnon-actors have Havok physics disabled by default to keep loose objects in\r\nplace; scripts, animations and workshop actions can still move them. See\r\nClipboard-Object-Filtering.txt for these controls and optional mod filters.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Clipboard-Object-Filtering.txt"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_032",
+    "text": "Keep a save from before upgrading if you may return to an older version.\r\nOlder Clipboard DLLs cannot resume operations saved in the new 3.0.0 format.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "3.0.0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_033",
+    "text": "Clipboard follows the game's language. See Clipboard-Localization.txt for\r\nlanguage choices and troubleshooting, and CHANGELOG.txt for recent changes.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: PATTERNS AND IMPORTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "CHANGELOG.txt",
+      "Clipboard-Localization.txt"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_017",
+    "text": "HELP AND CREDITS",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: HELP AND CREDITS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_034",
+    "text": "Warnings, errors and build identities are recorded in Clipboard.log even when\r\n\"Enable Diagnostic Logging\" is off. Turn it on in MCM before reproducing a\r\nproblem when more detail is needed. Include the action, game version, settings,\r\nand Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log; include Papyrus.0.log when\r\navailable. Copy Clipboard.log before restarting the game: each launch replaces\r\nit with a new log.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: HELP AND CREDITS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Documents\\My",
+      "Games\\Fallout4\\F4SE\\Clipboard.log",
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_035",
+    "text": "Project and usage videos:\r\nhttps://www.nexusmods.com/fallout4/mods/39804/\r\nhttps://www.nexusmods.com/fallout4/mods/39804/?tab=videos&BH=0",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: HELP AND CREDITS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "https://www.nexusmods.com/fallout4/mods/39804/",
+      "https://www.nexusmods.com/fallout4/mods/39804/?tab=videos&BH=0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_036",
+    "text": "Thanks to Struckur, Everett C Sands, WolfMark, Big&Flabby, and the F4SE and\r\nCommonLibF4RD contributors.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: HELP AND CREDITS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Big&Flabby",
+      "CommonLibF4RD",
+      "Everett C Sands",
+      "F4SE",
+      "Struckur",
+      "WolfMark"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_037",
+    "text": "Clipboard-owned code and documentation use GPL-3.0-or-later. See LICENSE.txt\r\nfor the full terms, including the absence of warranty. Third-party notices\r\nare in Licenses; their separate terms remain applicable.",
+    "context": "End-user paragraph/section from Clipboard-ReadMe.txt, section: HELP AND CREDITS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "GPL-3.0-or-later",
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_001",
+    "text": "Clipboard Resurrection 3.0.0 - Object selection and import",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: Clipboard Resurrection 3.0.0 - Object selection and import. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "3.0.0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_002",
+    "text": "SELECTION AND EXPORT",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AND EXPORT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_003",
+    "text": "By default, automatic selection requires an object created during play and\r\nlinked to a workshop. Lights also need nonzero object bounds and a workshop\r\nconstruction recipe. Manual selection is independent of this automatic filter.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AND EXPORT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_004",
+    "text": "The MCM option \"Allow Normally Filtered Objects To Be Selected And Exported\"\r\nis off by default and broadens automatic selection. Export honors the current\r\nselection, including manually selected objects, regardless of this option.\r\nPermanent exclusions and invalid-object checks still apply. An export with\r\nzero eligible objects does not create or overwrite a pattern.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AND EXPORT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_005",
+    "text": "Neither permissive option bypasses Clipboard's infrastructure protections,\r\nconfigured blacklists, or checks for invalid objects. Settlement workbenches,\r\nClipboard helpers, objects with the IsMarker flag, and unsupported actor types\r\nremain excluded. Activators (ACTI) and movable statics (MSTT) whose object bounds\r\nare all zero are also always excluded, including from old patterns. This is a\r\nbase-object rule, not a hardcoded crop-helper list. The light-source option does\r\nnot bypass it. Wire connections are handled separately from object selection.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AND EXPORT. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "IsMarker"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_006",
+    "text": "SELECTION AREA",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AREA. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_007",
+    "text": "Box, Sphere and Cylinder use their chosen volume. By Plugin selects from the\r\nchosen source plugin. By Cell offers Clipboard Tool's Cell or Workshop's Cells.\r\nWorkshop's Cells covers cells assigned to the current settlement and matching\r\nworkshop-linked objects. The tool-cell option covers only its single cell.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AREA. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_008",
+    "text": "By Cell and By Plugin limit objects stored in the exterior persistent cell to\r\n5,000 units from the tool by default. Ordinary settlement cells have no distance\r\ncutoff. The user setting is [Selection] fWideSelectionMaxDistance. Permissive\r\nselection does not change the chosen area or this distance limit.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AREA. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "[Selection]",
+      "fWideSelectionMaxDistance"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_009",
+    "text": "Clear an old selection when comparing settings: selection messages count newly\r\nadded objects. Some plugin-placed objects lack an individual highlight even\r\nwhen selected. A pattern's plugin list also includes dependencies such as its\r\nworkshop and cell; it is not just a list of selected objects' source plugins.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: SELECTION AREA. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_022",
+    "text": "WIRES TO EXISTING OBJECTS",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: WIRES TO EXISTING OBJECTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_023",
+    "text": "Export records wires between selected objects and eligible connections to\r\nexisting objects outside the selection. Outside endpoints can be plugin-placed\r\nor player-created. They are not added to the copied object list, moved, or\r\nrecreated when the pattern is pasted.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: WIRES TO EXISTING OBJECTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_012",
+    "text": "External connections are used only when the Clipboard tool is in the recorded\r\nsource cell at its original export position. Rotating the tool alone does not\r\nchange this rule. At a different destination, external connections are ignored\r\nand internal wires still import normally. Missing, moved or mismatched original\r\nendpoints are skipped; Clipboard does not search for a nearby replacement.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: WIRES TO EXISTING OBJECTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_013",
+    "text": "Player-created outside endpoints belong to the save containing those objects.\r\nTheir connections are not portable to another playthrough. Re-export an older\r\npattern to capture external connections that its original file did not record.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: WIRES TO EXISTING OBJECTS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_010",
+    "text": "IMPORT AND PHYSICS",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: IMPORT AND PHYSICS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_011",
+    "text": "MCM's Import Options contains these controls:",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: MCM's Import Options contains these controls:. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_016",
+    "text": "- \"Allow normally filtered light sources to be imported\" is off by default.\r\n  Enable it to admit lights without object bounds or a workshop recipe.\r\n- \"Disable Havok Physics On Imported Objects\" is on by default. It keeps\r\n  imported non-actors from immediately falling or rolling and restores their\r\n  placement if physics moved them during loading. Turn it off for normal loose\r\n  object physics. It does not prevent scripted movement, animation, activation,\r\n  or workshop manipulation, and does not apply this physics change to actors.\r\n- \"Use Throttling\" is on by default. It limits placement work and simultaneous\r\n  workshop initialization calls. Off may overload scripting and cause Papyrus\r\n  stack dumps that interfere with other mods such as Sim Settlements 2. The\r\n  next import uses the new setting; completion checks remain active in both modes.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: MCM's Import Options contains these controls:. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Sim Settlements"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_017",
+    "text": "Import cannot recover an object's original placement history from a pattern.\r\nMost non-light objects saved with permissive selection can therefore be pasted\r\nwith the light-source import option off. Component costs follow the same import\r\nfilter; an admitted object without a recipe has no recipe component cost.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: MCM's Import Options contains these controls:. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_018",
+    "text": "Patterns preserve base objects and transforms, not inventories, attached weapon\r\nor armor modifications, or script state. Modified equipment pastes as its\r\ndefault base object. Missing forms use bottlecap placeholders. Skipping an\r\nobject or one of its wires does not shift the other wire connections. Matching\r\nexisting objects are reused by base object, position, rotation and scale; new\r\nwires can connect to them without duplicating their placement. Failed or unready\r\nobjects are excluded individually when the remaining work is verified complete.\r\nUncertain completion stops wiring and power for the whole import.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: MCM's Import Options contains these controls:. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_015",
+    "text": "OPTIONAL MOD FILTERS",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_020",
+    "text": "The default filters allow otherwise-eligible SS2 plot roots and standalone\r\nobjects while excluding objects marked PlotSpawnedKeyword or PreventExport,\r\nSS2 static collections (SCOL), and children linked from supported Auto Beds\r\nparents. These rules apply to all selection methods and export, including\r\npermissive selection. They do not reconstruct SS2 plans or other mod state,\r\nand do not apply to imported pattern rows.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Auto Beds",
+      "PlotSpawnedKeyword",
+      "PreventExport",
+      "SCOL",
+      "SS2"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_021",
+    "text": "These controls are INI-only. Use [OptionalFiltering] in\r\nData\\MCM\\Settings\\clipboard.ini to override the packaged defaults:",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Data\\MCM\\Settings\\clipboard.ini",
+      "INI",
+      "[OptionalFiltering]"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_024",
+    "text": "- aReferenceKeywordBlackList: reference keywords to exclude.\r\n- aCollectionPluginFamilyBlackList: plugins whose static collections are\r\n  excluded, including active plugins that directly require them as masters.\r\n- aChildParentScripts and aChildLinkKeywordBlackList: parent script types and\r\n  slot-link keywords used together to identify generated children.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "aChildLinkKeywordBlackList",
+      "aChildParentScripts",
+      "aCollectionPluginFamilyBlackList",
+      "aReferenceKeywordBlackList"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_025",
+    "text": "See Data\\MCM\\Config\\Clipboard\\settings.ini for the supplied lists. Keyword\r\nentries use PluginName#decimalLocalFormID, without a load-order prefix. A missing\r\nsetting uses its default; an explicitly empty value disables that rule.\r\nUnavailable optional mods are skipped. Restart the game after INI changes.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Data\\MCM\\Config\\Clipboard\\settings.ini",
+      "INI",
+      "PluginName",
+      "decimalLocalFormID"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_026",
+    "text": "Unconditional plugin/form blacklists remain in [Selection]: aPluginBlackList,\r\naMasterPluginBlackList and aFormBlackList. User lists replace each setting's\r\ndefaults. If an older user INI still lists SS2.esm or its expansions in the\r\nplugin blacklist, or SS2.esm in the master blacklist, remove those entries to\r\nuse the optional SS2 filters while keeping any other exclusions you want.\r\nThe packaged unconditional defaults still exclude Sim Settlements and Seasons.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "INI",
+      "SS2",
+      "SS2.esm",
+      "Seasons",
+      "Sim Settlements",
+      "[Selection]",
+      "aFormBlackList",
+      "aMasterPluginBlackList",
+      "aPluginBlackList"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_027",
+    "text": "Old bEnableToolCellObjectSelection and bEnableWorkshopCellObjectSelection\r\nsettings are ignored. Existing import and physics preferences keep their INI\r\nsections: bAllowAllObjectsToBeImported in [Selection] and\r\nbDisableHavokOnImportedObjects in [Balance]. Use Throttling is bUseThrottling\r\nin [Import]. Retired profiling and lock-trace settings are ignored.",
+    "context": "End-user paragraph/section from Clipboard-Object-Filtering.txt, section: OPTIONAL MOD FILTERS. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "INI",
+      "[Balance]",
+      "[Selection]",
+      "bAllowAllObjectsToBeImported",
+      "bDisableHavokOnImportedObjects",
+      "bEnableToolCellObjectSelection",
+      "bEnableWorkshopCellObjectSelection",
+      "bUseThrottling"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_001",
+    "text": "Clipboard Resurrection 3.0.0 - Languages",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "3.0.0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_002",
+    "text": "Clipboard uses the language selected in Fallout 4. The package contains text\r\nfor English, Russian, German, Spanish (Spain), Spanish (Mexico), French,\r\nItalian, Japanese, Polish, Portuguese (Brazil), Simplified Chinese and\r\nTraditional Chinese.",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_003",
+    "text": "All languages share the same plugin, DLL, scripts, settings and patterns.\r\nInstall the complete package, including Strings and Interface, and restart the\r\ngame after changing its language. User-entered text, player names and saved\r\npattern names are not automatically translated.",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "DLL"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_004",
+    "text": "Clipboard's dynamic messages fall back to English if a language or key is\r\nunavailable. Missing MCM catalogs or plugin string tables should be repaired\r\nby reinstalling the complete package; they do not share that fallback.",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "MCM"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_005",
+    "text": "Traditional Chinese includes the game's cn filename alias. Custom zhhans and\r\nzhhant language configurations require matching game settings and fonts.\r\nIf characters appear as boxes, check the fonts used by your game and interface\r\nmods. Report incorrect wording with the game language and affected menu/action.",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "cn",
+      "zhhans",
+      "zhhant"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_006",
+    "text": "User guides are supplied in all supported languages: the readme,\r\nobject-selection/import guide, language guide and changelog. English guides\r\nare under Docs/clipboard; translations are in its language-code subfolders.",
+    "context": "End-user paragraph/section from Clipboard-Localization.txt, section: Clipboard Resurrection 3.0.0 - Languages. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "Docs/clipboard"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_001",
+    "text": "Clipboard Resurrection - Changelog",
+    "context": "End-user paragraph/section from CHANGELOG.txt, section: Clipboard Resurrection - Changelog. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself."
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_002",
+    "text": "3.0.0",
+    "context": "End-user paragraph/section from CHANGELOG.txt, section: 3.0.0. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "3.0.0"
+    ]
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_003",
+    "text": "- Uses one package for Fallout 4 OG, NG and AE with matching F4SE and the\r\n  external Runtime Database; includes in-game text for twelve languages.\r\n- Provides a dedicated text and numeric input menu without requiring TIM,\r\n  with keyboard, mouse and controller controls and optional Condition Boy/Girl\r\n  hiding while input is open.\r\n- Accepts rotation and scale input with up to six decimal places. Pattern\r\n  numbers retain the precision of their stored values during export and import.\r\n- Rejects relative scale changes unless every resulting object size is an exact\r\n  whole-number percentage within 1% to 1000%, with guidance on valid changes.\r\n- Makes both Restore actions set every object to 100%. Individual preserves\r\n  positions; Whole adjusts spacing for uniform groups and preserves positions\r\n  for mixed-size groups.\r\n- Checks local workshop materials first, offers full-source totals in cost\r\n  views, and reduces repeated recipe lookups and inventory-query overhead.\r\n  Payment retains confirmation, a fresh availability check and verified removal.\r\n- Honors manually selected objects during export and preserves the existing\r\n  pattern when an export is cancelled, empty or fails validation.\r\n- Records eligible wires to existing objects outside the copied selection,\r\n  reconnecting them only at the source tool position with valid endpoints.\r\n- Improves selection across settlement cells, removes the 128-object truncation\r\n  from large cell/plugin selections and destruction, and reduces repeated\r\n  selection searches and transform calculations.\r\n- Adds separate controls for broader selection/export, light-source import,\r\n  and imported-object physics. Refines SS2 and Auto Beds filters to exclude\r\n  identified generated contents while allowing eligible roots and standalone\r\n  objects; zero-bounds activators and movable statics remain excluded.\r\n- Improves large imports, preserves wire endpoints when objects are skipped,\r\n  reconnects touching conduits, and reuses matching existing placements.\r\n- Waits for required workshop initialization before wiring and power work.\r\n  Verified objects can continue after individual failures; uncertain completion\r\n  stops wiring and power for the whole import. Use Throttling defaults to on.\r\n- Shows periodic placement notices and percentage progress for initialization\r\n  and power. Duplicate-skipped counts appear only when positive.\r\n- Corrects workshop callback arguments, powered-object cleanup, selection-box\r\n  cleanup, pagination and MCM setting routes. Removes temporary profiling tools.\r\n- Always logs warnings, errors and build identities. Optional diagnostic logging\r\n  adds detail; Clipboard.log starts fresh when the game launches.\r\n- Supplies 500 empty pattern slots and preserves support for existing patterns\r\n  and settings. Updates the English user guides under Docs/clipboard.",
+    "context": "End-user paragraph/section from CHANGELOG.txt, section: 3.0.0. Preserve paragraph/bullet structure, identifiers/paths, numerical facts and credits; line wrapping may adapt naturally to the target language. Translate the prose naturally; keep canonical English document filenames in translation data, since package generation localizes filenames and their references. Do not translate the canonical GPL license itself.",
+    "protected": [
+      "AE",
+      "Auto Beds",
+      "Docs/clipboard",
+      "F4SE",
+      "MCM",
+      "NG",
+      "OG",
+      "SS2",
+      "TIM"
+    ]
+  }
+]

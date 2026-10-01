@@ -1,0 +1,86 @@
+﻿Clipboard Resurrection 3.0.0
+
+Clipboard kopiert Gruppen von Siedlungsobjekten in wiederverwendbare Bauvorlagen. Wähle Objekte aus, speichere eine Bauvorlage und füge sie anschließend relativ zur Position und Drehung des Clipboard-Geräts ein. Du kannst eine Auswahl auch verschieben, drehen, skalieren oder verschrotten.
+
+INSTALLATION
+
+Fallout 4 OG, NG und AE verwenden dasselbe Clipboard-Paket. Installiere eine F4SE-Version, die zu deiner installierten Spielversion passt, sowie die erforderliche Runtime Database, die Data\F4SE\Plugins\f4rd-runtime.bin bereitstellt. Starte das Spiel über f4se_loader.exe.
+
+F4SE: https://f4se.silverlock.org/
+Runtime Database: https://www.nexusmods.com/fallout4/mods/108394
+
+Installiere das vollständige Paket mit deinem Mod-Manager und aktiviere Clipboard.esp. Behalte die enthaltene DLL, die Skripte sowie die Strings- und Interface-Dateien zusammen. Wenn du ein Paket aktualisierst, das ClipboardExtension.dll verwendet hat, deaktiviere diese alte DLL, sodass nur Data\F4SE\Plugins\clipboard.dll aktiv bleibt. Sichere deine Bauvorlagen, bevor du eine bestehende Installation ersetzt.
+
+Mod Configuration Menu (MCM) stellt die Optionen und Tastenkürzel von Clipboard bereit. Ohne MCM lassen sich Einstellungen in Data\MCM\Settings\clipboard.ini unter den jeweiligen INI-Abschnitten überschreiben. Starte das Spiel nach manuellen INI-Änderungen neu.
+MCM: https://www.nexusmods.com/fallout4/mods/21497
+
+ERSTE SCHRITTE
+
+1. Baue das Clipboard-Gerät über die Kategorie „Spezial“ der Werkstatt.
+2. Aktiviere seine Steuerung und wähle eine Auswahlmethode: Alle, Quader, Kugel,
+   Zylinder, Nach Zelle, Nach Plugin oder die manuelle Auswahlwaffe.
+3. Wähle die gewünschten Objekte aus und speichere sie in einem Bauvorlagen-Speicherplatz.
+   Bestätigst du das Überschreiben, wird der Inhalt dieses Speicherplatzes ersetzt; beim Abbrechen bleibt die vorhandene Bauvorlage erhalten.
+4. Platziere das Gerät am Zielort und wähle eine gespeicherte Bauvorlage zum Einfügen.
+   Position und Drehung des Geräts bestimmen, wo die Gruppe erscheint.
+5. Warte, bis der Import abgeschlossen ist, bevor du einen weiteren Vorgang startest.
+   Beachte alle Warnungen zu Objekten, Kabeln oder zur Stromversorgung, deren Vorbereitung nicht abgeschlossen werden konnte.
+
+Es gibt 500 Speicherplätze. Das Paket enthält leere Speicherplätze. Bauvorlagendateien werden unter Data\F4SE\Plugins\Clipboard\<slot>\pattern.ini gespeichert. Sichere deine eigenen Bauvorlagendateien, bevor du das Paket neu installierst oder Speicherplatzordner ersetzt.
+
+TEXT- UND ZAHLENEINGABE
+
+Clipboard enthält ein eigenes Eingabemenü; TIM ist nicht erforderlich. Bestätige mit Enter oder brich mit Tab oder Escape ab. Schaltflächen zur Mausbedienung und eine Bildschirmtastatur für Controller sind ebenfalls verfügbar; beachte die unter dem Eingabefeld angezeigte Steuerung. Behalte Interface/ClipboardInput.swf zusammen mit der passenden DLL und den passenden Skripten installiert. Tippe Werte direkt ein: Das Einfügen aus der Windows-Zwischenablage wird derzeit nicht unterstützt.
+
+Die MCM-Option „Condition Boy/Girl während der Eingabe ausblenden“ ist standardmäßig aktiviert. Wenn diese Mod installiert ist, blendet Clipboard deren Overlay vorübergehend aus, solange die Eingabe geöffnet ist, und stellt anschließend die zuvor geänderte Sichtbarkeit wieder her. Es ist keine zusätzliche Mod erforderlich.
+
+DREHEN, SKALIEREN UND WIEDERHERSTELLEN
+
+Für die Drehung sind Winkel größer als 0 und bis zu 180 Grad mit bis zu sechs Nachkommastellen zulässig. Verwende einen Punkt als Dezimaltrennzeichen, zum Beispiel 12.345678. Wähle, ob um den Mittelpunkt der Auswahl oder um das Clipboard-Gerät gedreht werden soll.
+
+„Vergrößern“ und „Verkleinern“ erwarten eine relative prozentuale Änderung. „Vergrößern“ akzeptiert Werte größer als 0 und bis zu 1000; „Verkleinern“ akzeptiert Werte größer als 0 und bis zu 99. Bis zu sechs Nachkommastellen sind erlaubt, aber jede resultierende Objektgröße muss ein exakter ganzzahliger Prozentsatz zwischen 1% und 1000% der ursprünglichen Größe sein. Eine gültige Zahl kann für die ausgewählten Größen dennoch ungeeignet sein. Clipboard lehnt sie ab, bevor Objekte verändert werden, und zeigt gültige Schrittweiten, Grenzen oder nahegelegene Werte an.
+
+Wenn du beispielsweise Objekte mit 100% Größe um 12% vergrößerst, erhalten sie eine Größe von 112%. Eine gemischte Gruppe mit 50% / 100% / 150% wird durch eine Vergrößerung um 2% zu 51% / 102% / 153%; eine Vergrößerung um 1% wird abgelehnt, weil einige Ergebnisse Nachkommastellen hätten. Änderungen mit Nachkommastellen können gültig sein: Wenn du ein Objekt mit 200% Größe um 0.5% vergrößerst, erhält es eine Größe von 201%.
+
+Die Skalierung als Ganzes ändert Objektgrößen und Abstände gemeinsam. Die individuelle Skalierung ändert die Objektgrößen, behält aber ihre Positionen bei. Für beide Modi gelten dieselben Größenbeschränkungen; Clipboard rundet oder begrenzt eine abgelehnte Änderung nicht stillschweigend.
+
+Beide Aktionen zur Größenwiederherstellung setzen jedes ausgewählte Objekt auf exakt 100% Größe. Die individuelle Wiederherstellung behält alle Positionen bei. Die Wiederherstellung als Ganzes behält die Positionen ebenfalls bei, wenn die ausgewählten Objekte unterschiedlich skaliert sind; bei gleicher Skalierung passt sie die Abstände mit dem Kehrwert dieses gemeinsamen Skalierungsfaktors an. Eine Gruppe, die bereits auf 100% skaliert ist, wird nicht bewegt. Die Wiederherstellung ist keine Rückgängig-Funktion und stellt frühere Abstände unterschiedlich skalierter Gruppen nicht wieder her.
+
+KOMPONENTENKOSTEN
+
+Die Bezahlung mit Komponenten ist standardmäßig deaktiviert. Aktiviere sie in MCM, wenn das Einfügen Baumaterialien verbrauchen soll. Die Kosten richten sich nach den verfügbaren Baurezepten für Objekte, die gemäß den Importregeln zugelassen sind; für ein zugelassenes Objekt ohne Rezept fallen keine rezeptbasierten Komponentenkosten an.
+
+Kostenprüfungen berücksichtigen zuerst den aktuellen Werkstattbehälter. Deckt dessen Bestand alle benötigten Materialien ab, kann Clipboard diese lokalen Mengen anzeigen, ohne verbundene Siedlungen und das Spielerinventar zu durchsuchen. Die reine Kostenansicht bietet optional eine Gesamtsumme aus allen Quellen an. Andernfalls prüft Clipboard alle Quellen und kennzeichnet die Gesamtmengen entsprechend. Die Kostenanzeige erteilt keine Zustimmung zur Bezahlung.
+
+Wenn die Bezahlung aktiviert ist, bittet Clipboard um Bestätigung, prüft danach erneut die Verfügbarkeit und überprüft die Entnahmen, bevor Objekte platziert werden. Dabei wird zuerst die aktuelle Werkstatt genutzt, dann verbundene Werkstätten und zuletzt das Spielerinventar. Kann die Bezahlung nicht abgeschlossen oder überprüft werden, wird die Platzierung gestoppt. Bereits entnommene Ressourcen werden nicht automatisch zurückerstattet.
+
+BAUVORLAGEN UND IMPORTE
+
+Bauvorlagen speichern Objekttypen, Positionen, Drehungen, Skalierungen und interne Kabel. Sie erfassen außerdem zulässige Kabelverbindungen zu bestehenden Objekten außerhalb der Auswahl. Diese externen Objekte werden nicht kopiert. Um die Verbindungen wiederherzustellen, sind der ursprüngliche Standort des Geräts und gültige ursprüngliche Endpunkte erforderlich; wird das Gerät an einen neuen Zielort bewegt, werden diese externen Verbindungen ignoriert. Vom Spieler erstellte Endpunkte sind an ihren Spielstand gebunden. Einzelheiten findest du in Clipboard-Objektauswahl-und-Import.txt.
+
+Bauvorlagen speichern weder Behälterinhalte noch Waffen- oder Rüstungsmodifikationen, Besitzverhältnisse oder Skriptzustände. SS2-Parzellenpläne, Stufen und Siedler werden nicht gespeichert. Ist ein benötigtes Plugin oder Objekt nicht verfügbar, verwendet Clipboard einen Kronkorken als Platzhalter. Kabel zu fehlenden oder herausgefilterten Platzierungsobjekten werden übersprungen.
+
+Clipboard verwendet ein bestehendes Objekt wieder, wenn dessen Basisobjekt, Position, Drehung und Skalierung mit der Platzierung in der Bauvorlage übereinstimmen. So wird keine weitere Kopie erstellt, und das bestehende Objekt kann für Kabelverbindungen genutzt werden. Die Anzahl der übersprungenen Duplikate wird nur angezeigt, wenn sie größer als null ist, auch wenn Importwarnungen deaktiviert sind.
+
+„Drosselung verwenden“ ist standardmäßig aktiviert. Diese Option begrenzt die Platzierungsarbeit und die gleichzeitigen Aufrufe zur Werkstattinitialisierung. Das Deaktivieren kann das Skriptsystem überlasten und Papyrus-Stack-Dumps verursachen, die andere Mods wie Sim Settlements 2 beeinträchtigen. Die Abschlussprüfungen bleiben aktiv, und das Deaktivieren verkürzt den Import möglicherweise nicht. Während der gedrosselten Platzierung wird „Clipboard: Objekte werden importiert...“ alle zehn Sekunden wiederholt. Initialisierung und Stromversorgung zeigen in beiden Modi Fortschrittswerte in Prozent an. Diese geben die abgeschlossene Arbeit an, nicht die verstrichene Zeit; warte auf das Endergebnis.
+
+Objekte, deren Vorbereitung oder Initialisierung fehlschlägt, werden von der anschließenden Verkabelung und Stromversorgung ausgeschlossen; erfolgreich verarbeitete Objekte können weiterbearbeitet werden. Kann Clipboard den Abschluss nicht überprüfen, etwa nach einer Zeitüberschreitung oder Unterbrechung, werden Verkabelung und Stromversorgung für den gesamten Import gestoppt.
+
+Für Auswahl/Export und den Import von Lichtquellen gibt es separate Optionen. Bei importierten Objekten, die keine Akteure sind, wird die Havok-Physik standardmäßig deaktiviert, damit lose Objekte an ihrem Platz bleiben; Skripte, Animationen und Werkstattaktionen können sie weiterhin bewegen. Informationen zu diesen Einstellungen und optionalen Mod-Filtern findest du in Clipboard-Objektauswahl-und-Import.txt.
+
+Behalte einen Spielstand von vor dem Upgrade, falls du zu einer älteren Version zurückkehren möchtest.
+Ältere Clipboard-DLLs können Vorgänge, die im neuen Format 3.0.0 gespeichert wurden, nicht fortsetzen.
+
+Clipboard verwendet die Sprache des Spiels. Informationen zur Sprachauswahl und Fehlerbehebung findest du in Clipboard-Sprachen.txt, aktuelle Änderungen in Änderungsprotokoll.txt.
+
+HILFE UND DANKSAGUNGEN
+
+Warnungen, Fehler und Build-Kennungen werden auch dann in Clipboard.log aufgezeichnet, wenn „Diagnoseprotokoll aktivieren“ ausgeschaltet ist. Schalte diese Option im MCM ein, bevor du ein Problem reproduzierst, wenn weitere Details benötigt werden. Gib die ausgeführte Aktion, die Spielversion und die Einstellungen an und füge Documents\My Games\Fallout4\F4SE\Clipboard.log bei; füge auch Papyrus.0.log bei, sofern verfügbar. Kopiere Clipboard.log vor einem Neustart des Spiels: Bei jedem Start wird die Datei durch ein neues Protokoll ersetzt.
+
+Projekt und Anwendungsvideos:
+https://www.nexusmods.com/fallout4/mods/39804/
+https://www.nexusmods.com/fallout4/mods/39804/?tab=videos&BH=0
+
+Vielen Dank an Struckur, Everett C Sands, WolfMark, Big&Flabby sowie alle Mitwirkenden von F4SE und CommonLibF4RD.
+
+Der zu Clipboard gehörende Code und die Dokumentation stehen unter GPL-3.0-or-later. Die vollständigen Bedingungen einschließlich des Gewährleistungsausschlusses findest du in ../LICENSE.txt. Hinweise zu Drittanbietern befinden sich in ../Licenses; deren gesonderte Bedingungen gelten weiterhin.

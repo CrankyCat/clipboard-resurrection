@@ -1,0 +1,67 @@
+{
+  	"modName": "Clipboard",
+  	"keybinds": 
+	[
+		{
+			"id": "activateActionQuickBtn",
+			"desc": "Show Quick Menu",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateActionQuickBtn"]
+			}
+		},{
+			"id": "activateActionMenuBtn",
+			"desc": "Show Action Menu",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateActionMenuBtn"]
+			}
+		},{
+			"id": "activateSelectionMethodBtn",
+			"desc": "Change Selection Method",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateSelectionMethodBtn"]
+			}
+		},{
+			"id": "activateSelectionScanBtn",
+			"desc": "Initiate Selection Method's Secondary Action",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateSelectionScanBtn"]
+			}
+		},{
+			"id": "activateClearSelectionBtn",
+			"desc": "Clear Selection",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateClearSelectionBtn"]
+			}
+		},{
+			"id": "activateDestroyToolBtn",
+			"desc": "Destroy Tool",
+			"action": 
+			{
+				"type": "CallFunction",
+				"form": "Clipboard.esp|3790b",
+				"function": "OnHotkey",
+				"params": ["activateDestroyToolBtn"]
+			}
+		}
+	]
+}

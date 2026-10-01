@@ -1,0 +1,709 @@
+$Clipboard_BoxCreationFailed	Die Auswahlbegrenzung konnte nicht erstellt werden.
+$Clipboard_BoxCreationReviewLog	Überprüfe Clipboard.log, bevor du es erneut versuchst.
+$Clipboard_CellScopeEmpty	Im ausgewählten Zellbereich wurde nichts gefunden, das nicht bereits ausgewählt war.
+$Clipboard_CellScopeTool	Zelle des Clipboard-Werkzeugs
+$Clipboard_CellScopeWorkshop	Zellen der Werkstatt
+$Clipboard_CheckComponents	 Verfügbare Komponenten werden geprüft
+$Clipboard_CleanupActive	Eine Clipboard-Plattform ist noch aktiv. Zerstöre alle Plattformen und versuche es erneut.
+$Clipboard_CleanupBlocked	Einige Überreste konnten nicht sicher identifiziert werden. Es wurde nichts geändert.
+$Clipboard_CleanupBusy	Clipboard ist beschäftigt. Warte auf den Abschluss der aktuellen Aktion und versuche es erneut.
+$Clipboard_CleanupConfirm	Überreste zerstörter Clipboard-Plattformen bereinigen?
+$Clipboard_CleanupFailed	Die Bereinigung konnte nicht starten. Keine Überreste wurden geändert.
+$Clipboard_CleanupNone	Keine geeigneten Überreste alter Plattformen gefunden.
+$Clipboard_CleanupPrepare	Zerstöre zuerst alle Clipboard-Plattformen und erstelle einen Sicherungsspielstand.
+$Clipboard_CleanupPreserve	Importierte Objekte und gespeicherte Muster bleiben erhalten.
+$Clipboard_CleanupProgress	Alte Clipboard-Plattformen werden bereinigt...
+$Clipboard_CleanupReload	Speichere, lade diesen Spielstand und speichere erneut.
+$Clipboard_CleanupResult	{0} Überreste zur Löschung vorgemerkt; {1} übersprungen.
+$Clipboard_CleanupStopped	Die Bereinigung wurde vorzeitig beendet. Speichere und lade den Spielstand vor einem erneuten Versuch.
+$Clipboard_CleanupTitle	Alte Plattformen bereinigen
+$Clipboard_ClearOwnership	 Besitzstatus entfernt
+$Clipboard_CompileLinkedWorkshops	 Verknüpfte Werkstätten werden erfasst
+$Clipboard_CompileWorkshopContainers	 Werkstattcontainer werden erfasst
+$Clipboard_ComponentAllSourcesQuestion	\nVerfügbare Materialien aus allen Quellen anzeigen?
+$Clipboard_ComponentAvailableAll	Benötigt / Aus allen Quellen verfügbar\n\n
+$Clipboard_ComponentAvailableLocal	Benötigt / In dieser Werkstatt verfügbar\n\n
+$Clipboard_ComponentCostHeading	<b><u>Komponentenkosten</u></b>\n\n
+$Clipboard_ComponentPaymentIncomplete	Der Import wurde abgebrochen, weil die erforderlichen Komponenten nicht vollständig abgezogen werden konnten. Einige Komponenten wurden möglicherweise bereits verbraucht.
+$Clipboard_ContinueQuestion	\nMöchtest du fortfahren?
+$Clipboard_DeselectGunEquipped	Abwahlwaffe ausgerüstet. Schieße auf ein ausgewähltes Objekt, um es abzuwählen.
+$Clipboard_DestroyFinished	Zerstörungsauftrag wurde verarbeitet.
+$Clipboard_DestroyIncomplete	Die Zerstörung wurde angehalten, bevor alle ausgewählten Objekte verarbeitet waren.
+$Clipboard_DestroyOriginalCount	Ursprünglich ausgewählt: {0}
+$Clipboard_DestroyQuestion	Möchtest du sie zerstören?
+$Clipboard_DestroyScrapCount	Zum Verschrotten gesendet: {0}
+$Clipboard_DestroyWarning	Auf diese Weise zerstörte Gegenstände liefern keinen Schrott und können nicht wiederhergestellt werden.
+$Clipboard_DimensionDepth	 Tiefe
+$Clipboard_DimensionHeight	 Höhe
+$Clipboard_DimensionRadius	Radius
+$Clipboard_DimensionWidth	 Breite
+$Clipboard_DistanceInput	Gib eine Entfernung zwischen 1 und 9.999 ein:
+$Clipboard_DistanceInvalid	Ungültige Entfernung. Gib eine Zahl zwischen 1 und 9.999 ein.
+$Clipboard_ESP_AmmoSelection_FULL_0	Clipboard-Auswahlmunition
+$Clipboard_ESP_AmmoSelection_ONAM_0	Auswahlmunition
+$Clipboard_ESP_ClipboardActOnSelection_FULL_0	Aktionsmenü
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_DESC_0	Aktion auswählen:
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_1	Aus Clipboard einfügen
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_2	Im Muster verwendete Plugins auflisten
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3	Zur Ursprungsposition des Musters bewegen
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4	Materialkosten des Musters anzeigen
+$Clipboard_ESP_ClipboardActionSelectMessage_DESC_0	Aktion auswählen:
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_1	In Clipboard kopieren
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_10	Im Muster verwendete Plugins auflisten
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11	Zum Ursprungsort des Musters verschieben
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12	Komponentenkosten der Auswahl anzeigen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13	Komponentenkosten des Musters anzeigen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_2	Aus Clipboard einfügen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3	Zerstören
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_4	Drehen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_5	Verschieben
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_6	Skalieren
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7	Besitz entfernen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_8	Auswahldetails anzeigen
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_9	In Auswahl verwendete Plugins auflisten
+$Clipboard_ESP_ClipboardButtonNuke_FULL_0	Clipboard-Werkzeug
+$Clipboard_ESP_ClipboardButtonPole_FULL_0	Clipboard-Werkzeug
+$Clipboard_ESP_ClipboardButtonStand_ATTX_0	Drücken
+$Clipboard_ESP_ClipboardButtonStand_FULL_0	Clipboard-Werkzeug
+$Clipboard_ESP_ClipboardChangeSelectionMethod_FULL_0	Auswahlmethode ändern
+$Clipboard_ESP_ClipboardClearSelection_FULL_0	Auswahl aufheben
+$Clipboard_ESP_ClipboardCopyPylon_FULL_0	Clipboard-Werkzeug
+$Clipboard_ESP_ClipboardCopyTo_FULL_0	In Clipboard kopieren
+$Clipboard_ESP_ClipboardDestoryTool_FULL_0	Werkzeug zerstören
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_DESC_0	<b><u>Schnellmenü des Clipboard-Werkzeugs</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_1	Aktionsmenü anzeigen
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_2	Auswahlmethode ändern
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_3	Auswahlsuche starten
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4	Auswahl aufheben
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5	Werkzeug zerstören
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6	Zum Werkzeug bewegen
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_DESC_0	<b><u>Schnellmenü für Clipboard-Werkzeug</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_1	Aktionsmenü anzeigen
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_2	Auswahlmethode ändern
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3	Auswahl / Abwahl umschalten
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4	Auswahl löschen
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5	Werkzeug zerstören
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6	Zum Werkzeug bewegen
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_DESC_0	<b><u>Schnellmenü für Clipboard-Werkzeug</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_1	Aktionsmenü anzeigen
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_2	Auswahlmethode ändern
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3	Auswahl aufheben
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4	Werkzeug zerstören
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5	Zum Werkzeug bewegen
+$Clipboard_ESP_ClipboardInformMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardInformMessage_ITXT_0	OK
+$Clipboard_ESP_ClipboardInitiateSelection_FULL_0	Auswahlscan starten
+$Clipboard_ESP_ClipboardLabel1_FULL_0	Etikett1
+$Clipboard_ESP_ClipboardLabel2_FULL_0	Etikett2
+$Clipboard_ESP_ClipboardLabel3_FULL_0	Etikett3
+$Clipboard_ESP_ClipboardLabel4_FULL_0	Etikett4
+$Clipboard_ESP_ClipboardLabel5_FULL_0	Etikett5
+$Clipboard_ESP_ClipboardListPick1Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick1Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick2Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick3Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick4Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick5Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick6Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick7Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_DESC_0	<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick8Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_DESC_0	<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick9Message_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickMessage_DESC_0	<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_10	10
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_6	6
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_7	7
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_8	8
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_DESC_0	<b><u>Clipboard-<Alias=Slot1State>-Auswahl: %.0f-%.0f</u></b>\r\n\r\n<Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickPagedMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_10	8
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_11	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_12	10
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_3	1
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_4	2
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_5	3
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_6	4
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_7	5
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_8	6
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_9	7
+$Clipboard_ESP_ClipboardManager_FULL_0	Clipboard-Manager
+$Clipboard_ESP_ClipboardMissingPluginsMessage_DESC_0	Erforderliche Plugins fehlen!\r\n \r\n<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>\r\n\r\nMöchtest du trotzdem fortfahren?
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_0	Nein
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_1	Ja
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_DESC_0	Verschieben um:
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_0	1
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_1	2
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_2	4
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_3	8
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_4	16
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_5	32
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_6	64
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_7	128
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_8	256
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_9	512
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_DESC_0	Bewegungsrichtung:
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_0	Links
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_1	Rechts
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_2	Oben
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_3	Unten
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_4	Vorwärts
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_5	Rückwärts
+$Clipboard_ESP_ClipboardMoveOnto_FULL_0	Auf Plattform bewegen
+$Clipboard_ESP_ClipboardNotYetImplemented_DESC_0	Noch nicht implementiert
+$Clipboard_ESP_ClipboardNotYetImplemented_ITXT_0	OK
+$Clipboard_ESP_ClipboardPage1SelectMessage_DESC_0	<b><u>Clipboard-Seitenauswahl: 1-100</u></b>\r\n \r\nZURÜCK: 401-500\r\nWEITER: 101-200\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage1SelectMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_10	71 - 80
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_11	81 - 90
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_12	91 - 100
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_3	1 - 10
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_4	11 - 20
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_5	21 - 30
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_6	31 - 40
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_7	41 - 50
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_8	51 - 60
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_9	61 - 70
+$Clipboard_ESP_ClipboardPage2SelectMessage_DESC_0	<b><u>Clipboard-Seitenauswahl: 101-200</u></b>\r\n\r\nZURÜCK: 1-100\r\nWEITER: 201-300\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage2SelectMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_10	171 - 180
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_11	181 - 190
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_12	191 - 200
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_3	101 - 110
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_4	111 - 120
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_5	121 - 130
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_6	131 - 140
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_7	141 - 150
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_8	151 - 160
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_9	161 - 170
+$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0	<b><u>Clipboard-Seitenauswahl: 201-300</u></b>\r\n\r\nZURÜCK: 101-200\r\nWEITER: 301-400\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage3SelectMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_10	271 - 280
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_11	281 - 290
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_12	291 - 300
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_3	201 - 210
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_4	211 - 220
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_5	221 - 230
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_6	231 - 240
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_7	241 - 250
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_8	251 - 260
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_9	261 - 270
+$Clipboard_ESP_ClipboardPage4SelectMessage_DESC_0	<b><u>Clipboard-Seitenauswahl: 301-400</u></b>\r\n\r\nZURÜCK: 201-300\r\nWEITER: 401-500\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage4SelectMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_10	371 - 380
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_11	381 - 390
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_12	391 - 400
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_3	301 - 310
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_4	311 - 320
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_5	321 - 330
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_6	331 - 340
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_7	341 - 350
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_8	351 - 360
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_9	361 - 370
+$Clipboard_ESP_ClipboardPage5SelectMessage_DESC_0	<b><u>Clipboard-Seitenauswahl: 401-500</u></b>\r\n\r\nZURÜCK: 301-400\r\nWEITER: 1-100\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage5SelectMessage_FULL_0	Clipboard-Seite auswählen
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_0	[ ABBRECHEN ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_1	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_10	471 - 480
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_11	481 - 490
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_12	491 - 500
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_2	[ WEITER ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_3	401 - 410
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_4	411 - 420
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_5	421 - 430
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_6	431 - 440
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_7	441 - 450
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_8	451 - 460
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_9	461 - 470
+$Clipboard_ESP_ClipboardProgessMessage_DESC_0	<Alias=Slot1State> %.0f (%.0f%% abgeschlossen)
+$Clipboard_ESP_ClipboardRotationAmountMessage_DESC_0	Drehwinkel:
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_0	1°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_1	5°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_2	10°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_3	15°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_4	30°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_5	45°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_6	60°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_7	90°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_8	120°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_9	180°
+$Clipboard_ESP_ClipboardRotationSelectMessage_DESC_0	Drehart:
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0	Im Uhrzeigersinn (um das Auswahlzentrum)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1	Gegen den Uhrzeigersinn (um das Auswahlzentrum)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2	Im Uhrzeigersinn (um das Clipboard-Werkzeug)
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3	Gegen den Uhrzeigersinn (um das Clipboard-Werkzeug)
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0	Größe verringern um:
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_0	1%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_1	5%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_2	10%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_3	25%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_4	50%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_5	75%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_6	90%
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0	Größe erhöhen (gesamt)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1	Größe verringern (gesamt)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2	Originalgröße wiederherstellen (gesamt)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3	Größe erhöhen (einzeln)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4	Größe verringern (einzeln)
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5	Originalgröße wiederherstellen (einzeln)
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0	Größe erhöhen um:\r\n\r\n(Einzelne Objekte werden bei 10x ihrer Originalgröße nicht weiter skaliert)
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_0	5%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_1	10%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_2	25%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_3	50%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_4	100%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_5	200%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_6	500%
+$Clipboard_ESP_ClipboardSelectionGun_FULL_0	Clipboard-Auswahlgewehr
+$Clipboard_ESP_ClipboardSelectionGun_FULL_1	Standard episch
+$Clipboard_ESP_ClipboardSelectionMethodAll_FULL_0	Clipboard-Auswahlmethode Alle
+$Clipboard_ESP_ClipboardSelectionMethodBox_FULL_0	Clipboard-Auswahlmethode Quader
+$Clipboard_ESP_ClipboardSelectionMethodByCell_FULL_0	Clipboard-Auswahlmethode nach Zelle
+$Clipboard_ESP_ClipboardSelectionMethodByPlugin_FULL_0	Clipboard-Auswahlmethode nach Plugin
+$Clipboard_ESP_ClipboardSelectionMethodCylinder_FULL_0	Clipboard-Auswahlmethode Zylinder
+$Clipboard_ESP_ClipboardSelectionMethodGun_FULL_0	Clipboard-Auswahlmethode Gewehr
+$Clipboard_ESP_ClipboardSelectionMethodSphere_FULL_0	Clipboard-Auswahlmethode Kugel
+$Clipboard_ESP_ClipboardSelectionMethods_FULL_0	Clipboard-Auswahlmethoden
+$Clipboard_ESP_ClipboardSelectionWeaponEnchantment_FULL_0	Auswahlverzauberung
+$Clipboard_ESP_ClipboardSelectionWeaponHitEffect_FULL_0	Auswahl-Treffereffekt
+$Clipboard_ESP_ClipboardSetSelectionSize_FULL_0	Auswahlgröße festlegen
+$Clipboard_ESP_ClipboardShapeSelectMessage_DESC_0	<b><u>Clipboard-Auswahlmethoden</u></b>
+$Clipboard_ESP_ClipboardShapeSelectMessage_FULL_0	Auswahlmethode wählen
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_0	Kugel
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_1	Zylinder
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_2	Quader
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_3	Manuell
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_4	Alle auswählen
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_5	Nach Plugin
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_6	Nach Zelle
+$Clipboard_ESP_ClipboardSizeMessage_DESC_0	Auswahlbereich festlegen <Alias=Slot1State>
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_0	x1
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_1	x2
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_2	x3
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_3	x4
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_4	x5
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_5	x6
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_6	x7
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_7	x8
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_8	x9
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_9	x10
+$Clipboard_ESP_ClipboardSlotSelectMessage_DESC_0	Clipboard-Slot-Auswahl\r\nAnzeige %.0f–%.0f\r\n \r\n[1]: Slot %.0f: <Alias=Slot1State>\r\n[2]: Slot %.0f: <Alias=Slot2State>\r\n[3]: Slot %.0f: <Alias=Slot3State>\r\n[4]: Slot %.0f: <Alias=Slot4State>\r\n[5]: Slot %.0f: <Alias=Slot5State>
+$Clipboard_ESP_ClipboardSlotSelectMessage_FULL_0	Clipboard-Slot wählen
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_0	Vorherige Seite
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_6	Nächste Seite
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_DESC_0	<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_FULL_0	Clipboard-Slot auswählen
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_1	91
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_10	100
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_2	92
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_3	93
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_4	94
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_5	95
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_6	96
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_7	97
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_8	98
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_9	99
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_DESC_0	<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n\r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_FULL_0	Clipboard-Speicherplatz wählen
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_10	10
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_6	6
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_7	7
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_8	8
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_9	9
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_DESC_0	<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_FULL_0	Clipboard-Slot wählen
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_1	11
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_10	20
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_2	12
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_3	13
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_4	14
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_5	15
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_6	16
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_7	17
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_8	18
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_9	19
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_DESC_0	<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_FULL_0	Clipboard-Slot wählen
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_1	21
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_10	30
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_2	22
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_3	23
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_4	24
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_5	25
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_6	26
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_7	27
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_8	28
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_9	29
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_DESC_0	<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_FULL_0	Clipboard-Slot wählen
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_1	31
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_10	40
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_2	32
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_3	33
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_4	34
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_5	35
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_6	36
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_7	37
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_8	38
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_9	39
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_DESC_0	<b><u>Clipboard-Slotauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_FULL_0	Clipboard-Slot auswählen
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_1	41
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_10	50
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_2	42
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_3	43
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_4	44
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_5	45
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_6	46
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_7	47
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_8	48
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_9	49
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_DESC_0	<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_FULL_0	Clipboard-Speicherplatz wählen
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_1	51
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_10	60
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_2	52
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_3	53
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_4	54
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_5	55
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_6	56
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_7	57
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_8	58
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_9	59
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_DESC_0	<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_FULL_0	Clipboard-Speicherplatz wählen
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_1	61
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_10	70
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_2	62
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_3	63
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_4	64
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_5	65
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_6	66
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_7	67
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_8	68
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_9	69
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_DESC_0	<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_FULL_0	Clipboard-Slot wählen
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_1	71
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_10	80
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_2	72
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_3	73
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_4	74
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_5	75
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_6	76
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_7	77
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_8	78
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_9	79
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_DESC_0	<b><u>Clipboard-Slotauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_FULL_0	Clipboard-Slot auswählen
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_0	[ ZURÜCK ]
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_1	81
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_10	90
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_2	82
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_3	83
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_4	84
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_5	85
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_6	86
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_7	87
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_8	88
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_9	89
+$Clipboard_ESP_ClipboardStatusMessage_DESC_0	<Alias=Slot1State>
+$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0	Auswahl umschalten
+$Clipboard_ESP_ClipboardYesNoMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_0	Nein
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_1	Ja
+$Clipboard_ESP_WorkshopRecipeFilterQuest_FULL_0	Spezial / Clipboard
+$Clipboard_ESP_clipboardMenuManager_FULL_0	Clipboard
+$Clipboard_ESP_clipboardMenuManager_NNAM_0	Clipboard
+$Clipboard_ESP_workshop_co_ClipboardCopyPylon_DESC_0	Werkstattobjekte auswählen und bearbeiten. Clipboard-Muster verwalten.
+$Clipboard_EmptySlot	Leer
+$Clipboard_EnterWorkshopMode	Möchtest du zuerst den Werkstattmodus betreten?\n\n(Objekte, die nur im Werkstattmodus sichtbar sind, werden sonst ignoriert.)
+$Clipboard_GrabDeselected	 Auswahl per Greifen aufgehoben: {0}
+$Clipboard_GrabSelected	 Per Greifen ausgewählt: {0}
+$Clipboard_GroupDeselectedCount	Abgewählte Objekte: {0}.
+$Clipboard_GroupDeselectionComplete	<b><u>Gruppenabwahl abgeschlossen</u></b>
+$Clipboard_GroupSelectedCount	Ausgewählte Objekte: {0}.
+$Clipboard_GroupSelectionComplete	<b><u>Gruppenauswahl abgeschlossen</u></b>
+$Clipboard_ImportingObjects	Clipboard: Objekte werden importiert...
+$Clipboard_InputAccept	Bestätigen
+$Clipboard_InputCancel	Abbrechen
+$Clipboard_InputControllerHelp	Steuerkreuz: wählen | A: eingeben | B: abbrechen | X: löschen | Y: Groß-/Kleinschreibung | Start: bestätigen
+$Clipboard_InputInvalid	Gib einen gültigen Wert innerhalb der zulässigen Länge und des Wertebereichs ein.
+$Clipboard_ListNextPage	NÄCHSTE: {0}-{1}\n\n
+$Clipboard_ListPreviousPage	VORHERIGE: {0}-{1}\n
+$Clipboard_ListSelectionInvalid	Ungültige Auswahl. Wähle einen gültigen Eintrag aus „{0}“.
+$Clipboard_MCM_CleanUpOldPlatforms_Help	Entfernt Überreste zerstörter Clipboard-Plattformen. Zerstöre zuerst alle verbliebenen Plattformen und erstelle einen Sicherungsspielstand. Schließe die Menüs, um fortzufahren.
+$Clipboard_MCM_CleanUpOldPlatforms_Text	Alte Plattformen bereinigen
+$Clipboard_MCM_DisplayName	Clipboard
+$Clipboard_MCM_Keybind_activateActionMenuBtn	Aktionsmenü anzeigen
+$Clipboard_MCM_Keybind_activateActionQuickBtn	Schnellmenü anzeigen
+$Clipboard_MCM_Keybind_activateClearSelectionBtn	Auswahl aufheben
+$Clipboard_MCM_Keybind_activateDestroyToolBtn	Werkzeug zerstören
+$Clipboard_MCM_Keybind_activateSelectionMethodBtn	Auswahlmethode ändern
+$Clipboard_MCM_Keybind_activateSelectionScanBtn	Sekundäraktion der Auswahlmethode starten
+$Clipboard_MCM_Section_Balance_Text	Balance
+$Clipboard_MCM_Section_Debug_Text	Debug
+$Clipboard_MCM_Section_Dialogs_Text	Dialoge
+$Clipboard_MCM_Section_Hotkeys_Text	Schnelltasten
+$Clipboard_MCM_Section_Import_Options_Text	Importoptionen
+$Clipboard_MCM_Section_Selection_Text	Auswahl
+$Clipboard_MCM_activateActionMenuBtn_Help	Greife im Werkstattmodus oder weit entfernt vom Werkzeug auf dessen Aktionsmenü zu. Empfohlene Taste: L
+$Clipboard_MCM_activateActionMenuBtn_Text	Aktionsmenü anzeigen
+$Clipboard_MCM_activateActionQuickBtn_Help	Das Schnellmenü bietet Zugriff auf alle Schaltflächen eines Werkzeugs. Empfohlene Taste: P
+$Clipboard_MCM_activateActionQuickBtn_Text	Schnellmenü anzeigen
+$Clipboard_MCM_activateClearSelectionBtn_Help	Auswahl im Werkstattmodus oder weit entfernt vom Werkzeug aufheben. Empfohlene Taste: [
+$Clipboard_MCM_activateClearSelectionBtn_Text	Auswahl aufheben
+$Clipboard_MCM_activateDestroyToolBtn_Help	Ein Werkzeug im Werkstattmodus oder weit entfernt vom Werkzeug zerstören. Empfohlene Taste: ]
+$Clipboard_MCM_activateDestroyToolBtn_Text	Werkzeug zerstören
+$Clipboard_MCM_activateSelectionMethodBtn_Help	Methodenauswahl eines Werkzeugs im Werkstattmodus oder weit entfernt vom Werkzeug öffnen. Empfohlene Taste: ;
+$Clipboard_MCM_activateSelectionMethodBtn_Text	Auswahlmethode ändern
+$Clipboard_MCM_activateSelectionScanBtn_Help	Auswählen/Abwählen umschalten, Auswahlscan starten usw. ... Empfohlen: '
+$Clipboard_MCM_activateSelectionScanBtn_Text	Sekundäraktion der Auswahlmethode starten
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help	Standardmäßig aus. Bei Aktivierung können Lichtquellen importiert werden, die der Spieler im Baumodus nicht bearbeiten kann, sowie solche ohne Konstruktionsrezept.
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text	Import normal gefilterter Lichtquellen erlauben
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help	Standardmäßig aus. Erweitert die automatische Auswahl um zulässige, nicht vom Spieler erstellte Objekte und gefilterte Lichter. Manuell ausgewählte Objekte werden unabhängig davon exportiert; dauerhafte Ausschlüsse gelten weiterhin.
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text	Normal gefilterte Objekte auswählen und exportieren erlauben
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help	Standardmäßig an. Setzt jedes importierte Nicht-Akteur-Objekt auf schlüsselbildbasierte Bewegung, sobald sein 3D-Modell geladen wird. Dadurch fallen oder rollen lose Objekte wie Flaschen und Waffen nicht. Skript-, Animations-, Inventar- und Werkstattvorgänge können ein Objekt dennoch bewegen oder verändern.
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text	Havok-Physik für importierte Objekte deaktivieren
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Help	Importwarnungen im Abschlussdialog anzeigen. Standard: Aus. Warnungen werden weiterhin wie bisher protokolliert.
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Text	Importwarnungen anzeigen
+$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text	Benachrichtigung nach Abschluss einer Aktion anzeigen
+$Clipboard_MCM_bEnableAnimalSelection_Selection_Text	Auswahl von Tieren erlauben
+$Clipboard_MCM_bEnableComponentCost_Balance_Text	Beim Einfügen Komponenten verbrauchen
+$Clipboard_MCM_bEnableLogging_Debug_Help	Aktiviert zusätzliche Diagnoseprotokolle. Warnungen und Fehler werden immer protokolliert. Protokoll: Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log
+$Clipboard_MCM_bEnableLogging_Debug_Text	Diagnoseprotokoll aktivieren
+$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text	Beschreibung bei Aktivierung der manuellen Methode anzeigen
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help	Standardmäßig an. Blendet Condition Boy/Girl aus, während ein Clipboard-Eingabedialog geöffnet ist. Ohne die Mod keine Wirkung.
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text	Condition Boy/Girl während der Eingabe ausblenden
+$Clipboard_MCM_bUseThrottling_Import_Help	Standardmäßig an. Begrenzt gleichzeitige Aufrufe zur Werkstattinitialisierung beim Import. Das Ausschalten kann Skriptüberlastungen und Papyrus-Stack-Dumps verursachen, die andere Mods wie Sim Settlements 2 beeinträchtigen können. Gilt ab dem nächsten Import.
+$Clipboard_MCM_bUseThrottling_Import_Text	Drosselung verwenden
+$Clipboard_MCM_iEffectIndex_Selection_Option_Blue	Blau
+$Clipboard_MCM_iEffectIndex_Selection_Option_Classic	Klassisch
+$Clipboard_MCM_iEffectIndex_Selection_Option_Red	Rot
+$Clipboard_MCM_iEffectIndex_Selection_Option_White	Weiß
+$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow	Gelb
+$Clipboard_MCM_iEffectIndex_Selection_Text	Visueller Effekt für ausgewählte Objekte
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box	Kasten
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder	Zylinder
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual	Manuell
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All	Alle auswählen
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell	Nach Zelle auswählen
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin	Nach Plugin auswählen
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere	Kugel
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Text	Anfängliche Auswahlmethode
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always	Immer
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask	Fragen
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never	Nie
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text	Bei bestimmten Aktionen Werkstattmodus aktivieren
+$Clipboard_ManualSelectionHelp	<b><u>Manuelle Auswahl aktiviert</u></b>\n\n<b>Im Werkstattmodus</b>\n<i>Durch Greifen eines Objekts wird es ausgewählt.</i>\n<i>Durch Greifen und Platzieren einer Objektgruppe werden alle Objekte ausgewählt.</i>\n\n<b>Außerhalb des Werkstattmodus</b>\n<i>Schieße auf ein Objekt, um es auszuwählen.</i>\n\n<b>Über die Konsole</b>\n<i>Öffne die Konsole (`), klicke auf ein Objekt und schließe die Konsole, um das Objekt auszuwählen.</i>
+$Clipboard_MethodAll	Alle auswählen
+$Clipboard_MethodBox	Quader
+$Clipboard_MethodCell	Nach Zelle auswählen
+$Clipboard_MethodCylinder	Zylinder
+$Clipboard_MethodManual	Manuell
+$Clipboard_MethodPlugin	Nach Plugin auswählen
+$Clipboard_MethodSphere	Kugel
+$Clipboard_MissingComponentsHeading	<b><u>Fehlende erforderliche Komponenten</u></b>\n\n
+$Clipboard_MoreComponents	(Weitere Komponenten: {0}...)
+$Clipboard_MoreComponentsLine	(Weitere Komponenten: {0}...)\n
+$Clipboard_MoreMissingComponents	(Weitere fehlende Komponenten: {0}...)\n
+$Clipboard_MoreMissingPlugins	Weitere fehlende Plugins: {0}...
+$Clipboard_MotionTypeFinished	Bewegungstyp für ausgewählte Objekte wurde aktualisiert.
+$Clipboard_MoveFinished	Ausgewählte Objekte wurden verschoben.
+$Clipboard_ObjectCount	Objekte: {0}
+$Clipboard_OverwritePatternQuestion	Möchtest du es überschreiben?
+$Clipboard_OwnershipFinished	Ausgewählte Objekte wurden als besitzerlos markiert.
+$Clipboard_PasteAlreadyRunning	Für dieses Clipboard-Werkzeug läuft bereits ein Mustereinfügevorgang.
+$Clipboard_PasteCountsWithWires	 Objekte: {0} / {1}; Kabel: {2}
+$Clipboard_PasteExcludedRows	Clipboard: Von Verkabelung und Stromversorgung ausgeschlossene Objekte: {0}.
+$Clipboard_PasteFinished	 Muster aus Slot {0} wurde eingefügt.
+$Clipboard_PasteNoObjects	Das Muster konnte nicht eingefügt werden, da keine Objekte platziert wurden.
+$Clipboard_PasteObjectCounts	 Objekte: {0} / {1}
+$Clipboard_PastePlacementFailed	Das Muster konnte nicht eingefügt werden, da der native Platzierungsvorgang fehlgeschlagen ist.
+$Clipboard_PastePluginTableIncomplete	Die Plugin-Tabelle des Musters ist unvollständig, daher wurde nichts eingefügt.
+$Clipboard_PasteReusedRows	Clipboard: Übersprungene doppelte Platzierungen: {0}.
+$Clipboard_PasteSlotEmpty	 In Slot {0} ist kein Muster vorhanden.
+$Clipboard_PasteWarnings	Das Einfügen des Musters für Slot {0} wurde mit Warnungen abgeschlossen.
+$Clipboard_PasteWireCount	 Kabel: {0}
+$Clipboard_PatternExists	In Slot {0} ist bereits ein Muster vorhanden.
+$Clipboard_PatternNameInput	Gib einen Namen für das Clipboard-Muster ein:
+$Clipboard_PatternPluginCount	Muster #{0}: Verwendete Plugins: {1}.
+$Clipboard_PatternSaveFailed	Das Muster konnte nicht in Speicherplatz {0} gespeichert werden. Ein zuvor dort gespeichertes Muster wurde beibehalten.
+$Clipboard_PatternSaved	Muster wurde in Slot {0} geschrieben.
+$Clipboard_PickCell	Zelle
+$Clipboard_PickPlugin	Plugin
+$Clipboard_PluginSourcesEmpty	In dieser Siedlung wurden keine auswählbaren Plugin-Quellen gefunden.
+$Clipboard_PoweringUpProgress	Clipboard: Stromversorgung wird aktiviert ({0}%)
+$Clipboard_PreparationFailed	Mustervorbereitung ist nach der Platzierung fehlgeschlagen.
+$Clipboard_PreparationInterrupted	Mustervorbereitung wurde unterbrochen.
+$Clipboard_PreparationObjectsMayExist	Einige Objekte könnten bereits vorhanden sein; Verkabelung und Stromversorgung wurden übersprungen.
+$Clipboard_RemoveComponents	 Komponenten werden entfernt
+$Clipboard_ReviewBothLogs	Sieh in Clipboard.log und Papyrus.log nach Details.
+$Clipboard_ReviewNativeLog	Sieh in Clipboard.log nach Details.
+$Clipboard_RotateFinished	Ausgewählte Objekte wurden gedreht.
+$Clipboard_RotationInput	Grad eingeben: größer als 0 und höchstens 180 (bis zu 6 Nachkommastellen; Punkt verwenden):
+$Clipboard_RotationInvalid	Ungültiger Wert. Grad: größer als 0 und höchstens 180, bis zu 6 Nachkommastellen (Punkt verwenden).
+$Clipboard_ScaleDownInput	Verkleinerung in Prozent: größer als 0, höchstens 99. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:
+$Clipboard_ScaleDownInvalid	Ungültige Größenänderung. Verkleinerung in Prozent: größer als 0, höchstens 99. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:
+$Clipboard_ScaleFinished	Ausgewählte Objekte wurden skaliert.
+$Clipboard_ScaleNoExactChange	Für diese Auswahl ist in dieser Richtung keine exakte Größenänderung möglich. Es wurden keine Objekte geändert. Skaliere kleinere Gruppen einzeln oder verwende Wiederherstellen.
+$Clipboard_ScaleRestricted	Diese Änderung würde eine Objektgröße runden oder eine Größengrenze überschreiten. Es wurden keine Objekte geändert. Für diese Auswahl und Richtung: Schrittweite {0}; Maximum {1}. Nahe gültige Werte: {2}.
+$Clipboard_ScaleSelectionInvalid	Die Skalierung konnte nicht abgeschlossen werden. Prüfe die Auswahl vor einem erneuten Versuch.
+$Clipboard_ScaleUpInput	Vergrößerung in Prozent: größer als 0, höchstens 1000. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:
+$Clipboard_ScaleUpInvalid	Ungültige Größenänderung. Vergrößerung in Prozent: größer als 0, höchstens 1000. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:
+$Clipboard_SelectGunEquipped	Auswahlgewehr ausgerüstet, schieße auf ein Objekt, um es auszuwählen.
+$Clipboard_SelectedStatus	 Ausgewählte Objekte: {0}
+$Clipboard_SelectionAllCount	Siedlungsobjekte ausgewählt: {0}.
+$Clipboard_SelectionAreaCount	Siedlungsobjekte ausgewählt: {0} von {1}.
+$Clipboard_SelectionAreaEmpty	Keine Objekte im Auswahlbereich gefunden.
+$Clipboard_SelectionAreaRetry	Versuche, das Kopierwerkzeug neu zu positionieren oder den Auswahlbereich zu vergrößern.
+$Clipboard_SelectionCellCount	Siedlungsobjekte aus diesem Zellenbereich ausgewählt: {0}.
+$Clipboard_SelectionComplete	Auswahl abgeschlossen.
+$Clipboard_SelectionDetailsArea	\n\n<b>Bereich</b>\nBreite: {0}\nLänge: {1}\nHöhe: {2}
+$Clipboard_SelectionDetailsCenter	\n\n<b>Mittelpunkt</b>\nX: {0}\nY: {1}\nZ: {2}
+$Clipboard_SelectionDetailsCounts	<b><u>Auswahldetails</u></b>\n\nObjektanzahl: {0}\nKabelanzahl: {1}\nPluginanzahl: {2}
+$Clipboard_SelectionDetailsScale	\n\n<b>Skalierung</b>\nMinimum: {0}\nDurchschnitt: {1}\nMaximum: {2}
+$Clipboard_SelectionPluginCount	Siedlungsobjekte aus '{1}' ausgewählt: {0}.
+$Clipboard_SelectionPluginCountTitle	Ausgewählte Objekte: Verwendete Plugins: {0}.
+$Clipboard_SelectionPluginEmpty	Keine neuen auswählbaren Siedlungsobjekte aus '{0}' gefunden.
+$Clipboard_SelectionSize	 Auswahlgröße: {0}
+$Clipboard_SetMotionType	 Bewegungstyp festlegen
+$Clipboard_SettlementEmpty	In der Siedlung wurden keine auswählbaren Objekte gefunden.
+$Clipboard_SlotRangeCount	{0} - {1}: Baupläne: {2}\n
+$Clipboard_SourceCellIndexInvalid	Der Bauplan enthält einen ungültigen Plugin-Index der Quellzelle. Es wurde keine Bewegung durchgeführt.
+$Clipboard_SourceCellPluginUnreadable	Das Plugin der Bauplan-Quellzelle konnte nicht gelesen werden. Es wurde keine Bewegung durchgeführt.
+$Clipboard_SourceDifferentCell	Die gespeicherte Position ist nicht verfügbar oder liegt außerhalb des Baubereichs von '{0}'. Es wurde nichts bewegt.
+$Clipboard_SourceDifferentWorkshop	Bewegungen zwischen Werkstätten werden noch nicht unterstützt.
+$Clipboard_SourceMovementUnavailable	Die Bewegung zur Bauplanquelle ist nicht verfügbar, da das Clipboard-Werkzeug oder die Werkstatt nicht aufgelöst werden konnte.
+$Clipboard_SourcePatternInvalid	Der ausgewählte Slot enthält keinen gültigen Bauplan.
+$Clipboard_SourcePlayerNotMoved	Die Bewegung des Geräts konnte nicht bestätigt werden oder du hast '{0}' verlassen. Der Spieler wurde nicht bewegt.
+$Clipboard_SourcePluginListUnreadable	Die Plugin-Liste des Bauplans konnte nicht gelesen werden.
+$Clipboard_SourcePositionUnreadable	Die Quellposition des Bauplans konnte nicht gelesen werden. Es wurde keine Bewegung durchgeführt.
+$Clipboard_SourceTransformInvalid	Die Quelltransformation des Bauplans ist ungültig. Es wurde keine Bewegung durchgeführt.
+$Clipboard_SourceWorkshopIndexInvalid	Der Bauplan enthält einen ungültigen Werkstatt-Plugin-Index.
+$Clipboard_SourceWorkshopMissing	Der Bauplan stammt aus einer Werkstatt, die in diesem Spielstand nicht existiert.
+$Clipboard_SourceWorkshopNames	Dieses Muster wurde in '{0}' erstellt. Spieler und Clipboard-Gerät müssen sich in dieser Siedlung befinden, um zur Ursprungsposition zu wechseln. Es wurde nichts bewegt.
+$Clipboard_TextInputUnavailable	Die Texteingabe konnte nicht abgeschlossen werden. Bitte versuche es erneut.
+$Clipboard_ToolAlreadyExists	Ein Clipboard-Werkzeug existiert bereits.\n\nZerstöre dieses Werkzeug, bevor du ein neues erstellst.
+$Clipboard_WarningGeneratorAnimation	Einige Animationen importierter Objekte konnten nicht initialisiert werden. 
+$Clipboard_WarningPowerFailed	Die Wiederherstellung der Stromversorgung ist fehlgeschlagen. 
+$Clipboard_WarningPowerIncomplete	Die Wiederherstellung der Stromversorgung war unvollständig. 
+$Clipboard_WarningPreparationIncomplete	Einige Objekte haben das Laden oder die Physikvorbereitung nicht abgeschlossen; automatische Kabel wurden übersprungen. 
+$Clipboard_WarningRowsSkipped	Einige Bauplanzeilen wurden übersprungen. 
+$Clipboard_WarningWireCreationFailed	Die Kabelerstellung ist fehlgeschlagen. 
+$Clipboard_WarningWiresMissing	Einige Kabel des Bauplans wurden nicht erstellt. 
+$Clipboard_WorkshopCallbackCounts	Objekte: {0}; zurückgegebene Aufrufe: {1} / {2}; ausstehend: {3}
+$Clipboard_WorkshopIncomplete	Die Werkstattinitialisierung war unvollständig.
+$Clipboard_WorkshopInitializationProgress	Clipboard: Werkstattinitialisierung ({0}%)
+$Clipboard_WorkshopInitializing	Clipboard: Werkstattobjekte werden initialisiert...
+$Clipboard_WorkshopObjectsPlaced	Objekte wurden platziert; Kabel und Strom wurden übersprungen.
+$Clipboard_WorkshopReviewBeforeRetry	Prüfe die Protokolle, bevor du mit einem neuen Werkzeug einen weiteren Import startest.
+$Clipboard_WorkshopUnverified	Die Initialisierung der Werkstatt konnte nicht überprüft werden.
+$Clipboard_WorkshopWiringSkipped	Kabel und Strom wurden übersprungen. Prüfe Clipboard.log und Papyrus.log.

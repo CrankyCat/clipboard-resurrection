@@ -1,0 +1,2 @@
+# Preserve exact source/dependency bytes across checkouts and build attestations.
+* -text

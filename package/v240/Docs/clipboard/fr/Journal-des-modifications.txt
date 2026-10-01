@@ -1,0 +1,45 @@
+﻿Clipboard Resurrection - Journal des modifications
+
+3.0.0
+
+- Utilise un seul paquet pour Fallout 4 OG, NG et AE avec la version correspondante de F4SE et la
+  Runtime Database externe ; inclut les textes en jeu dans douze langues.
+- Fournit un menu dédié à la saisie de texte et de nombres sans nécessiter TIM,
+  utilisable au clavier, à la souris et à la manette, avec la possibilité de masquer Condition Boy/Girl
+  pendant que le menu de saisie est ouvert.
+- Accepte la saisie de rotations et d'échelles avec jusqu'à six décimales. Les valeurs numériques
+  des modèles conservent la précision de leurs valeurs enregistrées lors de l'exportation et de l'importation.
+- Refuse les changements d'échelle relatifs à moins que la taille résultante de chaque objet soit un
+  pourcentage entier exact compris entre 1% et 1000%, et indique les changements valides.
+- Les deux actions de rétablissement ramènent désormais chaque objet à 100%. Le rétablissement
+  individuel préserve les positions ; le rétablissement de l'ensemble ajuste l'espacement des groupes
+  à échelle uniforme et préserve les positions des groupes à échelles différentes.
+- Vérifie d'abord les matériaux de l'Atelier local, propose les totaux de toutes les sources dans les
+  vues des coûts et réduit les consultations répétées des recettes et la charge des requêtes d'inventaire.
+  Le paiement conserve une confirmation, une nouvelle vérification de disponibilité et un retrait vérifié.
+- Respecte les objets sélectionnés manuellement lors de l'exportation et préserve le modèle existant
+  si l'exportation est annulée, ne contient aucun objet ou échoue à la validation.
+- Enregistre les câbles admissibles reliés à des objets existants hors de la sélection copiée,
+  et ne les reconnecte qu'à la position de l'outil source, avec des extrémités valides.
+- Améliore la sélection entre les cellules d'une colonie, supprime la troncature à 128 objets
+  des grandes sélections par cellule ou plugin et de la destruction de ces objets, et réduit les
+  recherches de sélection et les calculs de transformation répétés.
+- Ajoute des commandes distinctes pour autoriser davantage de types d'objets à la sélection et à l'exportation,
+  importer les sources lumineuses et gérer la physique des objets importés. Affine les filtres SS2 et Auto Beds
+  pour exclure les contenus générés identifiés tout en autorisant les objets racines admissibles et les objets
+  autonomes ; les activateurs et les objets statiques mobiles dont les limites sont nulles restent exclus.
+- Améliore les importations volumineuses, préserve les extrémités des câbles lorsque des objets sont ignorés,
+  reconnecte les conduits en contact et réutilise les objets déjà placés qui correspondent.
+- Attend l'initialisation requise de l'Atelier avant de traiter le câblage et l'alimentation électrique.
+  Le traitement des objets vérifiés peut continuer après des échecs individuels ; en cas d'achèvement incertain,
+  le câblage et l'alimentation électrique sont interrompus pour toute l'importation. L'option Limiter la charge
+  est activée par défaut.
+- Affiche régulièrement des notifications de placement ainsi que la progression en pourcentage de
+  l'initialisation et de l'alimentation électrique. Le nombre de doublons ignorés n'apparaît que s'il est positif.
+- Corrige les arguments des fonctions de rappel de l'Atelier, le nettoyage des objets alimentés,
+  le nettoyage de la boîte de sélection, la pagination et l'acheminement des paramètres MCM.
+  Supprime les outils temporaires de profilage.
+- Consigne toujours les avertissements, les erreurs et les identifiants de compilation. La journalisation
+  diagnostique facultative ajoute des détails ; Clipboard.log repart de zéro au lancement du jeu.
+- Fournit 500 emplacements de modèles vides et maintient la prise en charge des modèles et paramètres
+  existants. Met à jour les guides d'utilisation anglais dans Docs/clipboard.

@@ -1,0 +1,340 @@
+{
+  "schema": 1,
+  "project_context": [
+    "The supplied English entry is authoritative. Use this context to disambiguate meaning, not add unstated claims, expand short labels into explanations, or silently repair a known source discrepancy. Preserve source numbers, qualifications and placeholders. Return clean Unicode without discretionary soft hyphens or zero-width characters inside words.",
+    "Clipboard Resurrection is a Fallout 4 settlement construction mod. Clipboard is its proper product/device name, not the operating system clipboard. Preserve Clipboard, Fallout 4, F4SE, MCM, HUDFramework, TIM, Runtime Database and CommonLibF4RD. Preserve the proper mod name Condition Boy/Girl literally; it is not a generic status-indicator description.",
+    "Players select existing world objects using a manual selection weapon or geometric/workshop/cell/plugin methods. Selection only marks objects; Clear Selection deselects them. Destroy Selection destroys selected objects; Destroy Tool removes the Clipboard device. Preserve that distinction in every action and confirmation.",
+    "Copy/export saves a selected construction layout as a pattern in a numbered disk slot. Paste/import places or reuses objects from that saved blueprint, then initializes workshop callbacks, physics, wires and electrical power. Pattern means a reusable construction layout, not a repeating texture; slot is a numbered saved-layout location, not an equipment slot.",
+    "A cell is an engine world-space region. Workshop means the settlement's workbench/build system; workshop mode is the game's construction mode. Plugin means a loaded ESP/ESM/ESL mod file. Components are crafting/construction materials, not software modules.",
+    "Wires are electrical connections. Reconnecting power, initializing imported object animations and disabling Havok physics are distinct operations. Animated objects need not be generators and may have sound or an activator, both or neither. Keyframed motion fixes an object's physical transform. Hidden/helper/marker objects may be filtered; allowing selection/export differs from allowing import of filtered light sources.",
+    "Import may place some objects yet fail to finish physics, callbacks, wires or power. Retain every warning, partial-success qualification and instruction. Returned callbacks are finished function invocations; outstanding callbacks remain unfinished. Do not describe uncertain completion as success.",
+    "Menu buttons should be concise and consistent. Interpret each record using its full sentence, source context, record type and editor ID; use the standard Fallout 4 terminology of the target language where applicable. Do not merely substitute dictionary words.",
+    "Placeholders and Bethesda aliases are supplied at runtime and cannot be inflected or translated. Use natural numeral-neutral count wording for 0, 1 and larger values when the engine cannot select a grammatical form. Keep angle/degree symbols, signs, dimensions, technical filenames, settings, console commands and version numbers exact.",
+    "Preserve source line breaks and leading/trailing spaces. Some warnings intentionally end with a space for concatenation. Preserve complete HTML/Bethesda tags literally in the translated data; do not add tags. A language-neutral Clipboard MCM brand header is handled directly in config and is outside this translation corpus.",
+    "In compound display names such as Clipboard Tool or Clipboard Selection Gun, keep only Clipboard as the proper brand; translate the generic device/weapon descriptor naturally. These are in-game physical objects, not software commands.",
+    "For docs surface only: these are complete end-user guides, not developer notes. Translate headings and prose naturally, preserve every qualification, list item and number, and do not add release-candidate or testing-status commentary. Preserve all version numbers, file paths, keys, credit names and technical identifiers literally. Physical line wrapping may change, but do not insert extra blank-line paragraphs. Preserve numbered steps 1 through 5, 500 slots, slots 1 through 10, distance 5,000 units, and the 128-object truncation reference where they occur. Use unambiguous regional numeric formatting.",
+    "For docs surface only: documentation_ui_labels supplies exact labels already used by the game in this locale. Where the English guide names one of these MCM options or its section, reproduce the supplied target label verbatim so users can find it, while adapting the surrounding sentence. Do not retranslate the quoted label differently.",
+    "For docs surface only: localized guides live in Docs/clipboard/<language-code>/. Keep canonical English guide filenames in translation data; package generation replaces guide filenames and their same-folder references with the configured localized names. In the license paragraph use ../LICENSE.txt and ../Licenses for the shared canonical license and third-party notices. Do not translate the license text or create legal terms."
+  ],
+  "locales": {
+    "ru": {
+      "name": "Russian",
+      "style": "Natural Russian game UI. Keep established terminology: workshop/build mode = режим мастерской; settlement = поселение; selection = выделение; paste = вставить; copy = копировать; pattern = шаблон; slot = слот; wire = провод; generator = генератор. Inflect whole sentences naturally rather than the protected tokens.",
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Разрешить выбирать и экспортировать обычно отфильтрованные объекты",
+        "Allow normally filtered light sources to be imported": "Разрешить импорт обычно отфильтрованных источников света",
+        "Disable Havok Physics On Imported Objects": "Отключить физику Havok для импортированных объектов",
+        "Import Options": "Параметры импорта",
+        "Hide Condition Boy/Girl During Input": "Скрывать Condition Boy/Girl при вводе",
+        "Enable Diagnostic Logging": "Включить диагностический журнал",
+        "Use Throttling": "Ограничивать нагрузку"
+      }
+    },
+    "de": {
+      "name": "German",
+      "style": "Standard German game UI. Use clear, compact labels and consistent Fallout 4 workshop terminology. Prefer natural instructions and correct compounds; do not imitate English title capitalization or overlong literal constructions.",
+      "game_terminology": {
+        "workshop": "Werkstatt",
+        "electrical_wire": "Kabel",
+        "generator": "Generator",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Normal gefilterte Objekte auswählen und exportieren erlauben",
+        "Allow normally filtered light sources to be imported": "Import normal gefilterter Lichtquellen erlauben",
+        "Disable Havok Physics On Imported Objects": "Havok-Physik für importierte Objekte deaktivieren",
+        "Import Options": "Importoptionen",
+        "Hide Condition Boy/Girl During Input": "Condition Boy/Girl während der Eingabe ausblenden",
+        "Enable Diagnostic Logging": "Diagnoseprotokoll aktivieren",
+        "Use Throttling": "Drosselung verwenden"
+      }
+    },
+    "es": {
+      "name": "European Spanish (Spain)",
+      "style": "Spanish for Spain. Use the Spanish Fallout 4 construction/workshop terminology, natural concise UI labels and standard accents. Keep this locale distinct from Mexican Spanish; avoid Latin American regional wording where Spain uses a different standard term.",
+      "game_terminology": {
+        "workshop": "Taller",
+        "electrical_wire": "Cable",
+        "generator": "Generador",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Permitir seleccionar y exportar objetos filtrados normalmente",
+        "Allow normally filtered light sources to be imported": "Permitir importar fuentes de luz filtradas normalmente",
+        "Disable Havok Physics On Imported Objects": "Desactivar física Havok en objetos importados",
+        "Import Options": "Opciones de importación",
+        "Hide Condition Boy/Girl During Input": "Ocultar Condition Boy/Girl durante la entrada",
+        "Enable Diagnostic Logging": "Activar registro de diagnóstico",
+        "Use Throttling": "Limitar la carga"
+      }
+    },
+    "esmx": {
+      "name": "Mexican Spanish",
+      "style": "Natural Mexican Spanish game UI, broadly understandable in Mexico. Avoid Spain-specific forms such as vosotros and regional slang. Use consistent construction/workshop terms; distinguish copying a saved layout from placing its objects.",
+      "game_terminology": {
+        "workshop": "Taller",
+        "electrical_wire": "Cable",
+        "generator": "Generador",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Permitir seleccionar y exportar objetos normalmente filtrados",
+        "Allow normally filtered light sources to be imported": "Permitir importar fuentes de luz normalmente filtradas",
+        "Disable Havok Physics On Imported Objects": "Desactivar física Havok en objetos importados",
+        "Import Options": "Opciones de importación",
+        "Hide Condition Boy/Girl During Input": "Ocultar Condition Boy/Girl durante la entrada",
+        "Enable Diagnostic Logging": "Activar registro de diagnóstico",
+        "Use Throttling": "Limitar la carga"
+      }
+    },
+    "fr": {
+      "name": "French",
+      "style": "Standard French game UI with concise labels, correct accents and natural sentence grammar. Use familiar Fallout 4 workshop/construction terminology. Preserve the operational difference between deselecting and destroying objects. For the saved reusable construction blueprint, consistently use modèle/modèles; avoid motif, which suggests a decorative pattern.",
+      "game_terminology": {
+        "workshop": "Atelier",
+        "electrical_wire": "Fil / Câble",
+        "generator": "Générateur",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Autoriser la sélection et l'exportation des objets normalement filtrés",
+        "Allow normally filtered light sources to be imported": "Autoriser l'importation des sources lumineuses normalement filtrées",
+        "Disable Havok Physics On Imported Objects": "Désactiver la physique Havok des objets importés",
+        "Import Options": "Options d'importation",
+        "Hide Condition Boy/Girl During Input": "Masquer Condition Boy/Girl pendant la saisie",
+        "Enable Diagnostic Logging": "Activer le journal de diagnostic",
+        "Use Throttling": "Limiter la charge"
+      }
+    },
+    "it": {
+      "name": "Italian",
+      "style": "Natural standard Italian game UI. Use concise action labels and coherent Fallout 4 workshop terminology. Avoid word-for-word English syntax; grammatical agreement must not require changing dynamic placeholders.",
+      "game_terminology": {
+        "workshop": "Officina",
+        "electrical_wire": "Filo",
+        "generator": "Generatore",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Consenti di selezionare ed esportare oggetti normalmente filtrati",
+        "Allow normally filtered light sources to be imported": "Consenti l'importazione di sorgenti luminose normalmente filtrate",
+        "Disable Havok Physics On Imported Objects": "Disattiva la fisica Havok sugli oggetti importati",
+        "Import Options": "Opzioni di importazione",
+        "Hide Condition Boy/Girl During Input": "Nascondi Condition Boy/Girl durante l’inserimento",
+        "Enable Diagnostic Logging": "Abilita registro diagnostico",
+        "Use Throttling": "Limita il carico"
+      }
+    },
+    "ja": {
+      "name": "Japanese",
+      "style": "Natural Japanese game UI using Japanese Fallout 4 workshop terminology. Favor concise readable labels and consistent polite instructions. Translate semantic text into Japanese rather than leaving whole ordinary sentences in English. Preserve Latin proper names and technical identifiers. Every scale input prompt AND scale validation error must explicitly identify percentages using パーセント or %; 割合 or 拡大率 alone is insufficient to communicate the percent unit.",
+      "game_terminology": {
+        "workshop": "ワークショップ",
+        "electrical_wire": "ワイヤー",
+        "generator": "ジェネレータ",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "通常フィルターされるオブジェクトの選択とエクスポートを許可",
+        "Allow normally filtered light sources to be imported": "通常フィルターされる光源のインポートを許可",
+        "Disable Havok Physics On Imported Objects": "インポートしたオブジェクトのHavok物理を無効化",
+        "Import Options": "インポート設定",
+        "Hide Condition Boy/Girl During Input": "入力中は Condition Boy/Girl を非表示",
+        "Enable Diagnostic Logging": "診断ログを有効化",
+        "Use Throttling": "負荷制限を使用"
+      }
+    },
+    "pl": {
+      "name": "Polish",
+      "style": "Natural Polish game UI with correct diacritics and construction/workshop terminology. Use numeral-neutral count constructions when a single template serves 0, 1, 2 and 5+, and avoid grammatical agreement that would require inflecting unknown alias values.",
+      "game_terminology": {
+        "workshop": "Warsztat",
+        "electrical_wire": "Przewód",
+        "generator": "Generator",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Zezwól na zaznaczanie i eksport zwykle filtrowanych obiektów",
+        "Allow normally filtered light sources to be imported": "Zezwól na import zwykle filtrowanych źródeł światła",
+        "Disable Havok Physics On Imported Objects": "Wyłącz fizykę Havok dla importowanych obiektów",
+        "Import Options": "Opcje importu",
+        "Hide Condition Boy/Girl During Input": "Ukryj Condition Boy/Girl podczas wpisywania",
+        "Enable Diagnostic Logging": "Włącz dziennik diagnostyczny",
+        "Use Throttling": "Ograniczaj obciążenie"
+      }
+    },
+    "ptbr": {
+      "name": "Brazilian Portuguese",
+      "style": "Natural Brazilian Portuguese game UI, not European Portuguese. Use common Brazilian action labels, accents and Fallout 4 workshop terminology. Keep selection, copying a saved construction layout and importing/placing it distinct. Use only natural Brazilian Portuguese text; never insert Georgian or other foreign-script words. In the warning that objects may already exist, preserve uncertainty using Portuguese wording rather than a foreign-script modal.",
+      "game_terminology": {
+        "workshop": "Oficina",
+        "electrical_wire": "Fio",
+        "generator": "Gerador",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "Permitir Selecionar e Exportar Objetos Normalmente Filtrados",
+        "Allow normally filtered light sources to be imported": "Permitir importar fontes de luz normalmente filtradas",
+        "Disable Havok Physics On Imported Objects": "Desativar Física Havok em Objetos Importados",
+        "Import Options": "Opções de Importação",
+        "Hide Condition Boy/Girl During Input": "Ocultar Condition Boy/Girl durante a entrada",
+        "Enable Diagnostic Logging": "Ativar registro de diagnóstico",
+        "Use Throttling": "Limitar a carga"
+      }
+    },
+    "zhhans": {
+      "name": "Simplified Chinese",
+      "style": "Natural Simplified Chinese game UI with consistent Mainland Chinese technical and settlement-building terminology. Use Simplified characters for translated prose, preserve Latin brand names and technical identifiers, and avoid English word-order calques. Game Cell means a world-region chunk; consistently use 区块, optionally with Cell to disambiguate. Do not use spreadsheet 单元格. Consistently call the reusable saved construction blueprint 蓝图 across all menus, prompts, and device descriptions. Do not translate this blueprint as 样式, which refers to style/appearance.",
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "允许选择并导出通常被过滤的对象",
+        "Allow normally filtered light sources to be imported": "允许导入通常被过滤的光源",
+        "Disable Havok Physics On Imported Objects": "禁用导入对象的 Havok 物理",
+        "Import Options": "导入选项",
+        "Hide Condition Boy/Girl During Input": "输入时隐藏 Condition Boy/Girl",
+        "Enable Diagnostic Logging": "启用诊断日志",
+        "Use Throttling": "启用负载限制"
+      }
+    },
+    "zhhant": {
+      "name": "Traditional Chinese",
+      "style": "Natural Traditional Chinese game UI using Taiwan-oriented Fallout 4 and construction terminology. Use Traditional characters consistently rather than a mixture of scripts; do not merely convert Simplified characters without adapting wording. Preserve Latin brands and technical identifiers. Game Cell means a world-region chunk; consistently use 區塊, optionally with Cell to disambiguate. Do not use spreadsheet 儲存格 or 單元格. Preserve the official workshop glossary 工房. Consistently call the reusable saved construction blueprint 藍圖 across all menus, prompts, and device descriptions. Do not translate this blueprint as 樣式, which refers to style/appearance.",
+      "game_terminology": {
+        "workshop": "工房",
+        "electrical_wire": "電線",
+        "generator": "發電機",
+        "usage": "Verified from corresponding English/localized Fallout4 STRINGS IDs 219120, 219817 (French alternate 222485), 218240. Inflect and disambiguate naturally in full context."
+      },
+      "documentation_ui_labels": {
+        "Allow Normally Filtered Objects To Be Selected And Exported": "允許選取及匯出通常會被篩選的物件",
+        "Allow normally filtered light sources to be imported": "允許匯入通常會被篩選的光源",
+        "Disable Havok Physics On Imported Objects": "停用匯入物件的 Havok 物理效果",
+        "Import Options": "匯入選項",
+        "Hide Condition Boy/Girl During Input": "輸入時隱藏 Condition Boy/Girl",
+        "Enable Diagnostic Logging": "啟用診斷日誌",
+        "Use Throttling": "啟用負載限制"
+      }
+    }
+  },
+  "key_context": {
+    "$Clipboard_DestroyScrapCount": "The request has been processed; {0} in Sent to scrap is the count of still-valid references passed to the engine destruction operation. It is neither a verified count of successfully destroyed objects nor a quantity of recovered scrap materials. Sent means submitted for destruction, never a network transmission. Do not promise success beyond the source.",
+    "$Clipboard_DestroyFinished": "The request has been processed; {0} in Sent to scrap is the count of still-valid references passed to the engine destruction operation. It is neither a verified count of successfully destroyed objects nor a quantity of recovered scrap materials. Sent means submitted for destruction, never a network transmission. Do not promise success beyond the source.",
+    "$Clipboard_MCM_activateClearSelectionBtn_Text": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_MCM_activateDestroyToolBtn_Text": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_MCM_Keybind_activateClearSelectionBtn": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_MCM_Keybind_activateDestroyToolBtn": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardDestoryTool_FULL_0": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardClearSelection_FULL_0": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_DestroyQuestion": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_DestroyWarning": "Action-menu Destroy deletes selected world objects irreversibly and gives no construction materials. Destroy Tool removes only the physical Clipboard device and its helper buttons, clearing the selection. Clear Selection only removes selection/highlighting; it does not delete world objects. Keep these three operations distinct.",
+    "$Clipboard_ESP_ClipboardButtonStand_FULL_0": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_ESP_ClipboardButtonNuke_FULL_0": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_ESP_ClipboardCopyPylon_FULL_0": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_ESP_ClipboardButtonPole_FULL_0": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_CellScopeTool": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_ToolAlreadyExists": "Clipboard Tool is the physical placed Clipboard device in the settlement. Keep Clipboard as the product brand, but translate the generic word Tool as a natural device/tool descriptor. Its Cell is the literal game-world cell containing this device, not a spreadsheet or prison cell.",
+    "$Clipboard_MoreComponents": "This is a list-overflow indicator after at most 18 construction-material types are shown. {0} counts additional material TYPES/list entries not shown, not individual units and not an additional charge. For Missing, these are additional missing material types omitted from the displayed list.",
+    "$Clipboard_MoreComponentsLine": "This is a list-overflow indicator after at most 18 construction-material types are shown. {0} counts additional material TYPES/list entries not shown, not individual units and not an additional charge. For Missing, these are additional missing material types omitted from the displayed list.",
+    "$Clipboard_MoreMissingComponents": "This is a list-overflow indicator after at most 18 construction-material types are shown. {0} counts additional material TYPES/list entries not shown, not individual units and not an additional charge. For Missing, these are additional missing material types omitted from the displayed list.",
+    "$Clipboard_CompileLinkedWorkshops": "Compile means assemble/enumerate a list, not compile computer code or physically gather objects. Linked workshops are settlement workshops connected by supply routes. Workshop containers are inventories checked as potential sources of construction materials.",
+    "$Clipboard_CompileWorkshopContainers": "Compile means assemble/enumerate a list, not compile computer code or physically gather objects. Linked workshops are settlement workshops connected by supply routes. Workshop containers are inventories checked as potential sources of construction materials.",
+    "$Clipboard_ClearOwnership": "Ownership means the object actor-owner property: the action marks selected objects unowned with SetActorOwner(None). It does not clear selection, destroy objects, or transfer a settlement. Cleared Ownership is a per-object progress/count label; Finished marking selected objects as unowned is the final notification.",
+    "$Clipboard_OwnershipFinished": "Ownership means the object actor-owner property: the action marks selected objects unowned with SetActorOwner(None). It does not clear selection, destroy objects, or transfer a settlement. Cleared Ownership is a per-object progress/count label; Finished marking selected objects as unowned is the final notification.",
+    "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7": "Ownership means the object actor-owner property: the action marks selected objects unowned with SetActorOwner(None). It does not clear selection, destroy objects, or transfer a settlement. Cleared Ownership is a per-object progress/count label; Finished marking selected objects as unowned is the final notification.",
+    "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3": "This action moves and reorients the Clipboard device itself to the position recorded when the selected saved construction pattern was exported. It does not move the player, move the current selection, paste objects, or navigate to a file. Only the same workshop and same cell are supported; preserve the rejection/no-movement qualifications.",
+    "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11": "This action moves and reorients the Clipboard device itself to the position recorded when the selected saved construction pattern was exported. It does not move the player, move the current selection, paste objects, or navigate to a file. Only the same workshop and same cell are supported; preserve the rejection/no-movement qualifications.",
+    "$Clipboard_SourceCellIndexInvalid": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceCellPluginUnreadable": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceDifferentCell": "Rejected source or player landing position: {0} original settlement name. Adjacent exterior cells in that settlement are allowed, but unavailable/different coordinate spaces and positions outside the build area are rejected.",
+    "$Clipboard_SourceDifferentWorkshop": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceMovementUnavailable": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourcePatternInvalid": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourcePluginListUnreadable": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourcePositionUnreadable": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceTransformInvalid": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceWorkshopIndexInvalid": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceWorkshopMissing": "Source movement moves and reorients the Clipboard device to the saved position and moves the player directly to the normal landing point behind it. Both must be inside the original settlement. Adjacent exterior cells are allowed in the same worldspace; unrelated worldspaces/interiors and destinations outside the workshop build volumes are rejected. Retain all failure qualifications.",
+    "$Clipboard_SourceWorkshopNames": "Rejected source movement: {0} is the original settlement name, not the linked current workshop. The player and tool must both be inside the source workshop build volumes.",
+    "$Clipboard_ESP_ClipboardMoveOnto_FULL_0": "This action moves the player character beside/onto the Clipboard device platform. It does not bring the Clipboard device to the player and does not move selected settlement objects.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6": "This action moves the player character beside/onto the Clipboard device platform. It does not bring the Clipboard device to the player and does not move selected settlement objects.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5": "This action moves the player character beside/onto the Clipboard device platform. It does not bring the Clipboard device to the player and does not move selected settlement objects.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6": "This action moves the player character beside/onto the Clipboard device platform. It does not bring the Clipboard device to the player and does not move selected settlement objects.",
+    "$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0": "Decrease BY the chosen relative percentage of each object's current size, not TO that percentage of normal size. Translate this short preset-menu heading without adding input-format or validation explanations.",
+    "$Clipboard_ScaleDownInput": "This is a relative percentage change BY the entered amount, not a final size or scale factor. Input may have up to six fractional digits and uses an ASCII decimal dot. Increase: 0 < percentage <= 1000; decrease: 0 < percentage <= 99. The whole-number restriction applies to every resulting object size (1% through 1000% of base size), not necessarily the entered percentage.",
+    "$Clipboard_ScaleDownInvalid": "This is a relative percentage change BY the entered amount, not a final size or scale factor. Input may have up to six fractional digits and uses an ASCII decimal dot. Increase: 0 < percentage <= 1000; decrease: 0 < percentage <= 99. The whole-number restriction applies to every resulting object size (1% through 1000% of base size), not necessarily the entered percentage.",
+    "$Clipboard_ScaleUpInput": "This is a relative percentage change BY the entered amount, not a final size or scale factor. Input may have up to six fractional digits and uses an ASCII decimal dot. Increase: 0 < percentage <= 1000; decrease: 0 < percentage <= 99. The whole-number restriction applies to every resulting object size (1% through 1000% of base size), not necessarily the entered percentage.",
+    "$Clipboard_ScaleUpInvalid": "This is a relative percentage change BY the entered amount, not a final size or scale factor. Input may have up to six fractional digits and uses an ASCII decimal dot. Increase: 0 < percentage <= 1000; decrease: 0 < percentage <= 99. The whole-number restriction applies to every resulting object size (1% through 1000% of base size), not necessarily the entered percentage.",
+    "$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0": "Increase BY the chosen relative percentage of each object's current size. The English parenthesis uses older stop-scaling wording and means a maximum final size of 10 times original/base size, not an increase of 10 times. Translate that source faithfully; do not silently replace it with rejection semantics or add an explanation. Its source discrepancy is handled outside translation.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0": "As A Whole changes object sizes and their spacing by one common factor around a shared pivot; Individually changes sizes while preserving positions. Whole is a group mode, not an integer-number restriction. Preserve concise action labels.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1": "As A Whole changes object sizes and their spacing by one common factor around a shared pivot; Individually changes sizes while preserving positions. Whole is a group mode, not an integer-number restriction. Preserve concise action labels.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2": "Restore Original Size means set every selected object to exactly 100% of its base size, not recover a past saved/imported scale or undo history. Individual Restore preserves positions. Whole Restore preserves positions for mixed-size groups; only uniform groups change spacing by the reciprocal of the common scale. Already-100% groups do not move. Keep short labels concise.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3": "As A Whole changes object sizes and their spacing by one common factor around a shared pivot; Individually changes sizes while preserving positions. Whole is a group mode, not an integer-number restriction. Preserve concise action labels.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4": "As A Whole changes object sizes and their spacing by one common factor around a shared pivot; Individually changes sizes while preserving positions. Whole is a group mode, not an integer-number restriction. Preserve concise action labels.",
+    "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5": "Restore Original Size means set every selected object to exactly 100% of its base size, not recover a past saved/imported scale or undo history. Individual Restore preserves positions. Whole Restore preserves positions for mixed-size groups; only uniform groups change spacing by the reciprocal of the common scale. Already-100% groups do not move. Keep short labels concise.",
+    "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0": "The selected objects rotate together around a shared vertical/Z pivot: either the selection center or the Clipboard device position. Clockwise and counterclockwise are distinct choices. Around does not mean each object rotates independently about its own center.",
+    "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1": "The selected objects rotate together around a shared vertical/Z pivot: either the selection center or the Clipboard device position. Clockwise and counterclockwise are distinct choices. Around does not mean each object rotates independently about its own center.",
+    "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2": "The selected objects rotate together around a shared vertical/Z pivot: either the selection center or the Clipboard device position. Clockwise and counterclockwise are distinct choices. Around does not mean each object rotates independently about its own center.",
+    "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3": "The selected objects rotate together around a shared vertical/Z pivot: either the selection center or the Clipboard device position. Clockwise and counterclockwise are distinct choices. Around does not mean each object rotates independently about its own center.",
+    "$Clipboard_MCM_Section_Balance_Text": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_MCM_bEnableComponentCost_Balance_Text": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_ComponentCostHeading": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_MissingComponentsHeading": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_RemoveComponents": "Components are crafting/construction materials, not money or software modules. Sources are the current workshop container, linked workshops and player inventory, in that order. Cost-view actions only display requirements/availability; enabled paste payment is a separate confirmed operation. The MCM Balance section concerns gameplay/resource balance.",
+    "$Clipboard_ESP_ClipboardButtonStand_ATTX_0": "Push is an activation prompt meaning press the physical button on the Clipboard device, not push/move the object through the world.",
+    "$Clipboard_SetMotionType": "Motion type is a Havok physics behavior setting, not an animation preset. Keyframed motion prevents free physics from making loose objects fall or roll; scripted/animated/workshop interactions can still move them. Preserve that qualification rather than promising that objects can never move.",
+    "$Clipboard_MotionTypeFinished": "Motion type is a Havok physics behavior setting, not an animation preset. Keyframed motion prevents free physics from making loose objects fall or roll; scripted/animated/workshop interactions can still move them. Preserve that qualification rather than promising that objects can never move.",
+    "$Clipboard_WarningGeneratorAnimation": "The stable key retains an old generator-specific name, but this warning concerns animations on any imported object, including ceiling fan lights. Generator status, sound and activators do not define animation eligibility. Preserve the incomplete-initialization qualification and the trailing space used between warning sentences.",
+    "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help": "Motion type is a Havok physics behavior setting, not an animation preset. Keyframed motion prevents free physics from making loose objects fall or roll; scripted/animated/workshop interactions can still move them. Preserve that qualification rather than promising that objects can never move.",
+    "$Clipboard_WorkshopCallbackCounts": "Calls here are workshop script callback invocations, not telephone/network calls. Returned calls have finished; outstanding calls remain unfinished. An incomplete or unverified result is not successful completion; placed objects may still exist even if later wiring/power is skipped.",
+    "$Clipboard_WorkshopIncomplete": "Calls here are workshop script callback invocations, not telephone/network calls. Returned calls have finished; outstanding calls remain unfinished. An incomplete or unverified result is not successful completion; placed objects may still exist even if later wiring/power is skipped.",
+    "$Clipboard_WorkshopUnverified": "Calls here are workshop script callback invocations, not telephone/network calls. Returned calls have finished; outstanding calls remain unfinished. An incomplete or unverified result is not successful completion; placed objects may still exist even if later wiring/power is skipped.",
+    "$Clipboard_DistanceInput": " The upper bound is the integer nine thousand nine hundred ninety-nine. Use unambiguous local numeric grouping or plain 9999; never a decimal interpretation.",
+    "$Clipboard_DistanceInvalid": " The upper bound is the integer nine thousand nine hundred ninety-nine. Use unambiguous local numeric grouping or plain 9999; never a decimal interpretation.",
+    "$Clipboard_SelectionCellCount": "This summary counts newly added selected objects across the chosen cell scope, which can be one tool cell or the workshop's cells. It is not the total current selection and not necessarily one cell.",
+    "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help": " Both permitted categories are LIGHT SOURCES: non-player-manipulable light sources and light sources without construction recipes. This setting does not permit every kind of object without a recipe.",
+    "$Clipboard_MCM_Keybind_activateSelectionScanBtn": " Secondary here means the auxiliary/alternate action of the active selection method. Do not introduce a new Arabic numeral absent from the English label.",
+    "$Clipboard_MCM_activateSelectionScanBtn_Text": " Secondary here means the auxiliary/alternate action of the active selection method. Do not introduce a new Arabic numeral absent from the English label.",
+    "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3": " This switches the gun between SELECTING objects and DESELECTING objects. It does not enable/disable the interaction or turn selection on/off. Explicitly name the two opposite selection modes.",
+    "$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0": " This switches the gun between SELECTING objects and DESELECTING objects. It does not enable/disable the interaction or turn selection on/off. Explicitly name the two opposite selection modes.",
+    "$Clipboard_MCM_activateSelectionScanBtn_Help": " This switches the gun between SELECTING objects and DESELECTING objects. It does not enable/disable the interaction or turn selection on/off. Explicitly name the two opposite selection modes.",
+    "$Clipboard_Docs_Changelog_003": "The 128-object truncation concerned groups of OBJECTS selected by cell/plugin and destruction of those objects; cells and plugin files are not destroyed. Broader selection/export means eligibility, not greater geographic reach. Zero-bounds qualifies BOTH activators and movable statics. Payment includes approval, fresh checks and verified removal; removal is not a prerequisite before payment. Whole Restore changes spacing only for uniformly scaled groups. Preserve every other bullet and source fact.",
+    "$Clipboard_Docs_Filtering_007": "Workshop's Cells has two inclusive discovery sources: cells assigned to the current settlement, and matching workshop-linked objects. Do not add a requirement that linked objects physically reside within those settlement cells; persistent-cell objects may also match. Preserve every other scope and safety rule.",
+    "$Clipboard_Docs_Filtering_008": "Within 5,000 units means a maximum radius: objects at any distance up to 5,000 units from the tool, not objects exactly 5,000 units away. Preserve the distinction from uncapped ordinary cells and all other selection conditions.",
+    "$Clipboard_Docs_Filtering_012": "External wires are reused only at the recorded source cell and original export position. Rotating the tool alone does not invalidate that position rule. At another destination only external connections are ignored; internal wires still import. Missing, moved or mismatched endpoints are skipped without nearby substitution.",
+    "$Clipboard_Docs_Filtering_018": "Missing forms are missing game-object records (Bethesda Forms), not documents or whole plugin files. Bottlecap objects are placeholders. Preserve reused-object matching and the distinction between individually excluded failures and whole-import wiring/power stop on uncertain completion.",
+    "$Clipboard_Docs_Filtering_020": "SS2 root/standalone objects still need to satisfy other eligibility rules. Identified generated contents, SS2 SCOLs and supported Auto Beds children are excluded during all selection methods and export, including permissive selection. These optional filters do not apply to imported pattern rows.",
+    "$Clipboard_SourcePlayerNotMoved": "Post-move check failed: tool movement may already have happened, but the player was not moved. {0} original settlement name.",
+    "$Clipboard_ScaleRestricted": "The change is rejected before mutation; no objects changed. {0} is the exact permitted percentage-change step, {1} the maximum percentage CHANGE for this selection and direction, {2} nearby valid changes. Each argument already includes percent signs. These are not final object sizes. Do not imply that a rejected change was rounded or clamped.",
+    "$Clipboard_ScaleNoExactChange": "No valid exact change exists for this selection in the requested direction. This does not forbid all scaling operations. Preserve the statement that no objects changed and the alternatives of smaller groups or Restore.",
+    "$Clipboard_ScaleSelectionInvalid": "This is a scaling failure, not success or a claim that objects were refreshed. Preserve the request to check the selection.",
+    "$Clipboard_ComponentAvailableLocal": "Required quantity comes first; available quantity second. Availability is the current workshop container only, not linked workshops or player inventory. Keep the column order and paragraph spacing.",
+    "$Clipboard_ComponentAvailableAll": "Required quantity comes first; available quantity second. All sources means current workshop container, linked workshop containers and player inventory. Keep column order and paragraph spacing.",
+    "$Clipboard_ComponentAllSourcesQuestion": "Read-only cost view: Yes searches all inventory sources afresh; No closes the view. Neither answer authorizes consumption/payment. Do not word this as agreement to pay.",
+    "$Clipboard_ContinueQuestion": "Separate Yes/No approval appended to the material-cost list. Declining cancels before resource removal and placement. Keep the generic source question concise; do not add guarantees about later payment.",
+    "$Clipboard_ComponentPaymentIncomplete": "Placement has not begun because resource payment could not be completed or verified. Earlier withdrawals may already have consumed materials and are not automatically refunded. Preserve that uncertainty; do not promise no loss, a refund, or partial placement.",
+    "$Clipboard_Docs_ReadMe_016": "This is a relative percentage change BY the entered amount, not a final size or scale factor. Input may have up to six fractional digits and uses an ASCII decimal dot. Increase: 0 < percentage <= 1000; decrease: 0 < percentage <= 99. The whole-number restriction applies to every resulting object size (1% through 1000% of base size), not necessarily the entered percentage. A syntactically valid number may still be rejected for the selected sizes; preserve rejection before changes and guidance on valid alternatives.",
+    "$Clipboard_Docs_ReadMe_026": "Preserve all arithmetic examples. Decimal relative changes can be valid even though final sizes must be integer percentages: 200% increased by 0.5% becomes 201%. The mixed 50/100/150% group accepts +2% but rejects +1%.",
+    "$Clipboard_Docs_ReadMe_018": "As A Whole changes object sizes and their spacing by one common factor around a shared pivot; Individually changes sizes while preserving positions. Whole is a group mode, not an integer-number restriction. Preserve concise action labels. Both modes share the size restrictions and reject unsuitable changes without silent rounding or clamping.",
+    "$Clipboard_Docs_ReadMe_019": "Restore Original Size means set every selected object to exactly 100% of its base size, not recover a past saved/imported scale or undo history. Individual Restore preserves positions. Whole Restore preserves positions for mixed-size groups; only uniform groups change spacing by the reciprocal of the common scale. Already-100% groups do not move. A uniform 80% group restored as a whole uses spacing factor 1.25; this is interpretation context, not an example to add to the source.",
+    "$Clipboard_Docs_ReadMe_021": "Payment is disabled by default. Enabled payment consumes construction materials, not currency. Pattern costs follow import eligibility and available construction recipes; an admitted object with no recipe has no recipe-component cost.",
+    "$Clipboard_Docs_ReadMe_022": "Check every required material in the current workshop container first. Sufficient local stock avoids linked/player discovery unless the read-only view requests a full-source total. Otherwise search all sources. Viewing availability never authorizes payment.",
+    "$Clipboard_Docs_ReadMe_023": "Order: approve, check fresh availability after prompts, then withdraw and verify before placing objects. Source priority is current workshop, linked workshops, player. Incomplete/unverifiable payment stops placement; prior withdrawals are not automatically refunded. Verified removal is part of payment, not a prerequisite performed before payment.",
+    "$Clipboard_Docs_Filtering_003": "Automatic selection requires both creation during play and a workshop link. Lights additionally require nonzero bounds and a workshop recipe. Manual selection is independent of this automatic-admission filter, while permanent exclusions still apply.",
+    "$Clipboard_Docs_Filtering_004": "This option broadens automatic object eligibility, not geographic selection area. Export honors the current selection, including manual selection, independently of this option; permanent exclusions remain. Zero eligible objects must not create or overwrite a pattern.",
+    "$Clipboard_Docs_Filtering_005": "Zero-bounds modifies BOTH activators (ACTI) and movable statics (MSTT). Do not imply that all movable statics or all activators are excluded. Neither permissive option bypasses these permanent protections.",
+    "$Clipboard_Docs_Filtering_009": "Selection-completion messages count newly added objects, not the entire selection. A pattern's plugin list can include workshop/cell dependencies in addition to selected-object source plugins.",
+    "$Clipboard_Docs_Filtering_016": "For the light-source option, EITHER missing object bounds OR a missing workshop recipe can qualify; do not require both. Preserve current localized MCM labels and all default, physics/actor, throttling and next-import qualifications.",
+    "$Clipboard_Docs_Filtering_017": "Pattern component costs follow import eligibility. A permitted object without a construction recipe has no recipe-component cost; do not imply every permitted object is free or every non-light object is permitted.",
+    "$Clipboard_Docs_Filtering_024": "A master is a plugin dependency: active plugins that directly require a listed plugin as a master inherit the collection filter. Static collections are not master files. Parent scripts and slot-link keywords jointly identify generated children.",
+    "$Clipboard_Docs_Filtering_026": "Form blacklists identify game-object records (Bethesda Forms), not documents or software modules. Distinguish blacklisted plugins, master dependencies and object records. User lists replace defaults; preserve exact section/key names and optional-versus-unconditional filtering."
+  }
+}

@@ -1,0 +1,24 @@
+﻿Clipboard Resurrection 3.0.0 - Langues
+
+Clipboard utilise la langue sélectionnée dans Fallout 4. Le paquet contient les textes
+en anglais, russe, allemand, espagnol (Espagne), espagnol (Mexique), français,
+italien, japonais, polonais, portugais (Brésil), chinois simplifié et
+chinois traditionnel.
+
+Toutes les langues partagent le même plugin, la même DLL, les mêmes scripts,
+paramètres et modèles. Installez le paquet complet, y compris Strings et Interface,
+et redémarrez le jeu après avoir changé sa langue. Les textes saisis par les utilisateurs,
+les noms des joueurs et les noms des modèles enregistrés ne sont pas traduits automatiquement.
+
+Les messages dynamiques de Clipboard s'affichent en anglais si une langue ou une clé
+n'est pas disponible. Si des catalogues MCM ou des tables de chaînes du plugin manquent,
+réinstallez le paquet complet pour les restaurer ; ils ne bénéficient pas de ce recours à l'anglais.
+
+Le chinois traditionnel inclut l'alias de nom de fichier cn du jeu. Les configurations
+linguistiques personnalisées zhhans et zhhant nécessitent des paramètres de jeu et des polices adaptés.
+Si des caractères apparaissent sous forme de carrés, vérifiez les polices utilisées par votre jeu
+et vos mods d'interface. Signalez toute formulation incorrecte en précisant la langue du jeu et le menu ou l'action concernés.
+
+Les guides d'utilisation sont fournis dans toutes les langues prises en charge : le fichier Lisez-moi,
+le guide de sélection et d'importation d'objets, le guide des langues et le journal des modifications.
+Les guides anglais se trouvent dans Docs/clipboard ; les traductions figurent dans ses sous-dossiers nommés par code de langue.

@@ -1,0 +1,709 @@
+$Clipboard_BoxCreationFailed	ボックス選択ケージを作成できませんでした。
+$Clipboard_BoxCreationReviewLog	再試行する前にClipboard.logを確認してください。
+$Clipboard_CellScopeEmpty	選択したセル範囲では、まだ選択されていない対象は見つかりませんでした。
+$Clipboard_CellScopeTool	Clipboardツールのセル
+$Clipboard_CellScopeWorkshop	ワークショップのセル
+$Clipboard_CheckComponents	 利用可能なコンポーネントを確認中
+$Clipboard_CleanupActive	使用中のClipboardプラットフォームがあります。すべてのプラットフォームを破壊してから再試行してください。
+$Clipboard_CleanupBlocked	一部の残骸を安全に識別できませんでした。何も変更されていません。
+$Clipboard_CleanupBusy	Clipboardは処理中です。現在の処理が完了してから再試行してください。
+$Clipboard_CleanupConfirm	破壊済みのClipboardプラットフォームの残骸を削除しますか？
+$Clipboard_CleanupFailed	クリーンアップを開始できませんでした。残骸は変更されていません。
+$Clipboard_CleanupNone	削除できる古いプラットフォームの残骸は見つかりませんでした。
+$Clipboard_CleanupPrepare	先にすべてのClipboardプラットフォームを破壊し、予備のセーブデータを作成してください。
+$Clipboard_CleanupPreserve	インポートしたオブジェクトと保存済みパターンは保持されます。
+$Clipboard_CleanupProgress	古いClipboardプラットフォームの残骸を削除しています...
+$Clipboard_CleanupReload	セーブ後、そのセーブデータをロードして、もう一度セーブしてください。
+$Clipboard_CleanupResult	削除対象に設定した残骸: {0}、スキップ: {1}。
+$Clipboard_CleanupStopped	すべての残骸を処理する前にクリーンアップが停止しました。セーブしてロードした後に再試行してください。
+$Clipboard_CleanupTitle	古いプラットフォームの残骸を削除
+$Clipboard_ClearOwnership	 所有権を解除中
+$Clipboard_CompileLinkedWorkshops	 リンクされたワークショップを一覧化中
+$Clipboard_CompileWorkshopContainers	 ワークショップのコンテナを一覧化中
+$Clipboard_ComponentAllSourcesQuestion	\nすべての供給元の所持数を表示しますか？
+$Clipboard_ComponentAvailableAll	必要数 / すべての供給元の所持数\n\n
+$Clipboard_ComponentAvailableLocal	必要数 / このワークショップの所持数\n\n
+$Clipboard_ComponentCostHeading	<b><u>必要コンポーネント</u></b>\n\n
+$Clipboard_ComponentPaymentIncomplete	必要な素材の消費を完了できなかったため、インポートを中止しました。一部の素材はすでに消費されている可能性があります。
+$Clipboard_ContinueQuestion	\n続行しますか？
+$Clipboard_DeselectGunEquipped	選択解除銃を装備しました。選択済みのオブジェクトを撃つと選択解除します。
+$Clipboard_DestroyFinished	破壊要求の処理が完了しました。
+$Clipboard_DestroyIncomplete	選択したすべてのオブジェクトを処理する前に破壊が停止しました。
+$Clipboard_DestroyOriginalCount	元の選択数: {0}
+$Clipboard_DestroyQuestion	これらを破壊しますか？
+$Clipboard_DestroyScrapCount	解体に送信: {0}
+$Clipboard_DestroyWarning	この方法で破壊したアイテムからはスクラップを得られず、復元もできません。
+$Clipboard_DimensionDepth	 奥行き
+$Clipboard_DimensionHeight	 高さ
+$Clipboard_DimensionRadius	半径
+$Clipboard_DimensionWidth	 幅
+$Clipboard_DistanceInput	1～9,999の距離を入力してください:
+$Clipboard_DistanceInvalid	無効な距離です。1～9,999の数値を入力してください。
+$Clipboard_ESP_AmmoSelection_FULL_0	Clipboard 選択弾薬
+$Clipboard_ESP_AmmoSelection_ONAM_0	選択弾薬
+$Clipboard_ESP_ClipboardActOnSelection_FULL_0	アクションメニュー
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_DESC_0	実行するアクションを選択:
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_1	Clipboardから貼り付け
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_2	パターンで使用されているプラグインを一覧表示
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3	パターンの元の場所へ移動
+$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4	パターンの必要コンポーネントを表示
+$Clipboard_ESP_ClipboardActionSelectMessage_DESC_0	実行するアクションを選択:
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_1	Clipboardへコピー
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_10	パターンで使用されているプラグインを一覧表示
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11	パターンの保存元の場所へ移動
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12	選択内容の必要コンポーネントを表示
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13	パターンの必要コンポーネントを表示
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_2	Clipboardから貼り付け
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3	破壊
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_4	回転
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_5	移動
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_6	拡大縮小
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7	所有権を解除
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_8	選択内容の詳細を表示
+$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_9	選択内容で使用されているプラグインを一覧表示
+$Clipboard_ESP_ClipboardButtonNuke_FULL_0	Clipboard ツール
+$Clipboard_ESP_ClipboardButtonPole_FULL_0	Clipboard ツール
+$Clipboard_ESP_ClipboardButtonStand_ATTX_0	押す
+$Clipboard_ESP_ClipboardButtonStand_FULL_0	Clipboard ツール
+$Clipboard_ESP_ClipboardChangeSelectionMethod_FULL_0	選択方法を変更
+$Clipboard_ESP_ClipboardClearSelection_FULL_0	選択を解除
+$Clipboard_ESP_ClipboardCopyPylon_FULL_0	Clipboard ツール
+$Clipboard_ESP_ClipboardCopyTo_FULL_0	Clipboardにコピー
+$Clipboard_ESP_ClipboardDestoryTool_FULL_0	ツールを破壊
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_DESC_0	<b><u>Clipboard ツール クイックメニュー</u></b>\r\n \r\n<u>選択概要</u>\r\nオブジェクト: <Alias=Slot1State>\r\nワイヤー: <Alias=Slot2State>\r\nプラグイン: <Alias=Slot3State>\r\n方法: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_1	アクションメニューを表示
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_2	選択方法を変更
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_3	選択スキャンを開始
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4	選択をクリア
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5	ツールを破壊
+$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6	ツールへ移動
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_DESC_0	<b><u>Clipboard ツール クイックメニュー</u></b>\r\n \r\n<u>選択概要</u>\r\nオブジェクト: <Alias=Slot1State>\r\nワイヤー: <Alias=Slot2State>\r\nプラグイン: <Alias=Slot3State>\r\n方法: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_1	アクションメニューを表示
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_2	選択方法を変更
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3	選択 / 選択解除を切替
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4	選択をクリア
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5	ツールを破壊
+$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6	ツールへ移動
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_DESC_0	<b><u>Clipboard ツール クイックメニュー</u></b>\r\n \r\n<u>選択概要</u>\r\nオブジェクト: <Alias=Slot1State>\r\nワイヤー: <Alias=Slot2State>\r\nプラグイン: <Alias=Slot3State>\r\n方法: <Alias=Slot4State>
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_1	アクションメニューを表示
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_2	選択方法を変更
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3	選択をクリア
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4	ツールを破壊
+$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5	ツールへ移動
+$Clipboard_ESP_ClipboardInformMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardInformMessage_ITXT_0	OK
+$Clipboard_ESP_ClipboardInitiateSelection_FULL_0	選択スキャンを開始
+$Clipboard_ESP_ClipboardLabel1_FULL_0	ラベル1
+$Clipboard_ESP_ClipboardLabel2_FULL_0	ラベル2
+$Clipboard_ESP_ClipboardLabel3_FULL_0	ラベル3
+$Clipboard_ESP_ClipboardLabel4_FULL_0	ラベル4
+$Clipboard_ESP_ClipboardLabel5_FULL_0	ラベル5
+$Clipboard_ESP_ClipboardListPick1Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick1Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick2Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick2Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick3Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick3Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick4Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick4Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick5Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick5Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick6Message_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick6Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> 選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick7Message_FULL_0	Clipboardのページを選択
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick7Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> 選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick8Message_FULL_0	Clipboardのページを選択
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick8Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_DESC_0	<b><u>Clipboard <Alias=Slot1State> 選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPick9Message_FULL_0	Clipboardのページを選択
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_1	1
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_2	2
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_3	3
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_4	4
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_5	5
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_6	6
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_7	7
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_8	8
+$Clipboard_ESP_ClipboardListPick9Message_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickMessage_DESC_0	<b><u>Clipboard <Alias=Slot1State>の選択</u></b>\r\n\r\n <Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickMessage_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_10	10
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_6	6
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_7	7
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_8	8
+$Clipboard_ESP_ClipboardListPickMessage_ITXT_9	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_DESC_0	<b><u>Clipboard <Alias=Slot1State>の選択: %.0f-%.0f</u></b>\r\n\r\n<Alias=Slot2State>
+$Clipboard_ESP_ClipboardListPickPagedMessage_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_10	8
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_11	9
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_12	10
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_3	1
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_4	2
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_5	3
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_6	4
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_7	5
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_8	6
+$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_9	7
+$Clipboard_ESP_ClipboardManager_FULL_0	Clipboard マネージャー
+$Clipboard_ESP_ClipboardMissingPluginsMessage_DESC_0	必要なプラグインがありません！\r\n \r\n<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>\r\n\r\nそれでも続行しますか？
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_0	いいえ
+$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_1	はい
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_DESC_0	移動量:
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_0	1
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_1	2
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_2	4
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_3	8
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_4	16
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_5	32
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_6	64
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_7	128
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_8	256
+$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_9	512
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_DESC_0	移動方向:
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_0	左
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_1	右
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_2	上
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_3	下
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_4	前
+$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_5	後
+$Clipboard_ESP_ClipboardMoveOnto_FULL_0	プラットフォームへ移動
+$Clipboard_ESP_ClipboardNotYetImplemented_DESC_0	未実装
+$Clipboard_ESP_ClipboardNotYetImplemented_ITXT_0	了解
+$Clipboard_ESP_ClipboardPage1SelectMessage_DESC_0	<b><u>Clipboardページ選択: 1-100</u></b>\r\n \r\n前へ: 401-500\r\n次へ: 101-200\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage1SelectMessage_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_10	71 - 80
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_11	81 - 90
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_12	91 - 100
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_3	1 - 10
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_4	11 - 20
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_5	21 - 30
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_6	31 - 40
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_7	41 - 50
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_8	51 - 60
+$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_9	61 - 70
+$Clipboard_ESP_ClipboardPage2SelectMessage_DESC_0	<b><u>Clipboardページ選択: 101-200</u></b>\r\n\r\n前へ: 1-100\r\n次へ: 201-300\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage2SelectMessage_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_10	171 - 180
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_11	181 - 190
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_12	191 - 200
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_3	101 - 110
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_4	111 - 120
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_5	121 - 130
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_6	131 - 140
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_7	141 - 150
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_8	151 - 160
+$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_9	161 - 170
+$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0	<b><u>Clipboard ページ選択: 201-300</u></b>\r\n\r\n前へ: 101-200\r\n次へ: 301-400\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage3SelectMessage_FULL_0	Clipboardページを選択
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_10	271 - 280
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_11	281 - 290
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_12	291 - 300
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_3	201 - 210
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_4	211 - 220
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_5	221 - 230
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_6	231 - 240
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_7	241 - 250
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_8	251 - 260
+$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_9	261 - 270
+$Clipboard_ESP_ClipboardPage4SelectMessage_DESC_0	<b><u>Clipboard ページ選択: 301-400</u></b>\r\n\r\n前へ: 201-300\r\n次へ: 401-500\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage4SelectMessage_FULL_0	Clipboard ページを選択
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_10	371 - 380
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_11	381 - 390
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_12	391 - 400
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_3	301 - 310
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_4	311 - 320
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_5	321 - 330
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_6	331 - 340
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_7	341 - 350
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_8	351 - 360
+$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_9	361 - 370
+$Clipboard_ESP_ClipboardPage5SelectMessage_DESC_0	<b><u>Clipboard ページ選択: 401-500</u></b>\r\n\r\n前へ: 301-400\r\n次へ: 1-100\r\n\r\n<Alias=Slot1State>
+$Clipboard_ESP_ClipboardPage5SelectMessage_FULL_0	Clipboard ページを選択
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_0	[ キャンセル ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_1	[ 前へ ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_10	471 - 480
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_11	481 - 490
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_12	491 - 500
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_2	[ 次へ ]
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_3	401 - 410
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_4	411 - 420
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_5	421 - 430
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_6	431 - 440
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_7	441 - 450
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_8	451 - 460
+$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_9	461 - 470
+$Clipboard_ESP_ClipboardProgessMessage_DESC_0	<Alias=Slot1State> %.0f (%.0f%% 完了)
+$Clipboard_ESP_ClipboardRotationAmountMessage_DESC_0	回転量:
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_0	1°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_1	5°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_2	10°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_3	15°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_4	30°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_5	45°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_6	60°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_7	90°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_8	120°
+$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_9	180°
+$Clipboard_ESP_ClipboardRotationSelectMessage_DESC_0	回転タイプ:
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0	時計回り（選択範囲の中心を基準）
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1	反時計回り（選択範囲の中心を基準）
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2	時計回り（Clipboardツールを基準）
+$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3	反時計回り（Clipboardツールを基準）
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0	縮小率:
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_0	1%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_1	5%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_2	10%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_3	25%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_4	50%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_5	75%
+$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_6	90%
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0	サイズを拡大（一括）
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1	サイズを縮小（一括）
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2	元のサイズに戻す（一括）
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3	サイズを拡大（個別）
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4	サイズを縮小（個別）
+$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5	元のサイズに戻す（個別）
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0	サイズの増加量:\r\n\r\n(個別のオブジェクトは元のサイズの10倍で拡大を停止します)
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_0	5%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_1	10%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_2	25%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_3	50%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_4	100%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_5	200%
+$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_6	500%
+$Clipboard_ESP_ClipboardSelectionGun_FULL_0	Clipboard 選択銃
+$Clipboard_ESP_ClipboardSelectionGun_FULL_1	デフォルト（エピック）
+$Clipboard_ESP_ClipboardSelectionMethodAll_FULL_0	Clipboard 選択方法：すべて
+$Clipboard_ESP_ClipboardSelectionMethodBox_FULL_0	Clipboard 選択方法：ボックス
+$Clipboard_ESP_ClipboardSelectionMethodByCell_FULL_0	Clipboard 選択方法：セル別
+$Clipboard_ESP_ClipboardSelectionMethodByPlugin_FULL_0	Clipboard 選択方法：プラグイン別
+$Clipboard_ESP_ClipboardSelectionMethodCylinder_FULL_0	Clipboard 選択方法：円柱
+$Clipboard_ESP_ClipboardSelectionMethodGun_FULL_0	Clipboard 選択方法：銃
+$Clipboard_ESP_ClipboardSelectionMethodSphere_FULL_0	Clipboard 選択方法：球体
+$Clipboard_ESP_ClipboardSelectionMethods_FULL_0	Clipboard 選択方法
+$Clipboard_ESP_ClipboardSelectionWeaponEnchantment_FULL_0	選択エンチャント
+$Clipboard_ESP_ClipboardSelectionWeaponHitEffect_FULL_0	選択ヒット効果
+$Clipboard_ESP_ClipboardSetSelectionSize_FULL_0	選択サイズを設定
+$Clipboard_ESP_ClipboardShapeSelectMessage_DESC_0	<b><u>Clipboard 選択方法</u></b>
+$Clipboard_ESP_ClipboardShapeSelectMessage_FULL_0	選択方法を選ぶ
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_0	球体
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_1	円柱
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_2	ボックス
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_3	手動
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_4	すべて選択
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_5	プラグイン別
+$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_6	セル別
+$Clipboard_ESP_ClipboardSizeMessage_DESC_0	選択範囲を設定 <Alias=Slot1State>
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_0	x1
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_1	x2
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_2	x3
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_3	x4
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_4	x5
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_5	x6
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_6	x7
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_7	x8
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_8	x9
+$Clipboard_ESP_ClipboardSizeMessage_ITXT_9	x10
+$Clipboard_ESP_ClipboardSlotSelectMessage_DESC_0	Clipboard スロット選択\r\n%.0f～%.0fを表示中\r\n \r\n[1]: スロット %.0f: <Alias=Slot1State>\r\n[2]: スロット %.0f: <Alias=Slot2State>\r\n[3]: スロット %.0f: <Alias=Slot3State>\r\n[4]: スロット %.0f: <Alias=Slot4State>\r\n[5]: スロット %.0f: <Alias=Slot5State>
+$Clipboard_ESP_ClipboardSlotSelectMessage_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_0	前のページ
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_6	次のページ
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_1	91
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_10	100
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_2	92
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_3	93
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_4	94
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_5	95
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_6	96
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_7	97
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_8	98
+$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_9	99
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n\r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_FULL_0	Clipboardスロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_1	1
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_10	10
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_2	2
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_3	3
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_4	4
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_5	5
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_6	6
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_7	7
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_8	8
+$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_9	9
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_1	11
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_10	20
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_2	12
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_3	13
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_4	14
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_5	15
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_6	16
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_7	17
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_8	18
+$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_9	19
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_1	21
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_10	30
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_2	22
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_3	23
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_4	24
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_5	25
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_6	26
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_7	27
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_8	28
+$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_9	29
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_1	31
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_10	40
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_2	32
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_3	33
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_4	34
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_5	35
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_6	36
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_7	37
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_8	38
+$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_9	39
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_FULL_0	Clipboardスロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_1	41
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_10	50
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_2	42
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_3	43
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_4	44
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_5	45
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_6	46
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_7	47
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_8	48
+$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_9	49
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_1	51
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_10	60
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_2	52
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_3	53
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_4	54
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_5	55
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_6	56
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_7	57
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_8	58
+$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_9	59
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_1	61
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_10	70
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_2	62
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_3	63
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_4	64
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_5	65
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_6	66
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_7	67
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_8	68
+$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_9	69
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_1	71
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_10	80
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_2	72
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_3	73
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_4	74
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_5	75
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_6	76
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_7	77
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_8	78
+$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_9	79
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_DESC_0	<b><u>Clipboard スロット選択: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_FULL_0	Clipboard スロットを選択
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_0	[ 戻る ]
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_1	81
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_10	90
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_2	82
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_3	83
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_4	84
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_5	85
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_6	86
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_7	87
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_8	88
+$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_9	89
+$Clipboard_ESP_ClipboardStatusMessage_DESC_0	<Alias=Slot1State>
+$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0	選択/選択解除を切り替え
+$Clipboard_ESP_ClipboardYesNoMessage_DESC_0	<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_0	いいえ
+$Clipboard_ESP_ClipboardYesNoMessage_ITXT_1	はい
+$Clipboard_ESP_WorkshopRecipeFilterQuest_FULL_0	特殊 / Clipboard
+$Clipboard_ESP_clipboardMenuManager_FULL_0	Clipboard
+$Clipboard_ESP_clipboardMenuManager_NNAM_0	Clipboard
+$Clipboard_ESP_workshop_co_ClipboardCopyPylon_DESC_0	ワークショップのオブジェクトを選択・操作する。Clipboardのパターンを管理する。
+$Clipboard_EmptySlot	空
+$Clipboard_EnterWorkshopMode	先にワークショップモードに入りますか？\n\n（そうしない場合、ワークショップモードでのみ表示されるオブジェクトは無視されます。）
+$Clipboard_GrabDeselected	 グループ選択解除: {0}
+$Clipboard_GrabSelected	 グループ選択: {0}
+$Clipboard_GroupDeselectedCount	選択解除したオブジェクト: {0}。
+$Clipboard_GroupDeselectionComplete	<b><u>グループ選択解除完了</u></b>
+$Clipboard_GroupSelectedCount	選択したオブジェクト: {0}。
+$Clipboard_GroupSelectionComplete	<b><u>グループ選択完了</u></b>
+$Clipboard_ImportingObjects	Clipboard: オブジェクトをインポート中...
+$Clipboard_InputAccept	決定
+$Clipboard_InputCancel	キャンセル
+$Clipboard_InputControllerHelp	方向キー: 選択 | A: 入力 | B: キャンセル | X: 削除 | Y: 大文字切替 | Start: 確定
+$Clipboard_InputInvalid	指定された文字数と範囲内で有効な値を入力してください。
+$Clipboard_ListNextPage	次へ: {0}-{1}\n\n
+$Clipboard_ListPreviousPage	前へ: {0}-{1}\n
+$Clipboard_ListSelectionInvalid	無効な選択です。"{0}"から有効な項目を選んでください。
+$Clipboard_MCM_CleanUpOldPlatforms_Help	破壊済みのClipboardプラットフォームの残骸を削除します。先に残っているすべてのプラットフォームを破壊し、予備のセーブデータを作成してください。メニューを閉じると続行します。
+$Clipboard_MCM_CleanUpOldPlatforms_Text	古いプラットフォームの残骸を削除
+$Clipboard_MCM_DisplayName	Clipboard
+$Clipboard_MCM_Keybind_activateActionMenuBtn	アクションメニューを表示
+$Clipboard_MCM_Keybind_activateActionQuickBtn	クイックメニューを表示
+$Clipboard_MCM_Keybind_activateClearSelectionBtn	選択をクリア
+$Clipboard_MCM_Keybind_activateDestroyToolBtn	ツールを破壊
+$Clipboard_MCM_Keybind_activateSelectionMethodBtn	選択方法を変更
+$Clipboard_MCM_Keybind_activateSelectionScanBtn	選択方法の補助アクションを開始
+$Clipboard_MCM_Section_Balance_Text	バランス
+$Clipboard_MCM_Section_Debug_Text	デバッグ
+$Clipboard_MCM_Section_Dialogs_Text	ダイアログ
+$Clipboard_MCM_Section_Hotkeys_Text	ホットキー
+$Clipboard_MCM_Section_Import_Options_Text	インポート設定
+$Clipboard_MCM_Section_Selection_Text	選択
+$Clipboard_MCM_activateActionMenuBtn_Help	ワークショップモード中、またはツールから十分離れた場所でツールのアクションメニューにアクセスします。推奨キー: L
+$Clipboard_MCM_activateActionMenuBtn_Text	アクションメニューを表示
+$Clipboard_MCM_activateActionQuickBtn_Help	クイックメニューではツールのすべてのボタンにアクセスできます。推奨キー: P
+$Clipboard_MCM_activateActionQuickBtn_Text	クイックメニューを表示
+$Clipboard_MCM_activateClearSelectionBtn_Help	ワークショップモード中、またはツールから十分離れた場所で選択をクリアします。推奨キー: [
+$Clipboard_MCM_activateClearSelectionBtn_Text	選択をクリア
+$Clipboard_MCM_activateDestroyToolBtn_Help	ワークショップモード中、またはツールから十分離れた場所でツールを破壊します。推奨キー: ]
+$Clipboard_MCM_activateDestroyToolBtn_Text	ツールを破壊
+$Clipboard_MCM_activateSelectionMethodBtn_Help	ワークショップモード中、またはツールから十分離れた場所でツールの選択方法にアクセスします。推奨キー: ;
+$Clipboard_MCM_activateSelectionMethodBtn_Text	選択方法を変更
+$Clipboard_MCM_activateSelectionScanBtn_Help	選択/選択解除の切替、選択スキャンの開始など... 推奨: '
+$Clipboard_MCM_activateSelectionScanBtn_Text	選択方法の補助アクションを開始
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help	デフォルトはオフです。オンにすると、建築モードでプレイヤーが操作できない光源や、建築レシピのない光源もインポートできます。
+$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text	通常フィルターされる光源のインポートを許可
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help	既定では無効。自動選択の対象を、プレイヤーが作成していない適格なオブジェクトや除外されるライトに広げます。手動で選択したオブジェクトは、この設定にかかわらずエクスポートされます。恒久的な除外は引き続き適用されます。
+$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text	通常フィルターされるオブジェクトの選択とエクスポートを許可
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help	デフォルトはオンです。インポートした各非アクターの3Dが読み込まれ次第、キーフレーム移動に設定します。これにより、ボトルや武器などの固定されていないオブジェクトが落下・転がるのを防ぎます。スクリプト、アニメーション、インベントリ、ワークショップの操作によって、オブジェクトが移動または変化する場合があります。
+$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text	インポートしたオブジェクトのHavok物理を無効化
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Help	完了ダイアログにインポートの警告を表示します。既定値：オフ。警告のログ記録には影響しません。
+$Clipboard_MCM_bDisplayImportWarnings_Debug_Text	インポートの警告を表示
+$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text	アクション完了時に通知を表示
+$Clipboard_MCM_bEnableAnimalSelection_Selection_Text	動物を選択可能にする
+$Clipboard_MCM_bEnableComponentCost_Balance_Text	貼り付け時にコンポーネントを消費
+$Clipboard_MCM_bEnableLogging_Debug_Help	追加の診断情報を記録します。警告とエラーは常に記録されます。ログ: Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log
+$Clipboard_MCM_bEnableLogging_Debug_Text	診断ログを有効化
+$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text	手動選択方法の有効化時に説明を表示
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help	既定で有効。Clipboard の入力ダイアログが開いている間、Condition Boy/Girl を非表示にします。この MOD がない場合は何もしません。
+$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text	入力中は Condition Boy/Girl を非表示
+$Clipboard_MCM_bUseThrottling_Import_Help	初期設定はオンです。インポート中のワークショップ初期化呼び出しの同時実行数を制限します。オフにするとスクリプトの過負荷やPapyrusスタックダンプが発生し、Sim Settlements 2などの他のMODの動作に影響する場合があります。次回のインポートから適用されます。
+$Clipboard_MCM_bUseThrottling_Import_Text	負荷制限を使用
+$Clipboard_MCM_iEffectIndex_Selection_Option_Blue	青
+$Clipboard_MCM_iEffectIndex_Selection_Option_Classic	クラシック
+$Clipboard_MCM_iEffectIndex_Selection_Option_Red	赤
+$Clipboard_MCM_iEffectIndex_Selection_Option_White	白
+$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow	黄
+$Clipboard_MCM_iEffectIndex_Selection_Text	選択オブジェクトに使用する視覚効果
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box	ボックス
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder	円柱
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual	手動
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All	すべて選択
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell	セルで選択
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin	プラグインで選択
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere	球
+$Clipboard_MCM_iInitialSelectionMethod_Selection_Text	初期選択方法
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always	常に
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask	確認する
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never	しない
+$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text	特定のアクション開始時にワークショップモードへ入る
+$Clipboard_ManualSelectionHelp	<b><u>手動選択を有効化しました</u></b>\n\n<b>ワークショップモード中</b>\n<i>オブジェクトをつかむと選択されます。</i>\n<i>オブジェクトのグループをつかんで配置すると、すべて選択されます。</i>\n\n<b>ワークショップモード外</b>\n<i>オブジェクトを撃つと選択されます。</i>\n\n<b>コンソールの使用</b>\n<i>コンソール（`）を開き、オブジェクトをクリックしてからコンソールを閉じると、そのオブジェクトが選択されます。</i>
+$Clipboard_MethodAll	すべて選択
+$Clipboard_MethodBox	ボックス
+$Clipboard_MethodCell	セルで選択
+$Clipboard_MethodCylinder	円柱
+$Clipboard_MethodManual	手動
+$Clipboard_MethodPlugin	プラグインで選択
+$Clipboard_MethodSphere	球体
+$Clipboard_MissingComponentsHeading	<b><u>不足している必要コンポーネント</u></b>\n\n
+$Clipboard_MoreComponents	(追加コンポーネント: {0}...)
+$Clipboard_MoreComponentsLine	(追加コンポーネント: {0}...)\n
+$Clipboard_MoreMissingComponents	(追加の不足コンポーネント: {0}...)\n
+$Clipboard_MoreMissingPlugins	さらに不足しているプラグイン: {0}...
+$Clipboard_MotionTypeFinished	選択したオブジェクトのモーションタイプの更新が完了しました。
+$Clipboard_MoveFinished	選択したオブジェクトの移動が完了しました。
+$Clipboard_ObjectCount	オブジェクト: {0}
+$Clipboard_OverwritePatternQuestion	上書きしますか？
+$Clipboard_OwnershipFinished	選択したオブジェクトを所有者なしとして設定しました。
+$Clipboard_PasteAlreadyRunning	このClipboardツールでは、すでにパターンの貼り付けが実行中です。
+$Clipboard_PasteCountsWithWires	 オブジェクト: {0} / {1}; ワイヤー: {2}
+$Clipboard_PasteExcludedRows	Clipboard: 配線と電力処理から除外されたオブジェクト数: {0}。
+$Clipboard_PasteFinished	 スロット{0}からのパターン貼り付けが完了しました。
+$Clipboard_PasteNoObjects	オブジェクトが配置されなかったため、パターンを貼り付けできませんでした。
+$Clipboard_PasteObjectCounts	 オブジェクト: {0} / {1}
+$Clipboard_PastePlacementFailed	ネイティブ配置処理に失敗したため、パターンを貼り付けできませんでした。
+$Clipboard_PastePluginTableIncomplete	パターンのプラグインテーブルが不完全なため、何も貼り付けられませんでした。
+$Clipboard_PasteReusedRows	Clipboard: 重複配置をスキップ: {0}。
+$Clipboard_PasteSlotEmpty	 スロット{0}にはパターンがありません。
+$Clipboard_PasteWarnings	スロット{0}のパターン貼り付けは警告付きで完了しました。
+$Clipboard_PasteWireCount	 ワイヤー: {0}
+$Clipboard_PatternExists	スロット{0}にはすでにパターンがあります。
+$Clipboard_PatternNameInput	Clipboardパターンの名前を入力:
+$Clipboard_PatternPluginCount	パターン #{0}: 使用プラグイン数: {1}。
+$Clipboard_PatternSaveFailed	スロット{0}にパターンを保存できませんでした。このスロットに以前保存されていたパターンは保持されています。
+$Clipboard_PatternSaved	パターンをスロット{0}に書き込みました。
+$Clipboard_PickCell	セル
+$Clipboard_PickPlugin	プラグイン
+$Clipboard_PluginSourcesEmpty	この居住地には選択可能なプラグインソースが見つかりませんでした。
+$Clipboard_PoweringUpProgress	Clipboard: 電力を有効化中 ({0}%)
+$Clipboard_PreparationFailed	配置後のパターン準備に失敗しました。
+$Clipboard_PreparationInterrupted	パターン準備が中断されました。
+$Clipboard_PreparationObjectsMayExist	一部のオブジェクトはすでに存在している可能性があります。ワイヤー接続と電力供給はスキップされました。
+$Clipboard_RemoveComponents	 コンポーネントを消費中
+$Clipboard_ReviewBothLogs	詳細はClipboard.logとPapyrus.logを確認してください。
+$Clipboard_ReviewNativeLog	詳細はClipboard.logを確認してください。
+$Clipboard_RotateFinished	選択したオブジェクトの回転が完了しました。
+$Clipboard_RotationInput	角度を入力: 0 より大きく 180 以下（小数点以下 6 桁まで、区切りはピリオド）:
+$Clipboard_RotationInvalid	無効な値です。角度は 0 より大きく 180 以下、小数点以下 6 桁までで入力してください（区切りはピリオド）。
+$Clipboard_ScaleDownInput	縮小率：0より大きく、99以下。変更後の各オブジェクトのサイズは整数のパーセント値になる必要があります。小数点にはドットを使用：
+$Clipboard_ScaleDownInvalid	無効なスケール変更です。縮小率：0より大きく、99以下。変更後の各オブジェクトのサイズは整数のパーセント値になる必要があります。小数点にはドットを使用：
+$Clipboard_ScaleFinished	選択したオブジェクトの拡大縮小が完了しました。
+$Clipboard_ScaleNoExactChange	この選択では、この方向への正確なサイズ変更はできません。オブジェクトは変更されていません。小さなグループに分けてサイズを変更するか、復元を使用してください。
+$Clipboard_ScaleRestricted	この変更ではオブジェクトのサイズが丸められるか、サイズの制限を超えます。オブジェクトは変更されていません。この選択と方向での変更幅：{0}。最大値：{1}。近い有効な値：{2}。
+$Clipboard_ScaleSelectionInvalid	サイズ変更を完了できませんでした。選択を確認してから再試行してください。
+$Clipboard_ScaleUpInput	拡大率：0より大きく、1000以下。変更後の各オブジェクトのサイズは整数のパーセント値になる必要があります。小数点にはドットを使用：
+$Clipboard_ScaleUpInvalid	無効なスケール変更です。拡大率：0より大きく、1000以下。変更後の各オブジェクトのサイズは整数のパーセント値になる必要があります。小数点にはドットを使用：
+$Clipboard_SelectGunEquipped	選択ガンを装備しました。オブジェクトを撃って選択してください。
+$Clipboard_SelectedStatus	 選択中のオブジェクト: {0}
+$Clipboard_SelectionAllCount	選択した居住地オブジェクト: {0}。
+$Clipboard_SelectionAreaCount	選択した居住地オブジェクト: {0} / {1}。
+$Clipboard_SelectionAreaEmpty	選択範囲内に何も見つかりませんでした。
+$Clipboard_SelectionAreaRetry	コピー用ツールの位置を調整するか、選択範囲を広げて再試行してください。
+$Clipboard_SelectionCellCount	このセル範囲から選択した居住地オブジェクト: {0}。
+$Clipboard_SelectionComplete	選択完了。
+$Clipboard_SelectionDetailsArea	\n\n<b>範囲</b>\n幅: {0}\n長さ: {1}\n高さ: {2}
+$Clipboard_SelectionDetailsCenter	\n\n<b>中心点</b>\nX: {0}\nY: {1}\nZ: {2}
+$Clipboard_SelectionDetailsCounts	<b><u>選択の詳細</u></b>\n\nオブジェクト数: {0}\nワイヤー数: {1}\nプラグイン数: {2}
+$Clipboard_SelectionDetailsScale	\n\n<b>スケール</b>\n最小: {0}\n平均: {1}\n最大: {2}
+$Clipboard_SelectionPluginCount	'{1}'から選択した居住地オブジェクト: {0}。
+$Clipboard_SelectionPluginCountTitle	選択中のオブジェクト: 使用プラグイン数: {0}。
+$Clipboard_SelectionPluginEmpty	'{0}'から新たに選択可能な居住地オブジェクトは見つかりませんでした。
+$Clipboard_SelectionSize	 選択数: {0}
+$Clipboard_SetMotionType	 モーションタイプを設定
+$Clipboard_SettlementEmpty	居住地内に選択可能なものは見つかりませんでした。
+$Clipboard_SlotRangeCount	{0} - {1}: パターン: {2}\n
+$Clipboard_SourceCellIndexInvalid	パターンに無効なソースセルのプラグインインデックスが含まれています。移動は行われませんでした。
+$Clipboard_SourceCellPluginUnreadable	パターンのソースセルのプラグインを読み取れませんでした。移動は行われませんでした。
+$Clipboard_SourceDifferentCell	保存された位置は利用できないか、「{0}」の建築可能エリア外にあります。移動は行われませんでした。
+$Clipboard_SourceDifferentWorkshop	ワークショップ間の移動はまだサポートされていません。
+$Clipboard_SourceMovementUnavailable	Clipboardツールまたはワークショップを特定できないため、パターンのソース位置への移動は利用できません。
+$Clipboard_SourcePatternInvalid	選択したスロットには有効なパターンがありません。
+$Clipboard_SourcePlayerNotMoved	装置の移動を確認できなかったか、プレイヤーが「{0}」を離れました。プレイヤーは移動していません。
+$Clipboard_SourcePluginListUnreadable	パターンのプラグイン一覧を読み取れませんでした。
+$Clipboard_SourcePositionUnreadable	パターンのソース位置を読み取れませんでした。移動は行われませんでした。
+$Clipboard_SourceTransformInvalid	パターンのソース変換情報が無効です。移動は行われませんでした。
+$Clipboard_SourceWorkshopIndexInvalid	パターンに無効なワークショップのプラグインインデックスが含まれています。
+$Clipboard_SourceWorkshopMissing	パターンの元になったワークショップはこのセーブデータには存在しません。
+$Clipboard_SourceWorkshopNames	このパターンは「{0}」で作成されました。元の位置へ移動するには、プレイヤーとClipboard装置の両方がその居住地内にいる必要があります。移動は行われませんでした。
+$Clipboard_TextInputUnavailable	テキスト入力を完了できませんでした。もう一度お試しください。
+$Clipboard_ToolAlreadyExists	Clipboardツールはすでに存在します。\n\n新しいものを作成する前に、そのツールを破壊してください。
+$Clipboard_WarningGeneratorAnimation	インポートしたオブジェクトの一部のアニメーションを初期化できませんでした。 
+$Clipboard_WarningPowerFailed	電力の再接続に失敗しました。 
+$Clipboard_WarningPowerIncomplete	電力の再接続が不完全でした。 
+$Clipboard_WarningPreparationIncomplete	一部のオブジェクトでロードまたは物理演算の準備が完了しなかったため、自動ワイヤーはスキップされました。 
+$Clipboard_WarningRowsSkipped	一部のパターン行はスキップされました。 
+$Clipboard_WarningWireCreationFailed	ワイヤーの作成に失敗しました。 
+$Clipboard_WarningWiresMissing	一部のパターンのワイヤーは作成されませんでした。 
+$Clipboard_WorkshopCallbackCounts	オブジェクト: {0}; 完了した呼び出し: {1} / {2}; 未完了: {3}
+$Clipboard_WorkshopIncomplete	ワークショップの初期化が不完全でした。
+$Clipboard_WorkshopInitializationProgress	Clipboard: ワークショップ初期化中 ({0}%)
+$Clipboard_WorkshopInitializing	Clipboard: ワークショップオブジェクトを初期化中...
+$Clipboard_WorkshopObjectsPlaced	オブジェクトは配置されましたが、ワイヤーと電力はスキップされました。
+$Clipboard_WorkshopReviewBeforeRetry	新しいツールで再度インポートを開始する前にログを確認してください。
+$Clipboard_WorkshopUnverified	ワークショップの初期化を確認できませんでした。
+$Clipboard_WorkshopWiringSkipped	ワイヤーと電力はスキップされました。Clipboard.log と Papyrus.log を確認してください。

@@ -1,0 +1,812 @@
+[
+  {
+    "key": "$Clipboard_BoxCreationFailed",
+    "text": "The box selection cage could not be created.",
+    "context": "Box helper creation failed."
+  },
+  {
+    "key": "$Clipboard_BoxCreationReviewLog",
+    "text": "Review Clipboard.log before retrying.",
+    "context": "Box creation failure log instruction; current DLL uses Clipboard.log."
+  },
+  {
+    "key": "$Clipboard_CellScopeEmpty",
+    "text": "Nothing found from the selected cell scope that wasn't already selected.",
+    "context": "Cell selection found no new eligible objects."
+  },
+  {
+    "key": "$Clipboard_CellScopeTool",
+    "text": "Clipboard Tool's Cell",
+    "context": "Cell-selection scope option for the tool parent cell."
+  },
+  {
+    "key": "$Clipboard_CellScopeWorkshop",
+    "text": "Workshop's Cells",
+    "context": "Cell-selection scope option for all workshop cells."
+  },
+  {
+    "key": "$Clipboard_CheckComponents",
+    "text": " Checking Available Components",
+    "context": "Progress label while checking available construction components."
+  },
+  {
+    "key": "$Clipboard_CleanupActive",
+    "text": "A Clipboard platform is still active. Destroy all platforms, then try again.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupBlocked",
+    "text": "Some remnants could not be safely identified. Nothing was changed.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupBusy",
+    "text": "Clipboard is busy. Finish the current action, then try again.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupConfirm",
+    "text": "Clean up remnants of destroyed Clipboard platforms?",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupFailed",
+    "text": "Cleanup could not start. No remnants were changed.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupNone",
+    "text": "No eligible old platform remnants were found.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupPrepare",
+    "text": "First destroy all Clipboard platforms and make a backup save.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupPreserve",
+    "text": "Imported objects and saved patterns will be kept.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupProgress",
+    "text": "Cleaning up old Clipboard platforms...",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupReload",
+    "text": "Save, reload that save, then save again.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupResult",
+    "text": "Retired {0} remnants; skipped {1}.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. {0} is the number retired; {1} is the number skipped."
+  },
+  {
+    "key": "$Clipboard_CleanupStopped",
+    "text": "Cleanup stopped before all remnants could be retired. Save and reload before trying again.",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_CleanupTitle",
+    "text": "Clean Up Old Platforms",
+    "context": "User-invoked cleanup of destroyed Clipboard platform remnants. Imported objects and saved patterns are preserved; retirement requests engine deletion, while physical removal requires save/reload. "
+  },
+  {
+    "key": "$Clipboard_ClearOwnership",
+    "text": " Cleared Ownership",
+    "context": "Progress label while clearing selected-object ownership."
+  },
+  {
+    "key": "$Clipboard_CompileLinkedWorkshops",
+    "text": " Compiling Linked Workshops",
+    "context": "Progress label while enumerating linked workshops."
+  },
+  {
+    "key": "$Clipboard_CompileWorkshopContainers",
+    "text": " Compiling Workshop Containers",
+    "context": "Progress label while finding component containers."
+  },
+  {
+    "key": "$Clipboard_ComponentCostHeading",
+    "text": "<b><u>Component Cost</u></b>\n\n",
+    "context": "Component cost list heading; retain markup and paragraph spacing."
+  },
+  {
+    "key": "$Clipboard_ContinueQuestion",
+    "text": "\nDo you want to continue?",
+    "context": "Question appended as a separate line after the component cost list."
+  },
+  {
+    "key": "$Clipboard_DeselectGunEquipped",
+    "text": "Deselection gun equipped, shoot a selected object to deselect it.",
+    "context": "Direct notification on switching to the deselection gun."
+  },
+  {
+    "key": "$Clipboard_DestroyFinished",
+    "text": "Finished processing destroy request.",
+    "context": "Destruction completion heading."
+  },
+  {
+    "key": "$Clipboard_DestroyIncomplete",
+    "text": "Destroy stopped before all selected objects were processed.",
+    "context": "Bulk Destroy interrupted, cancelled, or failed for some selected references. Already submitted scraps are not undone."
+  },
+  {
+    "key": "$Clipboard_DestroyOriginalCount",
+    "text": "Originally selected: {0}",
+    "context": "Destruction completion; {0} originally selected references."
+  },
+  {
+    "key": "$Clipboard_DestroyQuestion",
+    "text": "Do you want to destroy them?",
+    "context": "Destruction confirmation question after the selected-object count."
+  },
+  {
+    "key": "$Clipboard_DestroyScrapCount",
+    "text": "Sent to scrap: {0}",
+    "context": "Destruction completion; {0} surviving references sent to the engine scrap operation."
+  },
+  {
+    "key": "$Clipboard_DestroyWarning",
+    "text": "Items destroyed this way provide no scrap and cannot be recovered.",
+    "context": "Destruction confirmation warning."
+  },
+  {
+    "key": "$Clipboard_DimensionDepth",
+    "text": " Depth",
+    "context": "Box depth input menu dimension label; leading space retained."
+  },
+  {
+    "key": "$Clipboard_DimensionHeight",
+    "text": " Height",
+    "context": "Box height input menu dimension label; leading space retained."
+  },
+  {
+    "key": "$Clipboard_DimensionRadius",
+    "text": "Radius",
+    "context": "Sphere/cylinder radius input menu dimension label."
+  },
+  {
+    "key": "$Clipboard_DimensionWidth",
+    "text": " Width",
+    "context": "Box width input menu dimension label; leading space retained."
+  },
+  {
+    "key": "$Clipboard_DistanceInput",
+    "text": "Enter a distance between 1 and 9,999:",
+    "context": "Clipboard-owned input distance prompt; numeric range is inclusive."
+  },
+  {
+    "key": "$Clipboard_DistanceInvalid",
+    "text": "Invalid distance, must be a number between 1 and 9,999.",
+    "context": "Clipboard-owned input distance input validation error."
+  },
+  {
+    "key": "$Clipboard_EmptySlot",
+    "text": "Empty",
+    "context": "Name displayed for a pattern slot with no objects."
+  },
+  {
+    "key": "$Clipboard_EnterWorkshopMode",
+    "text": "Do you want to enter workshop mode first?\n\n(Objects only visible in workshop mode will be ignored otherwise.)",
+    "context": "Workshop-mode confirmation, looked up by constant key to avoid old saved English property values."
+  },
+  {
+    "key": "$Clipboard_GrabDeselected",
+    "text": " Grab Deselected: {0}",
+    "context": "Manual group deselection status; {0} group size."
+  },
+  {
+    "key": "$Clipboard_GrabSelected",
+    "text": " Grab Selected: {0}",
+    "context": "Manual group selection status; {0} group size."
+  },
+  {
+    "key": "$Clipboard_GroupDeselectedCount",
+    "text": "Deselected objects: {0}.",
+    "context": "Group deselection completion; {0} group size."
+  },
+  {
+    "key": "$Clipboard_GroupDeselectionComplete",
+    "text": "<b><u>Group Deselection Complete</u></b>",
+    "context": "Manual group deselection completion heading; retain markup."
+  },
+  {
+    "key": "$Clipboard_GroupSelectedCount",
+    "text": "Selected objects: {0}.",
+    "context": "Group selection completion; {0} group size."
+  },
+  {
+    "key": "$Clipboard_GroupSelectionComplete",
+    "text": "<b><u>Group Selection Complete</u></b>",
+    "context": "Manual group selection completion heading; retain markup."
+  },
+  {
+    "key": "$Clipboard_ListNextPage",
+    "text": "NEXT: {0}-{1}\n\n",
+    "context": "Paged choice list next-page range; {0} first and {1} last entry index."
+  },
+  {
+    "key": "$Clipboard_ListPreviousPage",
+    "text": "PREVIOUS: {0}-{1}\n",
+    "context": "Paged choice list previous-page range; {0} first and {1} last entry index."
+  },
+  {
+    "key": "$Clipboard_ListSelectionInvalid",
+    "text": "Invalid selection. Choose a valid entry from \"{0}\".",
+    "context": "Paged choice validation error; {0} already-translated list type label, quoted to avoid inflection."
+  },
+  {
+    "key": "$Clipboard_ManualSelectionHelp",
+    "text": "<b><u>Manual Selection Enabled</u></b>\n\n<b>In workshop mode</b>\n<i>Grabbing an object will select it.</i>\n<i>Grabbing and placing a group of objects will select them all.</i>\n\n<b>Out of workshop mode</b>\n<i>Shooting an object will select it.</i>\n\n<b>Using console</b>\n<i>Open console (`), click an object, and close the console to select the object.</i>",
+    "context": "Manual-selection instructions; retain all markup and paragraph breaks."
+  },
+  {
+    "key": "$Clipboard_MethodAll",
+    "text": "Select All",
+    "context": "Entire settlement selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodBox",
+    "text": "Box",
+    "context": "Box selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodCell",
+    "text": "Select By Cell",
+    "context": "Cell selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodCylinder",
+    "text": "Cylinder",
+    "context": "Cylinder selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodManual",
+    "text": "Manual",
+    "context": "Manual selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodPlugin",
+    "text": "Select By Plugin",
+    "context": "Plugin selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MethodSphere",
+    "text": "Sphere",
+    "context": "Sphere selection method name shown in quick menus."
+  },
+  {
+    "key": "$Clipboard_MissingComponentsHeading",
+    "text": "<b><u>Missing Required Components</u></b>\n\n",
+    "context": "Missing construction components heading; retain markup."
+  },
+  {
+    "key": "$Clipboard_MoreComponents",
+    "text": "(Additional components: {0}...)",
+    "context": "Component cost list overflow; {0} additional component types."
+  },
+  {
+    "key": "$Clipboard_MoreComponentsLine",
+    "text": "(Additional components: {0}...)\n",
+    "context": "Component confirmation list overflow; {0} additional component types."
+  },
+  {
+    "key": "$Clipboard_MoreMissingComponents",
+    "text": "(Additional missing components: {0}...)\n",
+    "context": "Missing component list overflow; {0} additional missing component types."
+  },
+  {
+    "key": "$Clipboard_MoreMissingPlugins",
+    "text": "Additional missing plugins: {0}...",
+    "context": "Missing-plugin warning overflow; {0} additional missing-plugin count."
+  },
+  {
+    "key": "$Clipboard_MotionTypeFinished",
+    "text": "Finished updating motion type for selected objects.",
+    "context": "Motion-type completion notification."
+  },
+  {
+    "key": "$Clipboard_MoveFinished",
+    "text": "Finished moving selected objects.",
+    "context": "Move completion notification."
+  },
+  {
+    "key": "$Clipboard_ObjectCount",
+    "text": "Objects: {0}",
+    "context": "Object count in save/overwrite/destroy dialogs; {0} relevant object count."
+  },
+  {
+    "key": "$Clipboard_OverwritePatternQuestion",
+    "text": "Do you want to overwrite it?",
+    "context": "Confirmation following a populated slot description."
+  },
+  {
+    "key": "$Clipboard_OwnershipFinished",
+    "text": "Finished marking selected objects as unowned.",
+    "context": "Ownership completion notification."
+  },
+  {
+    "key": "$Clipboard_PasteAlreadyRunning",
+    "text": "A pattern paste is already running for this Clipboard tool.",
+    "context": "Rejects overlapping pattern imports."
+  },
+  {
+    "key": "$Clipboard_PasteCountsWithWires",
+    "text": " Objects: {0} / {1}; Wires: {2}",
+    "context": "Import warning summary; {0} placed objects, {1} expected objects, {2} created wires."
+  },
+  {
+    "key": "$Clipboard_PasteFinished",
+    "text": " Finished pasting pattern from slot {0}.",
+    "context": "Successful import heading; {0} pattern slot number."
+  },
+  {
+    "key": "$Clipboard_PasteNoObjects",
+    "text": "The pattern could not be pasted because no objects were placed.",
+    "context": "Import preparation reports zero placed objects."
+  },
+  {
+    "key": "$Clipboard_PasteObjectCounts",
+    "text": " Objects: {0} / {1}",
+    "context": "Successful import summary; {0} placed objects, {1} expected objects."
+  },
+  {
+    "key": "$Clipboard_PastePlacementFailed",
+    "text": "The pattern could not be pasted because the native placement operation failed.",
+    "context": "Pattern placement returned no result rows."
+  },
+  {
+    "key": "$Clipboard_PastePluginTableIncomplete",
+    "text": "The pattern plugin table is incomplete, so nothing was pasted.",
+    "context": "Incomplete pattern plugin table prevents import."
+  },
+  {
+    "key": "$Clipboard_PasteSlotEmpty",
+    "text": " No pattern present in slot {0}.",
+    "context": "Import rejects empty pattern slot; {0} slot number."
+  },
+  {
+    "key": "$Clipboard_PasteWarnings",
+    "text": "Pattern paste completed with warnings for slot {0}.",
+    "context": "Import completed with warnings; {0} pattern slot number."
+  },
+  {
+    "key": "$Clipboard_PasteWireCount",
+    "text": " Wires: {0}",
+    "context": "Successful import summary; {0} created wires."
+  },
+  {
+    "key": "$Clipboard_PatternExists",
+    "text": "A pattern already exists in slot {0}.",
+    "context": "Export overwrite confirmation; {0} occupied slot number."
+  },
+  {
+    "key": "$Clipboard_PatternNameInput",
+    "text": "Enter a name for the Clipboard Pattern:",
+    "context": "Clipboard-owned input pattern-name prompt; player input remains unchanged."
+  },
+  {
+    "key": "$Clipboard_PatternPluginCount",
+    "text": "Pattern #{0}: Plugins used: {1}.",
+    "context": "Pattern plugin list title; {0} pattern slot, {1} plugin count."
+  },
+  {
+    "key": "$Clipboard_PatternSaved",
+    "text": "Finished writing pattern to slot {0}.",
+    "context": "Export completion; {0} saved pattern slot number."
+  },
+  {
+    "key": "$Clipboard_PickCell",
+    "text": "Cell",
+    "context": "Heading identifying the kind of choice in the cell selection menu."
+  },
+  {
+    "key": "$Clipboard_PickPlugin",
+    "text": "Plugin",
+    "context": "Heading identifying the kind of choice in the plugin selection menu."
+  },
+  {
+    "key": "$Clipboard_PluginSourcesEmpty",
+    "text": "No selectable plugin sources were found in this settlement.",
+    "context": "Plugin selection cannot find any eligible plugin sources."
+  },
+  {
+    "key": "$Clipboard_PreparationFailed",
+    "text": "Pattern preparation failed after placement.",
+    "context": "Native preparation returned an invalid summary."
+  },
+  {
+    "key": "$Clipboard_PreparationInterrupted",
+    "text": "Pattern preparation was interrupted.",
+    "context": "Native preparation returned an interrupted or invalid status."
+  },
+  {
+    "key": "$Clipboard_PreparationObjectsMayExist",
+    "text": "Some objects may already exist; wiring and power were skipped.",
+    "context": "Explains partial world state after failed or interrupted import preparation."
+  },
+  {
+    "key": "$Clipboard_RemoveComponents",
+    "text": " Removing Components",
+    "context": "Progress label while consuming required components."
+  },
+  {
+    "key": "$Clipboard_ReviewBothLogs",
+    "text": "Review Clipboard.log and Papyrus.log for details.",
+    "context": "Log instruction after import preparation failures."
+  },
+  {
+    "key": "$Clipboard_ReviewNativeLog",
+    "text": "Review Clipboard.log for details.",
+    "context": "Log instruction for native placement/import failures."
+  },
+  {
+    "key": "$Clipboard_RotateFinished",
+    "text": "Finished rotating selected objects.",
+    "context": "Rotation completion notification."
+  },
+  {
+    "key": "$Clipboard_RotationInput",
+    "text": "Enter degrees: greater than 0 and up to 180 (up to 6 decimal places; use a dot):",
+    "context": "Positive decimal input with up to six places; zero excluded, upper bound inclusive; ASCII decimal dot."
+  },
+  {
+    "key": "$Clipboard_RotationInvalid",
+    "text": "Invalid value. Enter degrees greater than 0 and up to 180, with up to 6 decimal places (use a dot).",
+    "context": "Positive decimal input with up to six places; zero excluded, upper bound inclusive; ASCII decimal dot."
+  },
+  {
+    "key": "$Clipboard_ScaleDownInput",
+    "text": "Decrease percentage: greater than 0, up to 99. Final object sizes must be whole-number percentages. Use a dot for decimals:",
+    "context": "Relative scale change. Positive decimal input; upper bound inclusive. Every resulting object size must be a whole-number percentage. ASCII decimal dot. Selection-specific limits are shown when rejected."
+  },
+  {
+    "key": "$Clipboard_ScaleDownInvalid",
+    "text": "Invalid scale change. Decrease percentage: greater than 0, up to 99. Final object sizes must be whole-number percentages. Use a dot for decimals:",
+    "context": "Relative scale change. Positive decimal input; upper bound inclusive. Every resulting object size must be a whole-number percentage. ASCII decimal dot. Selection-specific limits are shown when rejected."
+  },
+  {
+    "key": "$Clipboard_ScaleFinished",
+    "text": "Finished scaling selected objects.",
+    "context": "Scale completion notification."
+  },
+  {
+    "key": "$Clipboard_ScaleUpInput",
+    "text": "Increase percentage: greater than 0, up to 1000. Final object sizes must be whole-number percentages. Use a dot for decimals:",
+    "context": "Relative scale change. Positive decimal input; upper bound inclusive. Every resulting object size must be a whole-number percentage. ASCII decimal dot. Selection-specific limits are shown when rejected."
+  },
+  {
+    "key": "$Clipboard_ScaleUpInvalid",
+    "text": "Invalid scale change. Increase percentage: greater than 0, up to 1000. Final object sizes must be whole-number percentages. Use a dot for decimals:",
+    "context": "Relative scale change. Positive decimal input; upper bound inclusive. Every resulting object size must be a whole-number percentage. ASCII decimal dot. Selection-specific limits are shown when rejected."
+  },
+  {
+    "key": "$Clipboard_SelectGunEquipped",
+    "text": "Selection gun equipped, shoot an object to select it.",
+    "context": "Direct notification on switching to the selection gun."
+  },
+  {
+    "key": "$Clipboard_SelectedStatus",
+    "text": " Selected objects: {0}",
+    "context": "Copy-tool notification; {0} total selected-object count."
+  },
+  {
+    "key": "$Clipboard_SelectionAllCount",
+    "text": "Settlement objects selected: {0}.",
+    "context": "Select-all completion; {0} newly selected objects."
+  },
+  {
+    "key": "$Clipboard_SelectionAreaCount",
+    "text": "Settlement objects selected: {0} of {1}.",
+    "context": "Area selection completion; {0} selected objects, {1} available workshop objects."
+  },
+  {
+    "key": "$Clipboard_SelectionAreaEmpty",
+    "text": "Nothing found in selection area.",
+    "context": "Box, sphere and cylinder selection found no eligible objects."
+  },
+  {
+    "key": "$Clipboard_SelectionAreaRetry",
+    "text": "Please try repositioning copy tool or increasing selection area size.",
+    "context": "Second line following empty box, sphere or cylinder selection."
+  },
+  {
+    "key": "$Clipboard_SelectionCellCount",
+    "text": "Settlement objects selected from this cell scope: {0}.",
+    "context": "Cell selection completion; {0} newly selected objects."
+  },
+  {
+    "key": "$Clipboard_SelectionComplete",
+    "text": "Selection complete.",
+    "context": "Area, cell, plugin and settlement selection completion heading."
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsArea",
+    "text": "\n\n<b>Area</b>\nWidth: {0}\nLength: {1}\nHeight: {2}",
+    "context": "Selection details dimensions; {0} width, {1} length, {2} height. Retain markup."
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsCenter",
+    "text": "\n\n<b>Center Point</b>\nX: {0}\nY: {1}\nZ: {2}",
+    "context": "Selection details center section; {0} X, {1} Y, {2} Z world coordinates. Retain markup."
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsCounts",
+    "text": "<b><u>Selection Details</u></b>\n\nObject Count: {0}\nWire Count: {1}\nPlugin Count: {2}",
+    "context": "Selection details heading/counts; {0} object count, {1} wire count, {2} plugin count. Retain markup."
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsScale",
+    "text": "\n\n<b>Scale</b>\nMinimum: {0}\nAverage: {1}\nMaximum: {2}",
+    "context": "Selection details scale section; {0} minimum, {1} average, {2} maximum scale. Retain markup."
+  },
+  {
+    "key": "$Clipboard_SelectionPluginCount",
+    "text": "Settlement objects selected from '{1}': {0}.",
+    "context": "Plugin selection completion; {0} selected objects, {1} unchanged plugin filename."
+  },
+  {
+    "key": "$Clipboard_SelectionPluginCountTitle",
+    "text": "Selected objects: Plugins used: {0}.",
+    "context": "Selected-object plugin list title; {0} plugin count."
+  },
+  {
+    "key": "$Clipboard_SelectionPluginEmpty",
+    "text": "No new selectable settlement objects were found from '{0}'.",
+    "context": "Plugin selection found no new objects; {0} unchanged plugin filename."
+  },
+  {
+    "key": "$Clipboard_SelectionSize",
+    "text": " Selection Size: {0}",
+    "context": "Selection/deselection status; {0} total selected-object count."
+  },
+  {
+    "key": "$Clipboard_SetMotionType",
+    "text": " Set Motion Type",
+    "context": "Progress label while changing selected-object motion types."
+  },
+  {
+    "key": "$Clipboard_SettlementEmpty",
+    "text": "Nothing found in the settlement that can be selected.",
+    "context": "Entire-settlement selection found no eligible objects."
+  },
+  {
+    "key": "$Clipboard_SlotRangeCount",
+    "text": "{0} - {1}: Patterns: {2}\n",
+    "context": "Pattern page slot-range row; {0} first slot, {1} last slot, {2} populated patterns. Count-neutral label handles 0, 1 and all plurals."
+  },
+  {
+    "key": "$Clipboard_SourceCellIndexInvalid",
+    "text": "The pattern contains an invalid source-cell plugin index. No movement was performed.",
+    "context": "Source movement rejects an invalid cell plugin row."
+  },
+  {
+    "key": "$Clipboard_SourceCellPluginUnreadable",
+    "text": "The pattern source-cell plugin could not be read. No movement was performed.",
+    "context": "Source movement cannot read the original cell plugin."
+  },
+  {
+    "key": "$Clipboard_SourceDifferentCell",
+    "text": "The saved position is unavailable or outside the build area of '{0}'. No movement was performed.",
+    "context": "Rejected source or player landing position: {0} original settlement name. Adjacent exterior cells in that settlement are allowed, but unavailable/different coordinate spaces and positions outside the build area are rejected."
+  },
+  {
+    "key": "$Clipboard_SourceDifferentWorkshop",
+    "text": "Movement between workshops is not yet supported.",
+    "context": "Source movement rejects a different workshop."
+  },
+  {
+    "key": "$Clipboard_SourceMovementUnavailable",
+    "text": "Pattern source movement is unavailable because the Clipboard tool or workshop could not be resolved.",
+    "context": "Source movement rejected because tool/workshop is unavailable."
+  },
+  {
+    "key": "$Clipboard_SourcePatternInvalid",
+    "text": "The selected slot does not contain a valid pattern.",
+    "context": "Source movement rejects an invalid or empty pattern."
+  },
+  {
+    "key": "$Clipboard_SourcePlayerNotMoved",
+    "text": "The tool's move could not be verified or you left '{0}'. The player was not moved.",
+    "context": "Post-move check failed: tool movement may already have happened, but the player was not moved. {0} original settlement name."
+  },
+  {
+    "key": "$Clipboard_SourcePluginListUnreadable",
+    "text": "The pattern plugin list could not be read.",
+    "context": "Source movement could not read pattern plugins."
+  },
+  {
+    "key": "$Clipboard_SourcePositionUnreadable",
+    "text": "The pattern source position could not be read. No movement was performed.",
+    "context": "Source movement cannot read the original position."
+  },
+  {
+    "key": "$Clipboard_SourceTransformInvalid",
+    "text": "The pattern source transform is invalid. No movement was performed.",
+    "context": "Source movement rejects non-finite/out-of-range position or rotation."
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopIndexInvalid",
+    "text": "The pattern contains an invalid workshop plugin index.",
+    "context": "Source movement rejects an out-of-range workshop plugin row."
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopMissing",
+    "text": "Pattern came from a workshop that does not exist in this save.",
+    "context": "Source movement cannot resolve the original workshop."
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopNames",
+    "text": "This pattern was made in '{0}'. The player and Clipboard tool must be within that settlement to move to its source. No movement was performed.",
+    "context": "Rejected source movement: {0} is the original settlement name, not the linked current workshop. The player and tool must both be inside the source workshop build volumes."
+  },
+  {
+    "key": "$Clipboard_ToolAlreadyExists",
+    "text": "A Clipboard Tool already exists.\n\nPlease destroy that tool before creating a new one.",
+    "context": "Creation rejection when a Clipboard tool already exists; retain paragraphs."
+  },
+  {
+    "key": "$Clipboard_WarningGeneratorAnimation",
+    "text": "Some imported animations could not be initialized. ",
+    "context": "Complete sentence in import warning list. Applies to animated imported objects regardless of generator status, sound or activator; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningPowerFailed",
+    "text": "Power reconnection failed. ",
+    "context": "Complete sentence in import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningPowerIncomplete",
+    "text": "Power reconnection was incomplete. ",
+    "context": "Complete sentence in import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningPreparationIncomplete",
+    "text": "Some objects did not finish loading or physics preparation; automatic wires were skipped. ",
+    "context": "Complete sentence in import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningRowsSkipped",
+    "text": "Some pattern rows were skipped. ",
+    "context": "Complete sentence in the import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningWireCreationFailed",
+    "text": "Wire creation failed. ",
+    "context": "Complete sentence in import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WarningWiresMissing",
+    "text": "Some pattern wires were not created. ",
+    "context": "Complete sentence in import warning list; trailing separator retained."
+  },
+  {
+    "key": "$Clipboard_WorkshopCallbackCounts",
+    "text": "Objects: {0}; returned calls: {1} / {2}; outstanding: {3}",
+    "context": "Incomplete workshop summary; {0} placed objects, {1} returned callbacks, {2} planned callbacks, {3} outstanding callbacks."
+  },
+  {
+    "key": "$Clipboard_WorkshopIncomplete",
+    "text": "Workshop initialization was incomplete.",
+    "context": "Workshop callback summary reports incomplete work."
+  },
+  {
+    "key": "$Clipboard_WorkshopInitializing",
+    "text": "Clipboard: initializing workshop objects...",
+    "context": "Direct notification before waiting for actual workshop callbacks."
+  },
+  {
+    "key": "$Clipboard_WorkshopObjectsPlaced",
+    "text": "Objects were placed; wiring and power were skipped.",
+    "context": "Explains world state after an unverified workshop callback result."
+  },
+  {
+    "key": "$Clipboard_WorkshopReviewBeforeRetry",
+    "text": "Review the logs before starting another import with a new tool.",
+    "context": "Instruction after uncertain callback completion."
+  },
+  {
+    "key": "$Clipboard_WorkshopUnverified",
+    "text": "Workshop initialization could not be verified.",
+    "context": "Workshop callback summary was invalid."
+  },
+  {
+    "key": "$Clipboard_WorkshopWiringSkipped",
+    "text": "Wiring and power were skipped. Review Clipboard.log and Papyrus.log.",
+    "context": "Explains next stages skipped after incomplete workshop callbacks."
+  },
+  {
+    "key": "$Clipboard_PasteReusedRows",
+    "text": "Clipboard: Duplicate placements skipped: {0}.",
+    "context": "Always displayed after placement and included in result dialogs, including failure and zero duplicates. Count is matching physical rows reused instead of placed."
+  },
+  {
+    "key": "$Clipboard_ImportingObjects",
+    "text": "Clipboard: Importing objects...",
+    "context": "Ten-second HUD reminder during object placement and preparation when Use Throttling is On; stops before workshop initialization."
+  },
+  {
+    "key": "$Clipboard_PasteExcludedRows",
+    "text": "Clipboard: Objects excluded from wiring and power: {0}.",
+    "context": "Import summary/notification: number of new objects excluded after failed or unready preparation or workshop initialization. Successful objects still proceed to wiring and power; {0} is the excluded count."
+  },
+  {
+    "key": "$Clipboard_PoweringUpProgress",
+    "text": "Clipboard: Powering Up ({0}%)",
+    "context": "Whole-number import phase percentage. {0} is 0 through 100; percent changes only."
+  },
+  {
+    "key": "$Clipboard_WorkshopInitializationProgress",
+    "text": "Clipboard: Workshop Initialization ({0}%)",
+    "context": "Whole-number import phase percentage. {0} is 0 through 100; percent changes only."
+  },
+  {
+    "key": "$Clipboard_PatternSaveFailed",
+    "text": "Could not save pattern to slot {0}. Any previous pattern in this slot was preserved.",
+    "context": "Export failed before committing a complete replacement; existing pattern remains intact. Slot is a numbered pattern slot, not a save game."
+  },
+  {
+    "key": "$Clipboard_ComponentPaymentIncomplete",
+    "text": "Import cancelled because component payment could not be completed. Some components may already have been consumed.",
+    "context": "Best-effort inventory verification found incomplete payment. Placement has not begun, but prior withdrawals are not automatically refunded."
+  },
+  {
+    "key": "$Clipboard_TextInputUnavailable",
+    "text": "Text input could not be completed. Please try again.",
+    "context": "The optional Clipboard-owned input text input menu failed to open or closed without returning input; ordinary user cancellation remains silent."
+  },
+  {
+    "key": "$Clipboard_InputAccept",
+    "text": "Accept",
+    "context": "Clipboard-owned input control or validation feedback."
+  },
+  {
+    "key": "$Clipboard_InputCancel",
+    "text": "Cancel",
+    "context": "Clipboard-owned input control or validation feedback."
+  },
+  {
+    "key": "$Clipboard_InputInvalid",
+    "text": "Enter a valid value within the allowed length and range.",
+    "context": "Clipboard-owned input control or validation feedback."
+  },
+  {
+    "key": "$Clipboard_InputControllerHelp",
+    "text": "D-pad: choose | A: enter | B: cancel | X: delete | Y: case | Start: accept",
+    "context": "Clipboard-owned input controller editing help. Preserve button labels A, B, X, Y and Start."
+  },
+  {
+    "key": "$Clipboard_ComponentAvailableLocal",
+    "text": "Required / Available in this workshop\n\n",
+    "context": "Column legend: construction materials required, then exact available quantity in the current workshop container only. Not the linked settlement/player total. Preserve paragraph spacing."
+  },
+  {
+    "key": "$Clipboard_ComponentAvailableAll",
+    "text": "Required / Available across all sources\n\n",
+    "context": "Column legend: construction materials required, then available total across current workshop, linked workshop containers and player inventory. Preserve paragraph spacing."
+  },
+  {
+    "key": "$Clipboard_ComponentAllSourcesQuestion",
+    "text": "\nShow availability across all sources?",
+    "context": "Read-only cost view question. Yes performs a full inventory-source search; No closes. Neither answer authorizes payment."
+  },
+  {
+    "key": "$Clipboard_ScaleRestricted",
+    "text": "That change would round an object size or exceed a size limit. No objects were changed. For this selection and direction: step {0}; maximum {1}. Nearby valid values: {2}.",
+    "context": "Scale change rejected before mutation. {0} exact percentage increment, {1} maximum percentage change, {2} nearby valid values. All arguments include percent signs."
+  },
+  {
+    "key": "$Clipboard_ScaleNoExactChange",
+    "text": "No exact scale change is available in this direction for this selection. No objects were changed. Scale smaller groups separately or use Restore.",
+    "context": "Scale validation failure; no success notification or refresh should follow."
+  },
+  {
+    "key": "$Clipboard_ScaleSelectionInvalid",
+    "text": "Scaling could not complete. Check the selection before trying again.",
+    "context": "Scale validation failure; no success notification or refresh should follow."
+  }
+]

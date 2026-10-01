@@ -1,0 +1,78 @@
+﻿Clipboard Resurrection 3.0.0 - Selección e importación de objetos
+
+SELECCIÓN Y EXPORTACIÓN
+
+De forma predeterminada, la selección automática requiere que el objeto se haya creado durante la partida y
+esté vinculado a un taller. Las luces también necesitan límites de objeto distintos de cero y una receta
+de construcción del taller. La selección manual es independiente de este filtro automático.
+
+La opción de MCM "Permitir seleccionar y exportar objetos normalmente filtrados"
+está desactivada de forma predeterminada y permite seleccionar automáticamente más tipos de objetos. La exportación respeta la
+selección actual, incluidos los objetos seleccionados manualmente, independientemente de esta opción.
+Las exclusiones permanentes y las comprobaciones de objetos no válidos siguen aplicándose. Una exportación
+sin objetos aptos no crea ni sobrescribe un diseño.
+
+Ninguna de las opciones permisivas omite las protecciones de infraestructura de Clipboard,
+las listas de exclusión configuradas ni las comprobaciones de objetos no válidos. Los bancos de trabajo de los asentamientos,
+los objetos auxiliares de Clipboard, los objetos con la marca IsMarker y los tipos de actores no compatibles
+siguen excluidos. Los activadores (ACTI) y los objetos estáticos móviles (MSTT) cuyos límites de objeto
+sean todos cero también se excluyen siempre, incluso en diseños antiguos. Esta es una
+regla del objeto base, no una lista de objetos auxiliares de cultivos fija en el código. La opción de fuentes de luz no
+omite esta regla. Las conexiones de cables se gestionan por separado de la selección de objetos.
+
+ÁREA DE SELECCIÓN
+
+Caja, Esfera y Cilindro usan el volumen elegido. Por plugin selecciona objetos del
+plugin de origen elegido. Por celda ofrece Celda de la herramienta Clipboard o Celdas del taller.
+Celdas del taller abarca las celdas asignadas al asentamiento actual y los objetos correspondientes
+vinculados al taller. La opción de celda de la herramienta abarca únicamente su propia celda.
+
+Por celda y Por plugin limitan de forma predeterminada la selección de objetos almacenados en la celda persistente exterior a
+una distancia máxima de 5,000 unidades de la herramienta. Las celdas normales de los asentamientos no tienen límite
+de distancia. El ajuste de usuario es [Selection] fWideSelectionMaxDistance. La selección
+permisiva no cambia el área elegida ni este límite de distancia.
+
+Borra la selección anterior al comparar ajustes: los mensajes de selección cuentan los objetos
+recién agregados. Algunos objetos colocados por plugins no se resaltan individualmente aun
+cuando están seleccionados. La lista de plugins de un diseño también incluye dependencias, como su
+taller y su celda; no es solo una lista de los plugins de origen de los objetos seleccionados.
+
+CABLES A OBJETOS EXISTENTES
+
+La exportación registra los cables entre los objetos seleccionados y las conexiones aptas con
+objetos existentes fuera de la selección. Los objetos de los extremos externos pueden haber sido colocados por plugins
+o creados por el jugador. No se agregan a la lista de objetos copiados, ni se mueven o
+se vuelven a crear al pegar el diseño.
+
+Las conexiones externas solo se usan cuando el dispositivo Clipboard está en la celda de origen registrada, en su posición original de exportación. Girar únicamente el dispositivo no cambia esta regla. En un destino diferente, las conexiones externas se ignoran y los cables internos se siguen importando normalmente. Se omiten los puntos de conexión originales que falten, se hayan movido o no coincidan; Clipboard no busca un reemplazo cercano.
+
+Los puntos de conexión externos creados por el jugador pertenecen a la partida guardada que contiene esos objetos. Sus conexiones no se pueden transferir a otra partida. Vuelve a exportar un patrón antiguo para registrar las conexiones externas que su archivo original no guardó.
+
+IMPORTACIÓN Y FÍSICA
+
+La sección Opciones de importación del MCM contiene estos controles:
+
+- "Permitir importar fuentes de luz normalmente filtradas" está desactivado de forma predeterminada.
+  Actívalo para admitir luces sin límites de objeto o sin una receta de taller.
+- "Desactivar física Havok en objetos importados" está activado de forma predeterminada. Evita que los objetos importados que no sean actores caigan o rueden inmediatamente y restaura su colocación si la física los movió durante la carga. Desactívalo para aplicar la física normal de los objetos sueltos. No impide el movimiento mediante scripts, las animaciones, la activación ni la manipulación en el taller, y no aplica este cambio de física a los actores.
+- "Limitar la carga" está activado de forma predeterminada. Limita el trabajo de colocación y las llamadas simultáneas de inicialización del taller. Desactivarlo puede sobrecargar la ejecución de scripts y provocar volcados de pila de Papyrus que interfieran con otros mods, como Sim Settlements 2. La siguiente importación usará el nuevo ajuste; las comprobaciones de finalización permanecen activas en ambos modos.
+
+La importación no puede recuperar de un patrón el historial de colocación original de un objeto. Por lo tanto, la mayoría de los objetos que no sean luces guardados con la selección permisiva se pueden pegar con la opción de importación de fuentes de luz desactivada. Los costos de componentes siguen el mismo filtro de importación; un objeto admitido sin receta no tiene costo de componentes de receta.
+
+Los patrones conservan los objetos base y sus transformaciones, pero no los inventarios, las modificaciones de armas o armaduras instaladas ni el estado de los scripts. El equipo modificado se pega como su objeto base predeterminado. Los registros de objetos faltantes se sustituyen por chapas como marcadores de posición. Omitir un objeto o uno de sus cables no desplaza las demás conexiones de cables. Los objetos existentes que coincidan se reutilizan según su objeto base, posición, rotación y escala; los cables nuevos pueden conectarse a ellos sin duplicar su colocación. Los objetos que hayan fallado o no estén listos se excluyen individualmente cuando se verifica que el trabajo restante se completó. Si no se puede confirmar la finalización, se detienen el cableado y la alimentación eléctrica de toda la importación.
+
+FILTROS OPCIONALES DE MODS
+
+Los filtros predeterminados permiten los objetos raíz de parcelas de SS2 y los objetos independientes que cumplan los demás requisitos, pero excluyen los objetos marcados con PlotSpawnedKeyword o PreventExport, las colecciones estáticas (SCOL) de SS2 y los objetos secundarios vinculados desde objetos principales compatibles de Auto Beds. Estas reglas se aplican a todos los métodos de selección y a la exportación, incluida la selección permisiva. No reconstruyen los planes de SS2 ni el estado de otros mods, y no se aplican a las filas de patrones importados.
+
+Estos controles solo están disponibles en el archivo INI. Usa [OptionalFiltering] en Data\MCM\Settings\clipboard.ini para sustituir los valores predeterminados incluidos:
+
+- aReferenceKeywordBlackList: palabras clave de referencias que se deben excluir.
+- aCollectionPluginFamilyBlackList: plugins cuyas colecciones estáticas se excluyen, incluidos los plugins activos que los requieren directamente como archivos maestros.
+- aChildParentScripts y aChildLinkKeywordBlackList: tipos de scripts de objetos principales y palabras clave de enlaces de ranura que se usan conjuntamente para identificar objetos secundarios generados.
+
+Consulta Data\MCM\Config\Clipboard\settings.ini para ver las listas incluidas. Las entradas de palabras clave usan PluginName#decimalLocalFormID, sin prefijo de orden de carga. Si falta un ajuste, se usa su valor predeterminado; un valor explícitamente vacío desactiva esa regla. Los mods opcionales que no estén disponibles se omiten. Reinicia el juego después de realizar cambios en el archivo INI.
+
+Las listas de exclusión incondicionales de plugins y registros de objetos permanecen en [Selection]: aPluginBlackList, aMasterPluginBlackList y aFormBlackList. Las listas del usuario reemplazan los valores predeterminados de cada ajuste. Si un archivo INI de usuario antiguo aún incluye SS2.esm o sus expansiones en la lista de exclusión de plugins, o SS2.esm en la lista de exclusión de archivos maestros, elimina esas entradas para usar los filtros opcionales de SS2 y conservar las demás exclusiones que quieras. Los valores predeterminados incondicionales incluidos siguen excluyendo Sim Settlements y Seasons.
+
+Los ajustes antiguos bEnableToolCellObjectSelection y bEnableWorkshopCellObjectSelection se ignoran. Las preferencias existentes de importación y física conservan sus secciones del archivo INI: bAllowAllObjectsToBeImported en [Selection] y bDisableHavokOnImportedObjects en [Balance]. Limitar la carga corresponde a bUseThrottling en [Import]. Los ajustes retirados de análisis de rendimiento y seguimiento de bloqueos se ignoran.

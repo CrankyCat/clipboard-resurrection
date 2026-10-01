@@ -1,0 +1,361 @@
+{
+  "modName": "Clipboard",
+  "displayName": "$Clipboard_MCM_DisplayName",
+  "minMcmVersion": 1,
+  "content": [
+    {
+      "text": "<p align='center'><font size='28'>Clipboard</font></p>",
+      "type": "text",
+      "html": true
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Dialogs_Text",
+      "type": "section"
+    },
+    {
+      "id": "bEnableActionFinishedDialogs:Dialogs",
+      "text": "$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bEnableActionFinishedDialogs:Dialogs",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bEnableManualMethodDialog:Dialogs",
+      "text": "$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bEnableManualMethodDialog:Dialogs",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bHideConditionBoyDuringInput:Dialogs",
+      "text": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bHideConditionBoyDuringInput:Dialogs",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "iWorkshopModeOnAction:Dialogs",
+      "text": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text",
+      "type": "stepper",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never",
+          "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask",
+          "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always"
+        ]
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingInt",
+        "params": [
+          "Clipboard",
+          "iWorkshopModeOnAction:Dialogs",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Balance_Text",
+      "type": "section"
+    },
+    {
+      "id": "bEnableComponentCost:Balance",
+      "text": "$Clipboard_MCM_bEnableComponentCost_Balance_Text",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bEnableComponentCost:Balance",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Selection_Text",
+      "type": "section"
+    },
+    {
+      "id": "iInitialSelectionMethod:Selection",
+      "text": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Text",
+      "type": "stepper",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin",
+          "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell"
+        ]
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingInt",
+        "params": [
+          "Clipboard",
+          "iInitialSelectionMethod:Selection",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "iEffectIndex:Selection",
+      "text": "$Clipboard_MCM_iEffectIndex_Selection_Text",
+      "type": "stepper",
+      "valueOptions": {
+        "sourceType": "ModSettingInt",
+        "options": [
+          "$Clipboard_MCM_iEffectIndex_Selection_Option_Classic",
+          "$Clipboard_MCM_iEffectIndex_Selection_Option_White",
+          "$Clipboard_MCM_iEffectIndex_Selection_Option_Red",
+          "$Clipboard_MCM_iEffectIndex_Selection_Option_Blue",
+          "$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow"
+        ]
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingInt",
+        "params": [
+          "Clipboard",
+          "iEffectIndex:Selection",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bEnableAnimalSelection:Selection",
+      "text": "$Clipboard_MCM_bEnableAnimalSelection_Selection_Text",
+      "type": "switcher",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bEnableAnimalSelection:Selection",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bAllowNormallyFilteredObjectsToBeSelectedAndExported:Selection",
+      "text": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bAllowNormallyFilteredObjectsToBeSelectedAndExported:Selection",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Import_Options_Text",
+      "type": "section"
+    },
+    {
+      "id": "bAllowAllObjectsToBeImported:Selection",
+      "text": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bAllowAllObjectsToBeImported:Selection",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bDisableHavokOnImportedObjects:Balance",
+      "text": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bDisableHavokOnImportedObjects:Balance",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bUseThrottling:Import",
+      "text": "$Clipboard_MCM_bUseThrottling_Import_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bUseThrottling_Import_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bUseThrottling:Import",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Hotkeys_Text",
+      "type": "section"
+    },
+    {
+      "id": "activateActionQuickBtn",
+      "text": "$Clipboard_MCM_activateActionQuickBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateActionQuickBtn_Help"
+    },
+    {
+      "id": "activateActionMenuBtn",
+      "text": "$Clipboard_MCM_activateActionMenuBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateActionMenuBtn_Help"
+    },
+    {
+      "id": "activateSelectionMethodBtn",
+      "text": "$Clipboard_MCM_activateSelectionMethodBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateSelectionMethodBtn_Help"
+    },
+    {
+      "id": "activateSelectionScanBtn",
+      "text": "$Clipboard_MCM_activateSelectionScanBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateSelectionScanBtn_Help"
+    },
+    {
+      "id": "activateClearSelectionBtn",
+      "text": "$Clipboard_MCM_activateClearSelectionBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateClearSelectionBtn_Help"
+    },
+    {
+      "id": "activateDestroyToolBtn",
+      "text": "$Clipboard_MCM_activateDestroyToolBtn_Text",
+      "type": "hotkey",
+      "help": "$Clipboard_MCM_activateDestroyToolBtn_Help"
+    },
+    {
+      "text": "$Clipboard_MCM_Section_Debug_Text",
+      "type": "section"
+    },
+    {
+      "id": "bDisplayImportWarnings:Debug",
+      "text": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallGlobalFunction",
+        "script": "MCM",
+        "function": "SetModSettingBool",
+        "params": [
+          "Clipboard",
+          "bDisplayImportWarnings:Debug",
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "bEnableLogging:Debug",
+      "text": "$Clipboard_MCM_bEnableLogging_Debug_Text",
+      "type": "switcher",
+      "help": "$Clipboard_MCM_bEnableLogging_Debug_Help",
+      "valueOptions": {
+        "sourceType": "ModSettingBool"
+      },
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "SetDebugLogging",
+        "params": [
+          "{value}"
+        ]
+      }
+    },
+    {
+      "id": "cleanUpOldPlatforms",
+      "text": "$Clipboard_MCM_CleanUpOldPlatforms_Text",
+      "type": "button",
+      "help": "$Clipboard_MCM_CleanUpOldPlatforms_Help",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "CleanUpOldPlatforms"
+      }
+    }
+  ]
+}

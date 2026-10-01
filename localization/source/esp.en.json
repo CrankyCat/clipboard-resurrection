@@ -1,0 +1,2422 @@
+[
+  {
+    "key": "$Clipboard_ESP_WorkshopRecipeFilterQuest_FULL_0",
+    "text": "Special / Clipboard",
+    "context": "KYWD WorkshopRecipeFilterQuest (0011FBD3), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionWeaponHitEffect_FULL_0",
+    "text": "Selection Hit Effect",
+    "context": "MGEF ClipboardSelectionWeaponHitEffect (0100A7B0), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionWeaponEnchantment_FULL_0",
+    "text": "Selection Enchantment",
+    "context": "ENCH ClipboardSelectionWeaponEnchantment (0100A7B1), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodCylinder_FULL_0",
+    "text": "Clipboard Selection Method Cylinder",
+    "context": "ACTI ClipboardSelectionMethodCylinder (010380A7), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodSphere_FULL_0",
+    "text": "Clipboard Selection Method Sphere",
+    "context": "ACTI ClipboardSelectionMethodSphere (010380A6), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonStand_FULL_0",
+    "text": "Clipboard Tool",
+    "context": "ACTI ClipboardButtonStand (01031DBC), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonStand_ATTX_0",
+    "text": "Push",
+    "context": "ACTI ClipboardButtonStand (01031DBC), ATTX occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonNuke_FULL_0",
+    "text": "Clipboard Tool",
+    "context": "ACTI ClipboardButtonNuke (01005411), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodAll_FULL_0",
+    "text": "Clipboard Selection Method All",
+    "context": "ACTI ClipboardSelectionMethodAll (01038FEA), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardCopyPylon_FULL_0",
+    "text": "Clipboard Tool",
+    "context": "ACTI ClipboardCopyPylon (01002E05), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodBox_FULL_0",
+    "text": "Clipboard Selection Method Box",
+    "context": "ACTI ClipboardSelectionMethodBox (010380A8), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonPole_FULL_0",
+    "text": "Clipboard Tool",
+    "context": "ACTI ClipboardButtonPole (01032556), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardManager_FULL_0",
+    "text": "Clipboard Manager",
+    "context": "ACTI ClipboardManager (010343C8), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodByPlugin_FULL_0",
+    "text": "Clipboard Selection Method By Plugin",
+    "context": "ACTI ClipboardSelectionMethodByPlugin (0100635A), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodByCell_FULL_0",
+    "text": "Clipboard Selection Method By Cell",
+    "context": "ACTI ClipboardSelectionMethodByCell (01006359), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodGun_FULL_0",
+    "text": "Clipboard Selection Method Gun",
+    "context": "ACTI ClipboardSelectionMethodGun (010380A9), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel5_FULL_0",
+    "text": "Label5",
+    "context": "MISC ClipboardLabel5 (01037904), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel4_FULL_0",
+    "text": "Label4",
+    "context": "MISC ClipboardLabel4 (01037903), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel3_FULL_0",
+    "text": "Label3",
+    "context": "MISC ClipboardLabel3 (01037902), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel2_FULL_0",
+    "text": "Label2",
+    "context": "MISC ClipboardLabel2 (01037901), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel1_FULL_0",
+    "text": "Label1",
+    "context": "MISC ClipboardLabel1 (01037900), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionGun_FULL_0",
+    "text": "Clipboard Selection Gun",
+    "context": "WEAP ClipboardSelectionGun (0103790C), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionGun_FULL_1",
+    "text": "Default Epic",
+    "context": "WEAP ClipboardSelectionGun (0103790C), FULL occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_AmmoSelection_FULL_0",
+    "text": "Clipboard Selection Ammo",
+    "context": "AMMO AmmoSelection (01038FDE), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_AmmoSelection_ONAM_0",
+    "text": "Selection Ammo",
+    "context": "AMMO AmmoSelection (01038FDE), ONAM occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_clipboardMenuManager_FULL_0",
+    "text": "Clipboard",
+    "context": "QUST clipboardMenuManager (0103790B), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_clipboardMenuManager_NNAM_0",
+    "text": "Clipboard",
+    "context": "QUST clipboardMenuManager (0103790B), NNAM occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethods_FULL_0",
+    "text": "Clipboard Selection Methods",
+    "context": "FLST ClipboardSelectionMethods (010380AA), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_DESC_0",
+    "text": "Missing Required Plugins!\r\n \r\n<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>\r\n\r\nDo you want continue anyway?",
+    "context": "MESG ClipboardMissingPluginsMessage (01037905), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_0",
+    "text": "No",
+    "context": "MESG ClipboardMissingPluginsMessage (01037905), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_1",
+    "text": "Yes",
+    "context": "MESG ClipboardMissingPluginsMessage (01037905), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInitiateSelection_FULL_0",
+    "text": "Initiate Selection Scan",
+    "context": "MESG ClipboardInitiateSelection (01030621), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSetSelectionSize_FULL_0",
+    "text": "Set Selection Size",
+    "context": "MESG ClipboardSetSelectionSize (01030620), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Selection Methods</u></b>",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_FULL_0",
+    "text": "Pick a Selection Method",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_0",
+    "text": "Sphere",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_1",
+    "text": "Cylinder",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_2",
+    "text": "Box",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_3",
+    "text": "Manual",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_4",
+    "text": "Select All",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_5",
+    "text": "By Plugin",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_6",
+    "text": "By Cell",
+    "context": "MESG ClipboardShapeSelectMessage (010275DC), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveOnto_FULL_0",
+    "text": "Move Onto Platform",
+    "context": "MESG ClipboardMoveOnto (01023184), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardCopyTo_FULL_0",
+    "text": "Copy To Clipboard",
+    "context": "MESG ClipboardCopyTo (01023182), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_DESC_0",
+    "text": "Clipboard Slot Selection\r\nShowing %.0f-%.0f\r\n \r\n[1]: Slot %.0f: <Alias=Slot1State>\r\n[2]: Slot %.0f: <Alias=Slot2State>\r\n[3]: Slot %.0f: <Alias=Slot3State>\r\n[4]: Slot %.0f: <Alias=Slot4State>\r\n[5]: Slot %.0f: <Alias=Slot5State>",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_0",
+    "text": "Previous Page",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_6",
+    "text": "Next Page",
+    "context": "MESG ClipboardSlotSelectMessage (01023181), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0",
+    "text": "Increase Size By:\r\n\r\n(Individual objects will stop scaling at 10x their original size)",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_0",
+    "text": "5%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_1",
+    "text": "10%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_2",
+    "text": "25%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_3",
+    "text": "50%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_4",
+    "text": "100%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_5",
+    "text": "200%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_6",
+    "text": "500%",
+    "context": "MESG ClipboardScaleUpAmountMessage (01004C71), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_DESC_0",
+    "text": "Rotation Amount:",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_0",
+    "text": "1°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_1",
+    "text": "5°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_2",
+    "text": "10°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_3",
+    "text": "15°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_4",
+    "text": "30°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_5",
+    "text": "45°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_6",
+    "text": "60°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_7",
+    "text": "90°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_8",
+    "text": "120°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_9",
+    "text": "180°",
+    "context": "MESG ClipboardRotationAmountMessage (01004C70), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_DESC_0",
+    "text": "Rotation Type:",
+    "context": "MESG ClipboardRotationSelectMessage (01004C6F), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0",
+    "text": "Clockwise (Around Selection Center)",
+    "context": "MESG ClipboardRotationSelectMessage (01004C6F), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1",
+    "text": "Counterclockwise (Around Selection Center)",
+    "context": "MESG ClipboardRotationSelectMessage (01004C6F), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2",
+    "text": "Clockwise (Around Clipboard Tool)",
+    "context": "MESG ClipboardRotationSelectMessage (01004C6F), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3",
+    "text": "Counterclockwise (Around Clipboard Tool)",
+    "context": "MESG ClipboardRotationSelectMessage (01004C6F), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_DESC_0",
+    "text": "Move Direction:",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_0",
+    "text": "Left",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_1",
+    "text": "Right",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_2",
+    "text": "Up",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_3",
+    "text": "Down",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_4",
+    "text": "Forward",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_5",
+    "text": "Backward",
+    "context": "MESG ClipboardMoveDirectionSelectMessage (01004C6E), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_DESC_0",
+    "text": "<b><u>Quick Clipboard Tool Menu</u></b>\r\n \r\n<u>Selection Summary</u>\r\nObjects: <Alias=Slot1State>\r\nWires: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethod: <Alias=Slot4State>",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_1",
+    "text": "Show Action Menu",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_2",
+    "text": "Change Selection Method",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3",
+    "text": "Toggle Select / Deselect",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4",
+    "text": "Clear Selection",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5",
+    "text": "Destroy Tool",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6",
+    "text": "Move To Tool",
+    "context": "MESG ClipboardHotkeyMenuManualMessage (0100A7AF), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_DESC_0",
+    "text": "<b><u>Quick Clipboard Tool Menu</u></b>\r\n \r\n<u>Selection Summary</u>\r\nObjects: <Alias=Slot1State>\r\nWires: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethod: <Alias=Slot4State>",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_1",
+    "text": "Show Action Menu",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_2",
+    "text": "Change Selection Method",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3",
+    "text": "Clear Selection",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4",
+    "text": "Destroy Tool",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5",
+    "text": "Move To Tool",
+    "context": "MESG ClipboardHotkeyMenuMessage (0100A7AE), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_DESC_0",
+    "text": "<b><u>Quick Clipboard Tool Menu</u></b>\r\n \r\n<u>Selection Summary</u>\r\nObjects: <Alias=Slot1State>\r\nWires: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethod: <Alias=Slot4State>",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_1",
+    "text": "Show Action Menu",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_2",
+    "text": "Change Selection Method",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_3",
+    "text": "Initiate Selection Scan",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4",
+    "text": "Clear Selection",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5",
+    "text": "Destroy Tool",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6",
+    "text": "Move To Tool",
+    "context": "MESG ClipboardHotkeyMenuAreaMessage (0100A7AD), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_DESC_0",
+    "text": "Move By:",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_0",
+    "text": "1",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_1",
+    "text": "2",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_2",
+    "text": "4",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_3",
+    "text": "8",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_4",
+    "text": "16",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_5",
+    "text": "32",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_6",
+    "text": "64",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_7",
+    "text": "128",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_8",
+    "text": "256",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_9",
+    "text": "512",
+    "context": "MESG ClipboardMoveAmountSelectMessage (01004C6D), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_DESC_0",
+    "text": "Set Selection Area <Alias=Slot1State>",
+    "context": "MESG ClipboardSizeMessage (0103790A), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_0",
+    "text": "x1",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_1",
+    "text": "x2",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_2",
+    "text": "x3",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_3",
+    "text": "x4",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_4",
+    "text": "x5",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_5",
+    "text": "x6",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_6",
+    "text": "x7",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_7",
+    "text": "x8",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_8",
+    "text": "x9",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_9",
+    "text": "x10",
+    "context": "MESG ClipboardSizeMessage (0103790A), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_DESC_0",
+    "text": "Pick an action to perform:",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_1",
+    "text": "Paste From Clipboard",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_2",
+    "text": "List Plugins Used In Pattern",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3",
+    "text": "Move To Pattern Source Location",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4",
+    "text": "Show Pattern Component Cost",
+    "context": "MESG ClipboardActionSelectEmptyMessage (01005414), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardNotYetImplemented_DESC_0",
+    "text": "Not Yet Implemented",
+    "context": "MESG ClipboardNotYetImplemented (01005413), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardNotYetImplemented_ITXT_0",
+    "text": "Okay",
+    "context": "MESG ClipboardNotYetImplemented (01005413), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardDestoryTool_FULL_0",
+    "text": "Destroy Tool",
+    "context": "MESG ClipboardDestoryTool (01005412), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_1",
+    "text": "91",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_2",
+    "text": "92",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_3",
+    "text": "93",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_4",
+    "text": "94",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_5",
+    "text": "95",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_6",
+    "text": "96",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_7",
+    "text": "97",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_8",
+    "text": "98",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_9",
+    "text": "99",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_10",
+    "text": "100",
+    "context": "MESG ClipboardSlotSelectPage10Message (01038FE8), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Page Selection: 401-500</u></b>\r\n\r\nPREVIOUS: 301-400\r\nNEXT: 1-100\r\n\r\n<Alias=Slot1State>",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_3",
+    "text": "401 - 410",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_4",
+    "text": "411 - 420",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_5",
+    "text": "421 - 430",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_6",
+    "text": "431 - 440",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_7",
+    "text": "441 - 450",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_8",
+    "text": "451 - 460",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_9",
+    "text": "461 - 470",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_10",
+    "text": "471 - 480",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_11",
+    "text": "481 - 490",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_12",
+    "text": "491 - 500",
+    "context": "MESG ClipboardPage5SelectMessage (010035A5), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Page Selection: 301-400</u></b>\r\n\r\nPREVIOUS: 201-300\r\nNEXT: 401-500\r\n\r\n<Alias=Slot1State>",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_3",
+    "text": "301 - 310",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_4",
+    "text": "311 - 320",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_5",
+    "text": "321 - 330",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_6",
+    "text": "331 - 340",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_7",
+    "text": "341 - 350",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_8",
+    "text": "351 - 360",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_9",
+    "text": "361 - 370",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_10",
+    "text": "371 - 380",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_11",
+    "text": "381 - 390",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_12",
+    "text": "391 - 400",
+    "context": "MESG ClipboardPage4SelectMessage (010035A4), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Page Selection: 201-300</u></b>\r\n\r\nPREVIOUS: 101-200\r\nNEXT: 301-400\r\n\r\n<Alias=Slot1State>",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_3",
+    "text": "201 - 210",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_4",
+    "text": "211 - 220",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_5",
+    "text": "221 - 230",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_6",
+    "text": "231 - 240",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_7",
+    "text": "241 - 250",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_8",
+    "text": "251 - 260",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_9",
+    "text": "261 - 270",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_10",
+    "text": "271 - 280",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_11",
+    "text": "281 - 290",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_12",
+    "text": "291 - 300",
+    "context": "MESG ClipboardPage3SelectMessage (010035A3), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Page Selection: 1-100</u></b>\r\n \r\nPREVIOUS: 401-500\r\nNEXT: 101-200\r\n\r\n<Alias=Slot1State>",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_3",
+    "text": "1 - 10",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_4",
+    "text": "11 - 20",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_5",
+    "text": "21 - 30",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_6",
+    "text": "31 - 40",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_7",
+    "text": "41 - 50",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_8",
+    "text": "51 - 60",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_9",
+    "text": "61 - 70",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_10",
+    "text": "71 - 80",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_11",
+    "text": "81 - 90",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_12",
+    "text": "91 - 100",
+    "context": "MESG ClipboardPage1SelectMessage (010035A2), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard Page Selection: 101-200</u></b>\r\n\r\nPREVIOUS: 1-100\r\nNEXT: 201-300\r\n\r\n<Alias=Slot1State>",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_3",
+    "text": "101 - 110",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_4",
+    "text": "111 - 120",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_5",
+    "text": "121 - 130",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_6",
+    "text": "131 - 140",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_7",
+    "text": "141 - 150",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_8",
+    "text": "151 - 160",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_9",
+    "text": "161 - 170",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_10",
+    "text": "171 - 180",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_11",
+    "text": "181 - 190",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_12",
+    "text": "191 - 200",
+    "context": "MESG ClipboardPage2SelectMessage (010035A0), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardClearSelection_FULL_0",
+    "text": "Clear Selection",
+    "context": "MESG ClipboardClearSelection (01005410), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_1",
+    "text": "81",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_2",
+    "text": "82",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_3",
+    "text": "83",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_4",
+    "text": "84",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_5",
+    "text": "85",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_6",
+    "text": "86",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_7",
+    "text": "87",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_8",
+    "text": "88",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_9",
+    "text": "89",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_10",
+    "text": "90",
+    "context": "MESG ClipboardSlotSelectPage9Message (01038FE7), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardChangeSelectionMethod_FULL_0",
+    "text": "Change Selection Method",
+    "context": "MESG ClipboardChangeSelectionMethod (0100540E), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_1",
+    "text": "11",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_2",
+    "text": "12",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_3",
+    "text": "13",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_4",
+    "text": "14",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_5",
+    "text": "15",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_6",
+    "text": "16",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_7",
+    "text": "17",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_8",
+    "text": "18",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_9",
+    "text": "19",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_10",
+    "text": "20",
+    "context": "MESG ClipboardSlotSelectPage2Message (01038FE0), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_1",
+    "text": "21",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_2",
+    "text": "22",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_3",
+    "text": "23",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_4",
+    "text": "24",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_5",
+    "text": "25",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_6",
+    "text": "26",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_7",
+    "text": "27",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_8",
+    "text": "28",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_9",
+    "text": "29",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_10",
+    "text": "30",
+    "context": "MESG ClipboardSlotSelectPage3Message (01038FE1), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_1",
+    "text": "31",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_2",
+    "text": "32",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_3",
+    "text": "33",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_4",
+    "text": "34",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_5",
+    "text": "35",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_6",
+    "text": "36",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_7",
+    "text": "37",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_8",
+    "text": "38",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_9",
+    "text": "39",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_10",
+    "text": "40",
+    "context": "MESG ClipboardSlotSelectPage4Message (01038FE2), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActOnSelection_FULL_0",
+    "text": "Action Menu",
+    "context": "MESG ClipboardActOnSelection (0100540D), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_1",
+    "text": "71",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_2",
+    "text": "72",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_3",
+    "text": "73",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_4",
+    "text": "74",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_5",
+    "text": "75",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_6",
+    "text": "76",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_7",
+    "text": "77",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_8",
+    "text": "78",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_9",
+    "text": "79",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_10",
+    "text": "80",
+    "context": "MESG ClipboardSlotSelectPage8Message (01038FE6), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_1",
+    "text": "61",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_2",
+    "text": "62",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_3",
+    "text": "63",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_4",
+    "text": "64",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_5",
+    "text": "65",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_6",
+    "text": "66",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_7",
+    "text": "67",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_8",
+    "text": "68",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_9",
+    "text": "69",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_10",
+    "text": "70",
+    "context": "MESG ClipboardSlotSelectPage7Message (01038FE5), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0",
+    "text": "Increase Size (As A Whole)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1",
+    "text": "Decrease Size (As A Whole)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2",
+    "text": "Restore Original Size (As A Whole)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3",
+    "text": "Increase Size (Individually)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4",
+    "text": "Decrease Size (Individually)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5",
+    "text": "Restore Original Size (Individually)",
+    "context": "MESG ClipboardScaleTypeSelectMessage (01005BAE), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_1",
+    "text": "51",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_2",
+    "text": "52",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_3",
+    "text": "53",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_4",
+    "text": "54",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_5",
+    "text": "55",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_6",
+    "text": "56",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_7",
+    "text": "57",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_8",
+    "text": "58",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_9",
+    "text": "59",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_10",
+    "text": "60",
+    "context": "MESG ClipboardSlotSelectPage6Message (01038FE4), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n\r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_7",
+    "text": "7",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_8",
+    "text": "8",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_9",
+    "text": "9",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_10",
+    "text": "10",
+    "context": "MESG ClipboardSlotSelectPage1Message (01038FDF), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_DESC_0",
+    "text": "<b><u>Clipboard Slot Selection: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_FULL_0",
+    "text": "Pick a Clipboard Slot",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_0",
+    "text": "[ BACK ]",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_1",
+    "text": "41",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_2",
+    "text": "42",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_3",
+    "text": "43",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_4",
+    "text": "44",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_5",
+    "text": "45",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_6",
+    "text": "46",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_7",
+    "text": "47",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_8",
+    "text": "48",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_9",
+    "text": "49",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_10",
+    "text": "50",
+    "context": "MESG ClipboardSlotSelectPage5Message (01038FE3), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardProgessMessage_DESC_0",
+    "text": "<Alias=Slot1State> %.0f (%.0f%% Complete)",
+    "context": "MESG ClipboardProgessMessage (01037908), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardStatusMessage_DESC_0",
+    "text": "<Alias=Slot1State>",
+    "context": "MESG ClipboardStatusMessage (01008947), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection: %.0f-%.0f</u></b>\r\n\r\n<Alias=Slot2State>",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_1",
+    "text": "[ PREVIOUS ]",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_2",
+    "text": "[ NEXT ]",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_3",
+    "text": "1",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_4",
+    "text": "2",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_5",
+    "text": "3",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_6",
+    "text": "4",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_7",
+    "text": "5",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_8",
+    "text": "6",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_9",
+    "text": "7",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_10",
+    "text": "8",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_11",
+    "text": "9",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_12",
+    "text": "10",
+    "context": "MESG ClipboardListPickPagedMessage (01005BBF), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPickMessage (01005BBE), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPickMessage (01005BBE), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_7",
+    "text": "7",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_8",
+    "text": "8",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_9",
+    "text": "9",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_10",
+    "text": "10",
+    "context": "MESG ClipboardListPickMessage (01005BBE), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0",
+    "text": "Toggle Select/Deselect",
+    "context": "MESG ClipboardToggleSelectDeselect (01038FDD), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInformMessage_DESC_0",
+    "text": "<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>",
+    "context": "MESG ClipboardInformMessage (01037907), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInformMessage_ITXT_0",
+    "text": "Okay",
+    "context": "MESG ClipboardInformMessage (01037907), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick1Message (01006363), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick1Message (01006363), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick1Message (01006363), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick1Message (01006363), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick2Message (01006362), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick2Message (01006362), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick2Message (01006362), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick2Message (01006362), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick2Message (01006362), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick3Message (01006361), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick3Message (01006361), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick3Message (01006361), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick3Message (01006361), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick3Message (01006361), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick3Message (01006361), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick4Message (01006360), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick4Message (01006360), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick4Message (01006360), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick4Message (01006360), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick4Message (01006360), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick4Message (01006360), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick4Message (01006360), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick5Message (0100635F), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick5Message (0100635F), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPick5Message (0100635F), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick6Message (0100635E), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick6Message (0100635E), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardListPick6Message (0100635E), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick7Message (0100635D), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick7Message (0100635D), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_7",
+    "text": "7",
+    "context": "MESG ClipboardListPick7Message (0100635D), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick8Message (0100635C), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick8Message (0100635C), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_7",
+    "text": "7",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_8",
+    "text": "8",
+    "context": "MESG ClipboardListPick8Message (0100635C), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Selection</u></b>\r\n\r\n <Alias=Slot2State>",
+    "context": "MESG ClipboardListPick9Message (0100635B), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_FULL_0",
+    "text": "Pick a Clipboard Page",
+    "context": "MESG ClipboardListPick9Message (0100635B), FULL occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_1",
+    "text": "1",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_2",
+    "text": "2",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_3",
+    "text": "3",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_4",
+    "text": "4",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_5",
+    "text": "5",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_6",
+    "text": "6",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_7",
+    "text": "7",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_8",
+    "text": "8",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_9",
+    "text": "9",
+    "context": "MESG ClipboardListPick9Message (0100635B), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_DESC_0",
+    "text": "Pick an action to perform:",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_0",
+    "text": "[ CANCEL ]",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_1",
+    "text": "Copy To Clipboard",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_2",
+    "text": "Paste From Clipboard",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3",
+    "text": "Destroy",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_4",
+    "text": "Rotate",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_5",
+    "text": "Move",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_6",
+    "text": "Scale",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7",
+    "text": "Clear Ownership",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 7. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_8",
+    "text": "Display Selection Details",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 8. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_9",
+    "text": "List Plugins Used In Selection",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 9. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_10",
+    "text": "List Plugins Used In Pattern",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 10. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11",
+    "text": "Move To Pattern Source Location",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 11. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12",
+    "text": "Show Selection Component Cost",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 12. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13",
+    "text": "Show Pattern Component Cost",
+    "context": "MESG ClipboardActionSelectMessage (01004C73), ITXT occurrence 13. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0",
+    "text": "Decrease Size By:",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_0",
+    "text": "1%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_1",
+    "text": "5%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_2",
+    "text": "10%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 2. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_3",
+    "text": "25%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 3. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_4",
+    "text": "50%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 4. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_5",
+    "text": "75%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 5. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_6",
+    "text": "90%",
+    "context": "MESG ClipboardScaleDownAmountMessage (01004C72), ITXT occurrence 6. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_DESC_0",
+    "text": "<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>",
+    "context": "MESG ClipboardYesNoMessage (01037906), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_ITXT_0",
+    "text": "No",
+    "context": "MESG ClipboardYesNoMessage (01037906), ITXT occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_ITXT_1",
+    "text": "Yes",
+    "context": "MESG ClipboardYesNoMessage (01037906), ITXT occurrence 1. Preserve alias tags and numeric format tokens, and button meaning/order."
+  },
+  {
+    "key": "$Clipboard_ESP_workshop_co_ClipboardCopyPylon_DESC_0",
+    "text": "Select and manipulate workshop objects. Manage clipboard patterns.",
+    "context": "COBJ workshop_co_ClipboardCopyPylon (01002E06), DESC occurrence 0. Preserve alias tags and numeric format tokens, and button meaning/order."
+  }
+]

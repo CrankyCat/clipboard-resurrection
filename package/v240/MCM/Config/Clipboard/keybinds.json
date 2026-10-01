@@ -1,0 +1,77 @@
+{
+  "modName": "Clipboard",
+  "keybinds": [
+    {
+      "id": "activateActionQuickBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateActionQuickBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateActionQuickBtn"
+        ]
+      }
+    },
+    {
+      "id": "activateActionMenuBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateActionMenuBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateActionMenuBtn"
+        ]
+      }
+    },
+    {
+      "id": "activateSelectionMethodBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateSelectionMethodBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateSelectionMethodBtn"
+        ]
+      }
+    },
+    {
+      "id": "activateSelectionScanBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateSelectionScanBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateSelectionScanBtn"
+        ]
+      }
+    },
+    {
+      "id": "activateClearSelectionBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateClearSelectionBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateClearSelectionBtn"
+        ]
+      }
+    },
+    {
+      "id": "activateDestroyToolBtn",
+      "desc": "$Clipboard_MCM_Keybind_activateDestroyToolBtn",
+      "action": {
+        "type": "CallFunction",
+        "form": "Clipboard.esp|3790b",
+        "function": "OnHotkey",
+        "params": [
+          "activateDestroyToolBtn"
+        ]
+      }
+    }
+  ]
+}
