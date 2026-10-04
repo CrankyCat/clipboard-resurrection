@@ -23,13 +23,11 @@ ASCII escapes for CP1252 consoles; its evidence file remains UTF-8 and the
 comparison still requires exact Unicode text.
 
 For a fresh checkout, prepare the project-local xEdit fixture with explicit
-local inputs, then select the maintained localized plugin for readback:
+local inputs and the frozen localization migration plugin for readback:
 
 ```powershell
-tools\Initialize-LocalizationWorkspace.ps1 `
+tools\xedit\Initialize-LocalizationWorkspace.ps1 `
   -GameData 'C:\Path\To\Fallout 4\Data' -XEditDirectory 'C:\Path\To\FO4Edit'
-Copy-Item -LiteralPath 'package\v240\Clipboard.esp' `
-  -Destination 'outputs\localization-implementation\xedit\Data\Clipboard.esp'
 ```
 
 The initializer retains an existing workspace rather than overwriting it. Do
@@ -39,7 +37,7 @@ evidence and prepare a separate candidate fixture as described below.
 The project-local xEdit fixture includes its copied
 executable, `Fallout4.esm`, interface archive, localized ESP, and INI/plugin-list
 files, before running the launcher. The launcher validates the localized ESP
-hash against `localization/esp-map.json`, preserves the original xEdit English
+hash against `localization/metadata/esp-map.json`, preserves the original xEdit English
 tables, and copies the generated 39 tables into the isolated Data folder: three
 tables for each of the 12 canonical locales plus the `cn` alias of Traditional
 Chinese (`zhhant`). It records the executable, script, ESP, table, fixture,
@@ -57,30 +55,30 @@ historical default remains `outputs/localization-implementation`.
 
 ```powershell
 $evidence = 'outputs\additional-localization'
-tools\Start-XEditLocalizationVerification.ps1 -Language en -EvidenceRoot $evidence -Launch
+tools\xedit\Start-XEditLocalizationVerification.ps1 -Language en -EvidenceRoot $evidence -Launch
 # Accept xEdit's module-selection dialog for the isolated Clipboard.esp fixture.
 # Wait for CLIPBOARD_L10N_COMPLETE in Messages and readback.json to be written.
 # Close only this verification process after its read-only script has completed.
-$python = & tools\Get-ClipboardPython.ps1
-& $python tools\Test-XEditLocalizationReadback.py `
+$python = & tools\build\Get-ClipboardPython.ps1
+& $python tests\localization\Test-XEditLocalizationReadback.py `
   --run outputs\additional-localization\xedit-readback\en `
   --output outputs\additional-localization\xedit-readback\en\verification.json
 
-tools\Start-XEditLocalizationVerification.ps1 -Language ru -EvidenceRoot $evidence -Launch
+tools\xedit\Start-XEditLocalizationVerification.ps1 -Language ru -EvidenceRoot $evidence -Launch
 # Accept the same isolated module selection, wait for completion, then close.
-& $python tools\Test-XEditLocalizationReadback.py `
+& $python tests\localization\Test-XEditLocalizationReadback.py `
   --run outputs\additional-localization\xedit-readback\ru `
   --output outputs\additional-localization\xedit-readback\ru\verification.json
 ```
 
 Repeat the same sequential workflow for `de`, `es`, `esmx`, `fr`, `it`, `ja`,
 `pl`, `ptbr`, `zhhans`, `zhhant` and `cn`. The last run uses `-l:cn` and compares
-against `localization/zhhant.json`; it verifies the actual Fallout 4 Chinese
+against `localization/translations/zhhant.json`; it verifies the actual Fallout 4 Chinese
 suffix independently of the explicit `zhhant` package suffix. Other translated
-locales compare against their matching `localization/<locale>.json`. English
+locales compare against their matching `localization/translations/<locale>.json`. English
 uses the current validated English source. The captured ESP map remains
 immutable: any English difference must have an exact field identity, original
-and replacement hashes, and reason in `localization/esp-display-overrides.json`.
+and replacement hashes, and reason in `localization/metadata/esp-display-overrides.json`.
 This permits the approved page-three previous-range correction to `101-200`
 without changing the ESP. Each translation must retain the current English
 source hash, placeholders and markup.
@@ -137,3 +135,10 @@ and `Check for errors.pas`, plus the official xEdit `dev-4.1.5` sources:
 - [Core interface and localized-string resolution](https://github.com/TES5Edit/TES5Edit/blob/dev-4.1.5/Core/wbInterface.pas)
 - [Command-line initialization](https://github.com/TES5Edit/TES5Edit/blob/dev-4.1.5/xEdit/xeInit.pas)
 - [Script execution and module selection](https://github.com/TES5Edit/TES5Edit/blob/dev-4.1.5/xEdit/xeMainForm.pas)
+
+The localization migration/readback helpers use the frozen localized ESP in
+`tests/fixtures/esp/Clipboard.esp` to preserve the captured mapping identity.
+Run `tools/build/Build-GeneratedAssets.ps1` before preparing readback; tables
+come from `build/generated/localization/Strings`. The maintained plugin is
+`assets/Clipboard.esp`; its reviewed revision is validated separately during
+packaging. Historical readback evidence is never rewritten.

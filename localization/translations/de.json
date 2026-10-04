@@ -1,0 +1,3902 @@
+[
+  {
+    "key": "$Clipboard_BoxCreationFailed",
+    "text": "Die Auswahlbegrenzung konnte nicht erstellt werden.",
+    "source_sha256": "10d2a444656124bf4e25b5c9e2c8eaa80dc46befb3506e23f5262410fc58ef5e"
+  },
+  {
+    "key": "$Clipboard_BoxCreationReviewLog",
+    "text": "Überprüfe Clipboard.log, bevor du es erneut versuchst.",
+    "source_sha256": "11fc95fd41da4333e355ef7af4cf2bbea7fa9bef7009ce79e527c14c8d499654"
+  },
+  {
+    "key": "$Clipboard_CellScopeEmpty",
+    "text": "Im ausgewählten Zellbereich wurde nichts gefunden, das nicht bereits ausgewählt war.",
+    "source_sha256": "55389271ede4215fe6fda8b4488d227144714f04dfa7017fcd319cfb937bf58a"
+  },
+  {
+    "key": "$Clipboard_CellScopeTool",
+    "text": "Zelle des Clipboard-Werkzeugs",
+    "source_sha256": "9bc65ea6ac64a5b1c37ec3f7d7baa6b8dc8b853cc083f69aee8dc2b4f964660f"
+  },
+  {
+    "key": "$Clipboard_CellScopeWorkshop",
+    "text": "Zellen der Werkstatt",
+    "source_sha256": "e04ad353523c9718245315280bc9623450a4bd26edbe56792c5e3277decc0413"
+  },
+  {
+    "key": "$Clipboard_CheckComponents",
+    "text": " Verfügbare Komponenten werden geprüft",
+    "source_sha256": "65f6404d2a06c6fce48fc4428b0229f9ef90436b7e21e64635acc039605cea9b"
+  },
+  {
+    "key": "$Clipboard_CleanupActive",
+    "text": "Eine Clipboard-Plattform ist noch aktiv. Zerstöre alle Plattformen und versuche es erneut.",
+    "source_sha256": "95948968c2a10f1295052d52587039c0eed826fd149df1029bd1cf0eddcc64c9"
+  },
+  {
+    "key": "$Clipboard_CleanupBlocked",
+    "text": "Einige Überreste konnten nicht sicher identifiziert werden. Es wurde nichts geändert.",
+    "source_sha256": "50b87479e47ec959e377955af02f8b2f7d24959d1690604e7498c084f3f3dcf0"
+  },
+  {
+    "key": "$Clipboard_CleanupBusy",
+    "text": "Clipboard ist beschäftigt. Warte auf den Abschluss der aktuellen Aktion und versuche es erneut.",
+    "source_sha256": "62f4e3adfacb8c750880eb3fc8d17c3c61b729ae295ee86bb9bab162b3d2ab8b"
+  },
+  {
+    "key": "$Clipboard_CleanupConfirm",
+    "text": "Überreste zerstörter Clipboard-Plattformen bereinigen?",
+    "source_sha256": "8a36402cdee02e20951709c3147634c591caba980a4b6192819a90fb7ca54f9b"
+  },
+  {
+    "key": "$Clipboard_CleanupFailed",
+    "text": "Die Bereinigung konnte nicht starten. Keine Überreste wurden geändert.",
+    "source_sha256": "239d798acf8700ec8bcd444c7935bc63772aea5dd118d591520cc303ad5a94ed"
+  },
+  {
+    "key": "$Clipboard_CleanupNone",
+    "text": "Keine geeigneten Überreste alter Plattformen gefunden.",
+    "source_sha256": "ebb9e67cd3c695ca7941545f061ed24e6d76d9211137a124f2972d16aaccb90b"
+  },
+  {
+    "key": "$Clipboard_CleanupPrepare",
+    "text": "Zerstöre zuerst alle Clipboard-Plattformen und erstelle einen Sicherungsspielstand.",
+    "source_sha256": "7cbfdf5bf120782d9528475501e04cd46dc8abb0bc5a784ba1991e7403ec8984"
+  },
+  {
+    "key": "$Clipboard_CleanupPreserve",
+    "text": "Importierte Objekte und gespeicherte Muster bleiben erhalten.",
+    "source_sha256": "180892d796b0695b98be55b7c5bf0b35bb22044626cc0a2c173ff8bf8a74b72c"
+  },
+  {
+    "key": "$Clipboard_CleanupProgress",
+    "text": "Alte Clipboard-Plattformen werden bereinigt...",
+    "source_sha256": "bd42c35ee8f9fcf2fbc087bdd8300c2ddf14afcdbdc67e2c227e4123dd0ccbaa"
+  },
+  {
+    "key": "$Clipboard_CleanupReload",
+    "text": "Speichere, lade diesen Spielstand und speichere erneut.",
+    "source_sha256": "91826e15fbd24685b7bdd7aa667bb05f29b2b5d87b6278417c698b9ec74f48f1"
+  },
+  {
+    "key": "$Clipboard_CleanupResult",
+    "text": "{0} Überreste zur Löschung vorgemerkt; {1} übersprungen.",
+    "source_sha256": "7551cc09ba229dd05afb7e0c67a71668b96246ec952e95bb6c02469150400663"
+  },
+  {
+    "key": "$Clipboard_CleanupStopped",
+    "text": "Die Bereinigung wurde vorzeitig beendet. Speichere und lade den Spielstand vor einem erneuten Versuch.",
+    "source_sha256": "ab6cfddb03a727e3ef1654f34bfc8e97c464b3e93ba39f58837540f1dfd5f7c0"
+  },
+  {
+    "key": "$Clipboard_CleanupTitle",
+    "text": "Alte Plattformen bereinigen",
+    "source_sha256": "e193d0afa0bc35300b9ab5c507b758c44b13fcc5c8d5953873bc734b6853528e"
+  },
+  {
+    "key": "$Clipboard_ClearOwnership",
+    "text": " Besitzstatus entfernt",
+    "source_sha256": "b03c39e8fb685626f806607299695ace0df89a4c74d98232f08a7dfa54a01243"
+  },
+  {
+    "key": "$Clipboard_CompileLinkedWorkshops",
+    "text": " Verknüpfte Werkstätten werden erfasst",
+    "source_sha256": "a2308f43b95b5bde497f3996e9cf170b95604b85f43f19ece04848b7570dd20d"
+  },
+  {
+    "key": "$Clipboard_CompileWorkshopContainers",
+    "text": " Werkstattcontainer werden erfasst",
+    "source_sha256": "b57b4c7f4efb9abac8b0fae06ee723e6a4b1f97ce72eeef70ebcc9ea6c80ae7e"
+  },
+  {
+    "key": "$Clipboard_ComponentAllSourcesQuestion",
+    "text": "\nVerfügbare Materialien aus allen Quellen anzeigen?",
+    "source_sha256": "c3af8da2794bbbe1b7dc7ed8d9846a68be27e7329a661047815fb3d29f825182"
+  },
+  {
+    "key": "$Clipboard_ComponentAvailableAll",
+    "text": "Benötigt / Aus allen Quellen verfügbar\n\n",
+    "source_sha256": "8c27e831e13cdd6b57b6f5854cfd4e7fe27593105420e7907aae4cc62bfcd80c"
+  },
+  {
+    "key": "$Clipboard_ComponentAvailableLocal",
+    "text": "Benötigt / In dieser Werkstatt verfügbar\n\n",
+    "source_sha256": "8099139c725ccfc4818c32a4be6263ffa2d86412125377aa52edba1eb4765121"
+  },
+  {
+    "key": "$Clipboard_ComponentCostHeading",
+    "text": "<b><u>Komponentenkosten</u></b>\n\n",
+    "source_sha256": "84a70da21dcbc6b3fff50a46f1b0c605a7d1a2a61a103964766e93427bf538ce"
+  },
+  {
+    "key": "$Clipboard_ComponentPaymentIncomplete",
+    "text": "Der Import wurde abgebrochen, weil die erforderlichen Komponenten nicht vollständig abgezogen werden konnten. Einige Komponenten wurden möglicherweise bereits verbraucht.",
+    "source_sha256": "707423b4c4230fcbdf6f297e97fdf9f83669f6f2e498896ad427b699e7d5a9cb"
+  },
+  {
+    "key": "$Clipboard_ContinueQuestion",
+    "text": "\nMöchtest du fortfahren?",
+    "source_sha256": "303f5bbfc13bbeac7a7dd308a5a875d3cf774e4f9085d249b18ad63ff0a5ea78"
+  },
+  {
+    "key": "$Clipboard_DeselectGunEquipped",
+    "text": "Abwahlwaffe ausgerüstet. Schieße auf ein ausgewähltes Objekt, um es abzuwählen.",
+    "source_sha256": "58309d188726225988765d303937e353232e528e14f6e48464fc676db6d3fff7"
+  },
+  {
+    "key": "$Clipboard_DestroyFinished",
+    "text": "Zerstörungsauftrag wurde verarbeitet.",
+    "source_sha256": "8365bc48dc178f702170678c8c3a000680d58a5b1fea4dac287e9fe5edfc7a22"
+  },
+  {
+    "key": "$Clipboard_DestroyIncomplete",
+    "text": "Die Zerstörung wurde angehalten, bevor alle ausgewählten Objekte verarbeitet waren.",
+    "source_sha256": "a0addfc62a18733ca0b5045ee68485c0fe60422f6a34f96220fdac818fa09ba2"
+  },
+  {
+    "key": "$Clipboard_DestroyOriginalCount",
+    "text": "Ursprünglich ausgewählt: {0}",
+    "source_sha256": "6e9092dfdea4622e23381f58476078685bb7ff00b9b704569f250df7e581e207"
+  },
+  {
+    "key": "$Clipboard_DestroyQuestion",
+    "text": "Möchtest du sie zerstören?",
+    "source_sha256": "f4547a1700e1bf12d9b52bf4e5e73c8b20dd38ec3a645cb887aaa187a259a09a"
+  },
+  {
+    "key": "$Clipboard_DestroyScrapCount",
+    "text": "Zum Verschrotten gesendet: {0}",
+    "source_sha256": "ba00387895b0ecbae068be2d5031c2f311338782283c1691ae63d99e33c0c008"
+  },
+  {
+    "key": "$Clipboard_DestroyWarning",
+    "text": "Auf diese Weise zerstörte Gegenstände liefern keinen Schrott und können nicht wiederhergestellt werden.",
+    "source_sha256": "f748a01a9567ab35810050533874763075aeadaa2b809f5f51b3a14c9897779a"
+  },
+  {
+    "key": "$Clipboard_DimensionDepth",
+    "text": " Tiefe",
+    "source_sha256": "01e8e7229b7499dcc1d36e24c4f0e6ba93e2b693eba8b70584960e0d1be08880"
+  },
+  {
+    "key": "$Clipboard_DimensionHeight",
+    "text": " Höhe",
+    "source_sha256": "016bfd536a2b03a34204f6e6332ece9d64a9614d21a44a96f4b5aacfb476eb6d"
+  },
+  {
+    "key": "$Clipboard_DimensionRadius",
+    "text": "Radius",
+    "source_sha256": "6fe0661c82d10d34d342a2db6cf48e6903215f3e296d0dc8038ab44fcb48a0ce"
+  },
+  {
+    "key": "$Clipboard_DimensionWidth",
+    "text": " Breite",
+    "source_sha256": "52219d7965664529f1b5f50cdc96db83c740cb9fb66a372effa8db73b68ebbb3"
+  },
+  {
+    "key": "$Clipboard_DistanceInput",
+    "text": "Gib eine Entfernung zwischen 1 und 9.999 ein:",
+    "source_sha256": "e9da42759a7d385d5dcfe594b5a0c5cf12a7c81224d3cb871bb0387063ad9f0b"
+  },
+  {
+    "key": "$Clipboard_DistanceInvalid",
+    "text": "Ungültige Entfernung. Gib eine Zahl zwischen 1 und 9.999 ein.",
+    "source_sha256": "fb41abfa60ef971a76a4714b40e70049d844d4622e1a9ef2a338de81e6a19e0e"
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_001",
+    "text": "Clipboard Resurrection – Änderungsprotokoll",
+    "source_sha256": "53e29e1c0b840a85bca84ca5329783713777eea91022e397c40626f0d4263ad5"
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_002",
+    "text": "3.0.0",
+    "source_sha256": "c9163ff21f1f2b0390dc48bdda47179718f772f507a7cebceca59ce1a7129029"
+  },
+  {
+    "key": "$Clipboard_Docs_Changelog_003",
+    "text": "- Verwendet ein gemeinsames Paket für Fallout 4 OG, NG und AE mit passendem F4SE\r\n  und der externen Runtime Database; enthält Spieltexte für zwölf Sprachen.\r\n- Bietet ein eigenes Menü für Text- und Zahleneingaben, ohne TIM vorauszusetzen,\r\n  mit Tastatur-, Maus- und Controller-Bedienung sowie optionalem Ausblenden von\r\n  Condition Boy/Girl, solange das Eingabemenü geöffnet ist.\r\n- Akzeptiert Eingaben für Drehung und Skalierung mit bis zu sechs Nachkommastellen.\r\n  Zahlenwerte in Bauplänen behalten beim Export und Import die Genauigkeit ihrer\r\n  gespeicherten Werte.\r\n- Lehnt relative Skalierungsänderungen ab, sofern nicht jede resultierende\r\n  Objektgröße einem exakten ganzzahligen Prozentsatz zwischen 1% und 1000%\r\n  entspricht, und gibt Hinweise zu gültigen Änderungen.\r\n- Beide Aktionen zum Zurücksetzen setzen jedes Objekt auf 100%. Einzeln behält\r\n  die Positionen bei; Gesamt passt die Abstände bei einheitlich skalierten Gruppen\r\n  an und behält bei Gruppen mit unterschiedlichen Größen die Positionen bei.\r\n- Prüft zuerst die Materialien der lokalen Werkstatt, bietet in Kostenansichten\r\n  Gesamtmengen aus allen Quellen und reduziert wiederholte Rezeptabfragen sowie\r\n  den Aufwand für Inventarabfragen. Bei der Bezahlung bleiben Bestätigung,\r\n  erneute Verfügbarkeitsprüfung und überprüfte Entnahme erhalten.\r\n- Berücksichtigt manuell ausgewählte Objekte beim Export und behält den bestehenden\r\n  Bauplan bei, wenn ein Export abgebrochen wird, leer ist oder die Validierung\r\n  fehlschlägt.\r\n- Erfasst geeignete Kabel zu bestehenden Objekten außerhalb der kopierten Auswahl\r\n  und verbindet sie nur an der ursprünglichen Werkzeugposition und mit gültigen\r\n  Endpunkten erneut.\r\n- Verbessert die Auswahl über Siedlungszellen hinweg, beseitigt die Begrenzung auf\r\n  128 Objekte bei großen Auswahlen nach Zelle oder Plugin und beim Zerstören dieser\r\n  Objekte und reduziert wiederholte Auswahlsuchen und Transformationsberechnungen.\r\n- Fügt separate Optionen für die Auswahl und den Export zusätzlicher Objektarten,\r\n  den Import von Lichtquellen und die Physik importierter Objekte hinzu. Verfeinert\r\n  die Filter für SS2 und Auto Beds, um erkannte generierte Inhalte auszuschließen,\r\n  während geeignete Stammobjekte und eigenständige Objekte zugelassen werden;\r\n  Aktivatoren und bewegliche statische Objekte mit Begrenzungsmaßen von null\r\n  bleiben ausgeschlossen.\r\n- Verbessert große Importe, erhält Kabelendpunkte beim Überspringen von Objekten,\r\n  verbindet sich berührende Leitungsrohre erneut und verwendet passende bereits\r\n  platzierte Objekte wieder.\r\n- Wartet die erforderliche Werkstattinitialisierung ab, bevor Verkabelung und\r\n  Stromversorgung bearbeitet werden. Überprüfte Objekte können nach einzelnen\r\n  Fehlern weiterverarbeitet werden; bei ungewissem Abschluss werden Verkabelung\r\n  und Stromversorgung für den gesamten Import gestoppt. Drosselung verwenden\r\n  ist standardmäßig deaktiviert.\r\n- Zeigt regelmäßige Platzierungsmeldungen und den prozentualen Fortschritt bei\r\n  Initialisierung und Stromversorgung an. Die Anzahl der wegen Duplikaten\r\n  übersprungenen Objekte erscheint nur, wenn sie größer als null ist.\r\n- Korrigiert Argumente für Werkstatt-Callbacks, die Bereinigung strombetriebener\r\n  Objekte und des Auswahlrahmens, die Seiteneinteilung sowie die Zuordnung von\r\n  MCM-Einstellungen. Entfernt temporäre Werkzeuge zur Leistungsanalyse.\r\n- Protokolliert Warnungen, Fehler und Build-Kennungen immer. Die optionale\r\n  Diagnoseprotokollierung ergänzt Details; Clipboard.log wird bei jedem\r\n  Spielstart neu begonnen.\r\n- Liefert 500 leere Bauplan-Speicherplätze und unterstützt weiterhin bestehende\r\n  Baupläne und Einstellungen. Aktualisiert die englischen Benutzeranleitungen\r\n  unter Docs/clipboard.",
+    "source_sha256": "beb5969648263f17893f4049bebcdb54f6c0dc53b1ebb547d9bdba638e082ce4"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_001",
+    "text": "Clipboard Resurrection 3.0.0 – Objektauswahl und Import",
+    "source_sha256": "99d3205d28bf7342de5701922ee8bf42f4b192e88bb8466a97e4abb43303897a"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_002",
+    "text": "AUSWAHL UND EXPORT",
+    "source_sha256": "11ae5ed934520180bb91429d7d3648e6c7caf91cdbdd8be9acbde00ffdc3b979"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_003",
+    "text": "Standardmäßig setzt die automatische Auswahl voraus, dass ein Objekt während des Spielens erstellt wurde und mit einer Werkstatt verknüpft ist. Lichtquellen benötigen außerdem von null verschiedene Objektabmessungen und ein Werkstatt-Baurezept. Die manuelle Auswahl ist von diesem automatischen Filter unabhängig.",
+    "source_sha256": "2cf55225951edd011adb960149cea32310a95495fca1ae5e41211638d80e3498"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_004",
+    "text": "Die MCM-Option „Normal gefilterte Objekte auswählen und exportieren erlauben“ ist standardmäßig ausgeschaltet und lässt weitere Objekte für die automatische Auswahl zu. Der Export berücksichtigt unabhängig von dieser Option die aktuelle Auswahl, einschließlich manuell ausgewählter Objekte. Dauerhafte Ausschlüsse und Prüfungen auf ungültige Objekte gelten weiterhin. Ein Export ohne zulässige Objekte erstellt oder überschreibt keine Bauvorlage.",
+    "source_sha256": "5cebb90fed75d01fffc0c687ae015bfecda83e306c5156dfa5dcb59b9582308d"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_005",
+    "text": "Keine der beiden Optionen zur Lockerung der Filter umgeht den Infrastrukturschutz von Clipboard, konfigurierte Ausschlusslisten oder Prüfungen auf ungültige Objekte. Siedlungswerkbänke, Clipboard-Hilfsobjekte, Objekte mit dem IsMarker-Flag und nicht unterstützte Akteurtypen bleiben ausgeschlossen. Aktivatoren (ACTI) und bewegliche statische Objekte (MSTT), deren Objektabmessungen sämtlich null sind, werden ebenfalls immer ausgeschlossen, auch aus alten Bauvorlagen. Dies ist eine Regel für Basisobjekte, keine fest einprogrammierte Liste von Pflanzen-Hilfsobjekten. Die Lichtquellenoption umgeht diese Regel nicht. Kabelverbindungen werden getrennt von der Objektauswahl behandelt.",
+    "source_sha256": "80bacffabd5e22d7fc9e4bda55667adc9ab878d5b1a5d784ca13ef2ae6bc2a4f"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_006",
+    "text": "AUSWAHLBEREICH",
+    "source_sha256": "a688be737406344fbda6141aa299f6712e4b0dc21d269ffc46a62ded14bbd193"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_007",
+    "text": "Quader, Kugel und Zylinder verwenden das jeweils gewählte Volumen. „Nach Plugin“ wählt Objekte aus dem gewählten Quell-Plugin aus. „Nach Zelle“ bietet die Optionen „Zelle des Clipboard-Geräts“ und „Zellen der Werkstatt“. „Zellen der Werkstatt“ erfasst die der aktuellen Siedlung zugewiesenen Zellen sowie passende, mit der Werkstatt verknüpfte Objekte. Die Option für die Gerätezelle erfasst nur dessen einzelne Zelle.",
+    "source_sha256": "4cb1e47ba062ae9979d5b620e77a2abfaf35664244e8102f8c3be4fa56160d94"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_008",
+    "text": "„Nach Zelle“ und „Nach Plugin“ beschränken die Auswahl von Objekten, die in der persistenten Außenzelle gespeichert sind, standardmäßig auf eine Entfernung von höchstens 5.000 Einheiten vom Gerät. Für normale Siedlungszellen gibt es keine Entfernungsgrenze. Die Benutzereinstellung lautet [Selection] fWideSelectionMaxDistance. Die Lockerung des Auswahlfilters ändert weder den gewählten Bereich noch diese Entfernungsgrenze.",
+    "source_sha256": "df1c19d9c9ec3b25e541c1817b170b765b27418dceb5046688725e0345fddece"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_009",
+    "text": "Hebe eine alte Auswahl auf, wenn du Einstellungen vergleichst: Auswahlmeldungen zählen neu hinzugefügte Objekte. Manche durch Plugins platzierten Objekte werden auch im ausgewählten Zustand nicht einzeln hervorgehoben. Die Plugin-Liste einer Bauvorlage enthält außerdem Abhängigkeiten wie ihre Werkstatt und Zelle; sie ist nicht nur eine Liste der Quell-Plugins ausgewählter Objekte.",
+    "source_sha256": "03cdb074ab0cbae7f947f79b35107bac12579b015dec4db9e5a118d8ef91bc09"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_010",
+    "text": "IMPORT UND PHYSIK",
+    "source_sha256": "a4f18a9e0a20e40117f8041bf0f976332c28e2c3753495698dc1cb7f987f25a6"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_011",
+    "text": "Der MCM-Abschnitt „Importoptionen“ enthält folgende Einstellungen:",
+    "source_sha256": "33abc5dc2d5c5ffd21b4e7e50e48e8cfc3f25c4dd513f356930551497e08bad5"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_012",
+    "text": "Externe Verbindungen werden nur verwendet, wenn sich das Clipboard-Werkzeug in der aufgezeichneten Quellzelle an seiner ursprünglichen Exportposition befindet. Allein das Drehen des Werkzeugs ändert diese Regel nicht. An einem anderen Zielort werden externe Verbindungen ignoriert; interne Kabel werden weiterhin normal importiert. Fehlende, verschobene oder nicht übereinstimmende ursprüngliche Endpunkte werden übersprungen; Clipboard sucht nicht nach Ersatz in der Nähe.",
+    "source_sha256": "2d12683b918d55bced46bae96c36ea02a28696037473eb08c913a6600aac28e7"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_013",
+    "text": "Vom Spieler erstellte externe Endpunkte gehören zu dem Spielstand, der diese Objekte enthält. Ihre Verbindungen lassen sich nicht in einen anderen Spieldurchlauf übertragen. Exportiere eine ältere Vorlage erneut, um externe Verbindungen zu erfassen, die in ihrer ursprünglichen Datei nicht aufgezeichnet wurden.",
+    "source_sha256": "28796986b3dff39eda7d8565253b09802ee26b9dbd52abaa8786412e09279f79"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_015",
+    "text": "OPTIONALE MOD-FILTER",
+    "source_sha256": "f230797a8205c6c358df773a4b629e98299067d7971194c97cc01303ad04644a"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_016",
+    "text": "- „Import normal gefilterter Lichtquellen erlauben“ ist standardmäßig deaktiviert.\r\n  Aktiviere diese Option, um Lichtquellen ohne Objektbegrenzungen oder ohne Werkstattrezept zuzulassen.\r\n- „Havok-Physik für importierte Objekte deaktivieren“ ist standardmäßig aktiviert. Diese Option verhindert,\r\n  dass importierte Objekte, die keine Akteure sind, sofort fallen oder rollen, und stellt ihre Platzierung\r\n  wieder her, falls die Physik sie während des Ladens verschoben hat. Deaktiviere sie für das normale\r\n  Physikverhalten loser Objekte. Sie verhindert weder skriptgesteuerte Bewegungen noch Animationen,\r\n  Aktivierungen oder Änderungen über die Werkstatt und wendet diese Physikänderung nicht auf Akteure an.\r\n- „Drosselung verwenden“ ist standardmäßig deaktiviert. Diese Option begrenzt die Platzierungsarbeit und\r\n  gleichzeitige Aufrufe zur Werkstattinitialisierung. Bei deaktivierter Option kann die Skriptverarbeitung\r\n  überlastet werden, was Papyrus-Stack-Dumps verursachen kann, die andere Mods wie Sim Settlements 2\r\n  beeinträchtigen. Der nächste Import verwendet die neue Einstellung; die Abschlussprüfungen bleiben in beiden Modi aktiv.",
+    "source_sha256": "1f370126a283510c33722afc7a25a3b8a5635255cefb0f39601c18d5c9a5559a"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_017",
+    "text": "Beim Import lässt sich die ursprüngliche Platzierungshistorie eines Objekts nicht aus einer Vorlage wiederherstellen. Die meisten Objekte, die keine Lichtquellen sind und mit gelockerten Auswahlfiltern gespeichert wurden, können daher auch bei deaktivierter Lichtquellen-Importoption eingefügt werden. Die Materialkosten richten sich nach demselben Importfilter; für ein zugelassenes Objekt ohne Rezept fallen keine rezeptbedingten Materialkosten an.",
+    "source_sha256": "b435867ad4197c50736bfddb20b7c8f9163bcf93a949c1bd5d4158c536ec545b"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_018",
+    "text": "Vorlagen speichern Basisobjekte und Transformationen, jedoch keine Inventare, angebrachten Waffen- oder Rüstungsmodifikationen oder Skriptzustände. Modifizierte Ausrüstung wird als unverändertes Basisobjekt eingefügt. Fehlende Form-Datensätze werden durch Kronkorken als Platzhalter ersetzt. Das Überspringen eines Objekts oder eines seiner Kabel verschiebt die anderen Kabelverbindungen nicht. Passende vorhandene Objekte werden anhand von Basisobjekt, Position, Drehung und Skalierung wiederverwendet; neue Kabel können mit ihnen verbunden werden, ohne sie doppelt zu platzieren. Fehlgeschlagene oder noch nicht bereite Objekte werden einzeln ausgeschlossen, wenn der Abschluss der übrigen Arbeiten bestätigt wurde. Bei ungewissem Abschluss werden Verkabelung und Stromversorgung für den gesamten Import gestoppt.",
+    "source_sha256": "bc7be74eda9240f380972901f9076ad0695d57cc1ecf0df6dafc1e899d2bb419"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_020",
+    "text": "Die Standardfilter lassen SS2-Parzellenstammobjekte und eigenständige Objekte zu, sofern diese die übrigen Voraussetzungen erfüllen. Ausgeschlossen werden Objekte mit den Kennzeichnungen PlotSpawnedKeyword oder PreventExport, statische SS2-Sammlungen (SCOL) sowie untergeordnete Objekte, die von unterstützten übergeordneten Auto Beds-Objekten aus verknüpft sind. Diese Regeln gelten für alle Auswahlmethoden und den Export, auch bei gelockerten Auswahlfiltern. Sie rekonstruieren weder SS2-Pläne noch sonstige Mod-Zustände und gelten nicht für importierte Vorlageneinträge.",
+    "source_sha256": "a6a135f9b02f662002d5177a9691750d8ae337366a8cdd39d7eca7efc16d8566"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_021",
+    "text": "Diese Einstellungen sind nur über die INI verfügbar. Verwende [OptionalFiltering] in Data\\MCM\\Settings\\clipboard.ini, um die mitgelieferten Standardwerte zu überschreiben:",
+    "source_sha256": "277946e43569a66a510a0d3d18254e6741b131d6596e672675c0a7e553b48d67"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_022",
+    "text": "KABEL ZU VORHANDENEN OBJEKTEN",
+    "source_sha256": "7c6156c01f3fb3d40809effd8eba672fc607a2b9cfe04824b2863439e91e8c38"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_023",
+    "text": "Der Export erfasst Kabel zwischen ausgewählten Objekten sowie zulässige Verbindungen zu vorhandenen Objekten außerhalb der Auswahl. Externe Endpunkte können durch Plugins platziert oder vom Spieler erstellt worden sein. Sie werden beim Einfügen der Bauvorlage weder zur Liste der kopierten Objekte hinzugefügt noch verschoben oder neu erstellt.",
+    "source_sha256": "75131ae63d2c6aab870b256c7a5d473a76c624e0a343b6f7f602151306924c8d"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_024",
+    "text": "- aReferenceKeywordBlackList: Referenz-Schlüsselwörter für den Ausschluss.\r\n- aCollectionPluginFamilyBlackList: Plugins, deren statische Sammlungen ausgeschlossen werden,\r\n  einschließlich aktiver Plugins, die diese direkt als Master voraussetzen.\r\n- aChildParentScripts und aChildLinkKeywordBlackList: Skripttypen übergeordneter Objekte und\r\n  Slot-Verknüpfungs-Schlüsselwörter, die gemeinsam zur Erkennung generierter untergeordneter Objekte dienen.",
+    "source_sha256": "1a8abde97c9bcaaf97393973b1986c920a7ac357c63f587029c5429003195e2a"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_025",
+    "text": "Die mitgelieferten Listen findest du in Data\\MCM\\Config\\Clipboard\\settings.ini. Schlüsselwort-Einträge verwenden PluginName#decimalLocalFormID ohne Ladereihenfolge-Präfix. Fehlt eine Einstellung, wird ihr Standardwert verwendet; ein ausdrücklich leerer Wert deaktiviert die betreffende Regel. Nicht verfügbare optionale Mods werden übersprungen. Starte das Spiel nach INI-Änderungen neu.",
+    "source_sha256": "6810f28c465aa48e85b01a8e90b1efe031e944bd22d14394dbe603dd53064d26"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_026",
+    "text": "Bedingungslose Ausschlusslisten für Plugins und Form-Datensätze bleiben in [Selection]: aPluginBlackList, aMasterPluginBlackList und aFormBlackList. Benutzerdefinierte Listen ersetzen die Standardwerte der jeweiligen Einstellung. Falls eine ältere Benutzer-INI noch SS2.esm oder dessen Erweiterungen in der Plugin-Ausschlussliste oder SS2.esm in der Master-Ausschlussliste aufführt, entferne diese Einträge, um die optionalen SS2-Filter zu verwenden. Behalte dabei alle anderen gewünschten Ausschlüsse bei. Die mitgelieferten bedingungslosen Standardfilter schließen Sim Settlements und Seasons weiterhin aus.",
+    "source_sha256": "084e33ed842305ef0b64b30bcb671c9260d2d49c7d62ff1b55ec0fdd365a1f80"
+  },
+  {
+    "key": "$Clipboard_Docs_Filtering_027",
+    "text": "Die alten Einstellungen bEnableToolCellObjectSelection und bEnableWorkshopCellObjectSelection werden ignoriert. Vorhandene Import- und Physikeinstellungen behalten ihre INI-Abschnitte: bAllowAllObjectsToBeImported in [Selection] und bDisableHavokOnImportedObjects in [Balance]. „Drosselung verwenden“ entspricht bUseThrottling in [Import]. Nicht mehr verwendete Einstellungen für Profiling und Lock-Tracing werden ignoriert.",
+    "source_sha256": "fd0ffa228bf4ad6b8e7841bd6a6eb5a23a922d45a333b0837d7c22c035e3092b"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_001",
+    "text": "Clipboard Resurrection 3.0.0 – Sprachen",
+    "source_sha256": "e59edcaba60abc33458dee99dbde2832ba9d5ed45bf1c0237438316b92c74c28"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_002",
+    "text": "Clipboard verwendet die in Fallout 4 gewählte Sprache. Das Paket enthält Texte\r\nfür Englisch, Russisch, Deutsch, Spanisch (Spanien), Spanisch (Mexiko), Französisch,\r\nItalienisch, Japanisch, Polnisch, Portugiesisch (Brasilien), vereinfachtes Chinesisch\r\nund traditionelles Chinesisch.",
+    "source_sha256": "c59643f574170b14c410fc7b37aa30707df4717b6d186360484ff8131cc473fe"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_003",
+    "text": "Alle Sprachen verwenden dasselbe Plugin, dieselbe DLL sowie dieselben Skripte,\r\nEinstellungen und Baupläne. Installiere das vollständige Paket einschließlich\r\nStrings und Interface und starte das Spiel nach einem Sprachwechsel neu.\r\nSelbst eingegebene Texte, Spielernamen und gespeicherte Bauplannamen werden\r\nnicht automatisch übersetzt.",
+    "source_sha256": "6ab6b86b5ee6d1308d60e000a4cb3b333158758bf07b60ad112e9ae1747654ed"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_004",
+    "text": "Die dynamischen Meldungen von Clipboard erscheinen auf Englisch, wenn eine\r\nSprache oder ein Schlüssel nicht verfügbar ist. Fehlende MCM-Kataloge oder\r\nPlugin-Stringtabellen sollten durch erneute Installation des vollständigen Pakets\r\nwiederhergestellt werden; für sie gibt es keinen solchen Rückgriff auf Englisch.",
+    "source_sha256": "2dafd58409edd8161481a56f3a005165c766dea17ca64f41fad7185d8b01bb50"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_005",
+    "text": "Traditionelles Chinesisch enthält den Dateinamen-Alias cn des Spiels. Eigene\r\nSprachkonfigurationen für zhhans und zhhant erfordern passende Spieleinstellungen\r\nund Schriftarten. Wenn Zeichen als Kästchen erscheinen, überprüfe die Schriftarten\r\ndeines Spiels und deiner Benutzeroberflächen-Mods. Melde fehlerhafte Formulierungen\r\nunter Angabe der Spielsprache und des betroffenen Menüs bzw. der betroffenen Aktion.",
+    "source_sha256": "06928caa0a42b3d67b455af68689b7ca7393e32f0e067dcdddeee9ecf0177f77"
+  },
+  {
+    "key": "$Clipboard_Docs_Localization_006",
+    "text": "Benutzeranleitungen werden in allen unterstützten Sprachen mitgeliefert: die Readme,\r\ndie Anleitung zur Objektauswahl und zum Import, der Sprachleitfaden und das\r\nÄnderungsprotokoll. Die englischen Anleitungen liegen unter Docs/clipboard;\r\nÜbersetzungen befinden sich in den Unterordnern mit dem jeweiligen Sprachcode.",
+    "source_sha256": "d455d397849a508b45b4ae2edece02a72fdb4f67c0f920dde9c2578ac38fec0e"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_001",
+    "text": "Clipboard Resurrection 3.0.0",
+    "source_sha256": "13f978e37cffdfc1839735add68b6adc0ef408e0e9ed4d823e9f4bc39b5e1568"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_002",
+    "text": "Clipboard kopiert Gruppen von Siedlungsobjekten in wiederverwendbare Bauvorlagen. Wähle Objekte aus, speichere eine Bauvorlage und füge sie anschließend relativ zur Position und Drehung des Clipboard-Geräts ein. Du kannst eine Auswahl auch verschieben, drehen, skalieren oder verschrotten.",
+    "source_sha256": "641f0542452ffbcb73a11bb064a1acf7305bac44b0b1505ea2ba2085df408522"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_003",
+    "text": "INSTALLATION",
+    "source_sha256": "d3731e1f10306af87e95540fc26ffe1dc80e64eca3b1e4f9053748092c0aea63"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_004",
+    "text": "Fallout 4 OG, NG und AE verwenden dasselbe Clipboard-Paket. Installiere eine F4SE-Version, die zu deiner installierten Spielversion passt, sowie die erforderliche Runtime Database, die Data\\F4SE\\Plugins\\f4rd-runtime.bin bereitstellt. Starte das Spiel über f4se_loader.exe.",
+    "source_sha256": "82294e36925e7cd3d94875196074d0c1080ad6cc82a22e5c9aa1a097cb28b1ec"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_005",
+    "text": "F4SE: https://www.nexusmods.com/fallout4/mods/42147\r\nRuntime Database: https://www.nexusmods.com/fallout4/mods/108394",
+    "source_sha256": "cd82e7d49e596655cef888ce500ccf61f9ef547c48d639d4c57682e95bb69217"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_006",
+    "text": "Installiere das vollständige Paket mit deinem Mod-Manager und aktiviere Clipboard.esp. Behalte die enthaltene DLL, die Skripte sowie die Strings- und Interface-Dateien zusammen. Wenn du ein Paket aktualisierst, das ClipboardExtension.dll verwendet hat, deaktiviere diese alte DLL, sodass nur Data\\F4SE\\Plugins\\clipboard.dll aktiv bleibt. Sichere deine Bauvorlagen, bevor du eine bestehende Installation ersetzt.",
+    "source_sha256": "e0b0f09bde9b93f0490337fe20cb143805d21b01467bebed7363e17142cbbbdb"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_007",
+    "text": "Mod Configuration Menu (MCM) stellt die Optionen und Tastenkürzel von Clipboard bereit. Ohne MCM lassen sich Einstellungen in Data\\MCM\\Settings\\clipboard.ini unter den jeweiligen INI-Abschnitten überschreiben. Starte das Spiel nach manuellen INI-Änderungen neu.\r\nMCM: https://www.nexusmods.com/fallout4/mods/21497",
+    "source_sha256": "a25a182b29d7058cbf8ea9735b7fe50dcbe1f1a303dc300c89c835a13abd7465"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_008",
+    "text": "ERSTE SCHRITTE",
+    "source_sha256": "7184a5edf42e6fc9ef8f53fc1dd73f10b3f6196a23f6d340c4f434e60c366e45"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_009",
+    "text": "1. Baue das Clipboard-Gerät über die Kategorie „Spezial“ der Werkstatt.\r\n2. Aktiviere seine Steuerung und wähle eine Auswahlmethode: Alle, Quader, Kugel,\r\n   Zylinder, Nach Zelle, Nach Plugin oder die manuelle Auswahlwaffe.\r\n3. Wähle die gewünschten Objekte aus und speichere sie in einem Bauvorlagen-Speicherplatz.\r\n   Bestätigst du das Überschreiben, wird der Inhalt dieses Speicherplatzes ersetzt; beim Abbrechen bleibt die vorhandene Bauvorlage erhalten.\r\n4. Platziere das Gerät am Zielort und wähle eine gespeicherte Bauvorlage zum Einfügen.\r\n   Position und Drehung des Geräts bestimmen, wo die Gruppe erscheint.\r\n5. Warte, bis der Import abgeschlossen ist, bevor du einen weiteren Vorgang startest.\r\n   Beachte alle Warnungen zu Objekten, Kabeln oder zur Stromversorgung, deren Vorbereitung nicht abgeschlossen werden konnte.",
+    "source_sha256": "b4bb2c8eefe33e21ae2a3d6e9bc8c3fe22a646ccfa6d426622c7626972bffbae"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_010",
+    "text": "Es gibt 500 Speicherplätze. Das Paket enthält leere Speicherplätze. Bauvorlagendateien werden unter Data\\F4SE\\Plugins\\Clipboard\\<slot>\\pattern.ini gespeichert. Sichere deine eigenen Bauvorlagendateien, bevor du das Paket neu installierst oder Speicherplatzordner ersetzt.",
+    "source_sha256": "3d42708fb39b5500b14da9f59622b9864781ef06f85af0f254d1c2b52d87e0bc"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_011",
+    "text": "TEXT- UND ZAHLENEINGABE",
+    "source_sha256": "e7b7ee03f9002198193d8aa29b7b92bfe3655f99d00423732e2f6f686b9c8815"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_012",
+    "text": "Clipboard enthält ein eigenes Eingabemenü; TIM ist nicht erforderlich. Bestätige mit Enter oder brich mit Tab oder Escape ab. Schaltflächen zur Mausbedienung und eine Bildschirmtastatur für Controller sind ebenfalls verfügbar; beachte die unter dem Eingabefeld angezeigte Steuerung. Behalte Interface/ClipboardInput.swf zusammen mit der passenden DLL und den passenden Skripten installiert. Tippe Werte direkt ein: Das Einfügen aus der Windows-Zwischenablage wird derzeit nicht unterstützt.",
+    "source_sha256": "6bfa869fe3311c708c3dcab172253f93e59c1b8069316589e793e4da03e40eeb"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_013",
+    "text": "Die MCM-Option „Condition Boy/Girl während der Eingabe ausblenden“ ist standardmäßig aktiviert. Wenn diese Mod installiert ist, blendet Clipboard deren Overlay vorübergehend aus, solange die Eingabe geöffnet ist, und stellt anschließend die zuvor geänderte Sichtbarkeit wieder her. Es ist keine zusätzliche Mod erforderlich.",
+    "source_sha256": "504a0680e457f25113fe2e2d94285cc0eb9d4129fb91b10779513aed45909721"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_014",
+    "text": "DREHEN, SKALIEREN UND WIEDERHERSTELLEN",
+    "source_sha256": "872e1a3bcf1d906a1f81f0e4818ffe174d282a1d366ac120e2d809c12ce5890c"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_015",
+    "text": "Für die Drehung sind Winkel größer als 0 und bis zu 180 Grad mit bis zu sechs Nachkommastellen zulässig. Verwende einen Punkt als Dezimaltrennzeichen, zum Beispiel 12.345678. Wähle, ob um den Mittelpunkt der Auswahl oder um das Clipboard-Gerät gedreht werden soll.",
+    "source_sha256": "ca6ad3a3c9743e1540676b617bd57e0ec516b3a4b48ba936d2bf937d2e905c28"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_016",
+    "text": "„Vergrößern“ und „Verkleinern“ erwarten eine relative prozentuale Änderung. „Vergrößern“ akzeptiert Werte größer als 0 und bis zu 1000; „Verkleinern“ akzeptiert Werte größer als 0 und bis zu 99. Bis zu sechs Nachkommastellen sind erlaubt, aber jede resultierende Objektgröße muss ein exakter ganzzahliger Prozentsatz zwischen 1% und 1000% der ursprünglichen Größe sein. Eine gültige Zahl kann für die ausgewählten Größen dennoch ungeeignet sein. Clipboard lehnt sie ab, bevor Objekte verändert werden, und zeigt gültige Schrittweiten, Grenzen oder nahegelegene Werte an.",
+    "source_sha256": "fdbd831f2b1cac13e1372974d09acf1587c9306395ca8e78c4f2da46b177d4e4"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_017",
+    "text": "HILFE UND DANKSAGUNGEN",
+    "source_sha256": "59c7d5ed860fed7ab6b077bb13663622239a0a8a8a1a52c63913879101545383"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_018",
+    "text": "Die Skalierung als Ganzes ändert Objektgrößen und Abstände gemeinsam. Die individuelle Skalierung ändert die Objektgrößen, behält aber ihre Positionen bei. Für beide Modi gelten dieselben Größenbeschränkungen; Clipboard rundet oder begrenzt eine abgelehnte Änderung nicht stillschweigend.",
+    "source_sha256": "c5a706df9c6b0a9ee0031d49aae9f7535f9d9f84437599a1bef0e2971119b377"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_019",
+    "text": "Beide Aktionen zur Größenwiederherstellung setzen jedes ausgewählte Objekt auf exakt 100% Größe. Die individuelle Wiederherstellung behält alle Positionen bei. Die Wiederherstellung als Ganzes behält die Positionen ebenfalls bei, wenn die ausgewählten Objekte unterschiedlich skaliert sind; bei gleicher Skalierung passt sie die Abstände mit dem Kehrwert dieses gemeinsamen Skalierungsfaktors an. Eine Gruppe, die bereits auf 100% skaliert ist, wird nicht bewegt. Die Wiederherstellung ist keine Rückgängig-Funktion und stellt frühere Abstände unterschiedlich skalierter Gruppen nicht wieder her.",
+    "source_sha256": "2f421949fd37fd47a13917ba3ed2f24ff62fdf8b413c0665371d60534107cf62"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_020",
+    "text": "KOMPONENTENKOSTEN",
+    "source_sha256": "d6aef85aecac0f70f7c1988a95161cf39e4cc154330dbc8e947de00851c08c91"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_021",
+    "text": "Die Bezahlung mit Komponenten ist standardmäßig deaktiviert. Aktiviere sie in MCM, wenn das Einfügen Baumaterialien verbrauchen soll. Die Kosten richten sich nach den verfügbaren Baurezepten für Objekte, die gemäß den Importregeln zugelassen sind; für ein zugelassenes Objekt ohne Rezept fallen keine rezeptbasierten Komponentenkosten an.",
+    "source_sha256": "56c29393001b969c44feb3044d9f885b0512761b03d91cf59acc51f101560dbf"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_022",
+    "text": "Kostenprüfungen berücksichtigen zuerst den aktuellen Werkstattbehälter. Deckt dessen Bestand alle benötigten Materialien ab, kann Clipboard diese lokalen Mengen anzeigen, ohne verbundene Siedlungen und das Spielerinventar zu durchsuchen. Die reine Kostenansicht bietet optional eine Gesamtsumme aus allen Quellen an. Andernfalls prüft Clipboard alle Quellen und kennzeichnet die Gesamtmengen entsprechend. Die Kostenanzeige erteilt keine Zustimmung zur Bezahlung.",
+    "source_sha256": "4424c06a83247c17d9bfa8bed39474a65c81d2240d47e907413e121934d5a125"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_023",
+    "text": "Wenn die Bezahlung aktiviert ist, bittet Clipboard um Bestätigung, prüft danach erneut die Verfügbarkeit und überprüft die Entnahmen, bevor Objekte platziert werden. Dabei wird zuerst die aktuelle Werkstatt genutzt, dann verbundene Werkstätten und zuletzt das Spielerinventar. Kann die Bezahlung nicht abgeschlossen oder überprüft werden, wird die Platzierung gestoppt. Bereits entnommene Ressourcen werden nicht automatisch zurückerstattet.",
+    "source_sha256": "fa2a67c90f18f68f0ae4509e376a3261a014ca0d3585390ccde7fa80cb854e00"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_024",
+    "text": "BAUVORLAGEN UND IMPORTE",
+    "source_sha256": "a449c81c1bbe62ceb3946b2fb2ece5e6208c69f05da0d4de1ab180c12e98bccd"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_025",
+    "text": "Bauvorlagen speichern Objekttypen, Positionen, Drehungen, Skalierungen und interne Kabel. Sie erfassen außerdem zulässige Kabelverbindungen zu bestehenden Objekten außerhalb der Auswahl. Diese externen Objekte werden nicht kopiert. Um die Verbindungen wiederherzustellen, sind der ursprüngliche Standort des Geräts und gültige ursprüngliche Endpunkte erforderlich; wird das Gerät an einen neuen Zielort bewegt, werden diese externen Verbindungen ignoriert. Vom Spieler erstellte Endpunkte sind an ihren Spielstand gebunden. Einzelheiten findest du in Clipboard-Object-Filtering.txt.",
+    "source_sha256": "c44a64c5218eebc3f59504cb772599aeaf10aa90d210a3da103e1a22ae2718fc"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_026",
+    "text": "Wenn du beispielsweise Objekte mit 100% Größe um 12% vergrößerst, erhalten sie eine Größe von 112%. Eine gemischte Gruppe mit 50% / 100% / 150% wird durch eine Vergrößerung um 2% zu 51% / 102% / 153%; eine Vergrößerung um 1% wird abgelehnt, weil einige Ergebnisse Nachkommastellen hätten. Änderungen mit Nachkommastellen können gültig sein: Wenn du ein Objekt mit 200% Größe um 0.5% vergrößerst, erhält es eine Größe von 201%.",
+    "source_sha256": "0adf64b9ab0c3f3ac82ba8716e978515df916e2f1d190f41a92a0be8200d6c2d"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_027",
+    "text": "Bauvorlagen speichern weder Behälterinhalte noch Waffen- oder Rüstungsmodifikationen, Besitzverhältnisse oder Skriptzustände. SS2-Parzellenpläne, Stufen und Siedler werden nicht gespeichert. Ist ein benötigtes Plugin oder Objekt nicht verfügbar, verwendet Clipboard einen Kronkorken als Platzhalter. Kabel zu fehlenden oder herausgefilterten Platzierungsobjekten werden übersprungen.",
+    "source_sha256": "e8121c9d52205a8bdddd93b9be1b7e06806695d57877f581bd381d157e1c6cd9"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_028",
+    "text": "Clipboard verwendet ein bestehendes Objekt wieder, wenn dessen Basisobjekt, Position, Drehung und Skalierung mit der Platzierung in der Bauvorlage übereinstimmen. So wird keine weitere Kopie erstellt, und das bestehende Objekt kann für Kabelverbindungen genutzt werden. Die Anzahl der übersprungenen Duplikate wird nur angezeigt, wenn sie größer als null ist, auch wenn Importwarnungen deaktiviert sind.",
+    "source_sha256": "89e2314313e137852280892a8b71785bd5957e051831e7902155453d7f1fb96a"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_029",
+    "text": "„Drosselung verwenden“ ist standardmäßig deaktiviert. Diese Option begrenzt die Platzierungsarbeit und die gleichzeitigen Aufrufe zur Werkstattinitialisierung. Das Deaktivieren kann das Skriptsystem überlasten und Papyrus-Stack-Dumps verursachen, die andere Mods wie Sim Settlements 2 beeinträchtigen. Die Abschlussprüfungen bleiben aktiv, und das Deaktivieren verkürzt den Import möglicherweise nicht. Während der gedrosselten Platzierung wird „Clipboard: Objekte werden importiert...“ alle zehn Sekunden wiederholt. Initialisierung und Stromversorgung zeigen in beiden Modi Fortschrittswerte in Prozent an. Diese geben die abgeschlossene Arbeit an, nicht die verstrichene Zeit; warte auf das Endergebnis.",
+    "source_sha256": "383c8084b49ea8006d5b29caeffdf04d0199a2500224a2ec590f91c32fa7b405"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_030",
+    "text": "Objekte, deren Vorbereitung oder Initialisierung fehlschlägt, werden von der anschließenden Verkabelung und Stromversorgung ausgeschlossen; erfolgreich verarbeitete Objekte können weiterbearbeitet werden. Kann Clipboard den Abschluss nicht überprüfen, etwa nach einer Zeitüberschreitung oder Unterbrechung, werden Verkabelung und Stromversorgung für den gesamten Import gestoppt.",
+    "source_sha256": "dfe40d6ca719f2863eaad0555529442396f6ac2bf94a4594ec75ea3d3ab67b60"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_031",
+    "text": "Für Auswahl/Export und den Import von Lichtquellen gibt es separate Optionen. Bei importierten Objekten, die keine Akteure sind, wird die Havok-Physik standardmäßig deaktiviert, damit lose Objekte an ihrem Platz bleiben; Skripte, Animationen und Werkstattaktionen können sie weiterhin bewegen. Informationen zu diesen Einstellungen und optionalen Mod-Filtern findest du in Clipboard-Object-Filtering.txt.",
+    "source_sha256": "5ac7a0b5e6470e808481fa945deaa058ef17499f3803452b67cb6fc3175585b9"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_032",
+    "text": "Behalte einen Spielstand von vor dem Upgrade, falls du zu einer älteren Version zurückkehren möchtest.\r\nÄltere Clipboard-DLLs können Vorgänge, die im neuen Format 3.0.0 gespeichert wurden, nicht fortsetzen.",
+    "source_sha256": "33e1ffecdd039e5f459905ff282cb0aa602dc28bee181e4bca28b13fd4ddedb0"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_033",
+    "text": "Clipboard verwendet die Sprache des Spiels. Informationen zur Sprachauswahl und Fehlerbehebung findest du in Clipboard-Localization.txt, aktuelle Änderungen in CHANGELOG.txt.",
+    "source_sha256": "e6ce0c83f322c1d90c6d0435f5c335c4477fdb6b96cca348c36c8cf2d0824397"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_034",
+    "text": "Warnungen, Fehler und Build-Kennungen werden auch dann in Clipboard.log aufgezeichnet, wenn „Diagnoseprotokoll aktivieren“ ausgeschaltet ist. Schalte diese Option im MCM ein, bevor du ein Problem reproduzierst, wenn weitere Details benötigt werden. Gib die ausgeführte Aktion, die Spielversion und die Einstellungen an und füge Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log bei; füge auch Papyrus.0.log bei, sofern verfügbar. Kopiere Clipboard.log vor einem Neustart des Spiels: Bei jedem Start wird die Datei durch ein neues Protokoll ersetzt.",
+    "source_sha256": "1489c9794501c385cd7acd3f7c2c8c3a854ebd23338644fe4e8a49c6d335594e"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_035",
+    "text": "Projekt und Anwendungsvideos:\r\nhttps://www.nexusmods.com/fallout4/mods/39804/\r\nhttps://www.nexusmods.com/fallout4/mods/39804/?tab=videos&BH=0",
+    "source_sha256": "88161e3d907fd2a0817a062491eba72ea1b6e3ab20fe5eff627554cd790c8d57"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_036",
+    "text": "Vielen Dank an Struckur, Everett C Sands, WolfMark, Big&Flabby sowie alle Mitwirkenden von F4SE und CommonLibF4RD.",
+    "source_sha256": "64b3ce2eb16cd46bd01a1651d5860d8af56ed70b9bf443b14dcf4175759a7123"
+  },
+  {
+    "key": "$Clipboard_Docs_ReadMe_037",
+    "text": "Der zu Clipboard gehörende Code und die Dokumentation stehen unter GPL-3.0-or-later. Die vollständigen Bedingungen einschließlich des Gewährleistungsausschlusses findest du in ../LICENSE.txt. Hinweise zu Drittanbietern befinden sich in ../Licenses; deren gesonderte Bedingungen gelten weiterhin.",
+    "source_sha256": "017db368768735086bda1ee2389c3cecb186616d4821e45c69e480f743c6ac77"
+  },
+  {
+    "key": "$Clipboard_ESP_AmmoSelection_FULL_0",
+    "text": "Clipboard-Auswahlmunition",
+    "source_sha256": "5c9015c8a5a5c9186e25a345291377e45bbfda7c5522db64a946e86b59c6c1f0"
+  },
+  {
+    "key": "$Clipboard_ESP_AmmoSelection_ONAM_0",
+    "text": "Auswahlmunition",
+    "source_sha256": "4399d7ae1a21d4b40bbf4b0f58e012c99de346d4a85f3058ee01a4a9efd9ad21"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActOnSelection_FULL_0",
+    "text": "Aktionsmenü",
+    "source_sha256": "889bff96931e69b36d027c764426aa2daaea4577a48d29444cb83a077dbfe80c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_DESC_0",
+    "text": "Aktion auswählen:",
+    "source_sha256": "8baf940073e75d4cc886efc0ef521c6471e4d008669210366c132510cc9e07c3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_1",
+    "text": "Aus Clipboard einfügen",
+    "source_sha256": "c6401d1873a22b9c4e6e32fac55b2a8173391fe4448b45ca7f58dcfe643c3a13"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_2",
+    "text": "Im Muster verwendete Plugins auflisten",
+    "source_sha256": "b5c22066dc7f0ea85329599e87fa687af86be168e48c891b86700aafc1373e38"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_3",
+    "text": "Zur Ursprungsposition des Musters bewegen",
+    "source_sha256": "19800636bbb17d3379d17ea691e6de4f0057c94a80fa2f0b3ee70d5b936356a1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectEmptyMessage_ITXT_4",
+    "text": "Materialkosten des Musters anzeigen",
+    "source_sha256": "6bf66958614d43dca0a2cb69aed4a1da90a0e5064ee782cd5b6decd008ffd3bc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_DESC_0",
+    "text": "Aktion auswählen:",
+    "source_sha256": "8baf940073e75d4cc886efc0ef521c6471e4d008669210366c132510cc9e07c3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_1",
+    "text": "In Clipboard kopieren",
+    "source_sha256": "f3c0fd7e76e2eb3a99a7070fb5f55c7be7ffc3588ade297f619ce9b919a355d9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_10",
+    "text": "Im Muster verwendete Plugins auflisten",
+    "source_sha256": "b5c22066dc7f0ea85329599e87fa687af86be168e48c891b86700aafc1373e38"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_11",
+    "text": "Zum Ursprungsort des Musters verschieben",
+    "source_sha256": "19800636bbb17d3379d17ea691e6de4f0057c94a80fa2f0b3ee70d5b936356a1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_12",
+    "text": "Komponentenkosten der Auswahl anzeigen",
+    "source_sha256": "1981ce4934b18b93ede2523a4e5a12b893d61d792820aa93557910218240bca4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_13",
+    "text": "Komponentenkosten des Musters anzeigen",
+    "source_sha256": "6bf66958614d43dca0a2cb69aed4a1da90a0e5064ee782cd5b6decd008ffd3bc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_2",
+    "text": "Aus Clipboard einfügen",
+    "source_sha256": "c6401d1873a22b9c4e6e32fac55b2a8173391fe4448b45ca7f58dcfe643c3a13"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_3",
+    "text": "Zerstören",
+    "source_sha256": "ea9bb7ea83febba109130b5765f3f35d1ccaa5c5fced54557040e5676d4fcaf6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_4",
+    "text": "Drehen",
+    "source_sha256": "c3613b1704f54c8bd38987e4e810ae6040935d048ac5bb0dd9c0bde269ecf739"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_5",
+    "text": "Verschieben",
+    "source_sha256": "6ecc3df6bffdd06c58cd4f6e276929e119c8f653c53f5a6a5a5e66dfa1c3fc93"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_6",
+    "text": "Skalieren",
+    "source_sha256": "f102986b39effb31080ae442f61febe7ed58df1515c0711ccfadfe0311ccec81"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_7",
+    "text": "Besitz entfernen",
+    "source_sha256": "dc1f9b70eccdfe9dad102ca1b5b3bc9059b5665a500d12d37c9fe8fa0bcd964c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_8",
+    "text": "Auswahldetails anzeigen",
+    "source_sha256": "c70b54794f18dcb5660f29a8e0c9f7feda4af3a2287798113f4c7d575393d7f9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardActionSelectMessage_ITXT_9",
+    "text": "In Auswahl verwendete Plugins auflisten",
+    "source_sha256": "028054b80afc25d2a1f55da08160898a883ccd78ffb5371bb56de5e13ea06a3b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonNuke_FULL_0",
+    "text": "Clipboard-Werkzeug",
+    "source_sha256": "8ea7b5ab76991499dc931eaf78ecef6693eac9f10dbcdb3c410ccadd6e5fe1b1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonPole_FULL_0",
+    "text": "Clipboard-Werkzeug",
+    "source_sha256": "8ea7b5ab76991499dc931eaf78ecef6693eac9f10dbcdb3c410ccadd6e5fe1b1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonStand_ATTX_0",
+    "text": "Drücken",
+    "source_sha256": "731ce7ed808913b2fb4a3db764cad1d9be4433f3fe232818d7e66c7d3fd2a9c0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardButtonStand_FULL_0",
+    "text": "Clipboard-Werkzeug",
+    "source_sha256": "8ea7b5ab76991499dc931eaf78ecef6693eac9f10dbcdb3c410ccadd6e5fe1b1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardChangeSelectionMethod_FULL_0",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardClearSelection_FULL_0",
+    "text": "Auswahl aufheben",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardCopyPylon_FULL_0",
+    "text": "Clipboard-Werkzeug",
+    "source_sha256": "8ea7b5ab76991499dc931eaf78ecef6693eac9f10dbcdb3c410ccadd6e5fe1b1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardCopyTo_FULL_0",
+    "text": "In Clipboard kopieren",
+    "source_sha256": "f3c0fd7e76e2eb3a99a7070fb5f55c7be7ffc3588ade297f619ce9b919a355d9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardDestoryTool_FULL_0",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_DESC_0",
+    "text": "<b><u>Schnellmenü des Clipboard-Werkzeugs</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>",
+    "source_sha256": "dc8fce06fc431eb276b690b54b37f5bb9e74f48ab0ce92c684a9aa9722a92961"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_1",
+    "text": "Aktionsmenü anzeigen",
+    "source_sha256": "77b91201c012c2a38af03896cacf37aa250ac69f8472e6c66fa3722d677c9afb"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_2",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_3",
+    "text": "Auswahlsuche starten",
+    "source_sha256": "9fc7745909f7c2a7dab17c94936a64897977069bf7ac5043c25f3f65106455be"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_4",
+    "text": "Auswahl aufheben",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_5",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuAreaMessage_ITXT_6",
+    "text": "Zum Werkzeug bewegen",
+    "source_sha256": "3000c2b548b6bf84ceebe96115e0c76be058f91a71ca50f16a5e90f16bd2216f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_DESC_0",
+    "text": "<b><u>Schnellmenü für Clipboard-Werkzeug</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>",
+    "source_sha256": "dc8fce06fc431eb276b690b54b37f5bb9e74f48ab0ce92c684a9aa9722a92961"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_1",
+    "text": "Aktionsmenü anzeigen",
+    "source_sha256": "77b91201c012c2a38af03896cacf37aa250ac69f8472e6c66fa3722d677c9afb"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_2",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_3",
+    "text": "Auswahl / Abwahl umschalten",
+    "source_sha256": "8c1b9eaaa8c12f9662cae52d1c9cd5580c256361d6379a33b13cf79560aa7030"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_4",
+    "text": "Auswahl löschen",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_5",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuManualMessage_ITXT_6",
+    "text": "Zum Werkzeug bewegen",
+    "source_sha256": "3000c2b548b6bf84ceebe96115e0c76be058f91a71ca50f16a5e90f16bd2216f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_DESC_0",
+    "text": "<b><u>Schnellmenü für Clipboard-Werkzeug</u></b>\r\n \r\n<u>Auswahlübersicht</u>\r\nObjekte: <Alias=Slot1State>\r\nKabel: <Alias=Slot2State>\r\nPlugins: <Alias=Slot3State>\r\nMethode: <Alias=Slot4State>",
+    "source_sha256": "dc8fce06fc431eb276b690b54b37f5bb9e74f48ab0ce92c684a9aa9722a92961"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_1",
+    "text": "Aktionsmenü anzeigen",
+    "source_sha256": "77b91201c012c2a38af03896cacf37aa250ac69f8472e6c66fa3722d677c9afb"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_2",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_3",
+    "text": "Auswahl aufheben",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_4",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardHotkeyMenuMessage_ITXT_5",
+    "text": "Zum Werkzeug bewegen",
+    "source_sha256": "3000c2b548b6bf84ceebe96115e0c76be058f91a71ca50f16a5e90f16bd2216f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInformMessage_DESC_0",
+    "text": "<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>",
+    "source_sha256": "a819414bce24e75832773d18eeef77be78ff116c82a2d5870054f6d9b9383cca"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInformMessage_ITXT_0",
+    "text": "OK",
+    "source_sha256": "16584052fd337f09553dfe2ed98e35a2de86043f25e61a3acb5d1e63a949e844"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardInitiateSelection_FULL_0",
+    "text": "Auswahlscan starten",
+    "source_sha256": "9fc7745909f7c2a7dab17c94936a64897977069bf7ac5043c25f3f65106455be"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel1_FULL_0",
+    "text": "Etikett1",
+    "source_sha256": "1f60106724f6b359a2d7287eb60ffaacb8efdb5e1b7a7f12b2d81a768242bcd6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel2_FULL_0",
+    "text": "Etikett2",
+    "source_sha256": "9bcd627ccc8cd37c3fad308c736157743c2fec4c4cc7b8a72632c49372fe4418"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel3_FULL_0",
+    "text": "Etikett3",
+    "source_sha256": "c312bc6260d3b93885fcaa19c6e485db5957b53b7641d373642f460ac1d9aca4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel4_FULL_0",
+    "text": "Etikett4",
+    "source_sha256": "85cd6cdf78a8d0a907cc5451af077c2e8304981c9e0d45b6893e28da713e2d6f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardLabel5_FULL_0",
+    "text": "Etikett5",
+    "source_sha256": "cea16e979efb3817a7479acb6ad6a61e2c99dfb4fde63c8473d75a4f06eee4fe"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick1Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick2Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick3Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick4Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick5Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick6Message_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_DESC_0",
+    "text": "<b><u>Clipboard <Alias=Slot1State> Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick7Message_ITXT_7",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_DESC_0",
+    "text": "<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_7",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick8Message_ITXT_8",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_DESC_0",
+    "text": "<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_7",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_8",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPick9Message_ITXT_9",
+    "text": "9",
+    "source_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_DESC_0",
+    "text": "<b><u>Clipboard-<Alias=Slot1State>-Auswahl</u></b>\r\n\r\n <Alias=Slot2State>",
+    "source_sha256": "7e0b494395c230cd6c77f5a7fb42314189f1038a2496e2defc26e01e31be13cc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_10",
+    "text": "10",
+    "source_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_7",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_8",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickMessage_ITXT_9",
+    "text": "9",
+    "source_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_DESC_0",
+    "text": "<b><u>Clipboard-<Alias=Slot1State>-Auswahl: %.0f-%.0f</u></b>\r\n\r\n<Alias=Slot2State>",
+    "source_sha256": "d9d20a8a6dfad045ed3f9f414c3c3ce5e4ff5e8a750806245e4aa926ee770a27"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_10",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_11",
+    "text": "9",
+    "source_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_12",
+    "text": "10",
+    "source_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_3",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_4",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_5",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_6",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_7",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_8",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardListPickPagedMessage_ITXT_9",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardManager_FULL_0",
+    "text": "Clipboard-Manager",
+    "source_sha256": "ad5eb6be3b410b08bc2fde70546f1081e1e4838eca5dd2ebd61119a6b3fc9893"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_DESC_0",
+    "text": "Erforderliche Plugins fehlen!\r\n \r\n<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>\r\n\r\nMöchtest du trotzdem fortfahren?",
+    "source_sha256": "7569b12e0e74d8c3c1dc530c98e56be2a0bc5d0222edae71f7605899ec0efc84"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_0",
+    "text": "Nein",
+    "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMissingPluginsMessage_ITXT_1",
+    "text": "Ja",
+    "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_DESC_0",
+    "text": "Verschieben um:",
+    "source_sha256": "7dcead4f51a4eed48c8a5a8971d708cd2026ca00bd438d23c3352344cac46543"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_0",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_1",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_2",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_3",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_4",
+    "text": "16",
+    "source_sha256": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_5",
+    "text": "32",
+    "source_sha256": "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_6",
+    "text": "64",
+    "source_sha256": "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_7",
+    "text": "128",
+    "source_sha256": "2747b7c718564ba5f066f0523b03e17f6a496b06851333d2d59ab6d863225848"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_8",
+    "text": "256",
+    "source_sha256": "51e8ea280b44e16934d4d611901f3d3afc41789840acdff81942c2f65009cd52"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveAmountSelectMessage_ITXT_9",
+    "text": "512",
+    "source_sha256": "94f8607915dff25f013e45fc0642fb9830b0fb25ab0ab46d477eaf1061def379"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_DESC_0",
+    "text": "Bewegungsrichtung:",
+    "source_sha256": "434aba7919f69263ffbdaff445dc3ee4c07b11cb2295e607995da98dc62f8544"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_0",
+    "text": "Links",
+    "source_sha256": "58eb9032e3bb83f0e39d644ebc87ca254117b95bf458483bec7379bea0b419d0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_1",
+    "text": "Rechts",
+    "source_sha256": "883361d5d682a1574410961ce51450b6e036a779c9f098dec71e28aec832bfa6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_2",
+    "text": "Oben",
+    "source_sha256": "55490a4bf3a8e8cb5eed69720293a700ff01ef7da2bfc749f332f626cb584916"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_3",
+    "text": "Unten",
+    "source_sha256": "b86d11af79188e58af384b421f2799b08bfb151939b4404679d948aae2720b0b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_4",
+    "text": "Vorwärts",
+    "source_sha256": "f1c65e14817efef2b77973a4f63446a7d462cd2636bbe721207107b7d126a001"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveDirectionSelectMessage_ITXT_5",
+    "text": "Rückwärts",
+    "source_sha256": "21132d573f042328776060b4228597776040ec68243e7c9928ae0909dde46ad3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardMoveOnto_FULL_0",
+    "text": "Auf Plattform bewegen",
+    "source_sha256": "36275818823dfdac7e9b0bc0b2d248389fdbced67776b6db1ab63ef83812c323"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardNotYetImplemented_DESC_0",
+    "text": "Noch nicht implementiert",
+    "source_sha256": "ae9b02e3725937bf36f6bb663ca12364e4571bfa44fdf781d8c21f9ffc1e1114"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardNotYetImplemented_ITXT_0",
+    "text": "OK",
+    "source_sha256": "16584052fd337f09553dfe2ed98e35a2de86043f25e61a3acb5d1e63a949e844"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Seitenauswahl: 1-100</u></b>\r\n \r\nZURÜCK: 401-500\r\nWEITER: 101-200\r\n\r\n<Alias=Slot1State>",
+    "source_sha256": "9170ede12dd3fa4e56acb89b11eb89032c19c22f501240b317f1423168a79729"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_10",
+    "text": "71 - 80",
+    "source_sha256": "f9782093c71275f66a0e38ea6bc92e751ee48ffcccc2bd07ddb0d7dccb2f09ce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_11",
+    "text": "81 - 90",
+    "source_sha256": "877f510bcab0bf12092e6097006af71030f0fb1fa3994f228e8d6aa369f336b2"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_12",
+    "text": "91 - 100",
+    "source_sha256": "405c8cfbfe345e4870cbcb6147c57a9bbb9adfb3e087c1d41bfa73be8beb2e17"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_3",
+    "text": "1 - 10",
+    "source_sha256": "86865f06f7eec30eccd284320b3ac6e30abde6928632993f9180490546fa45d7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_4",
+    "text": "11 - 20",
+    "source_sha256": "0c7bc4ca25b70aad7ea9b581239a9e0d5f8f6c835b6ff8dfb7c64609b21ffba4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_5",
+    "text": "21 - 30",
+    "source_sha256": "caa98e81df51bf72db7ab0f52b3f89142561ffbb9769feb2b579875a6fd1d6b5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_6",
+    "text": "31 - 40",
+    "source_sha256": "d1194c5f01f86d720d09e5772ca64370314de4d4f3b88376c80bb9f56962c15d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_7",
+    "text": "41 - 50",
+    "source_sha256": "708dedb1ad71b6fedc3ee994b7d66d9c717be241f63cf6e083b26e06c9f4c290"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_8",
+    "text": "51 - 60",
+    "source_sha256": "6e31d84caadaacb880ff649f2048c3b2ccfb6c64cad9335fbff8352109fbfe4d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage1SelectMessage_ITXT_9",
+    "text": "61 - 70",
+    "source_sha256": "7c118f6d4ae470c2bc68608abdb14bc4f8340b043e8e76a84b63e2ae00229a4d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Seitenauswahl: 101-200</u></b>\r\n\r\nZURÜCK: 1-100\r\nWEITER: 201-300\r\n\r\n<Alias=Slot1State>",
+    "source_sha256": "24d1cb5b84d62ee704627f4cd03232fb72f1804fc0497212564032ed50191606"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_10",
+    "text": "171 - 180",
+    "source_sha256": "fdea41d7ac38ffd75e4b67c9828cfbcb091804ca828aff30cb1b5b8687cd0b08"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_11",
+    "text": "181 - 190",
+    "source_sha256": "fb2a4d87e7b09d18741c46a952217de85a62466eee9bcd21a30b6f1396aaebca"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_12",
+    "text": "191 - 200",
+    "source_sha256": "b3c8ff0ea2b8de90d33d73bc83c8f16220e7443cb2c7885fa23eeeead7a81922"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_3",
+    "text": "101 - 110",
+    "source_sha256": "cba2c9cab5a28b194ebb6e382a27bd5c05d7b4c8a2272d1d01a75ef79565dd66"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_4",
+    "text": "111 - 120",
+    "source_sha256": "b5a2b9b782b1aa445d806701b415390bd712e18c9851d233b9b3287068bb00cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_5",
+    "text": "121 - 130",
+    "source_sha256": "451ff4507c6893d36743c6a7b1c1d6179e64e72d3c1e2c9a67e63ad9df2b089d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_6",
+    "text": "131 - 140",
+    "source_sha256": "3913493db51a6d5239bff3cb3ad61b7381eda2897235c71c6672d28c560c84f2"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_7",
+    "text": "141 - 150",
+    "source_sha256": "46e174a810a0c2211a58568ff6f3c6ccf0909f3fcf9beea60633de1d9b5ce5de"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_8",
+    "text": "151 - 160",
+    "source_sha256": "e3f87a621318498cc1bca2e5423a99278c8aac592dbefd718465415b123ef7fd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage2SelectMessage_ITXT_9",
+    "text": "161 - 170",
+    "source_sha256": "aac83a050550aff4af8cd68d94bf1403f025689871d1f2b5f9071bc8d3627419"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Seitenauswahl: 201-300</u></b>\r\n\r\nZURÜCK: 101-200\r\nWEITER: 301-400\r\n\r\n<Alias=Slot1State>",
+    "source_sha256": "2733bf91f258415b3129579c33c943df2363a654c51c6a68eba484f7d093c7ca"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_10",
+    "text": "271 - 280",
+    "source_sha256": "59b5bb1c2de854db0af453b6025c376fa08d0d69cbecf8e581b0f31477d92ec3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_11",
+    "text": "281 - 290",
+    "source_sha256": "488a5b2f71b4ac3c8655e5f7ecf38508bd38f6eee19618523640ecd52326bdd4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_12",
+    "text": "291 - 300",
+    "source_sha256": "9d4908c451bfe19a94338d5ec5f3dc3e50add2cd969e7eb232fe406042c2879f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_3",
+    "text": "201 - 210",
+    "source_sha256": "f9e466a6ec7ab9b8ff44e4ec0cbbdf6954bb295a4ac6c16b3e0c2c6080cb754e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_4",
+    "text": "211 - 220",
+    "source_sha256": "9800ddb6632e57decfffc0b5d45ee01aa2e4d3c1ded24e4e0cb4c1c8e522d602"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_5",
+    "text": "221 - 230",
+    "source_sha256": "230955feb7883d0a33be86c765dd1b30c50f96ac1a81763d8ac77911d3cd1fde"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_6",
+    "text": "231 - 240",
+    "source_sha256": "8af360d816a15f86bf6266abd1af00b5556e8d6c40a54152cfe34f610ef1f3a0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_7",
+    "text": "241 - 250",
+    "source_sha256": "d9036cc6cd96e06ccb9d361f98d75c7daafdb73bdf0a54eebbe4195453aa804b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_8",
+    "text": "251 - 260",
+    "source_sha256": "b5eaf8dc5af52be41cf1dcb283ae022d50b47c0e468f57627edd23d988a3045c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage3SelectMessage_ITXT_9",
+    "text": "261 - 270",
+    "source_sha256": "6abf137915cbc9109d7c3fd9143ffc25a9c198de9d67572ce2b6b26c3fdd2dcc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Seitenauswahl: 301-400</u></b>\r\n\r\nZURÜCK: 201-300\r\nWEITER: 401-500\r\n\r\n<Alias=Slot1State>",
+    "source_sha256": "a95c197bd3617903e3da33d1669feeb4a8dea1eabc7829ac328df5df65cb2c2e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_10",
+    "text": "371 - 380",
+    "source_sha256": "968b4323503685646b83f225245621e3d4946c6385d0c69c2e352c3de9cfc55b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_11",
+    "text": "381 - 390",
+    "source_sha256": "c381d82a6ff47b0ea23009cd6474cae00ba1d5aa3747bfea8723192990d02167"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_12",
+    "text": "391 - 400",
+    "source_sha256": "1621e7a1155026b51b999e13e0d57bc4d463803a90e1e49ad0cd7c264b0904d6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_3",
+    "text": "301 - 310",
+    "source_sha256": "5cbcc2a9d9dcde552042b147920f16a226046cd2fab338097057447680b9a522"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_4",
+    "text": "311 - 320",
+    "source_sha256": "570efa008631cec1a96ad2f194da68d5c61fed4ef30361bdc12d1db47c79e73e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_5",
+    "text": "321 - 330",
+    "source_sha256": "103b251e65bfa610c9bf29fd74b5ea0f8299ec1b823c48504fb9847217701581"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_6",
+    "text": "331 - 340",
+    "source_sha256": "794023b91be8b8144daf97b42d0d023d4d7600b615c13df10128bf18e3944d6b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_7",
+    "text": "341 - 350",
+    "source_sha256": "57bebdf9afff6aef9d3e8434d2dab9e734606036043b0848c97eb2843c913180"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_8",
+    "text": "351 - 360",
+    "source_sha256": "c6b70f050dc26e3f4635d1a20d8c6b96105d7d88f044884c4fcf36f7897bb316"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage4SelectMessage_ITXT_9",
+    "text": "361 - 370",
+    "source_sha256": "ea31f58ab259b095f0e4938285f8358e56b4c8a6f52ef993462adf5cccb86562"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Seitenauswahl: 401-500</u></b>\r\n\r\nZURÜCK: 301-400\r\nWEITER: 1-100\r\n\r\n<Alias=Slot1State>",
+    "source_sha256": "b0467a84519f5a3670bf1914959d2e7a70ce14e9aaa5e9f7dcbc61e3f177ad5e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_FULL_0",
+    "text": "Clipboard-Seite auswählen",
+    "source_sha256": "45154faea7b610dce7979926cfd49bc31c40709b83aa9eaf66dd0712a465f877"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_0",
+    "text": "[ ABBRECHEN ]",
+    "source_sha256": "497272b2da068059bc7678c25733db527a6670cc6beadb33c6a461ee277fd33c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_1",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "b22b1dc5168e940c318d1e21f912ee24fd4c7e0946a62d5f8614618d982483c6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_10",
+    "text": "471 - 480",
+    "source_sha256": "90a8c088eb41d7b3e48e671b1761718bb46bab7cc55b8b4ddeddc6eaba149aa9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_11",
+    "text": "481 - 490",
+    "source_sha256": "30d0c4af5c6fb91da8ac03525c9410c86b6ac3b30832822718d7f83a0acd10ed"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_12",
+    "text": "491 - 500",
+    "source_sha256": "5b20f6daa407c0758ced6da46ec42306fa016e71ce240003c3bd5b34e7edcbe7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_2",
+    "text": "[ WEITER ]",
+    "source_sha256": "0caf5731e73cccc86cf197290bf07361602a9add07fa224b8bc1be4a60deb36d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_3",
+    "text": "401 - 410",
+    "source_sha256": "059c55e608377386afe8e301871bc622cf4d385ef3476f23a4fcb051c805c19c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_4",
+    "text": "411 - 420",
+    "source_sha256": "20a75b9eb6de8dd4352893b7dd023481125243913627168e79b7b3f8e0f68287"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_5",
+    "text": "421 - 430",
+    "source_sha256": "2206c7f36b7f3a8f548a631e77fbdfe4daa563738fcf5faf95da61e726cfe12e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_6",
+    "text": "431 - 440",
+    "source_sha256": "903166f9c6a1fcc22c4b6d4f613672b82ea7347abc213f1742cd53941a0b406a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_7",
+    "text": "441 - 450",
+    "source_sha256": "46bd18caf3405e280f2e2b8925bc8d34b161035a37792b98ccddecc67a025734"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_8",
+    "text": "451 - 460",
+    "source_sha256": "4a1fc9d69e572619168d023d3e71a042cf54a85aa0f55bc6326db233717dbec4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardPage5SelectMessage_ITXT_9",
+    "text": "461 - 470",
+    "source_sha256": "d6f1ad8b2d2bf18952ee5316ec2bd9afe0e12c0e2e606071ba0310e3fae31db0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardProgessMessage_DESC_0",
+    "text": "<Alias=Slot1State> %.0f (%.0f%% abgeschlossen)",
+    "source_sha256": "8c441a23a89014c0f1b77748c926d2d4407d94e24134173fbe1ee0a43bec9d25"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_DESC_0",
+    "text": "Drehwinkel:",
+    "source_sha256": "daee2835a7d3fd6c943dc2ec0831a23a9c8b99b007b738554bf5b95d003c228b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_0",
+    "text": "1°",
+    "source_sha256": "ed58213d295b7c8e99def61bedae3dac6873d43994156d119c15204247faed0f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_1",
+    "text": "5°",
+    "source_sha256": "51b9b9d10cef09d1a2a288bbdda5a3eca83999af5017c85d6a674d2346f91ff7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_2",
+    "text": "10°",
+    "source_sha256": "5c186eec6079e9250583128e7f77d77976a1d570ca4f67411a7a1ae433206774"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_3",
+    "text": "15°",
+    "source_sha256": "b0a45954a95287ea1ae93b6e45c0da1d6bbc2584b0e52d1c2183794a0bc92fa5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_4",
+    "text": "30°",
+    "source_sha256": "391321dbab243d2f3c7d2800e154bbd5d7544f458cd3d95417e7db78af0db83c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_5",
+    "text": "45°",
+    "source_sha256": "9c8c1022c712b53be1ea0caff633c93ecf66419bba3ec794b6150b0eefc82a74"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_6",
+    "text": "60°",
+    "source_sha256": "b58e60ce57078fae5eb704aa39618510c952ba838b9d8e70e4f2176865c2922b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_7",
+    "text": "90°",
+    "source_sha256": "882f8deed62ee76dd7996d01abd2916dd38d3dd160fe1a111ffd8c0165f0e28e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_8",
+    "text": "120°",
+    "source_sha256": "e4a6419e286d66aa682b4bb1e5f7df7021c61c299fa917b36fef4884d9d7dc80"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationAmountMessage_ITXT_9",
+    "text": "180°",
+    "source_sha256": "ed9d69cda379bb5bd3b1eb519fa9a25b8461fddda9bcb0ecd426e55e2b087c4c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_DESC_0",
+    "text": "Drehart:",
+    "source_sha256": "de6e1c1c27e1eb66b36fb68adf7984815aefb686b3374fac97dcf745722693b1"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_0",
+    "text": "Im Uhrzeigersinn (um das Auswahlzentrum)",
+    "source_sha256": "21f735d8c8206a09d2ca734797986aaed4078836f952d36989ded955dd0569da"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_1",
+    "text": "Gegen den Uhrzeigersinn (um das Auswahlzentrum)",
+    "source_sha256": "d823dd99cdb2829bb5b102a7370872d54c8b981a1d0b5b7fe90cf993bb07bf54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_2",
+    "text": "Im Uhrzeigersinn (um das Clipboard-Werkzeug)",
+    "source_sha256": "4504091e90ddcdbf1c747d160d5ecb5e34b726588f43156406ed75707c67af2a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardRotationSelectMessage_ITXT_3",
+    "text": "Gegen den Uhrzeigersinn (um das Clipboard-Werkzeug)",
+    "source_sha256": "f9e236db4380e44382eef6a10323a3069ac2008b0ad44c75e02366b49d0621b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_DESC_0",
+    "text": "Größe verringern um:",
+    "source_sha256": "30b7bc26ca9ce6cf9d880767754503fec77a064f646fff5c949397f0dc00582e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_0",
+    "text": "1%",
+    "source_sha256": "0b410286768489843cb776ea40bb31603d6d76cf10684d9a9e9f15694d4d3c4a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_1",
+    "text": "5%",
+    "source_sha256": "d1ce334b6a7f364b1e97ebb9e661f6d4cf6e20aa741aba4b8f198417aea18326"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_2",
+    "text": "10%",
+    "source_sha256": "3ccce1f4da948035fd36a399576a50a5248ddc02dd008f3c3668df57c0aa75b5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_3",
+    "text": "25%",
+    "source_sha256": "72da55d317fd997b93138b8646a2238e806a4c4566d1e854277b5a583d8aef23"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_4",
+    "text": "50%",
+    "source_sha256": "28fdae8deae31d6eafd18b70d878f6d8a3136f267ce273777c089a42ac590438"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_5",
+    "text": "75%",
+    "source_sha256": "10963ac2db22b5b879edcf195eaacd3866b19571110462807b83133c98182864"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleDownAmountMessage_ITXT_6",
+    "text": "90%",
+    "source_sha256": "883caeb7ca1165a22441d8487203cc8aa9284ad7c0f5664c704f98ecb10849b4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_0",
+    "text": "Größe erhöhen (gesamt)",
+    "source_sha256": "15129ef05253501ce2d9556973fb4cd9398c9ed51ebac3dd37632ee4ec94b8da"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_1",
+    "text": "Größe verringern (gesamt)",
+    "source_sha256": "9c875367a09f7fdabdfedc224c67e15f7a5df1c26af927235935a8485bee2373"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_2",
+    "text": "Originalgröße wiederherstellen (gesamt)",
+    "source_sha256": "e1f483225730dc0ad8f4e42a55db0e5f90081f8309cfd14da9f8eeadd620748f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_3",
+    "text": "Größe erhöhen (einzeln)",
+    "source_sha256": "b3cd1f7418e1dad717f7583a2fb6cfc2cd465221f1292ba73591c833ab4136ee"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_4",
+    "text": "Größe verringern (einzeln)",
+    "source_sha256": "92f9d65a4f16ca69ca04339dec030c0f5c2544ff1874462b1b73587fd035272c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleTypeSelectMessage_ITXT_5",
+    "text": "Originalgröße wiederherstellen (einzeln)",
+    "source_sha256": "98d556646b8135af9f85dd99033758c8c33215496b47f90c4b5b809af5cad45d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_DESC_0",
+    "text": "Größe erhöhen um:\r\n\r\n(Einzelne Objekte werden bei 10x ihrer Originalgröße nicht weiter skaliert)",
+    "source_sha256": "cf98708054f976d8d72ad1f43813bf754dfcabf0c90409e1ac41c8a1bd9f3179"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_0",
+    "text": "5%",
+    "source_sha256": "d1ce334b6a7f364b1e97ebb9e661f6d4cf6e20aa741aba4b8f198417aea18326"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_1",
+    "text": "10%",
+    "source_sha256": "3ccce1f4da948035fd36a399576a50a5248ddc02dd008f3c3668df57c0aa75b5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_2",
+    "text": "25%",
+    "source_sha256": "72da55d317fd997b93138b8646a2238e806a4c4566d1e854277b5a583d8aef23"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_3",
+    "text": "50%",
+    "source_sha256": "28fdae8deae31d6eafd18b70d878f6d8a3136f267ce273777c089a42ac590438"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_4",
+    "text": "100%",
+    "source_sha256": "32e48995f98ce3b76f2d3f5e2d2acddfeff6650b7b18628cfa739bfef4a03312"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_5",
+    "text": "200%",
+    "source_sha256": "2385950ef78023549701b5613e1850a1254a1e9239f17e666c3207af607d99f8"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardScaleUpAmountMessage_ITXT_6",
+    "text": "500%",
+    "source_sha256": "e59323f9f4eca3cb3e8e5b6620a03326280916aa5fb7fe33ff60cab95b3b5581"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionGun_FULL_0",
+    "text": "Clipboard-Auswahlgewehr",
+    "source_sha256": "bb127d893220cb510e8e1a1dcdb12aceb9f3634dae783b944f57babcac2f83ba"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionGun_FULL_1",
+    "text": "Standard episch",
+    "source_sha256": "cb5cb487d887559823e4c0cefce51167e6d5e7d820f4896dc2c5def0530213c5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodAll_FULL_0",
+    "text": "Clipboard-Auswahlmethode Alle",
+    "source_sha256": "71b50822ed4e9367e024052432ad1a36e7abf04b2738585d12989966050d8c49"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodBox_FULL_0",
+    "text": "Clipboard-Auswahlmethode Quader",
+    "source_sha256": "62d44040a35bcf6a5c0b0e877b3f087455a68a755c56223fd6b39143940401b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodByCell_FULL_0",
+    "text": "Clipboard-Auswahlmethode nach Zelle",
+    "source_sha256": "7a37616715a8a71380b1ba25963071fe06af2b609b53335436460671ba6aa338"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodByPlugin_FULL_0",
+    "text": "Clipboard-Auswahlmethode nach Plugin",
+    "source_sha256": "9653593030791f00898a8226a1e4e7caee675438b8ce569e739945a259e9bd13"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodCylinder_FULL_0",
+    "text": "Clipboard-Auswahlmethode Zylinder",
+    "source_sha256": "06fa4a6c35d77ac16baecafacf41c2f3626fc9e97439b9026a1b489afe631de0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodGun_FULL_0",
+    "text": "Clipboard-Auswahlmethode Gewehr",
+    "source_sha256": "00eb2cb031c0339063b2b1adb914bedc351ec887b5458f5b67e1ad93c7dd1a91"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethodSphere_FULL_0",
+    "text": "Clipboard-Auswahlmethode Kugel",
+    "source_sha256": "f44a079542feac0784dc39830906b93e28b5299a3da8ab5527507bbf4b393615"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionMethods_FULL_0",
+    "text": "Clipboard-Auswahlmethoden",
+    "source_sha256": "5adf150976774f1e2555836189e2ff57082ba0eb1ea0cf4a0f1c1fdccf81bd6a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionWeaponEnchantment_FULL_0",
+    "text": "Auswahlverzauberung",
+    "source_sha256": "d2bcdbe541e849d9073b42e8216fd4935f7e4a2bfe72260c1ddc636ff08938df"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSelectionWeaponHitEffect_FULL_0",
+    "text": "Auswahl-Treffereffekt",
+    "source_sha256": "06203d4e4ec2420915c536e2e5410a75e3351406a5122bf2d973c2bfa8294dff"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSetSelectionSize_FULL_0",
+    "text": "Auswahlgröße festlegen",
+    "source_sha256": "24446e083aa867386863235a0dab5c5fc33051e9075f4ffb6ca9c1296c51e573"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_DESC_0",
+    "text": "<b><u>Clipboard-Auswahlmethoden</u></b>",
+    "source_sha256": "a9717c13257b289429219c10daf9fc0acf1656d0a75a365b041b8e264f3b2681"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_FULL_0",
+    "text": "Auswahlmethode wählen",
+    "source_sha256": "5675d5e9c5bfbc403003c84a69881abec02a6808357142777b665d2ef3b20007"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_0",
+    "text": "Kugel",
+    "source_sha256": "c9e8a01ef40ab54ae7a1fc2699500e6dc375b92b5ee5c0a9c220fa7cdce1fddf"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_1",
+    "text": "Zylinder",
+    "source_sha256": "4a103f5fd80c3b746de53e392d2f7972ba69651a92323f9edce27682331c43bf"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_2",
+    "text": "Quader",
+    "source_sha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_3",
+    "text": "Manuell",
+    "source_sha256": "b0b9fe24ffa9629125bdc59b122f80d605ab604eb1b74485c2f2ecfde26576ae"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_4",
+    "text": "Alle auswählen",
+    "source_sha256": "d1ec69e64b9609d089aae09f7adc5c566d2cd222f8d8325f0ab3b523f0ac2690"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_5",
+    "text": "Nach Plugin",
+    "source_sha256": "e08072dc84977163fa08eb14121adba58db354790443566deb510ec1c994f04f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardShapeSelectMessage_ITXT_6",
+    "text": "Nach Zelle",
+    "source_sha256": "a4273f72aa0c462e637de677a61b3c76b397ed9c4f1dac3b4bbf1c2f3c7b55a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_DESC_0",
+    "text": "Auswahlbereich festlegen <Alias=Slot1State>",
+    "source_sha256": "02740aca60788b15a3dad72b3c51619ca0f5a9a655b332bf986f9ddb18bdade6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_0",
+    "text": "x1",
+    "source_sha256": "ec31682fde561917952ff78a7a8adeffd0febc372dd26871916c46c630381b45"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_1",
+    "text": "x2",
+    "source_sha256": "844ecc08164e2eab27634a9adee1afa6599e589570e719784e080ce747fc0e45"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_2",
+    "text": "x3",
+    "source_sha256": "844b69c4d54cc264bc2dadb6bb70f53bc123beafc0f58d81ed8cd4a07c24a5a7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_3",
+    "text": "x4",
+    "source_sha256": "7985b0c8b858e77f57c6d403b315ade04d2485d6ec2d09694256eadd20db6f27"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_4",
+    "text": "x5",
+    "source_sha256": "29f2394eb92d0ded9247b8d7188ebddae3e13c71ebcf939302619b29604486b0"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_5",
+    "text": "x6",
+    "source_sha256": "0520220e0f12bb847b57ad4bb3dfe908368a1057a7028b92186e73769fe3cc62"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_6",
+    "text": "x7",
+    "source_sha256": "8cf3ebbdacddfddd6f13673f945f523cc9813df2fcdf2a420a230d283bdf4a7a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_7",
+    "text": "x8",
+    "source_sha256": "240a42374fa81d24508638282a416c46b2ff7d1dc529871e7151e5eeffd77b13"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_8",
+    "text": "x9",
+    "source_sha256": "05bb5f0450bd7ae843ecf0b0a59698fd93d83a3930686eb7cfcf33fbb26edde4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSizeMessage_ITXT_9",
+    "text": "x10",
+    "source_sha256": "96a610aee3735ad666d7a40a0f030498b6b8b26ea3240a7308723b61a7794a87"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_DESC_0",
+    "text": "Clipboard-Slot-Auswahl\r\nAnzeige %.0f–%.0f\r\n \r\n[1]: Slot %.0f: <Alias=Slot1State>\r\n[2]: Slot %.0f: <Alias=Slot2State>\r\n[3]: Slot %.0f: <Alias=Slot3State>\r\n[4]: Slot %.0f: <Alias=Slot4State>\r\n[5]: Slot %.0f: <Alias=Slot5State>",
+    "source_sha256": "bf12cdc8948075f268274b3685fc61810bfa92e0a620b08d753995f10e3f2652"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_FULL_0",
+    "text": "Clipboard-Slot wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_0",
+    "text": "Vorherige Seite",
+    "source_sha256": "a163aaa22cf7ce6c4c2a634f98bef10d0fe0a0602ada2aa50d60b262dc70b2d9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectMessage_ITXT_6",
+    "text": "Nächste Seite",
+    "source_sha256": "6ead5dfdc11ef7da26e4c09f348d42a8d6306b7faa54ce0a7dc6c567dab1db6f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_DESC_0",
+    "text": "<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_FULL_0",
+    "text": "Clipboard-Slot auswählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_1",
+    "text": "91",
+    "source_sha256": "1da51b8d8ff98f6a48f80ae79fe3ca6c26e1abb7b7d125259255d6d2b875ea08"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_10",
+    "text": "100",
+    "source_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_2",
+    "text": "92",
+    "source_sha256": "8241649609f88ccd2a0a5b233a07a538ec313ff6adf695aa44a969dbca39f67d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_3",
+    "text": "93",
+    "source_sha256": "6e4001871c0cf27c7634ef1dc478408f642410fd3a444e2a88e301f5c4a35a4d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_4",
+    "text": "94",
+    "source_sha256": "e3d6c4d4599e00882384ca981ee287ed961fa5f3828e2adb5e9ea890ab0d0525"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_5",
+    "text": "95",
+    "source_sha256": "ad48ff99415b2f007dc35b7eb553fd1eb35ebfa2f2f308acd9488eeb86f71fa8"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_6",
+    "text": "96",
+    "source_sha256": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_7",
+    "text": "97",
+    "source_sha256": "d6d824abba4afde81129c71dea75b8100e96338da5f416d2f69088f1960cb091"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_8",
+    "text": "98",
+    "source_sha256": "29db0c6782dbd5000559ef4d9e953e300e2b479eed26d887ef3f92b921c06a67"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage10Message_ITXT_9",
+    "text": "99",
+    "source_sha256": "8c1f1046219ddd216a023f792356ddf127fce372a72ec9b4cdac989ee5b0b455"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_DESC_0",
+    "text": "<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n\r\n<Alias=Slot3State>",
+    "source_sha256": "1f4f934f667663de219a68d0c0863191d7e621745b95c77f8860a80878398fa9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_FULL_0",
+    "text": "Clipboard-Speicherplatz wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_1",
+    "text": "1",
+    "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_10",
+    "text": "10",
+    "source_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_2",
+    "text": "2",
+    "source_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_3",
+    "text": "3",
+    "source_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_4",
+    "text": "4",
+    "source_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_5",
+    "text": "5",
+    "source_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_6",
+    "text": "6",
+    "source_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_7",
+    "text": "7",
+    "source_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_8",
+    "text": "8",
+    "source_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage1Message_ITXT_9",
+    "text": "9",
+    "source_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_DESC_0",
+    "text": "<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_FULL_0",
+    "text": "Clipboard-Slot wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_1",
+    "text": "11",
+    "source_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_10",
+    "text": "20",
+    "source_sha256": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_2",
+    "text": "12",
+    "source_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_3",
+    "text": "13",
+    "source_sha256": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_4",
+    "text": "14",
+    "source_sha256": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_5",
+    "text": "15",
+    "source_sha256": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_6",
+    "text": "16",
+    "source_sha256": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_7",
+    "text": "17",
+    "source_sha256": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_8",
+    "text": "18",
+    "source_sha256": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage2Message_ITXT_9",
+    "text": "19",
+    "source_sha256": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_DESC_0",
+    "text": "<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_FULL_0",
+    "text": "Clipboard-Slot wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_1",
+    "text": "21",
+    "source_sha256": "6f4b6612125fb3a0daecd2799dfd6c9c299424fd920f9b308110a2c1fbd8f443"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_10",
+    "text": "30",
+    "source_sha256": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_2",
+    "text": "22",
+    "source_sha256": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_3",
+    "text": "23",
+    "source_sha256": "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_4",
+    "text": "24",
+    "source_sha256": "c2356069e9d1e79ca924378153cfbbfb4d4416b1f99d41a2940bfdb66c5319db"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_5",
+    "text": "25",
+    "source_sha256": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_6",
+    "text": "26",
+    "source_sha256": "5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_7",
+    "text": "27",
+    "source_sha256": "670671cd97404156226e507973f2ab8330d3022ca96e0c93bdbdb320c41adcaf"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_8",
+    "text": "28",
+    "source_sha256": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage3Message_ITXT_9",
+    "text": "29",
+    "source_sha256": "35135aaa6cc23891b40cb3f378c53a17a1127210ce60e125ccf03efcfdaec458"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_DESC_0",
+    "text": "<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_FULL_0",
+    "text": "Clipboard-Slot wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_1",
+    "text": "31",
+    "source_sha256": "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_10",
+    "text": "40",
+    "source_sha256": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_2",
+    "text": "32",
+    "source_sha256": "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_3",
+    "text": "33",
+    "source_sha256": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_4",
+    "text": "34",
+    "source_sha256": "86e50149658661312a9e0b35558d84f6c6d3da797f552a9657fe0558ca40cdef"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_5",
+    "text": "35",
+    "source_sha256": "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_6",
+    "text": "36",
+    "source_sha256": "76a50887d8f1c2e9301755428990ad81479ee21c25b43215cf524541e0503269"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_7",
+    "text": "37",
+    "source_sha256": "7a61b53701befdae0eeeffaecc73f14e20b537bb0f8b91ad7c2936dc63562b25"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_8",
+    "text": "38",
+    "source_sha256": "aea92132c4cbeb263e6ac2bf6c183b5d81737f179f21efdc5863739672f0f470"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage4Message_ITXT_9",
+    "text": "39",
+    "source_sha256": "0b918943df0962bc7a1824c0555a389347b4febdc7cf9d1254406d80ce44e3f9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_DESC_0",
+    "text": "<b><u>Clipboard-Slotauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_FULL_0",
+    "text": "Clipboard-Slot auswählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_1",
+    "text": "41",
+    "source_sha256": "3d914f9348c9cc0ff8a79716700b9fcd4d2f3e711608004eb8f138bcba7f14d9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_10",
+    "text": "50",
+    "source_sha256": "1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_2",
+    "text": "42",
+    "source_sha256": "73475cb40a568e8da8a045ced110137e159f890ac4da883b6b17dc651b3a8049"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_3",
+    "text": "43",
+    "source_sha256": "44cb730c420480a0477b505ae68af508fb90f96cf0ec54c6ad16949dd427f13a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_4",
+    "text": "44",
+    "source_sha256": "71ee45a3c0db9a9865f7313dd3372cf60dca6479d46261f3542eb9346e4a04d6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_5",
+    "text": "45",
+    "source_sha256": "811786ad1ae74adfdd20dd0372abaaebc6246e343aebd01da0bfc4c02bf0106c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_6",
+    "text": "46",
+    "source_sha256": "25fc0e7096fc653718202dc30b0c580b8ab87eac11a700cba03a7c021bc35b0c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_7",
+    "text": "47",
+    "source_sha256": "31489056e0916d59fe3add79e63f095af3ffb81604691f21cad442a85c7be617"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_8",
+    "text": "48",
+    "source_sha256": "98010bd9270f9b100b6214a21754fd33bdc8d41b2bc9f9dd16ff54d3c34ffd71"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage5Message_ITXT_9",
+    "text": "49",
+    "source_sha256": "0e17daca5f3e175f448bacace3bc0da47d0655a74c8dd0dc497a3afbdad95f1f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_DESC_0",
+    "text": "<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_FULL_0",
+    "text": "Clipboard-Speicherplatz wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_1",
+    "text": "51",
+    "source_sha256": "031b4af5197ec30a926f48cf40e11a7dbc470048a21e4003b7a3c07c5dab1baa"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_10",
+    "text": "60",
+    "source_sha256": "39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_2",
+    "text": "52",
+    "source_sha256": "41cfc0d1f2d127b04555b7246d84019b4d27710a3f3aff6e7764375b1e06e05d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_3",
+    "text": "53",
+    "source_sha256": "2858dcd1057d3eae7f7d5f782167e24b61153c01551450a628cee722509f6529"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_4",
+    "text": "54",
+    "source_sha256": "2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_5",
+    "text": "55",
+    "source_sha256": "02d20bbd7e394ad5999a4cebabac9619732c343a4cac99470c03e23ba2bdc2bc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_6",
+    "text": "56",
+    "source_sha256": "7688b6ef52555962d008fff894223582c484517cea7da49ee67800adc7fc8866"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_7",
+    "text": "57",
+    "source_sha256": "c837649cce43f2729138e72cc315207057ac82599a59be72765a477f22d14a54"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_8",
+    "text": "58",
+    "source_sha256": "6208ef0f7750c111548cf90b6ea1d0d0a66f6bff40dbef07cb45ec436263c7d6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage6Message_ITXT_9",
+    "text": "59",
+    "source_sha256": "3e1e967e9b793e908f8eae83c74dba9bcccce6a5535b4b462bd9994537bfe15c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_DESC_0",
+    "text": "<b><u>Clipboard-Speicherplatzauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_FULL_0",
+    "text": "Clipboard-Speicherplatz wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_1",
+    "text": "61",
+    "source_sha256": "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_10",
+    "text": "70",
+    "source_sha256": "ff5a1ae012afa5d4c889c50ad427aaf545d31a4fac04ffc1c4d03d403ba4250a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_2",
+    "text": "62",
+    "source_sha256": "81b8a03f97e8787c53fe1a86bda042b6f0de9b0ec9c09357e107c99ba4d6948a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_3",
+    "text": "63",
+    "source_sha256": "da4ea2a5506f2693eae190d9360a1f31793c98a1adade51d93533a6f520ace1c"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_4",
+    "text": "64",
+    "source_sha256": "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_5",
+    "text": "65",
+    "source_sha256": "108c995b953c8a35561103e2014cf828eb654a99e310f87fab94c2f4b7d2a04f"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_6",
+    "text": "66",
+    "source_sha256": "3ada92f28b4ceda38562ebf047c6ff05400d4c572352a1142eedfef67d21e662"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_7",
+    "text": "67",
+    "source_sha256": "49d180ecf56132819571bf39d9b7b342522a2ac6d23c1418d3338251bfe469c8"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_8",
+    "text": "68",
+    "source_sha256": "a21855da08cb102d1d217c53dc5824a3a795c1c1a44e971bf01ab9da3a2acbbf"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage7Message_ITXT_9",
+    "text": "69",
+    "source_sha256": "c75cb66ae28d8ebc6eded002c28a8ba0d06d3a78c6b5cbf9b2ade051f0775ac4"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_DESC_0",
+    "text": "<b><u>Clipboard-Slot-Auswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_FULL_0",
+    "text": "Clipboard-Slot wählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_1",
+    "text": "71",
+    "source_sha256": "7f2253d7e228b22a08bda1f09c516f6fead81df6536eb02fa991a34bb38d9be8"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_10",
+    "text": "80",
+    "source_sha256": "48449a14a4ff7d79bb7a1b6f3d488eba397c36ef25634c111b49baf362511afc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_2",
+    "text": "72",
+    "source_sha256": "8722616204217eddb39e7df969e0698aed8e599ba62ed2de1ce49b03ade0fede"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_3",
+    "text": "73",
+    "source_sha256": "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_4",
+    "text": "74",
+    "source_sha256": "eb624dbe56eb6620ae62080c10a273cab73ae8eca98ab17b731446a31c79393a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_5",
+    "text": "75",
+    "source_sha256": "f369cb89fc627e668987007d121ed1eacdc01db9e28f8bb26f358b7d8c4f08ac"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_6",
+    "text": "76",
+    "source_sha256": "f74efabef12ea619e30b79bddef89cffa9dda494761681ca862cff2871a85980"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_7",
+    "text": "77",
+    "source_sha256": "a88a7902cb4ef697ba0b6759c50e8c10297ff58f942243de19b984841bfe1f73"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_8",
+    "text": "78",
+    "source_sha256": "349c41201b62db851192665c504b350ff98c6b45fb62a8a2161f78b6534d8de9"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage8Message_ITXT_9",
+    "text": "79",
+    "source_sha256": "98a3ab7c340e8a033e7b37b6ef9428751581760af67bbab2b9e05d4964a8874a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_DESC_0",
+    "text": "<b><u>Clipboard-Slotauswahl: <Alias=Slot1State> - <Alias=Slot2State></u></b>\r\n \r\n<Alias=Slot3State>",
+    "source_sha256": "d7c4ec8b0f7e5bec57ea5305047b51585cbee89ff60997444418300129852f8e"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_FULL_0",
+    "text": "Clipboard-Slot auswählen",
+    "source_sha256": "e991d93e3054e750ccc3592b4c9d70232de3b1d85ddccc62da13e35dce7eebd7"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_0",
+    "text": "[ ZURÜCK ]",
+    "source_sha256": "8b00aada34bbd8aea5fbbe89ae5e973e27905c47fb83648fc436315ff30a77cd"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_1",
+    "text": "81",
+    "source_sha256": "5316ca1c5ddca8e6ceccfce58f3b8540e540ee22f6180fb89492904051b3d531"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_10",
+    "text": "90",
+    "source_sha256": "69f59c273b6e669ac32a6dd5e1b2cb63333d8b004f9696447aee2d422ce63763"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_2",
+    "text": "82",
+    "source_sha256": "a46e37632fa6ca51a13fe39a567b3c23b28c2f47d8af6be9bd63e030e214ba38"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_3",
+    "text": "83",
+    "source_sha256": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_4",
+    "text": "84",
+    "source_sha256": "44c8031cb036a7350d8b9b8603af662a4b9cdbd2f96e8d5de5af435c9c35da69"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_5",
+    "text": "85",
+    "source_sha256": "b4944c6ff08dc6f43da2e9c824669b7d927dd1fa976fadc7b456881f51bf5ccc"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_6",
+    "text": "86",
+    "source_sha256": "434c9b5ae514646bbd91b50032ca579efec8f22bf0b4aac12e65997c418e0dd6"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_7",
+    "text": "87",
+    "source_sha256": "bdd2d3af3a5a1213497d4f1f7bfcda898274fe9cb5401bbc0190885664708fc2"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_8",
+    "text": "88",
+    "source_sha256": "8b940be7fb78aaa6b6567dd7a3987996947460df1c668e698eb92ca77e425349"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardSlotSelectPage9Message_ITXT_9",
+    "text": "89",
+    "source_sha256": "cd70bea023f752a0564abb6ed08d42c1440f2e33e29914e55e0be1595e24f45a"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardStatusMessage_DESC_0",
+    "text": "<Alias=Slot1State>",
+    "source_sha256": "f452de5a304f76f561f2528cabeed41d79786e8b44aa6a12df241f259ddde4c5"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardToggleSelectDeselect_FULL_0",
+    "text": "Auswahl umschalten",
+    "source_sha256": "f19ae37610f9691803adea12b5f6133497a9c6901edc32e2cbf7ad24730dd0ae"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_DESC_0",
+    "text": "<Alias=Slot1State>\r\n<Alias=Slot2State>\r\n<Alias=Slot3State>\r\n<Alias=Slot4State>\r\n<Alias=Slot5State>",
+    "source_sha256": "a819414bce24e75832773d18eeef77be78ff116c82a2d5870054f6d9b9383cca"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_ITXT_0",
+    "text": "Nein",
+    "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d"
+  },
+  {
+    "key": "$Clipboard_ESP_ClipboardYesNoMessage_ITXT_1",
+    "text": "Ja",
+    "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e"
+  },
+  {
+    "key": "$Clipboard_ESP_WorkshopRecipeFilterQuest_FULL_0",
+    "text": "Spezial / Clipboard",
+    "source_sha256": "f650b8b70c410af7897a80f85b511b864c82a050b23ec70d464f664275f09e9e"
+  },
+  {
+    "key": "$Clipboard_ESP_clipboardMenuManager_FULL_0",
+    "text": "Clipboard",
+    "source_sha256": "285d69f0c5d1a00bb2eccde0cb4c93367b3e94955acff9fabd895f81a0c45c59"
+  },
+  {
+    "key": "$Clipboard_ESP_clipboardMenuManager_NNAM_0",
+    "text": "Clipboard",
+    "source_sha256": "285d69f0c5d1a00bb2eccde0cb4c93367b3e94955acff9fabd895f81a0c45c59"
+  },
+  {
+    "key": "$Clipboard_ESP_workshop_co_ClipboardCopyPylon_DESC_0",
+    "text": "Werkstattobjekte auswählen und bearbeiten. Clipboard-Muster verwalten.",
+    "source_sha256": "ce78e2d078e87e11cd544cc57af85ebe1851c536716291c742968f080c2f391b"
+  },
+  {
+    "key": "$Clipboard_EmptySlot",
+    "text": "Leer",
+    "source_sha256": "c6c094bc0054f9cbe34102ff49f86b3928b5ac09f3d2ac87e170d0500675921f"
+  },
+  {
+    "key": "$Clipboard_EnterWorkshopMode",
+    "text": "Möchtest du zuerst den Werkstattmodus betreten?\n\n(Objekte, die nur im Werkstattmodus sichtbar sind, werden sonst ignoriert.)",
+    "source_sha256": "9c605269d99ad5e65efb8595622089f7b5ffa5974e1191e97de353df32112995"
+  },
+  {
+    "key": "$Clipboard_GrabDeselected",
+    "text": " Auswahl per Greifen aufgehoben: {0}",
+    "source_sha256": "162eb79a711291a392b1931a7bcddb4e9a577d816cc280e91a6e6ffcd5579acf"
+  },
+  {
+    "key": "$Clipboard_GrabSelected",
+    "text": " Per Greifen ausgewählt: {0}",
+    "source_sha256": "d17c3d95704d392ed1eeb77b98f1892ffbeb0d8be8073fa4e3eb3b27b663c14a"
+  },
+  {
+    "key": "$Clipboard_GroupDeselectedCount",
+    "text": "Abgewählte Objekte: {0}.",
+    "source_sha256": "838736983804439ed6c739ffa77a3f6dedb8df2cf25e29b3e448ee13d97b0f85"
+  },
+  {
+    "key": "$Clipboard_GroupDeselectionComplete",
+    "text": "<b><u>Gruppenabwahl abgeschlossen</u></b>",
+    "source_sha256": "0b4553729d76fde26564455064768dddc16e7d8d79185ba7cfd96b356fe1f039"
+  },
+  {
+    "key": "$Clipboard_GroupSelectedCount",
+    "text": "Ausgewählte Objekte: {0}.",
+    "source_sha256": "7940dc334a7bc548de290f982859053a51d9b58077dee80ad9369a9b78c4936c"
+  },
+  {
+    "key": "$Clipboard_GroupSelectionComplete",
+    "text": "<b><u>Gruppenauswahl abgeschlossen</u></b>",
+    "source_sha256": "0b07a79c0aceb0fc0acff9b204bdcda16a808d9a153e92b5b34a26d0d73d86ef"
+  },
+  {
+    "key": "$Clipboard_ImportingObjects",
+    "text": "Clipboard: Objekte werden importiert...",
+    "source_sha256": "425d9b12d644e27201888849ade4a8ca38f508f4976922e62078f082f3c32b1f"
+  },
+  {
+    "key": "$Clipboard_InputAccept",
+    "text": "Bestätigen",
+    "source_sha256": "89713b9c9c1b8f659c9f49db25e4a47886dd673fee248c3f650391f09a759cef"
+  },
+  {
+    "key": "$Clipboard_InputCancel",
+    "text": "Abbrechen",
+    "source_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+  },
+  {
+    "key": "$Clipboard_InputControllerHelp",
+    "text": "Steuerkreuz: wählen | A: eingeben | B: abbrechen | X: löschen | Y: Groß-/Kleinschreibung | Start: bestätigen",
+    "source_sha256": "e9ba9dd446a6369cc82855c716bfa9ae1e3474677f3f51da6e8cb34b7a6d8ddd"
+  },
+  {
+    "key": "$Clipboard_InputInvalid",
+    "text": "Gib einen gültigen Wert innerhalb der zulässigen Länge und des Wertebereichs ein.",
+    "source_sha256": "3d1eafe13ca25700d3a5fc30444cf07346cd3537cc25b81d382102d7983f20c9"
+  },
+  {
+    "key": "$Clipboard_ListNextPage",
+    "text": "NÄCHSTE: {0}-{1}\n\n",
+    "source_sha256": "28e144fb63b59e41a00df883bb8b1d3d292fcabc1e053813e42ad1c1c6907019"
+  },
+  {
+    "key": "$Clipboard_ListPreviousPage",
+    "text": "VORHERIGE: {0}-{1}\n",
+    "source_sha256": "80ba7e7ba46410644168c024a999247ae6d2732f242514702c1b8e39e97141e8"
+  },
+  {
+    "key": "$Clipboard_ListSelectionInvalid",
+    "text": "Ungültige Auswahl. Wähle einen gültigen Eintrag aus „{0}“.",
+    "source_sha256": "a3fb1b9f65a7769ba3af91f14b6f36bf8b9c4434379dc9ce16eee77ff046979e"
+  },
+  {
+    "key": "$Clipboard_MCM_CleanUpOldPlatforms_Help",
+    "text": "Entfernt Überreste zerstörter Clipboard-Plattformen. Zerstöre zuerst alle verbliebenen Plattformen und erstelle einen Sicherungsspielstand. Schließe die Menüs, um fortzufahren.",
+    "source_sha256": "06995d537c8ef4670b3ba96f5986f66094ca7b62c9ec790b21ca026017fb5db0"
+  },
+  {
+    "key": "$Clipboard_MCM_CleanUpOldPlatforms_Text",
+    "text": "Alte Plattformen bereinigen",
+    "source_sha256": "e193d0afa0bc35300b9ab5c507b758c44b13fcc5c8d5953873bc734b6853528e"
+  },
+  {
+    "key": "$Clipboard_MCM_DisplayName",
+    "text": "Clipboard",
+    "source_sha256": "285d69f0c5d1a00bb2eccde0cb4c93367b3e94955acff9fabd895f81a0c45c59"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateActionMenuBtn",
+    "text": "Aktionsmenü anzeigen",
+    "source_sha256": "77b91201c012c2a38af03896cacf37aa250ac69f8472e6c66fa3722d677c9afb"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateActionQuickBtn",
+    "text": "Schnellmenü anzeigen",
+    "source_sha256": "0853f8be49317833b71d45c5fb2e9772f83011964f6454511a3e9d962608b0b8"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateClearSelectionBtn",
+    "text": "Auswahl aufheben",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateDestroyToolBtn",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateSelectionMethodBtn",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_MCM_Keybind_activateSelectionScanBtn",
+    "text": "Sekundäraktion der Auswahlmethode starten",
+    "source_sha256": "c07338ea1addd2fe089be78cd1085fa372247de1929fbe864ee429355fb7f8ca"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Balance_Text",
+    "text": "Balance",
+    "source_sha256": "d05e07b7c14e596a5fe0b7dc50ab6be1607bdd1311fd559382122ea76ceab4c3"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Debug_Text",
+    "text": "Debug",
+    "source_sha256": "1a03bd2fd107c453f3183e30b9716f82200671e8270fbbefbe602f5a48705527"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Dialogs_Text",
+    "text": "Dialoge",
+    "source_sha256": "3059d304c8d5b2ffb18462e7672d5577c8298062e0c8a0737fbf2f469250cd6c"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Hotkeys_Text",
+    "text": "Schnelltasten",
+    "source_sha256": "c15f1530d219f94a59b95b26ad33f38365cb4a94eeeb5edd560afc2fb0a1426e"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Import_Options_Text",
+    "text": "Importoptionen",
+    "source_sha256": "2c8cb890929d2bd13528e55637d8d98b3613777fd1c9fcee352f570c16410523"
+  },
+  {
+    "key": "$Clipboard_MCM_Section_Selection_Text",
+    "text": "Auswahl",
+    "source_sha256": "ca4067071fcf618543805e3d94af63144b21f4fae9eade2408f1c24f7e5214e9"
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionMenuBtn_Help",
+    "text": "Greife im Werkstattmodus oder weit entfernt vom Werkzeug auf dessen Aktionsmenü zu. Empfohlene Taste: L",
+    "source_sha256": "df4c4be27e7d9e42cbd4c4b997d2bf76cc0bdb6c7d1afe181a6014230b974e68"
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionMenuBtn_Text",
+    "text": "Aktionsmenü anzeigen",
+    "source_sha256": "77b91201c012c2a38af03896cacf37aa250ac69f8472e6c66fa3722d677c9afb"
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionQuickBtn_Help",
+    "text": "Das Schnellmenü bietet Zugriff auf alle Schaltflächen eines Werkzeugs. Empfohlene Taste: P",
+    "source_sha256": "f39d6dc690db4046853719064844fc1b9c43c3db4dc6f02a319c0761eccc8b3a"
+  },
+  {
+    "key": "$Clipboard_MCM_activateActionQuickBtn_Text",
+    "text": "Schnellmenü anzeigen",
+    "source_sha256": "0853f8be49317833b71d45c5fb2e9772f83011964f6454511a3e9d962608b0b8"
+  },
+  {
+    "key": "$Clipboard_MCM_activateClearSelectionBtn_Help",
+    "text": "Auswahl im Werkstattmodus oder weit entfernt vom Werkzeug aufheben. Empfohlene Taste: [",
+    "source_sha256": "577c193c5a073d55bee82b3be5bc64a0d6ad4ba5d0654a795b40d189161390be"
+  },
+  {
+    "key": "$Clipboard_MCM_activateClearSelectionBtn_Text",
+    "text": "Auswahl aufheben",
+    "source_sha256": "c52ff5ea803d577544a8224d1404ecefa836b803f029d87cd7450af6c18a70ef"
+  },
+  {
+    "key": "$Clipboard_MCM_activateDestroyToolBtn_Help",
+    "text": "Ein Werkzeug im Werkstattmodus oder weit entfernt vom Werkzeug zerstören. Empfohlene Taste: ]",
+    "source_sha256": "c6c248eabb0868e9c3acfa5c3e1ea25c153c84a0b534812392d04a997dfe2c35"
+  },
+  {
+    "key": "$Clipboard_MCM_activateDestroyToolBtn_Text",
+    "text": "Werkzeug zerstören",
+    "source_sha256": "9fcb76137b73076180c2bc7d1917b796f22b838851048ae95ec5fc2479caf331"
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionMethodBtn_Help",
+    "text": "Methodenauswahl eines Werkzeugs im Werkstattmodus oder weit entfernt vom Werkzeug öffnen. Empfohlene Taste: ;",
+    "source_sha256": "10729967616829b95a0bf9674699f6ff2995c1480a70276eb69320ad0bfb1748"
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionMethodBtn_Text",
+    "text": "Auswahlmethode ändern",
+    "source_sha256": "50ec51fc082850a94c9a28980cd91a42d7f82e527f0b5d12197a566896ef3c54"
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionScanBtn_Help",
+    "text": "Auswählen/Abwählen umschalten, Auswahlscan starten usw. ... Empfohlen: '",
+    "source_sha256": "19411c733715964626a1eaa8cb85eb57175b563d48e90bc47d3bc1d971f7cded"
+  },
+  {
+    "key": "$Clipboard_MCM_activateSelectionScanBtn_Text",
+    "text": "Sekundäraktion der Auswahlmethode starten",
+    "source_sha256": "c07338ea1addd2fe089be78cd1085fa372247de1929fbe864ee429355fb7f8ca"
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Help",
+    "text": "Standardmäßig aus. Bei Aktivierung können Lichtquellen importiert werden, die der Spieler im Baumodus nicht bearbeiten kann, sowie solche ohne Konstruktionsrezept.",
+    "source_sha256": "bbcc931b4fd0a7792252f5c7b9b87e07fc52979d6094eaa1c042951db8f8e7d9"
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowAllObjectsToBeImported_Selection_Text",
+    "text": "Import normal gefilterter Lichtquellen erlauben",
+    "source_sha256": "a5624799d8bef9f165d74d49a3719b35d6d11b6cc051e2ecc5419fb7c7700506"
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Help",
+    "text": "Standardmäßig aus. Erweitert die automatische Auswahl um zulässige, nicht vom Spieler erstellte Objekte und gefilterte Lichter. Manuell ausgewählte Objekte werden unabhängig davon exportiert; dauerhafte Ausschlüsse gelten weiterhin.",
+    "source_sha256": "9b565cab4db6dbebe165082c1ee3ff3bd8d62c13667566e3c41b59903b7a4d43"
+  },
+  {
+    "key": "$Clipboard_MCM_bAllowNormallyFilteredObjectsToBeSelectedAndExported_Selection_Text",
+    "text": "Normal gefilterte Objekte auswählen und exportieren erlauben",
+    "source_sha256": "b37350083a477fb27e020bb09718471beb1fd12acb1f7b89b23ee7ac5c9cfc52"
+  },
+  {
+    "key": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Help",
+    "text": "Standardmäßig an. Setzt jedes importierte Nicht-Akteur-Objekt auf schlüsselbildbasierte Bewegung, sobald sein 3D-Modell geladen wird. Dadurch fallen oder rollen lose Objekte wie Flaschen und Waffen nicht. Skript-, Animations-, Inventar- und Werkstattvorgänge können ein Objekt dennoch bewegen oder verändern.",
+    "source_sha256": "43e88d053e5d761b31bdf4fa89a7d2bbd5d42c9028be277af1bdc07ba7b361f4"
+  },
+  {
+    "key": "$Clipboard_MCM_bDisableHavokOnImportedObjects_Balance_Text",
+    "text": "Havok-Physik für importierte Objekte deaktivieren",
+    "source_sha256": "a97853d9be5e65cdc3643f82175c54efe886e00d8fabb67499d0581da6799cbe"
+  },
+  {
+    "key": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Help",
+    "text": "Importwarnungen im Abschlussdialog anzeigen. Standard: Aus. Warnungen werden weiterhin wie bisher protokolliert.",
+    "source_sha256": "78d610386bf99f9318c80c30ac797888419a00e08348dcd363687698be0d3a2f"
+  },
+  {
+    "key": "$Clipboard_MCM_bDisplayImportWarnings_Debug_Text",
+    "text": "Importwarnungen anzeigen",
+    "source_sha256": "a2efd0e40dd743c898f23f5581c38fcf762dfdecdaa9fa41b218e21ebcce342b"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableActionFinishedDialogs_Dialogs_Text",
+    "text": "Benachrichtigung nach Abschluss einer Aktion anzeigen",
+    "source_sha256": "5c17135fe31c4dfee65a6a78e15ded6eee9c64d57d82a788d14efb1e703c3a12"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableAnimalSelection_Selection_Text",
+    "text": "Auswahl von Tieren erlauben",
+    "source_sha256": "efc16212d20fcb2ea94bfd1ceaeda009a82f1d1ca510e3bcc4c23624d61f4332"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableComponentCost_Balance_Text",
+    "text": "Beim Einfügen Komponenten verbrauchen",
+    "source_sha256": "240069c4bc532e90b21798a6693879d19b1be468857c602cd33a4ea2f5baf6a5"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableLogging_Debug_Help",
+    "text": "Aktiviert zusätzliche Diagnoseprotokolle. Warnungen und Fehler werden immer protokolliert. Protokoll: Documents\\My Games\\Fallout4\\F4SE\\Clipboard.log",
+    "source_sha256": "d82af6b3f013d0635ad0c79d83d0fe03ee580e87966a867ab420a1c31727f3fd"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableLogging_Debug_Text",
+    "text": "Diagnoseprotokoll aktivieren",
+    "source_sha256": "461df0b64adde4f074f052b88895dd237e36361529bc3f1731ebd257543795d8"
+  },
+  {
+    "key": "$Clipboard_MCM_bEnableManualMethodDialog_Dialogs_Text",
+    "text": "Beschreibung bei Aktivierung der manuellen Methode anzeigen",
+    "source_sha256": "c872a627871211c4b0e575f439d2a323a2e805ad969ed73979bb9c84e1bc0fd2"
+  },
+  {
+    "key": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Help",
+    "text": "Standardmäßig an. Blendet Condition Boy/Girl aus, während ein Clipboard-Eingabedialog geöffnet ist. Ohne die Mod keine Wirkung.",
+    "source_sha256": "991af706d03891b6f31240baa97693c8a17e232e3d0dce8ae35f93a01e15d00f"
+  },
+  {
+    "key": "$Clipboard_MCM_bHideConditionBoyDuringInput_Dialogs_Text",
+    "text": "Condition Boy/Girl während der Eingabe ausblenden",
+    "source_sha256": "68d92196474a8015db139ab91228afc826f1d61bfa9ec87c87155b3221141af8"
+  },
+  {
+    "key": "$Clipboard_MCM_bUseThrottling_Import_Help",
+    "text": "Standardmäßig aus. Begrenzt gleichzeitige Aufrufe zur Werkstattinitialisierung beim Import. Das Ausschalten kann Skriptüberlastungen und Papyrus-Stack-Dumps verursachen, die andere Mods wie Sim Settlements 2 beeinträchtigen können. Gilt ab dem nächsten Import.",
+    "source_sha256": "d182b65110b4caca0a4080ff6f8fc3f2976f6ce2dd48afbf86fc8149f3d86cd9"
+  },
+  {
+    "key": "$Clipboard_MCM_bUseThrottling_Import_Text",
+    "text": "Drosselung verwenden",
+    "source_sha256": "1e11d0a0575d7fefc60c60462aef535c2d7408f67a069b839beea34baff77ec5"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Blue",
+    "text": "Blau",
+    "source_sha256": "ec7d56a01607001e6401366417c5e2eb00ffa0df17ca1a9a831e0b32c8f11bf7"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Classic",
+    "text": "Klassisch",
+    "source_sha256": "ae25d6481fc1741ffee4a95cd05de7b6375f7e1b0c63c006640b366094f2c4a9"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Red",
+    "text": "Rot",
+    "source_sha256": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_White",
+    "text": "Weiß",
+    "source_sha256": "3495e757855a5c678addcf32516274e2962d0572f065378dba689e22168f28dd"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Option_Yellow",
+    "text": "Gelb",
+    "source_sha256": "19dd83f117525b931fccdafe808aaa6939af792ee549f359eff13fac0d622f5d"
+  },
+  {
+    "key": "$Clipboard_MCM_iEffectIndex_Selection_Text",
+    "text": "Visueller Effekt für ausgewählte Objekte",
+    "source_sha256": "757fb6977fa80597bdcee4b7e141c31e0590c87f27ef8b6ba303ea6ef1836df5"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Box",
+    "text": "Kasten",
+    "source_sha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Cylinder",
+    "text": "Zylinder",
+    "source_sha256": "4a103f5fd80c3b746de53e392d2f7972ba69651a92323f9edce27682331c43bf"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Manual",
+    "text": "Manuell",
+    "source_sha256": "b0b9fe24ffa9629125bdc59b122f80d605ab604eb1b74485c2f2ecfde26576ae"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_All",
+    "text": "Alle auswählen",
+    "source_sha256": "d1ec69e64b9609d089aae09f7adc5c566d2cd222f8d8325f0ab3b523f0ac2690"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Cell",
+    "text": "Nach Zelle auswählen",
+    "source_sha256": "33b5d39b0ab244ac8864210ddeab3b85fbecbc8979bafaf689ebe018bc53b15b"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Select_By_Plugin",
+    "text": "Nach Plugin auswählen",
+    "source_sha256": "8b80bc6adc16b76ad5145f54c9f69f0bff8e616587183ae91b90420ad958419f"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Option_Sphere",
+    "text": "Kugel",
+    "source_sha256": "c9e8a01ef40ab54ae7a1fc2699500e6dc375b92b5ee5c0a9c220fa7cdce1fddf"
+  },
+  {
+    "key": "$Clipboard_MCM_iInitialSelectionMethod_Selection_Text",
+    "text": "Anfängliche Auswahlmethode",
+    "source_sha256": "5b34a5d6eb20545691aa010c2e003d6ec0947a58da5fb5dad2645ace5e612837"
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Always",
+    "text": "Immer",
+    "source_sha256": "de9f057a471cdb8d3b082719bdc7ad2031788d042947349723fa83c9d13a517a"
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Ask",
+    "text": "Fragen",
+    "source_sha256": "b8c209cdead61a095ec097b7a13c4fc9264c04b3e3bd0fca42ec8dbaeebeeafe"
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Option_Never",
+    "text": "Nie",
+    "source_sha256": "6300ef800bb884295b0b4b35682b75cecd7cc550d202db56d04a0643b8fb873f"
+  },
+  {
+    "key": "$Clipboard_MCM_iWorkshopModeOnAction_Dialogs_Text",
+    "text": "Bei bestimmten Aktionen Werkstattmodus aktivieren",
+    "source_sha256": "1d6f22e40635cff0ec2a268c2c828166613b730722104e68a4052172a5418933"
+  },
+  {
+    "key": "$Clipboard_ManualSelectionHelp",
+    "text": "<b><u>Manuelle Auswahl aktiviert</u></b>\n\n<b>Im Werkstattmodus</b>\n<i>Durch Greifen eines Objekts wird es ausgewählt.</i>\n<i>Durch Greifen und Platzieren einer Objektgruppe werden alle Objekte ausgewählt.</i>\n\n<b>Außerhalb des Werkstattmodus</b>\n<i>Schieße auf ein Objekt, um es auszuwählen.</i>\n\n<b>Über die Konsole</b>\n<i>Öffne die Konsole (`), klicke auf ein Objekt und schließe die Konsole, um das Objekt auszuwählen.</i>",
+    "source_sha256": "17637998b458be95540fe6fd78ddc3660cf9482e26d803e3064eba7df625a121"
+  },
+  {
+    "key": "$Clipboard_MethodAll",
+    "text": "Alle auswählen",
+    "source_sha256": "d1ec69e64b9609d089aae09f7adc5c566d2cd222f8d8325f0ab3b523f0ac2690"
+  },
+  {
+    "key": "$Clipboard_MethodBox",
+    "text": "Quader",
+    "source_sha256": "512fd3c6042cd1d9150d46fa59b5911a1f97b8275d73eb0a841daa31e93bd349"
+  },
+  {
+    "key": "$Clipboard_MethodCell",
+    "text": "Nach Zelle auswählen",
+    "source_sha256": "33b5d39b0ab244ac8864210ddeab3b85fbecbc8979bafaf689ebe018bc53b15b"
+  },
+  {
+    "key": "$Clipboard_MethodCylinder",
+    "text": "Zylinder",
+    "source_sha256": "4a103f5fd80c3b746de53e392d2f7972ba69651a92323f9edce27682331c43bf"
+  },
+  {
+    "key": "$Clipboard_MethodManual",
+    "text": "Manuell",
+    "source_sha256": "b0b9fe24ffa9629125bdc59b122f80d605ab604eb1b74485c2f2ecfde26576ae"
+  },
+  {
+    "key": "$Clipboard_MethodPlugin",
+    "text": "Nach Plugin auswählen",
+    "source_sha256": "8b80bc6adc16b76ad5145f54c9f69f0bff8e616587183ae91b90420ad958419f"
+  },
+  {
+    "key": "$Clipboard_MethodSphere",
+    "text": "Kugel",
+    "source_sha256": "c9e8a01ef40ab54ae7a1fc2699500e6dc375b92b5ee5c0a9c220fa7cdce1fddf"
+  },
+  {
+    "key": "$Clipboard_MissingComponentsHeading",
+    "text": "<b><u>Fehlende erforderliche Komponenten</u></b>\n\n",
+    "source_sha256": "aa08ccd085d632332892edae51dfc5e9999a8fd4ee57a4311ae806e0434f0338"
+  },
+  {
+    "key": "$Clipboard_MoreComponents",
+    "text": "(Weitere Komponenten: {0}...)",
+    "source_sha256": "40565613fa7c9f1ed7b1d3cac8889db312446ac081f1deac8ee211f5d80944a4"
+  },
+  {
+    "key": "$Clipboard_MoreComponentsLine",
+    "text": "(Weitere Komponenten: {0}...)\n",
+    "source_sha256": "4ba84fb7a9e4a70621b9443992eb38fb481f63012a1be9f06809a4fa3d462b03"
+  },
+  {
+    "key": "$Clipboard_MoreMissingComponents",
+    "text": "(Weitere fehlende Komponenten: {0}...)\n",
+    "source_sha256": "ffa75968a562ddbd6ab067ee997a3c806ff6b50655c07a1ed48b48ed6af0584d"
+  },
+  {
+    "key": "$Clipboard_MoreMissingPlugins",
+    "text": "Weitere fehlende Plugins: {0}...",
+    "source_sha256": "d55b4c7fecaa47d4157f13601251d1cebebe393b32dc8245810f8460b2e54ade"
+  },
+  {
+    "key": "$Clipboard_MotionTypeFinished",
+    "text": "Bewegungstyp für ausgewählte Objekte wurde aktualisiert.",
+    "source_sha256": "8d0b49d65b0d76554733b488d7b492b0f4c8cc15a3196243899c0ff0f918fb92"
+  },
+  {
+    "key": "$Clipboard_MoveFinished",
+    "text": "Ausgewählte Objekte wurden verschoben.",
+    "source_sha256": "f5bd8fd094facb009e63ba259d5ed3f13e75267afcd6f241bbb5a002ba60d29f"
+  },
+  {
+    "key": "$Clipboard_ObjectCount",
+    "text": "Objekte: {0}",
+    "source_sha256": "221b1ba2d5b71bec9fc9b4c38db03f6862143638be37ad2bc50744401481a75e"
+  },
+  {
+    "key": "$Clipboard_OverwritePatternQuestion",
+    "text": "Möchtest du es überschreiben?",
+    "source_sha256": "38ab405756b5e2ee1949735f0dae77f4647238d5713aa7a3fd1705318fe65195"
+  },
+  {
+    "key": "$Clipboard_OwnershipFinished",
+    "text": "Ausgewählte Objekte wurden als besitzerlos markiert.",
+    "source_sha256": "2814670e3c3c1f1e48225360f3ddc3b84f594efe6dd96aa13ed43ff3b038e0d3"
+  },
+  {
+    "key": "$Clipboard_PasteAlreadyRunning",
+    "text": "Für dieses Clipboard-Werkzeug läuft bereits ein Mustereinfügevorgang.",
+    "source_sha256": "e164b24e5875354620874eaf9822afc073aada69a88d878489ac5709dfece5c3"
+  },
+  {
+    "key": "$Clipboard_PasteCountsWithWires",
+    "text": " Objekte: {0} / {1}; Kabel: {2}",
+    "source_sha256": "0c6c24766860b3a11c2f098df01746d99a11b056dc01f22391895421ab9bb6be"
+  },
+  {
+    "key": "$Clipboard_PasteExcludedRows",
+    "text": "Clipboard: Von Verkabelung und Stromversorgung ausgeschlossene Objekte: {0}.",
+    "source_sha256": "c5eb67d81115b031853d75e03f5cffb569705dc0ea29e6b9c4ec489282dac1bb"
+  },
+  {
+    "key": "$Clipboard_PasteFinished",
+    "text": " Muster aus Slot {0} wurde eingefügt.",
+    "source_sha256": "de4bcc677dfa392b3ec67762f73460b685b2caa704b9753d18b97a3109d9e696"
+  },
+  {
+    "key": "$Clipboard_PasteNoObjects",
+    "text": "Das Muster konnte nicht eingefügt werden, da keine Objekte platziert wurden.",
+    "source_sha256": "f011cd4a487a3663f7f6e9f83cb6abe2f48bd40a0118cedf9a1c7d889b98d428"
+  },
+  {
+    "key": "$Clipboard_PasteObjectCounts",
+    "text": " Objekte: {0} / {1}",
+    "source_sha256": "9d19ccdf4e88cf4e43276a0182dc72031c95c74c4486f21879e924d0d87670f9"
+  },
+  {
+    "key": "$Clipboard_PastePlacementFailed",
+    "text": "Das Muster konnte nicht eingefügt werden, da der native Platzierungsvorgang fehlgeschlagen ist.",
+    "source_sha256": "6e91c873c9344c30ec7d5abf29097e7be9828c1e41540f26c725401bd9153976"
+  },
+  {
+    "key": "$Clipboard_PastePluginTableIncomplete",
+    "text": "Die Plugin-Tabelle des Musters ist unvollständig, daher wurde nichts eingefügt.",
+    "source_sha256": "0be904e05385540796fcea518e661609abd6536cf816aa82466193a351797b04"
+  },
+  {
+    "key": "$Clipboard_PasteReusedRows",
+    "text": "Clipboard: Übersprungene doppelte Platzierungen: {0}.",
+    "source_sha256": "0f7334068d4c1ce73c793d955fc97dc7f2c5937b48a7027c917e4c7c53cb331e"
+  },
+  {
+    "key": "$Clipboard_PasteSlotEmpty",
+    "text": " In Slot {0} ist kein Muster vorhanden.",
+    "source_sha256": "ce2e22288326506047c1e45a044090d6f7851c59fc33038df556fca33d0f6f75"
+  },
+  {
+    "key": "$Clipboard_PasteWarnings",
+    "text": "Das Einfügen des Musters für Slot {0} wurde mit Warnungen abgeschlossen.",
+    "source_sha256": "16ebc6a8bdd39563c8856a87af768cc79661a75e2971afbea21549aff17e5917"
+  },
+  {
+    "key": "$Clipboard_PasteWireCount",
+    "text": " Kabel: {0}",
+    "source_sha256": "306bc558b2234e988551ddd73c02508c15059a14921ab70f0392aac9a0a01e91"
+  },
+  {
+    "key": "$Clipboard_PatternExists",
+    "text": "In Slot {0} ist bereits ein Muster vorhanden.",
+    "source_sha256": "dd30f8350ad3f9115e295cfd31837ec047d3bc9b1bd21dc158a03f39c6b56455"
+  },
+  {
+    "key": "$Clipboard_PatternNameInput",
+    "text": "Gib einen Namen für das Clipboard-Muster ein:",
+    "source_sha256": "bcef550ef97a4018bab1ac934d8da407597781d46f94218aae74719616f4f5e9"
+  },
+  {
+    "key": "$Clipboard_PatternPluginCount",
+    "text": "Muster #{0}: Verwendete Plugins: {1}.",
+    "source_sha256": "12c171f6a22d3d8f10c84a333fc40c05bafffe260239b9dac14fee0f37803872"
+  },
+  {
+    "key": "$Clipboard_PatternSaveFailed",
+    "text": "Das Muster konnte nicht in Speicherplatz {0} gespeichert werden. Ein zuvor dort gespeichertes Muster wurde beibehalten.",
+    "source_sha256": "1305e21b8d087c24989ad715f17977b4d1a72b065ca625fe99ea8e079984cffa"
+  },
+  {
+    "key": "$Clipboard_PatternSaved",
+    "text": "Muster wurde in Slot {0} geschrieben.",
+    "source_sha256": "7dc6fdc89777764cae0d9921124bb56c858df6d6d440ca64beb67798aa230a6e"
+  },
+  {
+    "key": "$Clipboard_PickCell",
+    "text": "Zelle",
+    "source_sha256": "75fa386342e8b7022ed37c5e303b1cff740c973c4e685776d4d294c80baf3cfe"
+  },
+  {
+    "key": "$Clipboard_PickPlugin",
+    "text": "Plugin",
+    "source_sha256": "ab1173eed1d477d9e951c2316a74d1923220e64d1bbaeadf03c88e20576c7450"
+  },
+  {
+    "key": "$Clipboard_PluginSourcesEmpty",
+    "text": "In dieser Siedlung wurden keine auswählbaren Plugin-Quellen gefunden.",
+    "source_sha256": "a84aa0f46f9b0dd75a233749100c278706bbe5c96ca602a70acef86e99356a01"
+  },
+  {
+    "key": "$Clipboard_PoweringUpProgress",
+    "text": "Clipboard: Stromversorgung wird aktiviert ({0}%)",
+    "source_sha256": "5d19b743df7749412bf5381f5eb461fd9beadb169cbf16bcea055221fa07e8fa"
+  },
+  {
+    "key": "$Clipboard_PreparationFailed",
+    "text": "Mustervorbereitung ist nach der Platzierung fehlgeschlagen.",
+    "source_sha256": "74d4d4172ef1f9813e9f09633ec2e5c6af94243075763d8971bae5ce8c6b3408"
+  },
+  {
+    "key": "$Clipboard_PreparationInterrupted",
+    "text": "Mustervorbereitung wurde unterbrochen.",
+    "source_sha256": "a8781142b0705254b634212db0ae36786c9c7d9f50979e4d53085c1aceb21f8e"
+  },
+  {
+    "key": "$Clipboard_PreparationObjectsMayExist",
+    "text": "Einige Objekte könnten bereits vorhanden sein; Verkabelung und Stromversorgung wurden übersprungen.",
+    "source_sha256": "1b2c949d1745b0185f1f085b6f83d5828ce31f9f849385c90565dc79e664aac9"
+  },
+  {
+    "key": "$Clipboard_RemoveComponents",
+    "text": " Komponenten werden entfernt",
+    "source_sha256": "5234665553b9534d53d73cf480c31130a4e2145d60c8a3ee2a9d628ab56c0596"
+  },
+  {
+    "key": "$Clipboard_ReviewBothLogs",
+    "text": "Sieh in Clipboard.log und Papyrus.log nach Details.",
+    "source_sha256": "ffde5a355a9d5bfecd37d7866c8508119e500dbb8656d68d84964ed63fe90691"
+  },
+  {
+    "key": "$Clipboard_ReviewNativeLog",
+    "text": "Sieh in Clipboard.log nach Details.",
+    "source_sha256": "963187dbc8011f3439acaa7840280759f5400fca9a43706a12c9f64eef5d7948"
+  },
+  {
+    "key": "$Clipboard_RotateFinished",
+    "text": "Ausgewählte Objekte wurden gedreht.",
+    "source_sha256": "5ab3de38b729588be44fc32f177172808e5901a7bb0cdf6b4ce369a41d5f2e46"
+  },
+  {
+    "key": "$Clipboard_RotationInput",
+    "text": "Grad eingeben: größer als 0 und höchstens 180 (bis zu 6 Nachkommastellen; Punkt verwenden):",
+    "source_sha256": "919d93f2f9025d68b3c0a7afe6732705e3bb07a2b32c6f74a96265345a95d0b2"
+  },
+  {
+    "key": "$Clipboard_RotationInvalid",
+    "text": "Ungültiger Wert. Grad: größer als 0 und höchstens 180, bis zu 6 Nachkommastellen (Punkt verwenden).",
+    "source_sha256": "4d7e47026e562864e55b21507e19c963b8ba83d69d7fadcad6b90a337816adf6"
+  },
+  {
+    "key": "$Clipboard_ScaleDownInput",
+    "text": "Verkleinerung in Prozent: größer als 0, höchstens 99. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:",
+    "source_sha256": "1604ebe1d900a7213ab448a19029bd499456b0b2133ab4010b085e5c33c2c8d7"
+  },
+  {
+    "key": "$Clipboard_ScaleDownInvalid",
+    "text": "Ungültige Größenänderung. Verkleinerung in Prozent: größer als 0, höchstens 99. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:",
+    "source_sha256": "4623b2c2f0a8973b94dcda3008b9522f7911fb87d0c86a82a9101cbe5c6c04d1"
+  },
+  {
+    "key": "$Clipboard_ScaleFinished",
+    "text": "Ausgewählte Objekte wurden skaliert.",
+    "source_sha256": "9b03b399704edd7b79aeec7524a578680b55c17b65406816fdb3de3a17ab7341"
+  },
+  {
+    "key": "$Clipboard_ScaleNoExactChange",
+    "text": "Für diese Auswahl ist in dieser Richtung keine exakte Größenänderung möglich. Es wurden keine Objekte geändert. Skaliere kleinere Gruppen einzeln oder verwende Wiederherstellen.",
+    "source_sha256": "20e400692ac78ffd7d0a6760b7427827a7d75d9bc7ca94064402c8309a197f89"
+  },
+  {
+    "key": "$Clipboard_ScaleRestricted",
+    "text": "Diese Änderung würde eine Objektgröße runden oder eine Größengrenze überschreiten. Es wurden keine Objekte geändert. Für diese Auswahl und Richtung: Schrittweite {0}; Maximum {1}. Nahe gültige Werte: {2}.",
+    "source_sha256": "c682a872e86aea81156bfd1a661a2f2192bb3bb59b6567cc29b04f1120921e69"
+  },
+  {
+    "key": "$Clipboard_ScaleSelectionInvalid",
+    "text": "Die Skalierung konnte nicht abgeschlossen werden. Prüfe die Auswahl vor einem erneuten Versuch.",
+    "source_sha256": "febe2c48c7caea7a52f98a6f655859115082be5ba266cd01f4ca47345e61dd00"
+  },
+  {
+    "key": "$Clipboard_ScaleUpInput",
+    "text": "Vergrößerung in Prozent: größer als 0, höchstens 1000. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:",
+    "source_sha256": "5749bc3db167a6e98ada51c262d1b0e5e5dee030dbdf4b9a6701325fba842b93"
+  },
+  {
+    "key": "$Clipboard_ScaleUpInvalid",
+    "text": "Ungültige Größenänderung. Vergrößerung in Prozent: größer als 0, höchstens 1000. Die endgültige Objektgröße muss jeweils eine ganze Prozentzahl sein. Dezimalpunkt verwenden:",
+    "source_sha256": "8f457ae9b223c482f7101b079f78dee1f887adf205206489c65da0c214c72ef4"
+  },
+  {
+    "key": "$Clipboard_SelectGunEquipped",
+    "text": "Auswahlgewehr ausgerüstet, schieße auf ein Objekt, um es auszuwählen.",
+    "source_sha256": "9a9e1ef0f1ac92917f8b2c9bc9889d67efadad1ab4c0969c3164b10afeefe31a"
+  },
+  {
+    "key": "$Clipboard_SelectedStatus",
+    "text": " Ausgewählte Objekte: {0}",
+    "source_sha256": "13a4b38dcbdea2720f64fc24156a6cc279f0d8b33d2effdbd00b5e6dff863eeb"
+  },
+  {
+    "key": "$Clipboard_SelectionAllCount",
+    "text": "Siedlungsobjekte ausgewählt: {0}.",
+    "source_sha256": "a417546d963bc45b005cc99f596404fc0dd6c8c17ba7b17020e4221ebe75c671"
+  },
+  {
+    "key": "$Clipboard_SelectionAreaCount",
+    "text": "Siedlungsobjekte ausgewählt: {0} von {1}.",
+    "source_sha256": "0949beec0cf8104711e628d417862ca1d78f7bc3117d5d321441bc7745e4cde5"
+  },
+  {
+    "key": "$Clipboard_SelectionAreaEmpty",
+    "text": "Keine Objekte im Auswahlbereich gefunden.",
+    "source_sha256": "276d680db417fd99e8b523154820b1ff161e62bde4c77d2e112333fe37810373"
+  },
+  {
+    "key": "$Clipboard_SelectionAreaRetry",
+    "text": "Versuche, das Kopierwerkzeug neu zu positionieren oder den Auswahlbereich zu vergrößern.",
+    "source_sha256": "063b5acf30856cb4b284708902c996a0e65c185aec6a53f204ad37765eceabfa"
+  },
+  {
+    "key": "$Clipboard_SelectionCellCount",
+    "text": "Siedlungsobjekte aus diesem Zellenbereich ausgewählt: {0}.",
+    "source_sha256": "9cffca4e93edeb1b763aaeb0e1d3327ca5c601d1f8f8dfd6769cd21132dcef32"
+  },
+  {
+    "key": "$Clipboard_SelectionComplete",
+    "text": "Auswahl abgeschlossen.",
+    "source_sha256": "b3ef6f93ebb63aa90a8f7af9cc7d52a27d2533f17736c8c2544c6c3b48e23d5e"
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsArea",
+    "text": "\n\n<b>Bereich</b>\nBreite: {0}\nLänge: {1}\nHöhe: {2}",
+    "source_sha256": "3f002e3c386e8de054899a2599a41b9cbbb7cd17fad74050d8b0514eb987e176"
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsCenter",
+    "text": "\n\n<b>Mittelpunkt</b>\nX: {0}\nY: {1}\nZ: {2}",
+    "source_sha256": "8a14efcfd50add73aa1c9353a289a32ff00da7e217ae6c3232c3d14e30e53622"
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsCounts",
+    "text": "<b><u>Auswahldetails</u></b>\n\nObjektanzahl: {0}\nKabelanzahl: {1}\nPluginanzahl: {2}",
+    "source_sha256": "cb5ff1c889c089f5a643dc4fae0f6a768fd9a3c8c7e51c410b26e33e42075d7e"
+  },
+  {
+    "key": "$Clipboard_SelectionDetailsScale",
+    "text": "\n\n<b>Skalierung</b>\nMinimum: {0}\nDurchschnitt: {1}\nMaximum: {2}",
+    "source_sha256": "5206a68aeb35406fbbf03ace39c8cef61cea06d276ee9e94de62037d7d270011"
+  },
+  {
+    "key": "$Clipboard_SelectionPluginCount",
+    "text": "Siedlungsobjekte aus '{1}' ausgewählt: {0}.",
+    "source_sha256": "b6d86abeeaeae55d1266c4a4748db527a66103d99c2a929ddddb482beca8e96f"
+  },
+  {
+    "key": "$Clipboard_SelectionPluginCountTitle",
+    "text": "Ausgewählte Objekte: Verwendete Plugins: {0}.",
+    "source_sha256": "415d3f2f1effdc36a1e515451a02bc107de98e5468caffce1493013bce597175"
+  },
+  {
+    "key": "$Clipboard_SelectionPluginEmpty",
+    "text": "Keine neuen auswählbaren Siedlungsobjekte aus '{0}' gefunden.",
+    "source_sha256": "333f8eedbdd98a5e79c0a9c2780ca9800e0f7a0e0165b2fc104bce3082036a09"
+  },
+  {
+    "key": "$Clipboard_SelectionSize",
+    "text": " Auswahlgröße: {0}",
+    "source_sha256": "ee50738ccc205de7aa2ee96cc4b321601975db47ce99c5fd2845011605559033"
+  },
+  {
+    "key": "$Clipboard_SetMotionType",
+    "text": " Bewegungstyp festlegen",
+    "source_sha256": "da5ef3ed7b9c3b89f6141b296fb5167c21f6381acb1128c160ca0518b37f6c50"
+  },
+  {
+    "key": "$Clipboard_SettlementEmpty",
+    "text": "In der Siedlung wurden keine auswählbaren Objekte gefunden.",
+    "source_sha256": "b447358c1587213e52240a57fd2279ebf22b56a76d82433ccaded8c2f729f107"
+  },
+  {
+    "key": "$Clipboard_SlotRangeCount",
+    "text": "{0} - {1}: Baupläne: {2}\n",
+    "source_sha256": "fc0e77714a4d7414fb4f400b9214c7b4cbf1ac2b9e73a3a83f9eb62cadfacb3a"
+  },
+  {
+    "key": "$Clipboard_SourceCellIndexInvalid",
+    "text": "Der Bauplan enthält einen ungültigen Plugin-Index der Quellzelle. Es wurde keine Bewegung durchgeführt.",
+    "source_sha256": "8445d1ba09e5355c1c04cad56bff9d2bf4a593de0667c1512480414a52f54d9b"
+  },
+  {
+    "key": "$Clipboard_SourceCellPluginUnreadable",
+    "text": "Das Plugin der Bauplan-Quellzelle konnte nicht gelesen werden. Es wurde keine Bewegung durchgeführt.",
+    "source_sha256": "bd532e23baaee45f712217bd147220f9d7bf51a75b221560aa3f66bf68c48edb"
+  },
+  {
+    "key": "$Clipboard_SourceDifferentCell",
+    "text": "Die gespeicherte Position ist nicht verfügbar oder liegt außerhalb des Baubereichs von '{0}'. Es wurde nichts bewegt.",
+    "source_sha256": "81a8befe20085cd64d1dfc6ea53141650b5ec23f5b98dfdf6c526b18266d964e"
+  },
+  {
+    "key": "$Clipboard_SourceDifferentWorkshop",
+    "text": "Bewegungen zwischen Werkstätten werden noch nicht unterstützt.",
+    "source_sha256": "4dee7be272d0c883cbafb859cca8d472744e9e9268ccee657f06e1bce6cdc692"
+  },
+  {
+    "key": "$Clipboard_SourceMovementUnavailable",
+    "text": "Die Bewegung zur Bauplanquelle ist nicht verfügbar, da das Clipboard-Werkzeug oder die Werkstatt nicht aufgelöst werden konnte.",
+    "source_sha256": "d4769df2b1d87c4ce7868fbb84ec5fa21b5a85f7905a5e22cf1caa8f226f97cf"
+  },
+  {
+    "key": "$Clipboard_SourcePatternInvalid",
+    "text": "Der ausgewählte Slot enthält keinen gültigen Bauplan.",
+    "source_sha256": "d93e99940d861efc01432a4edd9dbab93eaba8c8369234c52b4a6c611270ce50"
+  },
+  {
+    "key": "$Clipboard_SourcePlayerNotMoved",
+    "text": "Die Bewegung des Geräts konnte nicht bestätigt werden oder du hast '{0}' verlassen. Der Spieler wurde nicht bewegt.",
+    "source_sha256": "a8ba3d070308fe913c18f7155d5c4661abadbefd96d303cc222ecbdef569bcdc"
+  },
+  {
+    "key": "$Clipboard_SourcePluginListUnreadable",
+    "text": "Die Plugin-Liste des Bauplans konnte nicht gelesen werden.",
+    "source_sha256": "a881a483da8fab8d051fa97c3a2bbb6fdb01754d31f21f6d8604e82951d05919"
+  },
+  {
+    "key": "$Clipboard_SourcePositionUnreadable",
+    "text": "Die Quellposition des Bauplans konnte nicht gelesen werden. Es wurde keine Bewegung durchgeführt.",
+    "source_sha256": "dd1a822caf93fe4cf21b3b6c24bb9c887a182f015830474442cea5c3c8cd7aad"
+  },
+  {
+    "key": "$Clipboard_SourceTransformInvalid",
+    "text": "Die Quelltransformation des Bauplans ist ungültig. Es wurde keine Bewegung durchgeführt.",
+    "source_sha256": "72de814d9384e19a61dd30d284ae05501d2919e7b4e8df9f2d924cfe4f038664"
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopIndexInvalid",
+    "text": "Der Bauplan enthält einen ungültigen Werkstatt-Plugin-Index.",
+    "source_sha256": "1a9bb62b3841a4661065de86bc4d912a42c61e6bdafef7050e2f32489a022faf"
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopMissing",
+    "text": "Der Bauplan stammt aus einer Werkstatt, die in diesem Spielstand nicht existiert.",
+    "source_sha256": "d9dcbb8b7a41f0a84466b068022fd841b7d6e008153a1105761478c09980c6cf"
+  },
+  {
+    "key": "$Clipboard_SourceWorkshopNames",
+    "text": "Dieses Muster wurde in '{0}' erstellt. Spieler und Clipboard-Gerät müssen sich in dieser Siedlung befinden, um zur Ursprungsposition zu wechseln. Es wurde nichts bewegt.",
+    "source_sha256": "18ac40bdc78b8d90988b6f159a320bf43fa5c02489346505a1c4a4f1d42342c3"
+  },
+  {
+    "key": "$Clipboard_TextInputUnavailable",
+    "text": "Die Texteingabe konnte nicht abgeschlossen werden. Bitte versuche es erneut.",
+    "source_sha256": "59c17012a71c2f4745d7787b2ef0ed2f88c90210ef8c0cfbc6e89ad510be4003"
+  },
+  {
+    "key": "$Clipboard_ToolAlreadyExists",
+    "text": "Ein Clipboard-Werkzeug existiert bereits.\n\nZerstöre dieses Werkzeug, bevor du ein neues erstellst.",
+    "source_sha256": "c7ba9e9255c9375f8d135191574f0ff40fac838ab218ed06c28a6e4a1d30ef41"
+  },
+  {
+    "key": "$Clipboard_WarningGeneratorAnimation",
+    "text": "Einige Animationen importierter Objekte konnten nicht initialisiert werden. ",
+    "source_sha256": "5e5655a1397adc5964c0b5b08d431b1044f0bb7b67bac0a484e3610fbf2e65e3"
+  },
+  {
+    "key": "$Clipboard_WarningPowerFailed",
+    "text": "Die Wiederherstellung der Stromversorgung ist fehlgeschlagen. ",
+    "source_sha256": "e0b785bbc071a184fc99192f47bd1b7fe78eeb9436541ee2c6b838834455d197"
+  },
+  {
+    "key": "$Clipboard_WarningPowerIncomplete",
+    "text": "Die Wiederherstellung der Stromversorgung war unvollständig. ",
+    "source_sha256": "e53a965223f151148166062bf126248c1fe870495d26249ed4dbc7fc24183a1e"
+  },
+  {
+    "key": "$Clipboard_WarningPreparationIncomplete",
+    "text": "Einige Objekte haben das Laden oder die Physikvorbereitung nicht abgeschlossen; automatische Kabel wurden übersprungen. ",
+    "source_sha256": "96ef86cd1019da9ebbd96fb8fd6d0b584a44b7b7d83f0c73797a4afa951c11fc"
+  },
+  {
+    "key": "$Clipboard_WarningRowsSkipped",
+    "text": "Einige Bauplanzeilen wurden übersprungen. ",
+    "source_sha256": "af6300bb57e0d1951a13e392c747090ee2c8e95526e11a12d12f36e9ed016c2f"
+  },
+  {
+    "key": "$Clipboard_WarningWireCreationFailed",
+    "text": "Die Kabelerstellung ist fehlgeschlagen. ",
+    "source_sha256": "5bedddb1509ad08ca9e59ef84b3e166b0b0eab157f3414dd188722ca6d93634c"
+  },
+  {
+    "key": "$Clipboard_WarningWiresMissing",
+    "text": "Einige Kabel des Bauplans wurden nicht erstellt. ",
+    "source_sha256": "456aacb3c959e7b5a81bc3b95cdb5b72e7e528db66d8a89ebb0ca72bea144584"
+  },
+  {
+    "key": "$Clipboard_WorkshopCallbackCounts",
+    "text": "Objekte: {0}; zurückgegebene Aufrufe: {1} / {2}; ausstehend: {3}",
+    "source_sha256": "da938fcbeb593d329c27e6e997534d2fccd5193045bdf2deb74c3f0b1ad4f5db"
+  },
+  {
+    "key": "$Clipboard_WorkshopIncomplete",
+    "text": "Die Werkstattinitialisierung war unvollständig.",
+    "source_sha256": "2442533f3df01608654e6bfe4f4ea4b321d12258c0603f3b86791cbe1d8a6cac"
+  },
+  {
+    "key": "$Clipboard_WorkshopInitializationProgress",
+    "text": "Clipboard: Werkstattinitialisierung ({0}%)",
+    "source_sha256": "b9fe09bf41d39692c72cbf75ea9690f548d0dbfe58dc55107505da2da2125c75"
+  },
+  {
+    "key": "$Clipboard_WorkshopInitializing",
+    "text": "Clipboard: Werkstattobjekte werden initialisiert...",
+    "source_sha256": "7eb3152a5692340c2ce7f82cb1b0d75d71571c6b621cb50e5669ec3868af046e"
+  },
+  {
+    "key": "$Clipboard_WorkshopObjectsPlaced",
+    "text": "Objekte wurden platziert; Kabel und Strom wurden übersprungen.",
+    "source_sha256": "5c63c7d0c79e6daea12a72f5381400be731da7861d7436e00c9d65caec2410be"
+  },
+  {
+    "key": "$Clipboard_WorkshopReviewBeforeRetry",
+    "text": "Prüfe die Protokolle, bevor du mit einem neuen Werkzeug einen weiteren Import startest.",
+    "source_sha256": "5431663e247f79da07333e7d936324a267eceb2eef5e9e26d081faa086f7b309"
+  },
+  {
+    "key": "$Clipboard_WorkshopUnverified",
+    "text": "Die Initialisierung der Werkstatt konnte nicht überprüft werden.",
+    "source_sha256": "19fd9ccbc186c094cc79748bfbb50bd5dca82e25c9c6007e74d8bdab1af9b86c"
+  },
+  {
+    "key": "$Clipboard_WorkshopWiringSkipped",
+    "text": "Kabel und Strom wurden übersprungen. Prüfe Clipboard.log und Papyrus.log.",
+    "source_sha256": "49c8635f50316873861136af6efcd083fb6e79e89aa2f1b2ed17ce7dce443998"
+  }
+]

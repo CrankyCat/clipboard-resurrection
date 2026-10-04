@@ -5,34 +5,36 @@
 !/.gitignore
 !/LICENSE.txt
 !/README.md
-!/Scripts/
-!/UI/
+!/Build.ps1
+!/CMakeLists.txt
+!/CMakePresets.json
+!/vcpkg.json
+!/cmake/
+!/config/
+!/src/
+!/assets/
+!/docs/
+!/tests/
 !/external/
 !/localization/
-!/native/
-!/package/
 !/tools/
 
-# Keep maintained scripts and reusable diagnostic source, not game imports.
-/Scripts/*
-!/Scripts/Source/
-/Scripts/Source/*
-!/Scripts/Source/User/
-!/Scripts/Source/Diagnostics/
-/UI/*
-!/UI/ClipboardInput/
+# Generated output, private Codex records, and historical reconstruction stay local.
+.local/
+/tools/legacy/
+/tools/diagnostics/Build-PatternAnalysisReport.mjs
 
 # F4SE is fetched locally. Only its pin and instructions belong in Git.
 /external/*
 !/external/CommonLibF4RD/
 !/external/F4SE/
+!/external/patches/
 /external/F4SE/*
 !/external/F4SE/README.md
 !/external/F4SE/current-reference.json
 
 # Private project history, agent instructions, sessions and local configuration.
 /Original Project Files/
-/Docs/
 /legacy/
 .agents/
 .codex/
@@ -77,6 +79,26 @@ id_ed25519*
 
 # Build products, downloaded tools, archives and editor state.
 [Bb]uild/
+# These two build-named directories contain maintained source, not output.
+!/tools/build/
+!/tests/build/
+cmake-build*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+vcpkg_installed/
+node_modules/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 [Dd]eployments/
 outputs/
 tmp/
@@ -102,6 +124,11 @@ __pycache__/
 *.[dD][lL][lL]
 *.[eE][xX][eE]
 *.[pP][eE][xX]
+*.[sS][wW][fF]
+# Localized game string tables are generated under build/generated/localization.
+*.[sS][tT][rR][iI][nN][gG][sS]
+*.[iI][lL][sS][tT][rR][iI][nN][gG][sS]
+*.[dD][lL][sS][tT][rR][iI][nN][gG][sS]
 *.[cC][lL][aA][sS][sS]
 *.[jJ][aA][rR]
 *.[zZ][iI][pP]
@@ -157,7 +184,8 @@ f4rd-runtime*.bin
 *.[mM][pP][33]
 *.[oO][gG][gG]
 
-# These historical entry points require the separate local reconstruction.
+# Retired root-level helpers stay local if recreated. Current reconstruction
+# helpers are excluded by /tools/legacy/; maintained tools/build/ remains admitted.
 /tools/Build-Native.ps1
 /tools/Build-V221.ps1
 /tools/Stage-Package.ps1

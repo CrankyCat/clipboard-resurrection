@@ -167,12 +167,12 @@
   {
     "key": "$Clipboard_MCM_bUseThrottling_Import_Text",
     "text": "Use Throttling",
-    "context": "MCM switcher bUseThrottling:Import: text. Default on. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names."
+    "context": "MCM switcher bUseThrottling:Import: text. Default off. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names."
   },
   {
     "key": "$Clipboard_MCM_bUseThrottling_Import_Help",
-    "text": "Default on. Limits simultaneous workshop initialization calls during import. Turning this off may cause scripting overloads and Papyrus stack dumps that can interfere with other mods such as Sim Settlements 2. Applies to the next import.",
-    "context": "MCM switcher bUseThrottling:Import: help. Default on. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names.",
+    "text": "Default off. Limits simultaneous workshop initialization calls during import. Turning this off may cause scripting overloads and Papyrus stack dumps that can interfere with other mods such as Sim Settlements 2. Applies to the next import.",
+    "context": "MCM switcher bUseThrottling:Import: help. Default off. Throttling limits simultaneous workshop initialization script calls during import. Turning it off may overload scripting and cause Papyrus stack dumps that interfere with other mods, including Sim Settlements 2. Applies to the next import. Preserve the risk qualification and proper names.",
     "protected": [
       "Papyrus",
       "Sim Settlements 2"
