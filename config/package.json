@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "locales": ["en", "ru", "de", "es", "esmx", "fr", "it", "ja", "pl", "ptbr", "zhhans", "zhhant"],
+  "localeAliases": {"cn": "zhhant"},
+  "trees": [
+    {
+      "source": "assets", "destination": "",
+      "files": [
+        "Clipboard.esp", "Materials/clipboard/Copy.BGSM", "Textures/Clipboard/ArrowPattern.dds",
+        "MCM/Config/Clipboard/config.json", "MCM/Config/Clipboard/keybinds.json", "MCM/Config/Clipboard/settings.ini",
+        "MCM/Settings/Clipboard.ini", "MCM/Settings/Keybinds.json", "MCM/Settings/readme.txt"
+      ]
+    },
+    {
+      "source": "docs/user/en", "destination": "Docs/clipboard",
+      "files": ["Clipboard-ReadMe.txt", "Clipboard-Object-Filtering.txt", "Clipboard-Localization.txt", "CHANGELOG.txt"]
+    },
+    {"source": "build/generated/localization", "destination": ""},
+    {"source": "build/generated/ui", "destination": "", "files": ["Interface/ClipboardInput.swf"]},
+    {"source": "src/papyrus", "destination": "Scripts/Source/User", "extension": ".psc", "count": 16},
+    {"source": "build/papyrus/current/Scripts", "destination": "Scripts", "extension": ".pex", "count": 16}
+  ],
+  "files": [
+    {"source": "LICENSE.txt", "destination": "Docs/clipboard/LICENSE.txt"},
+    {"source": "external/CommonLibF4RD/LICENSE", "destination": "Docs/clipboard/Licenses/CommonLibF4RD.txt"},
+    {"source": "build/native/vs2026/Release/clipboard.dll", "destination": "F4SE/Plugins/clipboard.dll"}
+  ],
+  "dependencyNotices": {
+    "source": "build/native/vs2026/vcpkg_installed/x64-windows-static-md/share",
+    "destination": "Docs/clipboard/Licenses",
+    "packages": ["boost-assert", "boost-cmake", "boost-config", "boost-headers", "boost-stl-interfaces", "boost-type-traits", "fmt", "rsm-mmio", "spdlog", "zycore", "zydis"]
+  },
+  "patternSlots": {"destination": "F4SE/Plugins/Clipboard", "first": 1, "last": 500, "filename": "PLACEHOLDER"}
+}

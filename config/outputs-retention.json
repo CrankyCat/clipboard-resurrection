@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "completedAfterDays": 14,
+  "archiveRoot": ".local/outputs-archives",
+  "statePath": ".local/outputs-retention.json",
+  "collections": ["outputs/import-diagnostics", "outputs/destroy-crash-captures"],
+  "protected": {
+    "outputs/localization-implementation": "Active xEdit and ESP capture workspace",
+    "outputs/additional-localization": "Active additional-locale xEdit workspace and translation receipts",
+    "outputs/localization-translation": "Translation usage and receipt input",
+    "outputs/localization-build": "Documented localization validation input",
+    "outputs/object-probe-analysis": "Current probe-analysis output workspace"
+  },
+  "keepReportExtensions": [".md"],
+  "keepReportNames": ["verification.json", "summary.json", "analysis.json", "capture.json", "report.txt"],
+  "maxReportBytes": 262144,
+  "maxKeptReportBytesPerCase": 2097152
+}

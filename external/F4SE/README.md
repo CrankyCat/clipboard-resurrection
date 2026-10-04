@@ -19,22 +19,23 @@ forward-slash relative path, and LF, sorted by ordinal path.
 Run from the project root:
 
 ```powershell
-.\tools\Initialize-F4SEReference.ps1
-.\tools\Test-F4SECurrentReference.ps1
-.\tools\Build-Papyrus.ps1 -CheckOnly
+.\tools\build\Initialize-F4SEReference.ps1
+.\tests\build\Test-F4SECurrentReference.ps1
+.\tools\build\Build-Papyrus.ps1 -CheckOnly
 ```
 
-The default Papyrus target `Modern079` verifies the full source reference before
+The default Papyrus target `Current` (`Modern079` is a compatibility alias)
+verifies the full source reference before
 merging its vanilla and modified script imports. It generates imports and checks
-under `build/papyrus/v240`; a full build also records the source commit, reference
+under `build/papyrus/current`; a full build also records the source commit, reference
 manifest hash and tree hash with its PEX metadata. `-Target Legacy221` keeps the
-preserved 0.7.8 inputs and original `build/papyrus/v221` paths. `Build-V221.ps1`
+preserved 0.7.8 inputs and original `build/papyrus/v221` paths. `tools/legacy/Build-V221.ps1`
 selects that legacy target explicitly.
 
 This official tree is an ABI reference and Papyrus import source. The modern
 DLL compiles the independently pinned CommonLibF4RD F4SE adapter and Clipboard's
 maintained bridge; it does not compile this official SDK tree. The old SDK trees
-under `Original Project Files` and `native/v221/vendor` remain historical or
+under `Original Project Files` and `legacy/v221/vendor` remain historical or
 legacy reproduction inputs. The OG/NG source references remain useful for
 cross-family ABI review and are not obsolete modern build inputs.
 

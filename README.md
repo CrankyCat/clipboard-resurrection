@@ -5,9 +5,9 @@ objects into reusable patterns. Select objects, save a pattern, and paste it
 relative to the Clipboard tool's position and rotation. You can also move,
 rotate, scale, restore the size of, or scrap a selection.
 
-The product version is **3.0.0**. The latest built package is **internal build
-122**; build numbers identify matched DLL and script sets independently of the
-product version.
+The product version is **3.0.0**. Internal build numbers identify matched DLL
+and script sets independently of the product version. The tracked counters in
+[`config`](config) record the current candidate and last completed package.
 
 ## Features
 
@@ -29,7 +29,7 @@ product version.
 
 Patterns do not preserve container contents, weapon or armor modifications,
 ownership, script state, or Sim Settlements 2 plot plans, levels and settlers.
-See the [user guide](package/v240/Docs/clipboard/Clipboard-ReadMe.txt) for import
+See the [user guide](docs/user/en/Clipboard-ReadMe.txt) for import
 rules, scaling and Restore behavior, component costs, and known limitations.
 
 ## Installation and compatibility
@@ -40,7 +40,7 @@ your own pattern files before replacing an existing installation or slot folders
 If upgrading from a version using `ClipboardExtension.dll`, disable that old DLL
 so only `Data/F4SE/Plugins/clipboard.dll` remains active.
 
-- Install [F4SE](https://f4se.silverlock.org/) for your exact Fallout 4 runtime
+- Install [F4SE](https://www.nexusmods.com/fallout4/mods/42147) for your exact Fallout 4 runtime
   and start the game through `f4se_loader.exe`.
 - Install [Runtime Database](https://www.nexusmods.com/fallout4/mods/108394),
   which supplies `Data/F4SE/Plugins/f4rd-runtime.bin`.
@@ -56,41 +56,56 @@ checks of earlier builds do not certify every path in the latest package.
 
 ## Documentation
 
-- [User guide](package/v240/Docs/clipboard/Clipboard-ReadMe.txt)
-- [Object filtering and optional integrations](package/v240/Docs/clipboard/Clipboard-Object-Filtering.txt)
-- [Language selection and troubleshooting](package/v240/Docs/clipboard/Clipboard-Localization.txt)
-- [Changelog](package/v240/Docs/clipboard/CHANGELOG.txt)
-- [Build and package guide](tools/BUILDING.md)
-- [Localization maintenance](localization/README.md)
-- [Package layout](package/README.md)
+- [User guide](docs/user/en/Clipboard-ReadMe.txt)
+- [Object filtering and optional integrations](docs/user/en/Clipboard-Object-Filtering.txt)
+- [Language selection and troubleshooting](docs/user/en/Clipboard-Localization.txt)
+- [Changelog](docs/user/en/CHANGELOG.txt)
+- [Build and package guide](docs/development/BUILDING.md)
+- [Localization maintenance](docs/development/LOCALIZATION.md)
+- [Package layout](docs/development/PACKAGING.md)
 
-Translated guides are included under
-[`package/v240/Docs/clipboard`](package/v240/Docs/clipboard), using their localized
-filenames.
+Translated guides are generated from the approved
+[translation catalogs](localization/translations) and installed under
+`Docs/clipboard/<locale>/`, using their established localized filenames.
 
 ## Building from source
 
-Read the [build guide](tools/BUILDING.md) for prerequisites, local tool and
-runtime paths, and validation requirements. `tools/Build-Deployment.ps1` is the
+Read the [build guide](docs/development/BUILDING.md) for prerequisites, local tool and
+runtime paths, and validation requirements. [`Build.ps1`](Build.ps1) is the
 entry point for a new numbered package: it prepares the next build number,
-builds the input interface, all 16 Papyrus scripts and the DLL, then validates,
-stages and archives them together. Outputs stay under `build/` and `Deployments/`;
+generates the language assets and input interface, builds all 16 Papyrus scripts
+and the DLL, then validates,
+stages and archives them together. New outputs stay under `build/` and `dist/`;
 the pipeline does not install into Fallout 4 or a mod manager.
+
+The deployment folder is `Clipboard Resurrection - OG NG AE`. Test ZIPs append
+` - build N`; release ZIPs append ` - Major.Minor.Patch`. Use
+`Build.ps1 -Release -ReleaseVersion 3.0.0` for a release; omitting the version
+prompts for it. The requested release version must match the configured product
+version. See the build guide for tool-path arguments and version validation.
 
 The maintained source is organized as follows:
 
-- `native/`: current C++ implementation, tests and build configuration.
-- `Scripts/Source/User/`: the 16 maintained Papyrus scripts.
-- `package/base/` and `package/v240/`: shared assets and current package overlays.
-- `localization/`: language catalogs, source text and generation metadata.
+- `src/native/`: current C++ implementation and headers.
+- `src/papyrus/`: the 16 maintained Papyrus scripts.
+- `src/ui/`: ActionScript source for the owned input menu.
+- `assets/`: authored plugin, MCM configuration, defaults, textures and materials.
+- `docs/user/en/`: authoritative English guides; `docs/development/`: maintainer guides.
+- `localization/source/`, `localization/translations/`, and `localization/metadata/`:
+  English text, translated wording, and generation/review metadata.
+- `tests/`: native, Papyrus, UI, build, and localization checks plus frozen fixtures.
+- `config/`: package recipe, tracked build counters and dependency identities.
 - `external/CommonLibF4RD/`: pinned dependency source and its recorded patch.
 - `external/F4SE/`: official source pin and verification manifest; the reference
   source is fetched separately after cloning.
-- `tools/`: build, localization and validation helpers.
+- `tools/build/`, `tools/localization/`, `tools/diagnostics/`, and `tools/xedit/`:
+  implementation helpers grouped by purpose.
 
-`native/vcpkg.json` is the product-version source. Generated builds, downloaded
+`vcpkg.json` is the product-version source. Generated builds, downloaded
 reference sources, runtime fixtures, personal patterns, logs and private working
 notes are excluded from the public source snapshot.
+See the [repository map](docs/development/REPOSITORY_LAYOUT.md) for edit locations,
+generated files, and the unchanged installed package layout.
 
 ## Credits and license
 

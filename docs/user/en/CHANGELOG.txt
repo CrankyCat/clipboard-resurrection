@@ -1,0 +1,43 @@
+﻿Clipboard Resurrection - Changelog
+
+3.0.0
+
+- Uses one package for Fallout 4 OG, NG and AE with matching F4SE and the
+  external Runtime Database; includes in-game text for twelve languages.
+- Provides a dedicated text and numeric input menu without requiring TIM,
+  with keyboard, mouse and controller controls and optional Condition Boy/Girl
+  hiding while input is open.
+- Accepts rotation and scale input with up to six decimal places. Pattern
+  numbers retain the precision of their stored values during export and import.
+- Rejects relative scale changes unless every resulting object size is an exact
+  whole-number percentage within 1% to 1000%, with guidance on valid changes.
+- Makes both Restore actions set every object to 100%. Individual preserves
+  positions; Whole adjusts spacing for uniform groups and preserves positions
+  for mixed-size groups.
+- Checks local workshop materials first, offers full-source totals in cost
+  views, and reduces repeated recipe lookups and inventory-query overhead.
+  Payment retains confirmation, a fresh availability check and verified removal.
+- Honors manually selected objects during export and preserves the existing
+  pattern when an export is cancelled, empty or fails validation.
+- Records eligible wires to existing objects outside the copied selection,
+  reconnecting them only at the source tool position with valid endpoints.
+- Improves selection across settlement cells, removes the 128-object truncation
+  from large cell/plugin selections and destruction, and reduces repeated
+  selection searches and transform calculations.
+- Adds separate controls for broader selection/export, light-source import,
+  and imported-object physics. Refines SS2 and Auto Beds filters to exclude
+  identified generated contents while allowing eligible roots and standalone
+  objects; zero-bounds activators and movable statics remain excluded.
+- Improves large imports, preserves wire endpoints when objects are skipped,
+  reconnects touching conduits, and reuses matching existing placements.
+- Waits for required workshop initialization before wiring and power work.
+  Verified objects can continue after individual failures; uncertain completion
+  stops wiring and power for the whole import. Use Throttling defaults to off.
+- Shows periodic placement notices and percentage progress for initialization
+  and power. Duplicate-skipped counts appear only when positive.
+- Corrects workshop callback arguments, powered-object cleanup, selection-box
+  cleanup, pagination and MCM setting routes. Removes temporary profiling tools.
+- Always logs warnings, errors and build identities. Optional diagnostic logging
+  adds detail; Clipboard.log starts fresh when the game launches.
+- Supplies 500 empty pattern slots and preserves support for existing patterns
+  and settings. Updates the English user guides under Docs/clipboard.

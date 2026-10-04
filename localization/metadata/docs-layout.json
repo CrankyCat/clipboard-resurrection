@@ -1,0 +1,526 @@
+{
+  "schema": 2,
+  "translation_status": "ready",
+  "enabled_locales": [
+    "ru",
+    "de",
+    "es",
+    "esmx",
+    "fr",
+    "it",
+    "ja",
+    "pl",
+    "ptbr",
+    "zhhans",
+    "zhhant"
+  ],
+  "retained_translation_keys": {},
+  "documents": [
+    {
+      "source": "docs/user/en/Clipboard-ReadMe.txt",
+      "source_sha256": "d97b5ce5efad19d303a6c76387f1734e6c47e4dd170dd85a910ea6c1b4333a9f",
+      "filename": "Clipboard-ReadMe.txt",
+      "parts": [
+        {
+          "key": "$Clipboard_Docs_ReadMe_001"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_002"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_003"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_004"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_005"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_006"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_007"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_008"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_009"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_010"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_011"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_012"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_013"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_014"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_015"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_016"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_026"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_018"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_019"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_020"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_021"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_022"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_023"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_024"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_025"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_027"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_028"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_029"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_030"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_031"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_032"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_033"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_017"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_034"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_035"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_036"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_ReadMe_037"
+        },
+        {
+          "literal": "\r\n"
+        }
+      ],
+      "localized_filenames": {
+        "ru": "Clipboard-Руководство.txt",
+        "de": "Clipboard-LiesMich.txt",
+        "es": "Clipboard-Léeme.txt",
+        "esmx": "Clipboard-Léeme.txt",
+        "fr": "Clipboard-Lisez-moi.txt",
+        "it": "Clipboard-Leggimi.txt",
+        "ja": "Clipboard-はじめに.txt",
+        "pl": "Clipboard-PrzeczytajMnie.txt",
+        "ptbr": "Clipboard-Leia-me.txt",
+        "zhhans": "Clipboard-说明.txt",
+        "zhhant": "Clipboard-說明.txt"
+      }
+    },
+    {
+      "source": "docs/user/en/Clipboard-Object-Filtering.txt",
+      "source_sha256": "3878f151aaad0b3049a18bfc9dbc928e6d4ff5033ea27d3ae87b75448acafe00",
+      "filename": "Clipboard-Object-Filtering.txt",
+      "parts": [
+        {
+          "key": "$Clipboard_Docs_Filtering_001"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_002"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_003"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_004"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_005"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_006"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_007"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_008"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_009"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_022"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_023"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_012"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_013"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_010"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_011"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_016"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_017"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_018"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_015"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_020"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_021"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_024"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_025"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_026"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Filtering_027"
+        },
+        {
+          "literal": "\r\n"
+        }
+      ],
+      "localized_filenames": {
+        "ru": "Clipboard-Выделение-и-импорт-объектов.txt",
+        "de": "Clipboard-Objektauswahl-und-Import.txt",
+        "es": "Clipboard-Selección-e-importación-de-objetos.txt",
+        "esmx": "Clipboard-Selección-e-importación-de-objetos.txt",
+        "fr": "Clipboard-Sélection-et-importation-d’objets.txt",
+        "it": "Clipboard-Selezione-e-importazione-degli-oggetti.txt",
+        "ja": "Clipboard-オブジェクトの選択とインポート.txt",
+        "pl": "Clipboard-Zaznaczanie-i-import-obiektów.txt",
+        "ptbr": "Clipboard-Seleção-e-importação-de-objetos.txt",
+        "zhhans": "Clipboard-对象选择与导入.txt",
+        "zhhant": "Clipboard-物件選取與匯入.txt"
+      }
+    },
+    {
+      "source": "docs/user/en/Clipboard-Localization.txt",
+      "source_sha256": "d34b1a6957af4f28ab9807ee03db17ad681143fbee2ca9474d1967b7aa0a6640",
+      "filename": "Clipboard-Localization.txt",
+      "parts": [
+        {
+          "key": "$Clipboard_Docs_Localization_001"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Localization_002"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Localization_003"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Localization_004"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Localization_005"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Localization_006"
+        },
+        {
+          "literal": "\r\n"
+        }
+      ],
+      "localized_filenames": {
+        "ru": "Clipboard-Языки.txt",
+        "de": "Clipboard-Sprachen.txt",
+        "es": "Clipboard-Idiomas.txt",
+        "esmx": "Clipboard-Idiomas.txt",
+        "fr": "Clipboard-Langues.txt",
+        "it": "Clipboard-Lingue.txt",
+        "ja": "Clipboard-言語.txt",
+        "pl": "Clipboard-Języki.txt",
+        "ptbr": "Clipboard-Idiomas.txt",
+        "zhhans": "Clipboard-语言.txt",
+        "zhhant": "Clipboard-語言.txt"
+      }
+    },
+    {
+      "source": "docs/user/en/CHANGELOG.txt",
+      "source_sha256": "df51d60210f2b24671e6458ba60574893afc08a0e33d59749e217054200c7e27",
+      "filename": "CHANGELOG.txt",
+      "parts": [
+        {
+          "key": "$Clipboard_Docs_Changelog_001"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Changelog_002"
+        },
+        {
+          "literal": "\r\n\r\n"
+        },
+        {
+          "key": "$Clipboard_Docs_Changelog_003"
+        },
+        {
+          "literal": "\r\n"
+        }
+      ],
+      "localized_filenames": {
+        "ru": "Журнал-изменений.txt",
+        "de": "Änderungsprotokoll.txt",
+        "es": "Registro-de-cambios.txt",
+        "esmx": "Registro-de-cambios.txt",
+        "fr": "Journal-des-modifications.txt",
+        "it": "Registro-delle-modifiche.txt",
+        "ja": "変更履歴.txt",
+        "pl": "Historia-zmian.txt",
+        "ptbr": "Histórico-de-alterações.txt",
+        "zhhans": "更新日志.txt",
+        "zhhant": "變更記錄.txt"
+      }
+    }
+  ]
+}
